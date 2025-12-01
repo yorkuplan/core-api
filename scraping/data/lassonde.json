@@ -261,8 +261,8 @@
       "courseId": "3120",
       "credits": "4.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -485,8 +485,8 @@
       "courseId": "3220",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -784,8 +784,8 @@
       "courseId": "4013",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -915,10 +915,10 @@
       "courseId": "4041",
       "credits": "3.00",
       "modes": [
-        "A",
         "N",
-        "B",
-        "M"
+        "M",
+        "A",
+        "B"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -1431,8 +1431,8 @@
       "courseId": "2104",
       "credits": "2.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -1576,12 +1576,12 @@
       "courseId": "2203",
       "credits": "4.00",
       "modes": [
-        "B",
-        "A",
-        "C",
-        "N",
         "O",
-        "M"
+        "N",
+        "M",
+        "C",
+        "B",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -1881,8 +1881,8 @@
       "courseId": "2206",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -1920,29 +1920,29 @@
       "courseId": "3121",
       "credits": "3.00",
       "modes": [
-        "Y",
-        "C",
-        "I",
-        "P",
-        "N",
-        "D",
-        "M",
-        "F",
-        "S",
-        "Z",
         "Q",
-        "O",
-        "H",
-        "V",
-        "E",
-        "B",
         "G",
-        "A",
-        "U",
-        "J",
-        "X",
+        "I",
+        "C",
+        "E",
+        "R",
+        "O",
+        "P",
+        "V",
+        "D",
+        "Z",
+        "B",
+        "H",
         "W",
-        "R"
+        "Y",
+        "S",
+        "N",
+        "M",
+        "U",
+        "X",
+        "J",
+        "F",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -3964,9 +3964,9 @@
       "courseId": "2031",
       "credits": "3.00",
       "modes": [
-        "A",
         "C",
-        "B"
+        "B",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -4054,16 +4054,16 @@
       "courseId": "2031",
       "credits": "3.00",
       "modes": [
-        "B",
-        "A",
+        "S",
         "Z",
-        "N",
         "O",
-        "X",
-        "E",
+        "N",
         "M",
+        "A",
+        "X",
+        "B",
         "F",
-        "S"
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -4891,12 +4891,12 @@
       "courseId": "3215",
       "credits": "4.00",
       "modes": [
-        "B",
-        "A",
         "Z",
         "N",
-        "E",
-        "M"
+        "M",
+        "A",
+        "B",
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -5076,9 +5076,9 @@
       "courseId": "3311",
       "credits": "3.00",
       "modes": [
-        "A",
+        "E",
         "B",
-        "E"
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -5166,12 +5166,12 @@
       "courseId": "3311",
       "credits": "3.00",
       "modes": [
-        "B",
-        "A",
         "Z",
         "N",
+        "M",
         "E",
-        "M"
+        "B",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -5527,11 +5527,11 @@
       "courseId": "3461",
       "credits": "3.00",
       "modes": [
-        "A",
         "Z",
         "N",
-        "E",
-        "M"
+        "M",
+        "A",
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -5914,14 +5914,14 @@
       "courseId": "4070",
       "credits": "3.00",
       "modes": [
-        "B",
-        "A",
         "Z",
         "N",
-        "X",
-        "E",
         "M",
-        "F"
+        "A",
+        "X",
+        "B",
+        "F",
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6371,8 +6371,8 @@
       "courseId": "4412",
       "credits": "3.00",
       "modes": [
-        "A",
-        "B"
+        "B",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6406,12 +6406,12 @@
       "courseId": "4412",
       "credits": "3.00",
       "modes": [
-        "B",
-        "A",
         "Z",
         "N",
-        "E",
-        "M"
+        "M",
+        "A",
+        "B",
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6577,8 +6577,8 @@
       "courseId": "4415",
       "credits": "3.00",
       "modes": [
-        "A",
-        "B"
+        "B",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6613,8 +6613,8 @@
       "credits": "3.00",
       "modes": [
         "N",
-        "E",
-        "M"
+        "M",
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6714,9 +6714,9 @@
       "courseId": "4422",
       "credits": "3.00",
       "modes": [
+        "M",
         "A",
-        "Z",
-        "M"
+        "Z"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6866,8 +6866,8 @@
       "courseId": "4462",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6927,8 +6927,8 @@
       "courseId": "4484",
       "credits": "3.00",
       "modes": [
-        "E",
-        "M"
+        "M",
+        "E"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -6992,8 +6992,8 @@
       "courseId": "4614",
       "credits": "4.00",
       "modes": [
-        "Z",
-        "E"
+        "E",
+        "Z"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -7057,18 +7057,18 @@
       "courseId": "4646",
       "credits": "4.00",
       "modes": [
-        "B",
-        "A",
-        "C",
-        "P",
-        "N",
-        "O",
+        "E",
         "D",
         "H",
-        "E",
+        "O",
+        "N",
         "M",
         "V",
-        "F"
+        "P",
+        "C",
+        "B",
+        "F",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -7604,14 +7604,14 @@
       "courseId": "1600",
       "credits": "1.00",
       "modes": [
-        "B",
-        "A",
-        "C",
         "Z",
-        "N",
         "O",
+        "N",
+        "M",
         "V",
-        "M"
+        "C",
+        "B",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -8683,8 +8683,8 @@
       "courseId": "4000",
       "credits": "6.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -8822,8 +8822,8 @@
       "courseId": "4360",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -8933,8 +8933,8 @@
       "courseId": "2201",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -9178,9 +9178,9 @@
       "courseId": "2302",
       "credits": "3.00",
       "modes": [
-        "A",
         "N",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -9626,8 +9626,8 @@
       "courseId": "3203",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -9997,8 +9997,8 @@
       "courseId": "4202",
       "credits": "3.00",
       "modes": [
-        "A",
-        "M"
+        "M",
+        "A"
       ],
       "languageOfInstruction": "EN",
       "sections": [
@@ -10192,9 +10192,9 @@
       "courseId": "4502",
       "credits": "3.00",
       "modes": [
+        "M",
         "A",
-        "Z",
-        "M"
+        "Z"
       ],
       "languageOfInstruction": "EN",
       "sections": [
