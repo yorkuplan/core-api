@@ -250,7 +250,7 @@ def main():
     """
     # Read HTML file
     try:
-        with open('scraping/html_content_all.html', 'r', encoding='utf-8') as file:
+        with open('scraping/page_source/lassonde.html', 'r', encoding='utf-8') as file:
             html_content = file.read()
     except FileNotFoundError:
         print("Error: timetable.html file not found")
@@ -268,10 +268,10 @@ def main():
         json_output = json.dumps(result, indent=2, ensure_ascii=False)
         
         # Save to engineering.json
-        with open('scraping/courses_data.json', 'w', encoding='utf-8') as file:
+        with open('scraping/data/lassonde.json', 'w', encoding='utf-8') as file:
             file.write(json_output)
         
-        print("Successfully parsed HTML and saved to engineering.json")
+        print("Successfully parsed HTML and saved to lassonde.json")
         print(f"Found {len(result.get('courses', []))} courses")
         
         # Print course summary
