@@ -97,16 +97,16 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
     Handles multiple courses and multiple course variants within the same course.
     """
     # Extract metadata using regex
-    title_match = re.search(r'<font color=\'#CC0000\'>(.*?)</font>', html_content)
+    title_match = re.search(r'<font color=["\']#CC0000["\']>(.*?)</font>', html_content)
     title = title_match.group(1) if title_match else ""
     
-    updated_match = re.search(r'last updated on <strong>(.*?)</strong>', html_content)
+    updated_match = re.search(r'This file was last updated on\s+<strong>(.*?)</strong>', html_content)
     last_updated = updated_match.group(1) if updated_match else ""
     
     courses = []
     
     # Find all course headers using regex
-    course_header_pattern = r'<td class=\'bodytext\'><strong>(\w+)</strong></td>\s*<td class=\'bodytext\'><strong>(\w+)\s*</strong></td>\s*<td class=\'bodytext\'><strong>(\w+)\s*</strong></td>\s*<td colspan=\'8\' class=\'bodytext\'><strong>(.*?)</strong></td>'
+    course_header_pattern = r'<td class=["\']bodytext["\']><strong>(\w+)</strong></td>\s*<td class=["\']bodytext["\']><strong>(\w+)\s*</strong></td>\s*<td class=["\']bodytext["\']><strong>(\w+)\s*</strong></td>\s*<td colspan=["\']8["\'] class=["\']bodytext["\']><strong>(.*?)</strong></td>'
     course_headers = re.findall(course_header_pattern, html_content)
     
     # Split HTML content by course headers to process each course separately
@@ -124,7 +124,7 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
             continue
         
         # Find all course variants (different modes) within this course
-        course_variant_pattern = r'<td class=\'smallbodytext\'>(\d+)\s+&nbsp;([\d.]+)&nbsp;(\w+)&nbsp;</td>'
+        course_variant_pattern = r'<td class=["\']smallbodytext["\']>(\d+)\s+&nbsp;([\d.]+)&nbsp;(\w+)&nbsp;</td>'
         course_variants = re.findall(course_variant_pattern, course_html)
         
         if not course_variants:
@@ -146,30 +146,30 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
         }
         
         # Extract language of instruction
-        loi_pattern = r'<td class=\'smallbodytext\'>(\w+)</td>'
+        loi_pattern = r'<td class=["\']smallbodytext["\']>(\w+)</td>'
         loi_match = re.search(loi_pattern, course_html)
         if loi_match:
             course["languageOfInstruction"] = loi_match.group(1)
         
         # Extract all sections (LECT, TUTR, LAB, SEMR)
         section_patterns = [
-            (r'<td class=\'smallbodytext\'>LECT&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'LECT'),
-            (r'<td class=\'smallbodytext\'>TUTR&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'TUTR'),
-            (r'<td class=\'smallbodytext\'>LAB\s*&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'LAB'),
-            (r'<td class=\'smallbodytext\'>SEMR&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'SEMR'),
-            (r'<td class=\'smallbodytext\'>ONLN&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'ONLN')
+            (r'<td class=["\']smallbodytext["\']>LECT&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(\d+)&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(.*?)&nbsp;</td>', 'LECT'),
+            (r'<td class=["\']smallbodytext["\']>TUTR&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(\d+)&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(.*?)&nbsp;</td>', 'TUTR'),
+            (r'<td class=["\']smallbodytext["\']>LAB\s*&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(\d+)&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(.*?)&nbsp;</td>', 'LAB'),
+            (r'<td class=["\']smallbodytext["\']>SEMR&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(\d+)&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(.*?)&nbsp;</td>', 'SEMR'),
+            (r'<td class=["\']smallbodytext["\']>ONLN&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(\d+)&nbsp;</td>\s*<td class=["\']smallbodytext["\']>(.*?)&nbsp;</td>', 'ONLN')
         ]
         
         # Extract all schedule entries
-        schedule_pattern = r'<td class=\'smallbodytext\' width=10%>([MTWRF])</td><td class=\'smallbodytext\' width=25%>([\d:]+)</td><td class=\'smallbodytext\' width=20%>(\d+)</td><td class=\'smallbodytext\' width=10%>(\w+)</td><td class=\'smallbodytext\' width=35%>(.*?)\s*</td>'
+        schedule_pattern = r'<td class=["\']smallbodytext["\'] width=["\']10%["\']>([MTWRF])</td><td class=["\']smallbodytext["\'] width=["\']25%["\']>([\d:]+)</td><td class=["\']smallbodytext["\'] width=["\']20%["\']>(\d+)</td><td class=["\']smallbodytext["\'] width=["\']10%["\']>(\w+)</td><td class=["\']smallbodytext["\'] width=["\']35%["\']>(.*?)\s*</td>'
         all_schedules = re.findall(schedule_pattern, course_html)
         
         # Extract instructor information
-        instructor_pattern = r'<td width=\'10%\' class=\'smallbodytext\'>(.*?)</td>'
+        instructor_pattern = r'<td width=["\']10%["\'] class=["\']smallbodytext["\']>(.*?)</td>'
         instructor_matches = re.findall(instructor_pattern, course_html, re.DOTALL)
         
         # Extract notes information
-        notes_pattern = r'<td class=\'smallbodytext\'>(.*?)</td></tr>'
+        notes_pattern = r'<td class=["\']smallbodytext["\']>(.*?)</td></tr>'
         notes_matches = re.findall(notes_pattern, course_html, re.DOTALL)
         
         schedule_index = 0
