@@ -85,9 +85,9 @@ def parse_section_row(row_cells: List[Tag], course: Dict[str, Any]) -> Dict[str,
 
 
 def find_section_type_index(row_cells: List[Tag]) -> int | None:
-    for idx, cell in enumerate(row_cells):
+    for index, cell in enumerate(row_cells):
         if get_section_type(cell_text(cell)):
-            return idx
+            return index
     return None
 
 
@@ -230,8 +230,8 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
 
     title = cell_text(soup.select_one("p.heading"))
     last_updated = ""
-    for p in soup.select("p.bodytext"):
-        strong = p.find("strong")
+    for body_paragraph in soup.select("p.bodytext"):
+        strong = body_paragraph.find("strong")
         if strong:
             last_updated = cell_text(strong)
             break
@@ -242,13 +242,13 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
 
     # Orchestrate parsing with module-level helpers
     courses: List[Dict[str, Any]] = []
-    header_rows = [tr for tr in table.find_all("tr") if is_header_row(tr)]
-    for header in header_rows:
-        course = parse_course_header(header)
-        for element in header.next_elements:
+    header_rows = [table_row for table_row in table.find_all("tr") if is_header_row(table_row)]
+    for header_row in header_rows:
+        course = parse_course_header(header_row)
+        for element in header_row.next_elements:
             if not isinstance(element, Tag):
                 continue
-            if element is header:
+            if element is header_row:
                 continue
             if element.name != "tr":
                 continue
