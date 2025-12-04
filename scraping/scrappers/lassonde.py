@@ -1,7 +1,7 @@
 import json
 import re
 from bs4 import BeautifulSoup, Tag
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import html
 from pathlib import Path
 
@@ -15,7 +15,7 @@ def norm_text(text: str) -> str:
     return text.strip()
 
 
-def cell_text(element) -> str:
+def cell_text(element: Optional[Tag]) -> str:
     """Extract text from a BeautifulSoup element with normalized spacing and trimming."""
     if element is None:
         return ""
@@ -87,7 +87,15 @@ def parse_section_row(row_cells: List[Tag], course: Dict[str, Any]) -> Dict[str,
 
     # 6) Build section detail and return if non-empty
     section_detail = make_section_detail(row_cells, section_type_index, section_type, catalog_number, schedule, instructors, notes)
-    if section_type or section_detail["meetNumber"] or section_detail["catalogNumber"] or section_detail["schedule"] or section_detail["instructors"] or section_detail["notes"]:
+    has_content = any([
+        bool(section_type),
+        bool(section_detail.get("meetNumber")),
+        bool(section_detail.get("catalogNumber")),
+        bool(section_detail.get("schedule")),
+        bool(section_detail.get("instructors")),
+        bool(section_detail.get("notes")),
+    ])
+    if has_content:
         return section_detail
     return None
 
@@ -288,7 +296,7 @@ def main():
     data_path = scraping_dir / "data" / "lassonde.json"
 
     try:
-        html_content = html_path.read_text(encoding="utf-8", errors="ignore")
+        html_content = html_path.read_text(encoding="utf-8", errors="replace")
     except Exception as error:
         print(f"Error reading HTML: {error}")
         return
