@@ -1,2 +1,4 @@
 .prettierignore
 .DS_Store
+.coverage
+/scraping/scrappers/__pycache__
