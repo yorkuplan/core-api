@@ -1,0 +1,39 @@
+services:
+    postgres:
+        image: postgres:15
+        container_name: yuplan_core_api_postgres
+        environment:
+            POSTGRES_DB: yuplan_core_api_db
+            POSTGRES_USER: yuplan_core_api_user
+            POSTGRES_PASSWORD: yuplan_core_api_password
+        ports:
+            - "5433:5432"
+        volumes:
+          - yuplan_core_api_data:/var/lib/postgresql/data
+        healthcheck:
+          test: ["CMD-SHELL", "pg_isready -U yuplan_core_api_user -d yuplan_core_api_db"]
+          interval: 10s
+          timeout: 5s
+          retries: 5
+
+    core_api:
+      build: ./
+      container_name: yuplan_core_api
+      ports: 
+        - "8080:8080"
+      environment:
+        - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db
+      depends_on:
+        postgres:
+          condition: service_healthy
+      volumes:
+       - ./:/app
+      command: go run cmd/api/main.go
+
+volumes:
+  yuplan_core_api_data:
+
+
+
+
+        
