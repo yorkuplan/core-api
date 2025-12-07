@@ -208,6 +208,7 @@ def get_section_type(text: str) -> str:
         ("THES", "THES"), ("THESIS", "THES"),
         ("DIRD", "DIRD"), ("DIRECTEDSTUDY", "DIRD"),
         ("WKSP", "WKSP"), ("WORKSHOP", "WKSP"),
+        ("FIEL", "FIEL"), ("FIELDWORK", "FIEL"),
     ]
     for pattern, normalized_type in section_types:
         if pattern in compact_text:

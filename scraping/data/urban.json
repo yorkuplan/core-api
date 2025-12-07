@@ -3362,12 +3362,23 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "SEMR",
-          "meetNumber": "",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
-          "notes": ""
+          "type": "FIEL",
+          "meetNumber": "01",
+          "catalogNumber": "P01G01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 032"
+            }
+          ],
+          "instructors": [
+            "Jose Etcheverry",
+            "Sherry-Ann Ram"
+          ],
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -5333,12 +5344,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "SEMR",
-          "meetNumber": "",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
-          "notes": ""
+          "type": "FIEL",
+          "meetNumber": "01",
+          "catalogNumber": "Z50P01 (EU GEOG) D18X01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S128"
+            }
+          ],
+          "instructors": [
+            "Richard Bello"
+          ],
+          "notes": "This course entails a 4 to 5 days field trip during the fall reading week; additional course fee to partially offset the costs of food and accomodation will be levied. | $200.00 - Course Materials"
         }
       ]
     },
