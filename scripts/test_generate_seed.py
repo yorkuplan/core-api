@@ -121,6 +121,12 @@ class TestGenerateRateMyProfURL(unittest.TestCase):
         url = generate_rate_my_prof_url("Mary Jane", "Watson")
         self.assertIn("Mary+Jane", url)
         self.assertIn("Watson", url)
+    
+    def test_whitespace_only_names(self):
+        self.assertIsNone(generate_rate_my_prof_url("   ", "   "))
+    
+    def test_first_name_whitespace_last_name_whitespace(self):
+        self.assertIsNone(generate_rate_my_prof_url(" ", " "))
 
 
 class TestCollectCoursesAndInstructors(unittest.TestCase):
@@ -550,6 +556,13 @@ class TestGenerateSectionSQL(unittest.TestCase):
         self.assertIn('INSERT INTO sections', '\n'.join(sql_lines))
         self.assertIn('01', '\n'.join(sql_lines))
         self.assertIn('NULL', '\n'.join(sql_lines))  # lab_id should be NULL
+    
+    def test_empty_sections(self):
+        courses_list = []
+        sql_lines = generate_section_sql([], courses_list)
+        
+        self.assertEqual(len(sql_lines), 1)  # Just the comment
+        self.assertIn('-- Insert sections', sql_lines)
 
 
 class TestGenerateJunctionTableSQL(unittest.TestCase):
