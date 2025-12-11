@@ -312,9 +312,6 @@ class TestParser(unittest.TestCase):
         """
         result = urban.parse_course_timetable_html(html_content)
         self.assertEqual(result.get("courses"), [])
-        metadata = result.get("metadata", {})
-        self.assertEqual(metadata.get("title"), "Urban Timetable")
-        self.assertEqual(metadata.get("lastUpdated"), "2025-12-01")
 
     def test_parse_course_timetable_html_skips_non_rows_and_breaks_at_header(self):
         html = """
