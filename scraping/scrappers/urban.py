@@ -111,7 +111,7 @@ def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, c
     """Populate courseId, credits, language of instruction, and return section letter."""
     section_letter = ""
 
-    summary_pattern = re.compile(r"(\d{3,4})\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)")
+    summary_pattern = re.compile(r"(\d{3,4}[A-Z]?)\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)")
     for j in range(section_type_index - 1, -1, -1):
         match = summary_pattern.search(cell_text(row_cells[j]))
         if match:
