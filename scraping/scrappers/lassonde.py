@@ -210,6 +210,7 @@ def get_section_type(text: str) -> str:
         ("INSP", "INSP"), ("INTERNSHIP", "INSP"),
         ("RESP", "RESP"), ("RESEARCH", "RESP"),
         ("STUDIO", "STUDIO"),
+        ("HYFX", "HYFX"), ("HYBRIDFLEX", "HYFX"),
         ("CLIN", "CLIN"), ("CLINICAL", "CLIN"),
     ]
     for pattern, normalized_type in section_types:
