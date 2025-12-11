@@ -245,23 +245,15 @@ def clean_room(room_text: str) -> str:
 
 
 def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
-    """Parse the Lassonde timetable HTML into a structured JSON-friendly dict.
-    Relies on header rows to segment courses, then walks subsequent rows,
-    extracting section details with robust handling of malformed HTML.
-    """
+    """Parse Lassonde timetable HTML into structured course data."""
     soup = BeautifulSoup(html_content, "html.parser")
 
-    title = cell_text(soup.select_one("p.heading"))
-    last_updated = ""
     for body_paragraph in soup.select("p.bodytext"):
         strong = body_paragraph.find("strong")
-        if strong:
-            last_updated = cell_text(strong)
-            break
-
+        
     table = soup.find("table")
     if not table:
-        return {"metadata": {"title": title, "lastUpdated": last_updated, "source": "York University"}, "courses": []}
+        return {"courses": []}
 
     # Orchestrate parsing with module-level helpers
     courses: List[Dict[str, Any]] = []
@@ -285,7 +277,7 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
                 course["sections"].append(section_detail)
         courses.append(course)
 
-    return {"metadata": {"title": title, "lastUpdated": last_updated, "source": "York University"}, "courses": courses}
+    return {"courses": courses}
 
 
 def main():
