@@ -178,15 +178,20 @@ def maybe_extract_cancelled_notes(row_cells: List[Tag], section_type_index: int,
 
 def make_section_detail(row_cells: List[Tag], section_type_index: int, section_type: str, section_letter: str, catalog_number: str, schedule: List[Dict[str, str]], instructors: List[str], notes: str) -> Dict[str, Any]:
     """Build the final section detail dictionary from parsed components."""
-    return {
+    section_detail: Dict[str, Any] = {
         "type": section_type,
         "meetNumber": cell_text(row_cells[section_type_index + 1]) if len(row_cells) > section_type_index + 1 else "",
-        "section": section_letter,
+    }
+    if section_letter:
+        section_detail["section"] = section_letter
+
+    section_detail.update({
         "catalogNumber": catalog_number,
         "schedule": schedule,
         "instructors": instructors,
         "notes": notes,
-    }
+    })
+    return section_detail
 
 
 def get_section_type(text: str) -> str:
@@ -206,7 +211,7 @@ def get_section_type(text: str) -> str:
         ("INSP", "INSP"), ("INTERNSHIP", "INSP"),
         ("RESP", "RESP"), ("RESEARCH", "RESP"),
         ("HYFX", "HYFX"), ("HYBRIDFLEX", "HYFX"),
-        ("ONCA", "ONCA")
+        ("ONCA", "ONCA"),
     ]
     for pattern, normalized_type in section_types:
         if pattern in compact_text:
