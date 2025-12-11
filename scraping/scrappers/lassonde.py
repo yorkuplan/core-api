@@ -259,14 +259,6 @@ def parse_schedule_entry(schedule_cells: List[Tag]) -> Dict[str, str]:
 def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
     """Parse Lassonde timetable HTML into structured course data."""
     soup = BeautifulSoup(html_content, "html.parser")
-
-    
-    heading = soup.select_one("p.heading")
-  
-
-    for body_paragraph in soup.select("p.bodytext"):
-        strong = body_paragraph.find("strong")
-       
         
     table = soup.find("table")
     if not table:
