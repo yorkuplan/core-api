@@ -14577,6 +14577,25 @@
           "schedule": [],
           "instructors": [],
           "notes": "$5.00 - Course Materials"
+        },
+        {
+          "type": "ONCA",
+          "meetNumber": "01",
+          "section": "O",
+          "catalogNumber": "H22J01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Melanie Baljko"
+          ],
+          "notes": "For information on Section M vs Section O, please see https://wiki.eecs.yorku.ca/dept/eecs3300/ ."
         }
       ]
     },

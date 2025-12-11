@@ -206,6 +206,7 @@ def get_section_type(text: str) -> str:
         ("INSP", "INSP"), ("INTERNSHIP", "INSP"),
         ("RESP", "RESP"), ("RESEARCH", "RESP"),
         ("HYFX", "HYFX"), ("HYBRIDFLEX", "HYFX"),
+        ("ONCA", "ONCA")
     ]
     for pattern, normalized_type in section_types:
         if pattern in compact_text:
