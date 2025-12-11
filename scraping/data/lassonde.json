@@ -1,9 +1,4 @@
 {
-  "metadata": {
-    "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Mon, 1 Dec 2025 at 03:31:07 AM",
-    "source": "York University"
-  },
   "courses": [
     {
       "faculty": "LE",
@@ -26056,11 +26051,21 @@
           "notes": ""
         },
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "HYFX",
+          "meetNumber": "01",
           "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "schedule": [
+            {
+              "day": "T",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "LSB 106"
+            }
+          ],
+          "instructors": [
+            "Solomon Boakye-Yiadom"
+          ],
           "notes": ""
         },
         {
