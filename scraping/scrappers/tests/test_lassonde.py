@@ -382,7 +382,7 @@ class TestParser(unittest.TestCase):
 
         with mock.patch.object(lassonde, "BeautifulSoup", return_value=DummySoup()), \
             mock.patch.object(lassonde, "is_header_row", side_effect=fake_is_header_row), \
-          mock.patch.object(lassonde, "parse_course_header", return_value={"sections": [], "courseId": "", "credits": "", "languageOfInstruction": "", "courseTitle": "", "faculty": "", "department": "", "term": ""}), \
+            mock.patch.object(lassonde, "parse_course_header", return_value={"sections": [], "courseId": "", "credits": "", "languageOfInstruction": "", "courseTitle": "", "faculty": "", "department": "", "term": ""}), \
             mock.patch.object(lassonde, "Tag", (lassonde.Tag, DummyRow)):
             result = lassonde.parse_course_timetable_html("ignored")
 
