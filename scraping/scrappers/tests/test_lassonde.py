@@ -295,10 +295,6 @@ class TestParser(unittest.TestCase):
         self.assertEqual(section["schedule"], [])
         self.assertEqual(section["instructors"], [])
 
-        metadata = result.get("metadata", {})
-        self.assertEqual(metadata.get("title"), "Lassonde Timetable")
-        self.assertEqual(metadata.get("lastUpdated"), "2025-12-01")
-
     def test_parse_course_timetable_html_no_table(self):
         html_content = """
         <html>
@@ -310,9 +306,6 @@ class TestParser(unittest.TestCase):
         """
         result = lassonde.parse_course_timetable_html(html_content)
         self.assertEqual(result.get("courses"), [])
-        metadata = result.get("metadata", {})
-        self.assertEqual(metadata.get("title"), "Lassonde Timetable")
-        self.assertEqual(metadata.get("lastUpdated"), "2025-12-01")
 
     def test_parse_course_timetable_html_skips_non_rows_and_breaks_at_header(self):
         html = """
@@ -514,5 +507,5 @@ class TestParser(unittest.TestCase):
         self.assertIn("Error parsing HTML: boom", output)
         self.assertIn("RuntimeError: boom", output)
 
-if __name__ == "__main__":
-    unittest.main()
+if __name__ == "__main__":  # pragma: no cover
+  unittest.main()

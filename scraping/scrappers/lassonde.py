@@ -260,20 +260,17 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
     """Parse Lassonde timetable HTML into structured course data."""
     soup = BeautifulSoup(html_content, "html.parser")
 
-    metadata: Dict[str, str] = {}
+    
     heading = soup.select_one("p.heading")
-    if heading:
-        metadata["title"] = cell_text(heading)
+  
 
     for body_paragraph in soup.select("p.bodytext"):
         strong = body_paragraph.find("strong")
-        if strong:
-            metadata["lastUpdated"] = cell_text(strong)
-            break
+       
         
     table = soup.find("table")
     if not table:
-        return {"courses": [], "metadata": metadata}
+        return {"courses": []}
 
     # Orchestrate parsing with module-level helpers
     courses: List[Dict[str, Any]] = []
@@ -297,7 +294,7 @@ def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
                 course["sections"].append(section_detail)
         courses.append(course)
 
-    return {"courses": courses, "metadata": metadata}
+    return {"courses": courses}
 
 
 def main():
