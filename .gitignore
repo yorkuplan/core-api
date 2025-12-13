@@ -1,7 +1,27 @@
-.prettierignore
-.DS_Store
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache directories
+.pytest_cache/
 .coverage
-/scraping/scrappers/__pycache__
-/scripts/__pycache__
-/scraping/scrappers/test_cases/__pycache__
-/scraping/scrappers/tests/__pycache__
+htmlcov/
+.tox/
+.hypothesis/
+
+# Python distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
