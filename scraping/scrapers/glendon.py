@@ -1,4 +1,4 @@
-"""Urban course timetable scraper."""
+"""Glendon course timetable scraper."""
 
 import json
 from pathlib import Path
@@ -8,8 +8,8 @@ from helpers.parser import parse_course_timetable_html
 
 def main():
     scraping_dir = Path(__file__).resolve().parents[1]
-    html_path = scraping_dir / "page_source" / "urban.html"
-    data_path = scraping_dir / "data" / "urban.json"
+    html_path = scraping_dir / "page_source" / "glendon.html"
+    data_path = scraping_dir / "data" / "glendon.json"
 
     try:
         html_content = html_path.read_text(encoding="utf-8", errors="replace")
@@ -18,7 +18,7 @@ def main():
         return
 
     try:
-        result = parse_course_timetable_html(html_content, extract_metadata=False, allow_alphanumeric_course_id=False)
+        result = parse_course_timetable_html(html_content, extract_metadata=True, allow_alphanumeric_course_id=False)
         data_path.parent.mkdir(parents=True, exist_ok=True)
         data_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"Saved: {data_path}")
