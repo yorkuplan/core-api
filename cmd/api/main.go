@@ -9,35 +9,46 @@ import (
 	"yuplan/internal/repository"
 
 	"github.com/gin-gonic/gin"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 func main() {
 	ctx := context.Background()
-
 	cfg := config.Load()
 
-	// Setup db connection
-	pool, err := database.NewPool(ctx, cfg.DatabaseURL)
+	// Setup dependencies
+	pool := initDatabase(ctx, cfg.DatabaseURL)
+	defer pool.Close()
+
+	router := setupRouter(pool)
+
+	startServer(router, cfg.Port)
+}
+
+func initDatabase(ctx context.Context, databaseURL string) *pgxpool.Pool {
+	pool, err := database.NewPool(ctx, databaseURL)
 	if err != nil {
 		log.Fatalf("Failed to connect to database: %v", err)
 	}
-	defer pool.Close()
+	return pool
+}
 
+func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 	courseRepo := repository.NewCourseRepository(pool)
-
 	courseHandler := handlers.NewCourseHandler(courseRepo)
 
-	// Setup router
-	r := gin.Default()
-
-	api := r.Group("/api/v1")
+	router := gin.Default()
+	api := router.Group("/api/v1")
 	{
 		api.GET("/courses", courseHandler.GetCourses)
 		api.GET("/courses/:course_id", courseHandler.GetCourseByID)
 	}
+	return router
+}
 
-	log.Printf("Starting server on port %s", cfg.Port)
-	if err := r.Run(":" + cfg.Port); err != nil {
+func startServer(router *gin.Engine, port string) {
+	log.Printf("Starting server on port %s", port)
+	if err := router.Run(":" + port); err != nil {
 		log.Fatalf("Failed to start server: %v", err)
 	}
 }
