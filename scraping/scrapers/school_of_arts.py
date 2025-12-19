@@ -1,4 +1,4 @@
-"""Glendon course timetable scraper."""
+"""School of arts course timetable scraper."""
 
 import json
 from pathlib import Path
