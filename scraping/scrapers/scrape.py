@@ -13,6 +13,8 @@ try:
     import lassonde
     import urban
     import glendon
+    import schulich
+    import education
     import school_of_arts
     import liberal_arts
 except ImportError as e:
@@ -70,6 +72,8 @@ def main():
         ("lassonde", lassonde, "Lassonde School of Engineering"),
         ("urban", urban, "Urban Studies"),
         ("glendon", glendon, "Glendon College"),
+        ("schulich", schulich, "Schulich School of Business"),
+        ("education", education, "Faculty of Education"),
         ("school_of_arts", school_of_arts, "School of Arts")
         ("liberal_arts", liberal_arts, "Liberal Arts and Professional Studies"),
     ]
