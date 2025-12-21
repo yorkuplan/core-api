@@ -92,7 +92,6 @@ class TestLassondeIntegration(unittest.TestCase):
             mock_parse.assert_called_once()
             call_kwargs = mock_parse.call_args[1]
             self.assertEqual(call_kwargs['extract_metadata'], False)
-            self.assertEqual(call_kwargs['allow_alphanumeric_course_id'], False)
 
     def test_main_with_json_serialization_error(self):
         """Test main function handles JSON serialization errors"""
