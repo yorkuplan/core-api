@@ -18,7 +18,7 @@ def main():
         return
 
     try:
-        result = parse_course_timetable_html(html_content, extract_metadata=False, allow_alphanumeric_course_id=True)
+        result = parse_course_timetable_html(html_content, extract_metadata=False)
         data_path.parent.mkdir(parents=True, exist_ok=True)
         data_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"Saved: {data_path}")
