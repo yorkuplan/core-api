@@ -14908,13 +14908,14 @@
       "department": "KINE",
       "term": "F",
       "courseTitle": "Independent Studies in Kinesiology and Health Science",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4060A",
+      "credits": "6.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X82E01",
           "schedule": [
             {
@@ -14935,13 +14936,14 @@
       "department": "KINE",
       "term": "Y",
       "courseTitle": "Independent Studies in Kinesiology and Health Science",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4060A",
+      "credits": "6.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "C29N01",
           "schedule": [
             {
@@ -16675,13 +16677,14 @@
       "department": "KINE",
       "term": "Y",
       "courseTitle": "Experiential Field Placement in Athletic Therapy",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4592B",
+      "credits": "4.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "R96P01",
           "schedule": [
             {
@@ -19248,13 +19251,14 @@
       "department": "NURS",
       "term": "F",
       "courseTitle": "Practicum for HH/NURS 2546 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "2546P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "P89Y01",
           "schedule": [
             {
@@ -20059,6 +20063,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "J36U01",
           "schedule": [
             {
@@ -20917,13 +20922,14 @@
       "department": "NURS",
       "term": "W",
       "courseTitle": "Practicum for HH/NURS 2547 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "2547P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "M74Q01",
           "schedule": [
             {
@@ -21533,6 +21539,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "G21C01",
           "schedule": [
             {
@@ -22417,13 +22424,14 @@
       "department": "NURS",
       "term": "F",
       "courseTitle": "Practicum for HH/NURS 3510 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "3510P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "M48X01",
           "schedule": [
             {
@@ -22672,6 +22680,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "F95R01",
           "schedule": [
             {
@@ -22922,13 +22931,14 @@
       "department": "NURS",
       "term": "W",
       "courseTitle": "Practicum for HH/NURS 3510 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "3510P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "P86E01",
           "schedule": [
             {
@@ -23175,6 +23185,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "J33N01",
           "schedule": [
             {
@@ -23659,13 +23670,14 @@
       "department": "NURS",
       "term": "F",
       "courseTitle": "Practicum for HH/NURS 3511 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "3511P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "W68K01",
           "schedule": [
             {
@@ -24447,13 +24459,14 @@
       "department": "NURS",
       "term": "W",
       "courseTitle": "Practicum for HH/NURS 3511 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "3511P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Q15T01",
           "schedule": [
             {
@@ -24790,6 +24803,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "J62F01",
           "schedule": [
             {
@@ -26052,13 +26066,14 @@
       "department": "NURS",
       "term": "F",
       "courseTitle": "Practicum for HH/NURS 4526 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4526P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "E11T01",
           "schedule": [
             {
@@ -26408,6 +26423,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "U58E01",
           "schedule": [
             {
@@ -26758,13 +26774,14 @@
       "department": "NURS",
       "term": "W",
       "courseTitle": "Practicum for HH/NURS 4526 6.00",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4526P",
+      "credits": "0.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "Z05N01",
           "schedule": [
             {
@@ -27057,6 +27074,7 @@
         {
           "type": "PRAC",
           "meetNumber": "01",
+          "section": "P",
           "catalogNumber": "H52W01",
           "schedule": [
             {

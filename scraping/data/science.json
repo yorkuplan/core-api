@@ -32085,13 +32085,14 @@
       "department": "MATH",
       "term": "W",
       "courseTitle": "Topics in Mathematics Education: Theory and Practice",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4100A",
+      "credits": "3.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "A94C01",
           "schedule": [
             {
@@ -32114,13 +32115,14 @@
       "department": "MATH",
       "term": "W",
       "courseTitle": "Topics in Probability and Statistics: Survival Analysis",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4130K",
+      "credits": "3.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -32133,13 +32135,14 @@
       "department": "MATH",
       "term": "F",
       "courseTitle": "Topics in Probability and Statistics: Introduction to the Theory and Methods of Time Series Analysis",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4130B",
+      "credits": "3.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "V57M01",
           "schedule": [
             {

@@ -32,7 +32,7 @@ class TestParseCourseHTML(unittest.TestCase):
             <tr><td>GS/EECS 6000</td><td>Graduate Course</td><td>3.00</td></tr>
         </table>
         """
-        result = parse_course_timetable_html(html, allow_alphanumeric_course_id=True)
+        result = parse_course_timetable_html(html)
         self.assertIsNotNone(result)
     
     def test_metadata_extraction_enabled(self):
