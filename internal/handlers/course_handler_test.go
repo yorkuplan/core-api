@@ -17,6 +17,7 @@ import (
 type MockCourseRepository struct {
 	getAll  func(ctx context.Context, limit, offset int) ([]models.Course, error)
 	getByID func(ctx context.Context, courseID string) (*models.Course, error)
+	search  func(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
 }
 
 func (m *MockCourseRepository) GetAll(ctx context.Context, limit, offset int) ([]models.Course, error) {
@@ -33,6 +34,13 @@ func (m *MockCourseRepository) GetByID(ctx context.Context, courseID string) (*m
 	return &models.Course{}, nil
 }
 
+func (m *MockCourseRepository) Search(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
+	if m.search != nil {
+		return m.search(ctx, query, limit, offset)
+	}
+	return []models.Course{}, nil
+}
+
 func TestGetCourses(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
@@ -43,16 +51,16 @@ func TestGetCourses(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses", handler.GetCourses)
+	router := gin.Default()
+	router.GET("/courses", handler.GetCourses)
 
 	req, _ := http.NewRequest("GET", "/courses?limit=10&offset=0", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "\"data\"")
-	assert.Contains(t, w.Body.String(), "\"count\"")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"data\"")
+	assert.Contains(t, recorder.Body.String(), "\"count\"")
 }
 
 func TestGetCourseByID(t *testing.T) {
@@ -65,16 +73,16 @@ func TestGetCourseByID(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/:course_id", handler.GetCourseByID)
+	router := gin.Default()
+	router.GET("/courses/:course_id", handler.GetCourseByID)
 
 	req, _ := http.NewRequest("GET", "/courses/test-id", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "\"data\"")
-	assert.Contains(t, w.Body.String(), "test-id")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"data\"")
+	assert.Contains(t, recorder.Body.String(), "test-id")
 }
 
 func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
@@ -87,15 +95,15 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.New()
-	r.GET("/courses", handler.GetCourses)
+	router := gin.New()
+	router.GET("/courses", handler.GetCourses)
 
 	req, _ := http.NewRequest(http.MethodGet, "/courses?limit=10&offset=0", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusInternalServerError, w.Code)
-	assert.Contains(t, strings.ToLower(w.Body.String()), "failed")
+	assert.Equal(t, http.StatusInternalServerError, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "failed")
 }
 
 func TestGetCourseByID_WhenRepoErrors_Returns404(t *testing.T) {
@@ -108,13 +116,125 @@ func TestGetCourseByID_WhenRepoErrors_Returns404(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.New()
-	r.GET("/courses/:course_id", handler.GetCourseByID)
+	router := gin.New()
+	router.GET("/courses/:course_id", handler.GetCourseByID)
 
 	req, _ := http.NewRequest(http.MethodGet, "/courses/test-id", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusNotFound, w.Code)
-	assert.Contains(t, strings.ToLower(w.Body.String()), "not found")
+	assert.Equal(t, http.StatusNotFound, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "not found")
+}
+
+func TestSearchCourses(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+
+	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
+		search: func(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
+			return []models.Course{
+				{ID: "1", Code: "EECS3311", Name: "Software Design"},
+				{ID: "2", Code: "EECS4313", Name: "Software Engineering"},
+			}, nil
+		},
+	}
+	handler := NewCourseHandler(repo)
+
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
+
+	req, _ := http.NewRequest("GET", "/courses/search?q=EECS", nil)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
+
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"data\"")
+	assert.Contains(t, recorder.Body.String(), "\"count\"")
+	assert.Contains(t, recorder.Body.String(), "EECS3311")
+	assert.Contains(t, recorder.Body.String(), "Software Design")
+}
+
+func TestSearchCourses_WithPagination(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+
+	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
+		search: func(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
+			assert.Equal(t, "Software", query)
+			assert.Equal(t, 10, limit)
+			assert.Equal(t, 5, offset)
+			return []models.Course{
+				{ID: "1", Code: "EECS3311", Name: "Software Design"},
+			}, nil
+		},
+	}
+	handler := NewCourseHandler(repo)
+
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
+
+	req, _ := http.NewRequest("GET", "/courses/search?q=Software&limit=10&offset=5", nil)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
+
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "Software Design")
+}
+
+func TestSearchCourses_MissingQueryParam_Returns400(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+
+	var repo repository.CourseRepositoryInterface = &MockCourseRepository{}
+	handler := NewCourseHandler(repo)
+
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
+
+	req, _ := http.NewRequest("GET", "/courses/search", nil)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
+
+	assert.Equal(t, http.StatusBadRequest, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "required")
+}
+
+func TestSearchCourses_WhenRepoErrors_Returns500(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+
+	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
+		search: func(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
+			return nil, errors.New("db error")
+		},
+	}
+	handler := NewCourseHandler(repo)
+
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
+
+	req, _ := http.NewRequest("GET", "/courses/search?q=EECS", nil)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
+
+	assert.Equal(t, http.StatusInternalServerError, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "failed")
+}
+
+func TestSearchCourses_EmptyResults(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+
+	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
+		search: func(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
+			return []models.Course{}, nil
+		},
+	}
+	handler := NewCourseHandler(repo)
+
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
+
+	req, _ := http.NewRequest("GET", "/courses/search?q=NONEXISTENT", nil)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
+
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"count\":0")
 }
