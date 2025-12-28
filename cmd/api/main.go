@@ -47,6 +47,9 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 	labRepo := repository.NewLabRepository(pool)
 	labHandler := handlers.NewLabHandler(labRepo)
 
+	tutorialRepo := repository.NewTutorialRepository(pool)
+	tutorialHandler := handlers.NewTutorialHandler(tutorialRepo)
+
 	router := gin.Default()
 	api := router.Group("/api/v1")
 	{
@@ -55,6 +58,7 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 		api.GET("/courses/:course_id", courseHandler.GetCourseByID)
 		api.GET("/instructors/:course_id", instructorHandler.GetInstructorsByCourseID)
 		api.GET("/labs/:section_id", labHandler.GetLabsBySectionID)
+		api.GET("/tutorials/:section_id", tutorialHandler.GetTutorialsBySectionID)
 	}
 	return router
 }
