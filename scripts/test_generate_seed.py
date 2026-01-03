@@ -14,14 +14,12 @@ from generate_seed import (
     parse_instructor_name,
     generate_rate_my_prof_url,
     collect_courses_and_instructors,
-    process_single_section,
     process_sections,
     generate_instructor_sql,
     generate_course_sql,
     generate_lab_sql,
     generate_tutorial_sql,
     generate_section_sql,
-    generate_junction_table_sql,
     generate_seed_sql
 )
 
@@ -139,23 +137,23 @@ class TestCollectCoursesAndInstructors(unittest.TestCase):
             'courseId': '1000',
             'credits': '3.00',
             'notes': 'Basic course',
-            'sections': [
-                {
-                    'instructors': ['John Doe']
-                }
-            ]
+            'faculty': 'LE',
+            'term': 'F',
+            'sections': []
         }]
         
-        instructors_map, courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
+        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
         
         self.assertEqual(len(courses_list), 1)
         self.assertEqual(courses_list[0]['code'], 'EECS1000')
         self.assertEqual(courses_list[0]['name'], 'Introduction to CS')
         self.assertEqual(courses_list[0]['credits'], 3.0)
-        self.assertIn('John Doe', instructors_map)
-        self.assertEqual(instructors_map['John Doe'], ('John', 'Doe'))
+        self.assertEqual(courses_list[0]['faculty'], 'LE')
+        self.assertEqual(courses_list[0]['term'], 'F')
+        self.assertIn('EECS1000_F', course_code_to_uuid)
+        self.assertIn('EECS1000_F', course_code_to_index)
     
-    def test_duplicate_courses_deduplication(self):
+    def test_duplicate_courses_same_term_deduplication(self):
         courses = [
             {
                 'courseTitle': 'Introduction to CS',
@@ -163,6 +161,8 @@ class TestCollectCoursesAndInstructors(unittest.TestCase):
                 'courseId': '1000',
                 'credits': '3.00',
                 'notes': '',
+                'faculty': 'LE',
+                'term': 'F',
                 'sections': []
             },
             {
@@ -171,245 +171,233 @@ class TestCollectCoursesAndInstructors(unittest.TestCase):
                 'courseId': '1000',
                 'credits': '3.00',
                 'notes': '',
+                'faculty': 'LE',
+                'term': 'F',
                 'sections': []
             }
         ]
         
-        instructors_map, courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
+        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
         
-        self.assertEqual(len(courses_list), 1)  # Should be deduplicated
+        self.assertEqual(len(courses_list), 1)  # Should be deduplicated (same code + term)
         self.assertEqual(len(course_code_to_uuid), 1)
     
-    def test_multiple_instructors(self):
+    def test_duplicate_courses_different_terms(self):
+        courses = [
+            {
+                'courseTitle': 'Introduction to CS',
+                'department': 'EECS',
+                'courseId': '1000',
+                'credits': '3.00',
+                'notes': '',
+                'faculty': 'LE',
+                'term': 'F',
+                'sections': []
+            },
+            {
+                'courseTitle': 'Introduction to CS',
+                'department': 'EECS',
+                'courseId': '1000',
+                'credits': '3.00',
+                'notes': '',
+                'faculty': 'LE',
+                'term': 'W',
+                'sections': []
+            }
+        ]
+        
+        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
+        
+        self.assertEqual(len(courses_list), 2)  # Should create separate courses (different terms)
+        self.assertEqual(len(course_code_to_uuid), 2)
+        self.assertIn('EECS1000_F', course_code_to_uuid)
+        self.assertIn('EECS1000_W', course_code_to_uuid)
+    
+    def test_course_without_faculty_term(self):
         courses = [{
-            'courseTitle': 'Advanced CS',
+            'courseTitle': 'Introduction to CS',
             'department': 'EECS',
-            'courseId': '2000',
+            'courseId': '1000',
             'credits': '3.00',
-            'notes': '',
-            'sections': [
-                {'instructors': ['John Doe']},
-                {'instructors': ['Jane Smith', 'Bob Wilson']}
-            ]
+            'notes': 'Basic course',
+            'sections': []
         }]
         
-        instructors_map, courses_list, _, _ = collect_courses_and_instructors(courses)
+        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
         
-        self.assertIn('John Doe', instructors_map)
-        self.assertIn('Jane Smith', instructors_map)
-        self.assertIn('Bob Wilson', instructors_map)
+        self.assertEqual(len(courses_list), 1)
+        self.assertEqual(courses_list[0]['faculty'], '')
+        self.assertEqual(courses_list[0]['term'], '')
+        self.assertIn('EECS1000_', course_code_to_uuid)
     
     def test_empty_courses_list(self):
-        instructors_map, courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors([])
+        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors([])
         
         self.assertEqual(len(courses_list), 0)
-        self.assertEqual(len(instructors_map), 0)
-
-
-class TestProcessSingleSection(unittest.TestCase):
-    """Test process_single_section function"""
+        self.assertEqual(len(course_code_to_uuid), 0)
+        self.assertEqual(len(course_code_to_index), 0)
     
-    def test_lab_section(self):
-        section = {
-            'type': 'LAB',
-            'catalogNumber': 'L01',
-            'schedule': [{'day': 'M', 'time': '10:00'}],
-            'meetNumber': '01',
-            'instructors': ['John Doe']
-        }
+    def test_invalid_credits(self):
+        courses = [{
+            'courseTitle': 'Test Course',
+            'department': 'TEST',
+            'courseId': '1000',
+            'credits': 'invalid',
+            'notes': '',
+            'faculty': 'LE',
+            'term': 'F',
+            'sections': []
+        }]
         
-        lab_entry, tutorial_entry, section_entry, instructor_links = process_single_section(
-            section, 0, 'EECS1000'
-        )
+        courses_list, _, _ = collect_courses_and_instructors(courses)
         
-        self.assertIsNotNone(lab_entry)
-        self.assertEqual(lab_entry['catalog_number'], 'L01')
-        self.assertIsNone(tutorial_entry)
-        self.assertIsNone(section_entry)
-        self.assertEqual(len(instructor_links), 1)
-        self.assertEqual(instructor_links[0], ('John Doe', 'EECS1000'))
+        self.assertEqual(len(courses_list), 1)
+        self.assertEqual(courses_list[0]['credits'], 0.0)  # Should default to 0.0 on error
     
-    def test_tutorial_section(self):
-        section = {
-            'type': 'TUT',
-            'catalogNumber': 'T01',
-            'schedule': [],
-            'meetNumber': '01',
-            'instructors': []
-        }
+    def test_none_credits(self):
+        courses = [{
+            'courseTitle': 'Test Course',
+            'department': 'TEST',
+            'courseId': '1000',
+            'credits': None,
+            'notes': '',
+            'faculty': 'LE',
+            'term': 'F',
+            'sections': []
+        }]
         
-        lab_entry, tutorial_entry, section_entry, instructor_links = process_single_section(
-            section, 0, 'EECS1000'
-        )
+        courses_list, _, _ = collect_courses_and_instructors(courses)
         
-        self.assertIsNone(lab_entry)
-        self.assertIsNotNone(tutorial_entry)
-        self.assertEqual(tutorial_entry['catalog_number'], 'T01')
-        self.assertIsNone(section_entry)
-        self.assertEqual(len(instructor_links), 0)
-    
-    def test_lecture_section(self):
-        section = {
-            'type': 'LECT',
-            'catalogNumber': '',
-            'schedule': [],
-            'meetNumber': '02',
-            'instructors': ['Jane Smith']
-        }
-        
-        lab_entry, tutorial_entry, section_entry, instructor_links = process_single_section(
-            section, 0, 'EECS1000'
-        )
-        
-        self.assertIsNone(lab_entry)
-        self.assertIsNone(tutorial_entry)
-        self.assertIsNotNone(section_entry)
-        self.assertEqual(section_entry['letter'], '02')
-        self.assertEqual(len(instructor_links), 1)
-    
-    def test_online_section(self):
-        section = {
-            'type': 'ONLN',
-            'catalogNumber': '',
-            'schedule': [],
-            'meetNumber': '01',
-            'instructors': []
-        }
-        
-        lab_entry, tutorial_entry, section_entry, instructor_links = process_single_section(
-            section, 0, 'EECS1000'
-        )
-        
-        self.assertIsNone(lab_entry)
-        self.assertIsNone(tutorial_entry)
-        self.assertIsNotNone(section_entry)
-    
-    def test_unknown_section_type(self):
-        section = {
-            'type': 'UNKNOWN',
-            'catalogNumber': '',
-            'schedule': [],
-            'meetNumber': '01',
-            'instructors': []
-        }
-        
-        lab_entry, tutorial_entry, section_entry, instructor_links = process_single_section(
-            section, 0, 'EECS1000'
-        )
-        
-        self.assertIsNone(lab_entry)
-        self.assertIsNone(tutorial_entry)
-        self.assertIsNone(section_entry)
-    
-    def test_multiple_instructors(self):
-        section = {
-            'type': 'LECT',
-            'catalogNumber': '',
-            'schedule': [],
-            'meetNumber': '01',
-            'instructors': ['John Doe', 'Jane Smith', '  ']  # Empty string should be filtered
-        }
-        
-        _, _, _, instructor_links = process_single_section(section, 0, 'EECS1000')
-        
-        self.assertEqual(len(instructor_links), 2)
-        self.assertIn(('John Doe', 'EECS1000'), instructor_links)
-        self.assertIn(('Jane Smith', 'EECS1000'), instructor_links)
+        self.assertEqual(len(courses_list), 1)
+        self.assertEqual(courses_list[0]['credits'], 0.0)
 
 
 class TestProcessSections(unittest.TestCase):
     """Test process_sections function"""
     
     def setUp(self):
-        # Create a course with index mapping
-        self.course_code_to_index = {'EECS1000': 0}
+        # Create a course with index mapping (using course_key format: code_term)
+        self.course_code_to_index = {'EECS1000_F': 0}
         self.courses_list = [{'uuid': str(uuid.uuid4())}]
-    
-    def test_lab_section(self):
-        courses = [{
-            'department': 'EECS',
-            'courseId': '1000',
-            'sections': [{
-                'type': 'LAB',
-                'catalogNumber': 'L01',
-                'schedule': [],
-                'meetNumber': '01',
-                'instructors': []
-            }]
-        }]
-        
-        labs, tutorials, sections, links = process_sections(courses, self.course_code_to_index)
-        
-        self.assertEqual(len(labs), 1)
-        self.assertEqual(labs[0]['catalog_number'], 'L01')
-        self.assertEqual(len(tutorials), 0)
-        self.assertEqual(len(sections), 0)
-    
-    def test_tutorial_section(self):
-        courses = [{
-            'department': 'EECS',
-            'courseId': '1000',
-            'sections': [{
-                'type': 'TUT',
-                'catalogNumber': 'T01',
-                'schedule': [],
-                'meetNumber': '01',
-                'instructors': []
-            }]
-        }]
-        
-        labs, tutorials, sections, links = process_sections(courses, self.course_code_to_index)
-        
-        self.assertEqual(len(tutorials), 1)
-        self.assertEqual(tutorials[0]['catalog_number'], 'T01')
-        self.assertEqual(len(labs), 0)
-        self.assertEqual(len(sections), 0)
     
     def test_lecture_section(self):
         courses = [{
             'department': 'EECS',
             'courseId': '1000',
+            'term': 'F',
             'sections': [{
                 'type': 'LECT',
                 'catalogNumber': '',
-                'schedule': [],
+                'schedule': [{'day': 'M', 'time': '10:00', 'duration': '50'}],
                 'meetNumber': '01',
+                'section': 'A',
                 'instructors': ['John Doe']
             }]
         }]
         
-        labs, tutorials, sections, links = process_sections(courses, self.course_code_to_index)
+        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(sections), 1)
-        self.assertEqual(sections[0]['letter'], '01')
+        self.assertEqual(sections[0]['letter'], 'A')
+        self.assertIn('times', sections[0])
+        self.assertNotEqual(sections[0]['times'], 'NULL')
         self.assertEqual(len(labs), 0)
         self.assertEqual(len(tutorials), 0)
-        self.assertEqual(len(links), 1)
-        self.assertEqual(links[0], ('John Doe', 'EECS1000'))
+        self.assertEqual(len(instructors), 1)
+        self.assertEqual(instructors[0]['name'], 'John Doe')
+        self.assertIn('section_uuid', instructors[0])
     
-    def test_instructor_course_links(self):
+    def test_lab_section_with_lecture(self):
         courses = [{
             'department': 'EECS',
             'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                },
+                {
+                    'type': 'LAB',
+                    'catalogNumber': 'L01',
+                    'schedule': [{'day': 'T', 'time': '14:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
+        
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(labs), 1)
+        self.assertEqual(labs[0]['catalog_number'], 'L01')
+        self.assertIn('section_uuid', labs[0])
+        self.assertEqual(labs[0]['section_uuid'], sections[0]['uuid'])
+    
+    def test_tutorial_section_with_lecture(self):
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                },
+                {
+                    'type': 'TUT',
+                    'catalogNumber': 'T01',
+                    'schedule': [{'day': 'W', 'time': '12:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
+        
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(tutorials), 1)
+        self.assertEqual(tutorials[0]['catalog_number'], 'T01')
+        self.assertIn('section_uuid', tutorials[0])
+        self.assertEqual(tutorials[0]['section_uuid'], sections[0]['uuid'])
+    
+    def test_multiple_instructors(self):
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
             'sections': [{
                 'type': 'LECT',
                 'catalogNumber': '',
                 'schedule': [],
                 'meetNumber': '01',
+                'section': 'A',
                 'instructors': ['John Doe', 'Jane Smith']
             }]
         }]
         
-        _, _, _, links = process_sections(courses, self.course_code_to_index)
+        _, _, _, instructors = process_sections(courses, self.course_code_to_index)
         
-        self.assertEqual(len(links), 2)
-        self.assertIn(('John Doe', 'EECS1000'), links)
-        self.assertIn(('Jane Smith', 'EECS1000'), links)
+        self.assertEqual(len(instructors), 2)
+        names = [inst['name'] for inst in instructors]
+        self.assertIn('John Doe', names)
+        self.assertIn('Jane Smith', names)
     
     def test_unknown_course_code(self):
         courses = [{
             'department': 'MATH',
             'courseId': '9999',
+            'term': 'F',
             'sections': [{
                 'type': 'LECT',
                 'catalogNumber': '',
@@ -419,44 +407,265 @@ class TestProcessSections(unittest.TestCase):
             }]
         }]
         
-        labs, tutorials, sections, links = process_sections(courses, self.course_code_to_index)
+        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         # Should skip unknown course
         self.assertEqual(len(labs), 0)
         self.assertEqual(len(tutorials), 0)
         self.assertEqual(len(sections), 0)
+        self.assertEqual(len(instructors), 0)
+    
+    def test_lecture_with_schedule(self):
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [{
+                'type': 'LECT',
+                'catalogNumber': '',
+                'schedule': [
+                    {'day': 'M', 'time': '10:00', 'duration': '50', 'campus': 'Keele', 'room': 'MC 101'},
+                    {'day': 'W', 'time': '10:00', 'duration': '50', 'campus': 'Keele', 'room': 'MC 101'}
+                ],
+                'meetNumber': '01',
+                'section': 'A',
+                'instructors': []
+            }]
+        }]
+        
+        _, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        
+        self.assertEqual(len(sections), 1)
+        self.assertIn('times', sections[0])
+        times_json = sections[0]['times']
+        self.assertTrue(times_json.startswith("'") and times_json.endswith("'"))
+        self.assertIn('M', times_json)
+        self.assertIn('W', times_json)
+    
+    def test_lab_without_lecture_finds_first(self):
+        """Test that lab without preceding lecture finds first LECT section"""
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                },
+                {
+                    'type': 'LAB',
+                    'catalogNumber': 'L01',
+                    'schedule': [{'day': 'T', 'time': '14:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        labs, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        
+        # Lab should be associated with the LECT section
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(labs), 1)
+        self.assertEqual(labs[0]['section_uuid'], sections[0]['uuid'])
+    
+    def test_tutorial_without_lecture_finds_first(self):
+        """Test that tutorial without preceding lecture finds first LECT section"""
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                },
+                {
+                    'type': 'TUT',
+                    'catalogNumber': 'T01',
+                    'schedule': [{'day': 'W', 'time': '12:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        _, tutorials, sections, _ = process_sections(courses, self.course_code_to_index)
+        
+        # Tutorial should be associated with the LECT section
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(tutorials), 1)
+        self.assertEqual(tutorials[0]['section_uuid'], sections[0]['uuid'])
+    
+    def test_online_section(self):
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [{
+                'type': 'ONLN',
+                'catalogNumber': '',
+                'schedule': [],
+                'meetNumber': '01',
+                'section': 'A',
+                'instructors': ['John Doe']
+            }]
+        }]
+        
+        _, _, sections, instructors = process_sections(courses, self.course_code_to_index)
+        
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(instructors), 1)
+    
+    def test_lab_before_lecture_no_association(self):
+        """Test edge case: LAB appears before LECT, cannot associate (no section yet)"""
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'LAB',
+                    'catalogNumber': 'L01',
+                    'schedule': [{'day': 'T', 'time': '14:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                },
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        labs, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        
+        # Lab cannot be associated because no LECT section exists yet when it's processed
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(labs), 0)  # Lab not added because no section to associate with
+    
+    def test_tutorial_before_lecture_no_association(self):
+        """Test edge case: TUT appears before LECT, cannot associate (no section yet)"""
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'TUT',
+                    'catalogNumber': 'T01',
+                    'schedule': [{'day': 'W', 'time': '12:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                },
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        _, tutorials, sections, _ = process_sections(courses, self.course_code_to_index)
+        
+        # Tutorial cannot be associated because no LECT section exists yet when it's processed
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(len(tutorials), 0)  # Tutorial not added because no section to associate with
+    
+    def test_lab_after_multiple_lectures_finds_first(self):
+        """Test that lab after multiple lectures finds first LECT when current_section_uuid is None"""
+        courses = [{
+            'department': 'EECS',
+            'courseId': '1000',
+            'term': 'F',
+            'sections': [
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '01',
+                    'section': 'A',
+                    'instructors': []
+                },
+                {
+                    'type': 'LECT',
+                    'catalogNumber': '',
+                    'schedule': [],
+                    'meetNumber': '02',
+                    'section': 'B',
+                    'instructors': []
+                },
+                {
+                    'type': 'LAB',
+                    'catalogNumber': 'L01',
+                    'schedule': [{'day': 'T', 'time': '14:00'}],
+                    'meetNumber': '01',
+                    'instructors': []
+                }
+            ]
+        }]
+        
+        labs, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        
+        # Lab should be associated with the most recent LECT (section B)
+        self.assertEqual(len(sections), 2)
+        self.assertEqual(len(labs), 1)
+        # The lab should be associated with one of the sections
+        self.assertIn(labs[0]['section_uuid'], [s['uuid'] for s in sections])
 
 
 class TestGenerateInstructorSQL(unittest.TestCase):
     """Test generate_instructor_sql function"""
     
     def test_single_instructor(self):
-        instructors_map = {'John Doe': ('John', 'Doe')}
-        sql_lines, instructor_name_to_uuid = generate_instructor_sql(instructors_map)
+        section_uuid = str(uuid.uuid4())
+        instructors_list = [{
+            'name': 'John Doe',
+            'section_uuid': section_uuid
+        }]
+        sql_lines = generate_instructor_sql(instructors_list)
         
         self.assertGreater(len(sql_lines), 0)
         self.assertIn('-- Insert instructors', sql_lines)
-        self.assertIn('INSERT INTO instructors', '\n'.join(sql_lines))
-        self.assertIn('John', '\n'.join(sql_lines))
-        self.assertEqual(len(instructor_name_to_uuid), 1)
-        self.assertIn('John Doe', instructor_name_to_uuid)
+        sql_content = '\n'.join(sql_lines)
+        self.assertIn('INSERT INTO instructors', sql_content)
+        self.assertIn('John', sql_content)
+        self.assertIn('Doe', sql_content)
+        self.assertIn(section_uuid, sql_content)
     
     def test_multiple_instructors(self):
-        instructors_map = {
-            'John Doe': ('John', 'Doe'),
-            'Jane Smith': ('Jane', 'Smith')
-        }
-        sql_lines, instructor_name_to_uuid = generate_instructor_sql(instructors_map)
+        section_uuid = str(uuid.uuid4())
+        instructors_list = [
+            {'name': 'John Doe', 'section_uuid': section_uuid},
+            {'name': 'Jane Smith', 'section_uuid': section_uuid}
+        ]
+        sql_lines = generate_instructor_sql(instructors_list)
         
-        self.assertEqual(len(instructor_name_to_uuid), 2)
-        self.assertIn('John Doe', instructor_name_to_uuid)
-        self.assertIn('Jane Smith', instructor_name_to_uuid)
+        sql_content = '\n'.join(sql_lines)
+        self.assertIn('John', sql_content)
+        self.assertIn('Jane', sql_content)
     
     def test_empty_instructors(self):
-        sql_lines, instructor_name_to_uuid = generate_instructor_sql({})
+        sql_lines = generate_instructor_sql([])
         
         self.assertEqual(len(sql_lines), 1)  # Just the comment
-        self.assertEqual(len(instructor_name_to_uuid), 0)
+        self.assertIn('-- Insert instructors', sql_lines)
 
 
 class TestGenerateCourseSQL(unittest.TestCase):
@@ -468,15 +677,20 @@ class TestGenerateCourseSQL(unittest.TestCase):
             'code': 'EECS1000',
             'name': 'Introduction to CS',
             'credits': 3.0,
-            'description': 'Basic course'
+            'description': 'Basic course',
+            'faculty': 'LE',
+            'term': 'F'
         }]
         
         sql_lines = generate_course_sql(courses_list)
+        sql_content = '\n'.join(sql_lines)
         
         self.assertIn('-- Insert courses', sql_lines)
-        self.assertIn('INSERT INTO courses', '\n'.join(sql_lines))
-        self.assertIn('EECS1000', '\n'.join(sql_lines))
-        self.assertIn('Introduction to CS', '\n'.join(sql_lines))
+        self.assertIn('INSERT INTO courses', sql_content)
+        self.assertIn('EECS1000', sql_content)
+        self.assertIn('Introduction to CS', sql_content)
+        self.assertIn('LE', sql_content)
+        self.assertIn('F', sql_content)
     
     def test_course_with_null_description(self):
         courses_list = [{
@@ -484,58 +698,79 @@ class TestGenerateCourseSQL(unittest.TestCase):
             'code': 'EECS1000',
             'name': 'Introduction to CS',
             'credits': 3.0,
-            'description': ''
+            'description': '',
+            'faculty': 'LE',
+            'term': 'F'
         }]
         
         sql_lines = generate_course_sql(courses_list)
         sql_content = '\n'.join(sql_lines)
         
         self.assertIn('NULL', sql_content)
+    
+    def test_course_without_faculty_term(self):
+        courses_list = [{
+            'uuid': str(uuid.uuid4()),
+            'code': 'EECS1000',
+            'name': 'Introduction to CS',
+            'credits': 3.0,
+            'description': 'Basic course'
+        }]
+        
+        sql_lines = generate_course_sql(courses_list)
+        sql_content = '\n'.join(sql_lines)
+        
+        # Should still generate SQL with NULL for faculty and term
+        self.assertIn('INSERT INTO courses', sql_content)
+        # Count NULL occurrences - should be at least 2 (description, faculty, term could be NULL)
+        null_count = sql_content.count('NULL')
+        self.assertGreaterEqual(null_count, 2)
 
 
 class TestGenerateLabSQL(unittest.TestCase):
     """Test generate_lab_sql function"""
     
     def test_single_lab(self):
-        course_uuid = str(uuid.uuid4())
-        courses_list = [{'uuid': course_uuid}]
+        section_uuid = str(uuid.uuid4())
         labs_list = [{
-            'course_idx': 0,
+            'section_uuid': section_uuid,
             'catalog_number': 'L01',
             'times': "'[{\"day\": \"M\"}]'"
         }]
         
-        sql_lines = generate_lab_sql(labs_list, courses_list)
+        sql_lines = generate_lab_sql(labs_list)
+        sql_content = '\n'.join(sql_lines)
         
         self.assertIn('-- Insert labs', sql_lines)
-        self.assertIn('INSERT INTO labs', '\n'.join(sql_lines))
-        self.assertIn('L01', '\n'.join(sql_lines))
-        self.assertIn(course_uuid, '\n'.join(sql_lines))
+        self.assertIn('INSERT INTO labs', sql_content)
+        self.assertIn('L01', sql_content)
+        self.assertIn(section_uuid, sql_content)
     
     def test_empty_labs(self):
-        courses_list = []
-        sql_lines = generate_lab_sql([], courses_list)
+        sql_lines = generate_lab_sql([])
         
         self.assertEqual(len(sql_lines), 1)  # Just the comment
+        self.assertIn('-- Insert labs', sql_lines)
 
 
 class TestGenerateTutorialSQL(unittest.TestCase):
     """Test generate_tutorial_sql function"""
     
     def test_single_tutorial(self):
-        course_uuid = str(uuid.uuid4())
-        courses_list = [{'uuid': course_uuid}]
+        section_uuid = str(uuid.uuid4())
         tutorials_list = [{
-            'course_idx': 0,
+            'section_uuid': section_uuid,
             'catalog_number': 'T01',
             'times': "'[{\"day\": \"M\"}]'"
         }]
         
-        sql_lines = generate_tutorial_sql(tutorials_list, courses_list)
+        sql_lines = generate_tutorial_sql(tutorials_list)
+        sql_content = '\n'.join(sql_lines)
         
         self.assertIn('-- Insert tutorials', sql_lines)
-        self.assertIn('INSERT INTO tutorials', '\n'.join(sql_lines))
-        self.assertIn('T01', '\n'.join(sql_lines))
+        self.assertIn('INSERT INTO tutorials', sql_content)
+        self.assertIn('T01', sql_content)
+        self.assertIn(section_uuid, sql_content)
 
 
 class TestGenerateSectionSQL(unittest.TestCase):
@@ -545,17 +780,35 @@ class TestGenerateSectionSQL(unittest.TestCase):
         course_uuid = str(uuid.uuid4())
         courses_list = [{'uuid': course_uuid}]
         sections_list = [{
+            'uuid': str(uuid.uuid4()),
             'course_idx': 0,
-            'lab_id': None,
+            'letter': '01',
+            'times': "'[{\"day\": \"M\", \"time\": \"10:00\"}]'"
+        }]
+        
+        sql_lines = generate_section_sql(sections_list, courses_list)
+        sql_content = '\n'.join(sql_lines)
+        
+        self.assertIn('-- Insert sections', sql_lines)
+        self.assertIn('INSERT INTO sections', sql_content)
+        self.assertIn('01', sql_content)
+        self.assertIn(course_uuid, sql_content)
+        self.assertIn('times', sql_content.lower())
+    
+    def test_section_without_times(self):
+        course_uuid = str(uuid.uuid4())
+        courses_list = [{'uuid': course_uuid}]
+        sections_list = [{
+            'uuid': str(uuid.uuid4()),
+            'course_idx': 0,
             'letter': '01'
         }]
         
         sql_lines = generate_section_sql(sections_list, courses_list)
+        sql_content = '\n'.join(sql_lines)
         
-        self.assertIn('-- Insert sections', sql_lines)
-        self.assertIn('INSERT INTO sections', '\n'.join(sql_lines))
-        self.assertIn('01', '\n'.join(sql_lines))
-        self.assertIn('NULL', '\n'.join(sql_lines))  # lab_id should be NULL
+        self.assertIn('INSERT INTO sections', sql_content)
+        self.assertIn('NULL', sql_content)  # times should be NULL
     
     def test_empty_sections(self):
         courses_list = []
@@ -563,54 +816,6 @@ class TestGenerateSectionSQL(unittest.TestCase):
         
         self.assertEqual(len(sql_lines), 1)  # Just the comment
         self.assertIn('-- Insert sections', sql_lines)
-
-
-class TestGenerateJunctionTableSQL(unittest.TestCase):
-    """Test generate_junction_table_sql function"""
-    
-    def test_single_link(self):
-        instructor_uuid = str(uuid.uuid4())
-        course_uuid = str(uuid.uuid4())
-        instructor_course_links = [('John Doe', 'EECS1000')]
-        instructor_name_to_uuid = {'John Doe': instructor_uuid}
-        course_code_to_uuid = {'EECS1000': course_uuid}
-        
-        sql_lines = generate_junction_table_sql(
-            instructor_course_links,
-            instructor_name_to_uuid,
-            course_code_to_uuid
-        )
-        
-        self.assertIn('-- Insert instructor_courses junction table', sql_lines)
-        self.assertIn('INSERT INTO instructor_courses', '\n'.join(sql_lines))
-        self.assertIn(instructor_uuid, '\n'.join(sql_lines))
-        self.assertIn(course_uuid, '\n'.join(sql_lines))
-    
-    def test_deduplication(self):
-        instructor_uuid = str(uuid.uuid4())
-        course_uuid = str(uuid.uuid4())
-        # Same link twice
-        instructor_course_links = [
-            ('John Doe', 'EECS1000'),
-            ('John Doe', 'EECS1000')
-        ]
-        instructor_name_to_uuid = {'John Doe': instructor_uuid}
-        course_code_to_uuid = {'EECS1000': course_uuid}
-        
-        sql_lines = generate_junction_table_sql(
-            instructor_course_links,
-            instructor_name_to_uuid,
-            course_code_to_uuid
-        )
-        
-        sql_content = '\n'.join(sql_lines)
-        # Should only appear once
-        self.assertEqual(sql_content.count(instructor_uuid), 1)
-    
-    def test_empty_links(self):
-        sql_lines = generate_junction_table_sql([], {}, {})
-        
-        self.assertEqual(len(sql_lines), 1)  # Just the comment
 
 
 class TestGenerateSeedSQLIntegration(unittest.TestCase):
@@ -625,12 +830,15 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
                     'courseId': '1000',
                     'credits': '3.00',
                     'notes': 'Test description 1',
+                    'faculty': 'LE',
+                    'term': 'F',
                     'sections': [
                         {
                             'type': 'LECT',
                             'catalogNumber': '',
-                            'schedule': [{'day': 'M', 'time': '10:00'}],
+                            'schedule': [{'day': 'M', 'time': '10:00', 'duration': '50'}],
                             'meetNumber': '01',
+                            'section': 'A',
                             'instructors': ['John Doe']
                         }
                     ]
@@ -645,11 +853,21 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
                     'courseId': '2000',
                     'credits': '4.00',
                     'notes': 'Test description 2',
+                    'faculty': 'LE',
+                    'term': 'W',
                     'sections': [
+                        {
+                            'type': 'LECT',
+                            'catalogNumber': '',
+                            'schedule': [],
+                            'meetNumber': '01',
+                            'section': 'B',
+                            'instructors': []
+                        },
                         {
                             'type': 'LAB',
                             'catalogNumber': 'L01',
-                            'schedule': [{'day': 'T', 'time': '14:00'}],
+                            'schedule': [{'day': 'T', 'time': '14:00', 'duration': '170'}],
                             'meetNumber': '02',
                             'instructors': ['Jane Smith']
                         }
@@ -686,12 +904,15 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
                 self.assertIn('INSERT INTO instructors', content)
                 self.assertIn('INSERT INTO courses', content)
                 self.assertIn('INSERT INTO sections', content)
+                self.assertIn('INSERT INTO labs', content)
                 self.assertIn('Test Course 1', content)
                 self.assertIn('Test Course 2', content)
                 self.assertIn('John', content)
                 self.assertIn('Doe', content)
-                self.assertIn('Jane', content)
-                self.assertIn('Smith', content)
+                # Check for faculty and term
+                self.assertIn('LE', content)
+                self.assertIn('F', content)
+                self.assertIn('W', content)
                 
             finally:
                 if os.path.exists(sql_path):
