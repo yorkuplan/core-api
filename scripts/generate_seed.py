@@ -46,7 +46,7 @@ def generate_rate_my_prof_url(first_name: str, last_name: str) -> str:
     return f"https://www.ratemyprofessors.com/search/professors/?q={encoded_name}"
 
 def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[List[Dict], Dict[str, str], Dict[str, int]]:
-    """Collect unique courses"""
+    """Collect unique courses (unique by code + term combination)"""
     courses_list: List[Dict] = []
     course_code_to_uuid: Dict[str, str] = {}
     course_code_to_index: Dict[str, int] = {}
@@ -56,9 +56,14 @@ def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[List[Dict], Di
         department = course.get('department', '')
         course_id = course.get('courseId', '')
         course_code = f"{department}{course_id}"
+        term = course.get('term', '')
+        faculty = course.get('faculty', '')
+        
+        # Make courses unique by code + term combination
+        course_key = f"{course_code}_{term}"
         
         # Only create course if does not exist yet
-        if course_code not in course_code_to_uuid:
+        if course_key not in course_code_to_uuid:
             credits_str = course.get('credits', '0.00')
             # Handle empty strings or invalid credit values
             try:
@@ -69,15 +74,17 @@ def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[List[Dict], Di
             description = course.get('notes', '')
             
             course_uuid = str(uuid.uuid4())
-            course_code_to_uuid[course_code] = course_uuid
+            course_code_to_uuid[course_key] = course_uuid
             course_index = len(courses_list)
-            course_code_to_index[course_code] = course_index
+            course_code_to_index[course_key] = course_index
             
             courses_list.append({
                 'code': course_code,
                 'name': course_title,
                 'credits': credits,
                 'description': description,
+                'faculty': faculty,
+                'term': term,
                 'uuid': course_uuid
             })
     
@@ -92,7 +99,9 @@ def process_sections(courses: List[Dict], course_code_to_index: Dict[str, int]) 
     
     for course in courses:
         course_code = f"{course.get('department', '')}{course.get('courseId', '')}"
-        course_idx = course_code_to_index.get(course_code)
+        term = course.get('term', '')
+        course_key = f"{course_code}_{term}"
+        course_idx = course_code_to_index.get(course_key)
         if course_idx is None:
             continue
         
@@ -111,10 +120,15 @@ def process_sections(courses: List[Dict], course_code_to_index: Dict[str, int]) 
                 section_uuid_map[(course_idx, section_letter)] = section_uuid
                 current_section_uuid = section_uuid
                 
+                # Extract lecture schedule times
+                schedule = section.get('schedule', [])
+                times_str = format_schedule(schedule)
+                
                 section_entry = {
                     'uuid': section_uuid,
                     'course_idx': course_idx,
-                    'letter': section_letter
+                    'letter': section_letter,
+                    'times': times_str
                 }
                 sections_list.append(section_entry)
                 
@@ -207,10 +221,12 @@ def generate_course_sql(courses_list: List[Dict]) -> List[str]:
         name = escape_sql_string(course['name'])
         credits = course['credits']
         description = escape_sql_string(course['description']) if course['description'] else 'NULL'
-        course_inserts.append(f"('{course_uuid}', {name}, {code}, {credits}, {description})")
+        faculty = escape_sql_string(course.get('faculty', '')) if course.get('faculty') else 'NULL'
+        term = escape_sql_string(course.get('term', '')) if course.get('term') else 'NULL'
+        course_inserts.append(f"('{course_uuid}', {name}, {code}, {credits}, {description}, {faculty}, {term})")
     
     if course_inserts:
-        sql_lines.append("INSERT INTO courses (id, name, code, credits, description) VALUES")
+        sql_lines.append("INSERT INTO courses (id, name, code, credits, description, faculty, term) VALUES")
         sql_lines.append(",\n".join(course_inserts) + ";")
         sql_lines.append("")
     
@@ -271,9 +287,10 @@ def generate_section_sql(sections_list: List[Dict], courses_list: List[Dict]) ->
         course_idx = section['course_idx']
         course_uuid = courses_list[course_idx]['uuid']
         letter = escape_sql_string(section['letter'])
-        section_inserts.append(f"('{section_uuid}', '{course_uuid}', {letter})")
+        times = section.get('times', 'NULL')
+        section_inserts.append(f"('{section_uuid}', '{course_uuid}', {letter}, {times})")
     
-    sql_lines.append("INSERT INTO sections (id, course_id, letter) VALUES")
+    sql_lines.append("INSERT INTO sections (id, course_id, letter, times) VALUES")
     sql_lines.append(",\n".join(section_inserts) + ";")
     sql_lines.append("")
     
