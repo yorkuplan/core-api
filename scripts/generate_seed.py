@@ -90,10 +90,22 @@ def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[List[Dict], Di
     
     return courses_list, course_code_to_uuid, course_code_to_index
 
-def process_sections(courses: List[Dict], course_code_to_index: Dict[str, int]) -> Tuple[List[Dict], List[Dict], List[Dict], List[Dict]]:
-    """Process sections into labs, tutorials, sections, and instructors with section associations"""
-    labs_list: List[Dict] = []
-    tutorials_list: List[Dict] = []
+def process_sections(courses: List[Dict], course_code_to_index: Dict[str, int]) -> Tuple[List[Dict], List[Dict], List[Dict]]:
+    """Process sections into section_activities, sections, and instructors with section associations
+    
+    Strategy:
+    1. First pass: Identify all unique section letters for each course (regardless of activity type)
+    2. Create a section record for each unique section letter
+    3. Second pass: Put ALL activity types (LECT, BLEN, LAB, TUT, etc.) into section_activities
+       with their catalog_numbers (catalog_number is always associated with a course_type)
+    
+    This ensures:
+    - Every course always has at least one section record
+    - All activity types are stored consistently in section_activities
+    - Catalog numbers are stored with their corresponding course_type in section_activities
+    - Querying by section_id returns all activities for that section
+    """
+    section_activities_list: List[Dict] = []
     sections_list: List[Dict] = []
     instructors_list: List[Dict] = []
     
@@ -105,83 +117,76 @@ def process_sections(courses: List[Dict], course_code_to_index: Dict[str, int]) 
         if course_idx is None:
             continue
         
-        # First pass: process LECT sections to create section records
+        # First pass: Collect all unique section letters and create section records
+        # Only create sections from entries that have a 'section' field (actual section letters like A, B, C)
         section_uuid_map: Dict[Tuple[int, str], str] = {}
+        
+        for section in course.get('sections', []):
+            section_letter = section.get('section')
+            # Only create section records for entries that have an actual section letter
+            if section_letter:
+                section_key = (course_idx, section_letter)
+                
+                # Create section record if we haven't seen this section letter yet
+                if section_key not in section_uuid_map:
+                    section_uuid = str(uuid.uuid4())
+                    section_uuid_map[section_key] = section_uuid
+                    sections_list.append({
+                        'uuid': section_uuid,
+                        'course_idx': course_idx,
+                        'letter': section_letter
+                    })
+        
+        # Second pass: Process all sections and create activities/instructors
+        # For entries without a 'section' field, associate with the most recent section
         current_section_uuid = None
         
         for section in course.get('sections', []):
             section_type = section.get('type', '').upper()
+            section_letter = section.get('section')
             
-            if section_type in ['LECT', 'ONLN']:
-                # Create a section record
-                section_uuid = str(uuid.uuid4())
-                meet_number = section.get('meetNumber', '01')
-                section_letter = section.get('section', meet_number)
-                section_uuid_map[(course_idx, section_letter)] = section_uuid
-                current_section_uuid = section_uuid
-                
-                # Extract lecture schedule times
-                schedule = section.get('schedule', [])
-                times_str = format_schedule(schedule)
-                
-                section_entry = {
-                    'uuid': section_uuid,
-                    'course_idx': course_idx,
-                    'letter': section_letter,
-                    'times': times_str
-                }
-                sections_list.append(section_entry)
-                
-                # Process instructor for this section
-                instructors = section.get('instructors', [])
-                for instructor_name in instructors:
-                    if instructor_name and instructor_name.strip():
-                        instructors_list.append({
-                            'name': instructor_name.strip(),
-                            'section_uuid': section_uuid
-                        })
+            # If this entry has a section letter, use it
+            if section_letter:
+                section_key = (course_idx, section_letter)
+                section_uuid = section_uuid_map.get(section_key)
+                if section_uuid:
+                    current_section_uuid = section_uuid
+            # If no section letter, use the most recent section (or first if none yet)
+            elif current_section_uuid is None:
+                # Find first section for this course
+                for (c_idx, letter), sec_uuid in section_uuid_map.items():
+                    if c_idx == course_idx:
+                        current_section_uuid = sec_uuid
+                        break
             
-            elif section_type == 'LAB':
-                # Associate lab with the most recent LECT section (or first if none yet)
-                if current_section_uuid is None:
-                    # Find first LECT section for this course
-                    for (c_idx, letter), sec_uuid in section_uuid_map.items():
-                        if c_idx == course_idx:
-                            current_section_uuid = sec_uuid
-                            break
-                
-                if current_section_uuid:
-                    catalog_number = section.get('catalogNumber', '')
-                    schedule = section.get('schedule', [])
-                    times_str = format_schedule(schedule)
-                    lab_entry = {
-                        'section_uuid': current_section_uuid,
-                        'catalog_number': catalog_number,
-                        'times': times_str
-                    }
-                    labs_list.append(lab_entry)
+            # Skip if we still don't have a section to associate with
+            if not current_section_uuid:
+                continue
             
-            elif section_type in ['TUT', 'TUTR']:
-                # Associate tutorial with the most recent LECT section (or first if none yet)
-                if current_section_uuid is None:
-                    # Find first LECT section for this course
-                    for (c_idx, letter), sec_uuid in section_uuid_map.items():
-                        if c_idx == course_idx:
-                            current_section_uuid = sec_uuid
-                            break
-                
-                if current_section_uuid:
-                    catalog_number = section.get('catalogNumber', '')
-                    schedule = section.get('schedule', [])
-                    times_str = format_schedule(schedule)
-                    tutorial_entry = {
-                        'section_uuid': current_section_uuid,
-                        'catalog_number': catalog_number,
-                        'times': times_str
-                    }
-                    tutorials_list.append(tutorial_entry)
+            # Extract catalog_number and times (catalog_number is always associated with course_type)
+            catalog_number = section.get('catalogNumber', '')
+            schedule = section.get('schedule', [])
+            times_str = format_schedule(schedule)
+            
+            # ALL activity types go into section_activities (including LECT, BLEN, etc.)
+            activity_entry = {
+                'section_uuid': current_section_uuid,
+                'course_type': section_type,
+                'catalog_number': catalog_number,
+                'times': times_str
+            }
+            section_activities_list.append(activity_entry)
+            
+            # Process instructors (typically associated with LECT/BLEN but can be any type)
+            instructors = section.get('instructors', [])
+            for instructor_name in instructors:
+                if instructor_name and instructor_name.strip():
+                    instructors_list.append({
+                        'name': instructor_name.strip(),
+                        'section_uuid': current_section_uuid
+                    })
     
-    return labs_list, tutorials_list, sections_list, instructors_list
+    return section_activities_list, sections_list, instructors_list
 
 
 def generate_instructor_sql(instructors_list: List[Dict]) -> List[str]:
@@ -232,44 +237,24 @@ def generate_course_sql(courses_list: List[Dict]) -> List[str]:
     
     return sql_lines
 
-def generate_lab_sql(labs_list: List[Dict]) -> List[str]:
-    """Generate SQL INSERT statements for labs with section_id"""
-    sql_lines = ["-- Insert labs"]
+def generate_section_activity_sql(activities_list: List[Dict]) -> List[str]:
+    """Generate SQL INSERT statements for section_activities with section_id"""
+    sql_lines = ["-- Insert section activities"]
     
-    if not labs_list:
+    if not activities_list:
         return sql_lines
     
-    lab_inserts = []
-    for lab in labs_list:
-        lab_uuid = str(uuid.uuid4())
-        section_uuid = lab['section_uuid']
-        catalog_number = escape_sql_string(lab['catalog_number'])
-        times = lab['times']
-        lab_inserts.append(f"('{lab_uuid}', '{section_uuid}', {catalog_number}, {times})")
+    activity_inserts = []
+    for activity in activities_list:
+        activity_uuid = str(uuid.uuid4())
+        section_uuid = activity['section_uuid']
+        course_type = escape_sql_string(activity['course_type'])
+        catalog_number = escape_sql_string(activity['catalog_number'])
+        times = activity['times']
+        activity_inserts.append(f"('{activity_uuid}', {course_type}, '{section_uuid}', {catalog_number}, {times})")
     
-    sql_lines.append("INSERT INTO labs (id, section_id, catalog_number, times) VALUES")
-    sql_lines.append(",\n".join(lab_inserts) + ";")
-    sql_lines.append("")
-    
-    return sql_lines
-
-def generate_tutorial_sql(tutorials_list: List[Dict]) -> List[str]:
-    """Generate SQL INSERT statements for tutorials with section_id"""
-    sql_lines = ["-- Insert tutorials"]
-    
-    if not tutorials_list:
-        return sql_lines
-    
-    tutorial_inserts = []
-    for tut in tutorials_list:
-        tut_uuid = str(uuid.uuid4())
-        section_uuid = tut['section_uuid']
-        catalog_number = escape_sql_string(tut['catalog_number'])
-        times = tut['times']
-        tutorial_inserts.append(f"('{tut_uuid}', '{section_uuid}', {catalog_number}, {times})")
-    
-    sql_lines.append("INSERT INTO tutorials (id, section_id, catalog_number, times) VALUES")
-    sql_lines.append(",\n".join(tutorial_inserts) + ";")
+    sql_lines.append("INSERT INTO section_activities (id, course_type, section_id, catalog_number, times) VALUES")
+    sql_lines.append(",\n".join(activity_inserts) + ";")
     sql_lines.append("")
     
     return sql_lines
@@ -287,10 +272,9 @@ def generate_section_sql(sections_list: List[Dict], courses_list: List[Dict]) ->
         course_idx = section['course_idx']
         course_uuid = courses_list[course_idx]['uuid']
         letter = escape_sql_string(section['letter'])
-        times = section.get('times', 'NULL')
-        section_inserts.append(f"('{section_uuid}', '{course_uuid}', {letter}, {times})")
+        section_inserts.append(f"('{section_uuid}', '{course_uuid}', {letter})")
     
-    sql_lines.append("INSERT INTO sections (id, course_id, letter, times) VALUES")
+    sql_lines.append("INSERT INTO sections (id, course_id, letter) VALUES")
     sql_lines.append(",\n".join(section_inserts) + ";")
     sql_lines.append("")
     
@@ -303,8 +287,7 @@ def generate_seed_sql(json_files: list[str], output_file: str):
     all_courses_list = []
     all_course_code_to_uuid = {}
     all_course_code_to_index = {}
-    all_labs_list = []
-    all_tutorials_list = []
+    all_section_activities_list = []
     all_sections_list = []
     all_instructors_list = []
     
@@ -319,7 +302,7 @@ def generate_seed_sql(json_files: list[str], output_file: str):
         
         # Collect data from JSON
         courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
-        labs_list, tutorials_list, sections_list, instructors_list = process_sections(courses, course_code_to_index)
+        activities_list, sections_list, instructors_list = process_sections(courses, course_code_to_index)
         
         # Adjust course indices to avoid collisions
         offset = len(all_courses_list)
@@ -338,11 +321,8 @@ def generate_seed_sql(json_files: list[str], output_file: str):
             section['course_idx'] = section['course_idx'] + offset
             all_sections_list.append(section)
         
-        # Merge labs (they reference sections by UUID, so no offset needed)
-        all_labs_list.extend(labs_list)
-        
-        # Merge tutorials (they reference sections by UUID, so no offset needed)
-        all_tutorials_list.extend(tutorials_list)
+        # Merge section activities (they reference sections by UUID, so no offset needed)
+        all_section_activities_list.extend(activities_list)
         
         # Merge instructors (they reference sections by UUID, so no offset needed)
         all_instructors_list.extend(instructors_list)
@@ -356,11 +336,10 @@ def generate_seed_sql(json_files: list[str], output_file: str):
         ""
     ]
     
-    # Generate SQL for each table - order matters: courses -> sections -> labs/instructors
+    # Generate SQL for each table - order matters: courses -> sections -> section_activities/instructors
     sql_lines.extend(generate_course_sql(all_courses_list))
     sql_lines.extend(generate_section_sql(all_sections_list, all_courses_list))
-    sql_lines.extend(generate_lab_sql(all_labs_list))
-    sql_lines.extend(generate_tutorial_sql(all_tutorials_list))
+    sql_lines.extend(generate_section_activity_sql(all_section_activities_list))
     sql_lines.extend(generate_instructor_sql(all_instructors_list))
     
     sql_lines.append("COMMIT;")
@@ -373,8 +352,7 @@ def generate_seed_sql(json_files: list[str], output_file: str):
     print(f"\n✓ Generated {output_file}")
     print(f"   - {len(all_instructors_list)} instructors")
     print(f"   - {len(all_courses_list)} courses")
-    print(f"   - {len(all_labs_list)} labs")
-    print(f"   - {len(all_tutorials_list)} tutorials")
+    print(f"   - {len(all_section_activities_list)} section activities")
     print(f"   - {len(all_sections_list)} sections")
 
 if __name__ == '__main__':
