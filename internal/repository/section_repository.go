@@ -17,11 +17,15 @@ type sectionDB interface {
 }
 
 type SectionRepository struct {
-	db sectionDB
+	db                    sectionDB
+	activityRepo          SectionActivityRepositoryInterface
 }
 
-func NewSectionRepository(db sectionDB) *SectionRepository {
-	return &SectionRepository{db: db}
+func NewSectionRepository(db sectionDB, activityRepo SectionActivityRepositoryInterface) *SectionRepository {
+	return &SectionRepository{
+		db:          db,
+		activityRepo: activityRepo,
+	}
 }
 
 func (r *SectionRepository) GetByCourseID(ctx context.Context, courseID string) ([]models.Section, error) {
@@ -44,6 +48,14 @@ func (r *SectionRepository) GetByCourseID(ctx context.Context, courseID string) 
 		if err := rows.Scan(&sec.ID, &sec.CourseID, &sec.Letter, &sec.CreatedAt, &sec.UpdatedAt); err != nil {
 			return nil, fmt.Errorf("scan section: %w", err)
 		}
+		
+		// Fetch activities for this section
+		activities, err := r.activityRepo.GetBySectionID(ctx, sec.ID)
+		if err != nil {
+			return nil, fmt.Errorf("fetch activities for section %s: %w", sec.ID, err)
+		}
+		sec.Activities = activities
+		
 		sections = append(sections, sec)
 	}
 	if err := rows.Err(); err != nil {
@@ -52,4 +64,3 @@ func (r *SectionRepository) GetByCourseID(ctx context.Context, courseID string) 
 
 	return sections, nil
 }
-
