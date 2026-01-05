@@ -17,8 +17,7 @@ from generate_seed import (
     process_sections,
     generate_instructor_sql,
     generate_course_sql,
-    generate_lab_sql,
-    generate_tutorial_sql,
+    generate_section_activity_sql,
     generate_section_sql,
     generate_seed_sql
 )
@@ -295,14 +294,13 @@ class TestProcessSections(unittest.TestCase):
             }]
         }]
         
-        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
+        activities, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(sections), 1)
         self.assertEqual(sections[0]['letter'], 'A')
-        self.assertIn('times', sections[0])
-        self.assertNotEqual(sections[0]['times'], 'NULL')
-        self.assertEqual(len(labs), 0)
-        self.assertEqual(len(tutorials), 0)
+        self.assertEqual(len(activities), 1)
+        self.assertEqual(activities[0]['course_type'], 'LECT')
+        self.assertNotEqual(activities[0]['times'], 'NULL')
         self.assertEqual(len(instructors), 1)
         self.assertEqual(instructors[0]['name'], 'John Doe')
         self.assertIn('section_uuid', instructors[0])
@@ -331,13 +329,15 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
+        activities, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(sections), 1)
-        self.assertEqual(len(labs), 1)
-        self.assertEqual(labs[0]['catalog_number'], 'L01')
-        self.assertIn('section_uuid', labs[0])
-        self.assertEqual(labs[0]['section_uuid'], sections[0]['uuid'])
+        self.assertEqual(len(activities), 2)  # LECT + LAB
+        lab_activities = [a for a in activities if a['course_type'] == 'LAB']
+        self.assertEqual(len(lab_activities), 1)
+        self.assertEqual(lab_activities[0]['catalog_number'], 'L01')
+        self.assertIn('section_uuid', lab_activities[0])
+        self.assertEqual(lab_activities[0]['section_uuid'], sections[0]['uuid'])
     
     def test_tutorial_section_with_lecture(self):
         courses = [{
@@ -363,13 +363,15 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
+        activities, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(sections), 1)
-        self.assertEqual(len(tutorials), 1)
-        self.assertEqual(tutorials[0]['catalog_number'], 'T01')
-        self.assertIn('section_uuid', tutorials[0])
-        self.assertEqual(tutorials[0]['section_uuid'], sections[0]['uuid'])
+        self.assertEqual(len(activities), 2)  # LECT + TUT
+        tut_activities = [a for a in activities if a['course_type'] == 'TUT']
+        self.assertEqual(len(tut_activities), 1)
+        self.assertEqual(tut_activities[0]['catalog_number'], 'T01')
+        self.assertIn('section_uuid', tut_activities[0])
+        self.assertEqual(tut_activities[0]['section_uuid'], sections[0]['uuid'])
     
     def test_multiple_instructors(self):
         courses = [{
@@ -407,11 +409,10 @@ class TestProcessSections(unittest.TestCase):
             }]
         }]
         
-        labs, tutorials, sections, instructors = process_sections(courses, self.course_code_to_index)
+        activities, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         # Should skip unknown course
-        self.assertEqual(len(labs), 0)
-        self.assertEqual(len(tutorials), 0)
+        self.assertEqual(len(activities), 0)
         self.assertEqual(len(sections), 0)
         self.assertEqual(len(instructors), 0)
     
@@ -433,11 +434,12 @@ class TestProcessSections(unittest.TestCase):
             }]
         }]
         
-        _, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        activities, sections, _ = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(sections), 1)
-        self.assertIn('times', sections[0])
-        times_json = sections[0]['times']
+        self.assertEqual(len(activities), 1)
+        self.assertEqual(activities[0]['course_type'], 'LECT')
+        times_json = activities[0]['times']
         self.assertTrue(times_json.startswith("'") and times_json.endswith("'"))
         self.assertIn('M', times_json)
         self.assertIn('W', times_json)
@@ -467,12 +469,14 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        labs, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        activities, sections, _ = process_sections(courses, self.course_code_to_index)
         
         # Lab should be associated with the LECT section
         self.assertEqual(len(sections), 1)
-        self.assertEqual(len(labs), 1)
-        self.assertEqual(labs[0]['section_uuid'], sections[0]['uuid'])
+        self.assertEqual(len(activities), 2)  # LECT + LAB
+        lab_activities = [a for a in activities if a['course_type'] == 'LAB']
+        self.assertEqual(len(lab_activities), 1)
+        self.assertEqual(lab_activities[0]['section_uuid'], sections[0]['uuid'])
     
     def test_tutorial_without_lecture_finds_first(self):
         """Test that tutorial without preceding lecture finds first LECT section"""
@@ -499,12 +503,14 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        _, tutorials, sections, _ = process_sections(courses, self.course_code_to_index)
+        activities, sections, _ = process_sections(courses, self.course_code_to_index)
         
         # Tutorial should be associated with the LECT section
         self.assertEqual(len(sections), 1)
-        self.assertEqual(len(tutorials), 1)
-        self.assertEqual(tutorials[0]['section_uuid'], sections[0]['uuid'])
+        self.assertEqual(len(activities), 2)  # LECT + TUT
+        tut_activities = [a for a in activities if a['course_type'] == 'TUT']
+        self.assertEqual(len(tut_activities), 1)
+        self.assertEqual(tut_activities[0]['section_uuid'], sections[0]['uuid'])
     
     def test_online_section(self):
         courses = [{
@@ -551,11 +557,14 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        labs, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        activities, sections, _ = process_sections(courses, self.course_code_to_index)
         
-        # Lab cannot be associated because no LECT section exists yet when it's processed
+        # With new logic, sections are created in first pass, so LAB can be associated
         self.assertEqual(len(sections), 1)
-        self.assertEqual(len(labs), 0)  # Lab not added because no section to associate with
+        self.assertEqual(len(activities), 2)  # LAB + LECT
+        lab_activities = [a for a in activities if a['course_type'] == 'LAB']
+        self.assertEqual(len(lab_activities), 1)
+        self.assertEqual(lab_activities[0]['section_uuid'], sections[0]['uuid'])
     
     def test_tutorial_before_lecture_no_association(self):
         """Test edge case: TUT appears before LECT, cannot associate (no section yet)"""
@@ -582,11 +591,14 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        _, tutorials, sections, _ = process_sections(courses, self.course_code_to_index)
+        activities, sections, _ = process_sections(courses, self.course_code_to_index)
         
-        # Tutorial cannot be associated because no LECT section exists yet when it's processed
+        # With new logic, sections are created in first pass, so TUT can be associated
         self.assertEqual(len(sections), 1)
-        self.assertEqual(len(tutorials), 0)  # Tutorial not added because no section to associate with
+        self.assertEqual(len(activities), 2)  # TUT + LECT
+        tut_activities = [a for a in activities if a['course_type'] == 'TUT']
+        self.assertEqual(len(tut_activities), 1)
+        self.assertEqual(tut_activities[0]['section_uuid'], sections[0]['uuid'])
     
     def test_lab_after_multiple_lectures_finds_first(self):
         """Test that lab after multiple lectures finds first LECT when current_section_uuid is None"""
@@ -621,13 +633,15 @@ class TestProcessSections(unittest.TestCase):
             ]
         }]
         
-        labs, _, sections, _ = process_sections(courses, self.course_code_to_index)
+        activities, sections, _ = process_sections(courses, self.course_code_to_index)
         
-        # Lab should be associated with the most recent LECT (section B)
+        # Lab should be associated with one of the sections
         self.assertEqual(len(sections), 2)
-        self.assertEqual(len(labs), 1)
+        self.assertEqual(len(activities), 3)  # LECT A + LECT B + LAB
+        lab_activities = [a for a in activities if a['course_type'] == 'LAB']
+        self.assertEqual(len(lab_activities), 1)
         # The lab should be associated with one of the sections
-        self.assertIn(labs[0]['section_uuid'], [s['uuid'] for s in sections])
+        self.assertIn(lab_activities[0]['section_uuid'], [s['uuid'] for s in sections])
 
 
 class TestGenerateInstructorSQL(unittest.TestCase):
@@ -727,50 +741,56 @@ class TestGenerateCourseSQL(unittest.TestCase):
         self.assertGreaterEqual(null_count, 2)
 
 
-class TestGenerateLabSQL(unittest.TestCase):
-    """Test generate_lab_sql function"""
+class TestGenerateSectionActivitySQL(unittest.TestCase):
+    """Test generate_section_activity_sql function"""
     
-    def test_single_lab(self):
+    def test_single_activity(self):
         section_uuid = str(uuid.uuid4())
-        labs_list = [{
+        activities_list = [{
             'section_uuid': section_uuid,
+            'course_type': 'LAB',
             'catalog_number': 'L01',
             'times': "'[{\"day\": \"M\"}]'"
         }]
         
-        sql_lines = generate_lab_sql(labs_list)
+        sql_lines = generate_section_activity_sql(activities_list)
         sql_content = '\n'.join(sql_lines)
         
-        self.assertIn('-- Insert labs', sql_lines)
-        self.assertIn('INSERT INTO labs', sql_content)
+        self.assertIn('-- Insert section activities', sql_lines)
+        self.assertIn('INSERT INTO section_activities', sql_content)
+        self.assertIn('LAB', sql_content)
         self.assertIn('L01', sql_content)
         self.assertIn(section_uuid, sql_content)
     
-    def test_empty_labs(self):
-        sql_lines = generate_lab_sql([])
-        
-        self.assertEqual(len(sql_lines), 1)  # Just the comment
-        self.assertIn('-- Insert labs', sql_lines)
-
-
-class TestGenerateTutorialSQL(unittest.TestCase):
-    """Test generate_tutorial_sql function"""
-    
-    def test_single_tutorial(self):
+    def test_multiple_activities(self):
         section_uuid = str(uuid.uuid4())
-        tutorials_list = [{
-            'section_uuid': section_uuid,
-            'catalog_number': 'T01',
-            'times': "'[{\"day\": \"M\"}]'"
-        }]
+        activities_list = [
+            {
+                'section_uuid': section_uuid,
+                'course_type': 'LECT',
+                'catalog_number': '',
+                'times': "'[{\"day\": \"M\"}]'"
+            },
+            {
+                'section_uuid': section_uuid,
+                'course_type': 'LAB',
+                'catalog_number': 'L01',
+                'times': "'[{\"day\": \"T\"}]'"
+            }
+        ]
         
-        sql_lines = generate_tutorial_sql(tutorials_list)
+        sql_lines = generate_section_activity_sql(activities_list)
         sql_content = '\n'.join(sql_lines)
         
-        self.assertIn('-- Insert tutorials', sql_lines)
-        self.assertIn('INSERT INTO tutorials', sql_content)
-        self.assertIn('T01', sql_content)
-        self.assertIn(section_uuid, sql_content)
+        self.assertIn('LECT', sql_content)
+        self.assertIn('LAB', sql_content)
+        self.assertIn('L01', sql_content)
+    
+    def test_empty_activities(self):
+        sql_lines = generate_section_activity_sql([])
+        
+        self.assertEqual(len(sql_lines), 1)  # Just the comment
+        self.assertIn('-- Insert section activities', sql_lines)
 
 
 class TestGenerateSectionSQL(unittest.TestCase):
@@ -782,8 +802,7 @@ class TestGenerateSectionSQL(unittest.TestCase):
         sections_list = [{
             'uuid': str(uuid.uuid4()),
             'course_idx': 0,
-            'letter': '01',
-            'times': "'[{\"day\": \"M\", \"time\": \"10:00\"}]'"
+            'letter': 'A'
         }]
         
         sql_lines = generate_section_sql(sections_list, courses_list)
@@ -791,24 +810,25 @@ class TestGenerateSectionSQL(unittest.TestCase):
         
         self.assertIn('-- Insert sections', sql_lines)
         self.assertIn('INSERT INTO sections', sql_content)
-        self.assertIn('01', sql_content)
+        self.assertIn("'A'", sql_content)
         self.assertIn(course_uuid, sql_content)
-        self.assertIn('times', sql_content.lower())
+        self.assertNotIn('times', sql_content.lower())
     
-    def test_section_without_times(self):
+    def test_section_basic(self):
         course_uuid = str(uuid.uuid4())
         courses_list = [{'uuid': course_uuid}]
         sections_list = [{
             'uuid': str(uuid.uuid4()),
             'course_idx': 0,
-            'letter': '01'
+            'letter': 'M'
         }]
         
         sql_lines = generate_section_sql(sections_list, courses_list)
         sql_content = '\n'.join(sql_lines)
         
         self.assertIn('INSERT INTO sections', sql_content)
-        self.assertIn('NULL', sql_content)  # times should be NULL
+        self.assertIn("'M'", sql_content)
+        self.assertIn(course_uuid, sql_content)
     
     def test_empty_sections(self):
         courses_list = []
