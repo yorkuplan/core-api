@@ -30,7 +30,7 @@ func NewCourseRepository(db courseDB) *CourseRepository {
 func (r *CourseRepository) GetRandomCourses(ctx context.Context, limit int) ([]models.Course, error) {
 	rows, err := r.db.Query(
 		ctx,
-		`SELECT id, name, code, credits, description, created_at, updated_at
+		`SELECT id, name, code, credits, description, faculty, term, created_at, updated_at
 		 FROM courses TABLESAMPLE SYSTEM (10)
 		 ORDER BY RANDOM()
 		 LIMIT $1`,
@@ -44,7 +44,7 @@ func (r *CourseRepository) GetRandomCourses(ctx context.Context, limit int) ([]m
 	courses := make([]models.Course, 0)
 	for rows.Next() {
 		var c models.Course
-		if err := rows.Scan(&c.ID, &c.Name, &c.Code, &c.Credits, &c.Description, &c.CreatedAt, &c.UpdatedAt); err != nil {
+		if err := rows.Scan(&c.ID, &c.Name, &c.Code, &c.Credits, &c.Description, &c.Faculty, &c.Term, &c.CreatedAt, &c.UpdatedAt); err != nil {
 			return nil, fmt.Errorf("scan course: %w", err)
 		}
 		courses = append(courses, c)
@@ -59,14 +59,14 @@ func (r *CourseRepository) GetRandomCourses(ctx context.Context, limit int) ([]m
 func (r *CourseRepository) GetByID(ctx context.Context, courseID string) (*models.Course, error) {
 	row := r.db.QueryRow(
 		ctx,
-		`SELECT id, name, code, credits, description, created_at, updated_at
+		`SELECT id, name, code, credits, description, faculty, term, created_at, updated_at
 		 FROM courses
 		 WHERE id = $1`,
 		courseID,
 	)
 
 	var course models.Course
-	if err := row.Scan(&course.ID, &course.Name, &course.Code, &course.Credits, &course.Description, &course.CreatedAt, &course.UpdatedAt); err != nil {
+	if err := row.Scan(&course.ID, &course.Name, &course.Code, &course.Credits, &course.Description, &course.Faculty, &course.Term, &course.CreatedAt, &course.UpdatedAt); err != nil {
 		return nil, fmt.Errorf("scan course by id: %w", err)
 	}
 	return &course, nil
@@ -76,7 +76,7 @@ func (r *CourseRepository) Search(ctx context.Context, query string, limit, offs
 	searchPattern := "%" + query + "%"
 	rows, err := r.db.Query(
 		ctx,
-		`SELECT id, name, code, credits, description, created_at, updated_at
+		`SELECT id, name, code, credits, description, faculty, term, created_at, updated_at
 		 FROM courses
 		 WHERE name ILIKE $1 OR code ILIKE $1
 		 ORDER BY code
@@ -91,7 +91,7 @@ func (r *CourseRepository) Search(ctx context.Context, query string, limit, offs
 	courses := make([]models.Course, 0)
 	for rows.Next() {
 		var c models.Course
-		if err := rows.Scan(&c.ID, &c.Name, &c.Code, &c.Credits, &c.Description, &c.CreatedAt, &c.UpdatedAt); err != nil {
+		if err := rows.Scan(&c.ID, &c.Name, &c.Code, &c.Credits, &c.Description, &c.Faculty, &c.Term, &c.CreatedAt, &c.UpdatedAt); err != nil {
 			return nil, fmt.Errorf("scan course: %w", err)
 		}
 		courses = append(courses, c)
