@@ -10,6 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+const courseSearchQueryPattern = "SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1 OR REPLACE\\(code, ' ', ''\\) ILIKE \\$2\\s+ORDER BY code\\s+LIMIT \\$3 OFFSET \\$4"
+
 func TestGetAllCourses(t *testing.T) {
 	mock, err := pgxmock.NewPool()
 	assert.NoError(t, err)
@@ -144,8 +146,8 @@ func TestSearchCourses(t *testing.T) {
 
 	now := time.Now()
 	desc := "Software engineering course"
-	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
-		WithArgs("%EECS%", 50, 0).
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%EECS%", "%EECS%", 50, 0).
 		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
 			AddRow("id-1", "Software Design", "EECS3311", 3.0, &desc, "SC", "Fall", now, now).
 			AddRow("id-2", "Software Engineering", "EECS4313", 3.0, &desc, "SC", "Winter", now, now))
@@ -159,6 +161,28 @@ func TestSearchCourses(t *testing.T) {
 	assert.NoError(t, mock.ExpectationsWereMet())
 }
 
+func TestSearchCourses_ByCodeWithSpaces(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Software development"
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%EECS 2030%", "%EECS2030%", 50, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-3", "Software Tools", "EECS2030", 3.0, &desc, "SC", "Fall", now, now))
+
+	courses, err := repo.Search(context.Background(), "EECS 2030", 50, 0)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 1, len(courses))
+	assert.Equal(t, "EECS2030", courses[0].Code)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
 func TestSearchCourses_ByName(t *testing.T) {
 	mock, err := pgxmock.NewPool()
 	assert.NoError(t, err)
@@ -168,8 +192,8 @@ func TestSearchCourses_ByName(t *testing.T) {
 
 	now := time.Now()
 	desc := "Software design course"
-	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
-		WithArgs("%Software%", 50, 0).
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%Software%", "%Software%", 50, 0).
 		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
 			AddRow("id-1", "Software Design", "EECS3311", 3.0, &desc, "SC", "Fall", now, now))
 
@@ -188,8 +212,8 @@ func TestSearchCourses_NoResults(t *testing.T) {
 
 	repo := NewCourseRepository(mock)
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
-		WithArgs("%NONEXISTENT%", 50, 0).
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%NONEXISTENT%", "%NONEXISTENT%", 50, 0).
 		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}))
 
 	courses, err := repo.Search(context.Background(), "NONEXISTENT", 50, 0)
@@ -206,8 +230,8 @@ func TestSearchCourses_WhenQueryErrors_ReturnsError(t *testing.T) {
 
 	repo := NewCourseRepository(mock)
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
-		WithArgs("%EECS%", 50, 0).
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%EECS%", "%EECS%", 50, 0).
 		WillReturnError(errors.New("db error"))
 
 	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
@@ -228,8 +252,8 @@ func TestSearchCourses_WhenScanFails_ReturnsError(t *testing.T) {
 	rows := pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
 		AddRow("id-1", "Course 1", "C1", "INVALID_FLOAT", &desc, "SC", "Fall", now, now)
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
-		WithArgs("%EECS%", 50, 0).
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%EECS%", "%EECS%", 50, 0).
 		WillReturnRows(rows)
 
 	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
@@ -251,8 +275,8 @@ func TestSearchCourses_WhenRowsErr_ReturnsError(t *testing.T) {
 		AddRow("id-1", "Course 1", "C1", 3.0, &desc, "SC", "Fall", now, now).
 		RowError(0, errors.New("rows error"))
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
-		WithArgs("%EECS%", 50, 0).
+	mock.ExpectQuery(courseSearchQueryPattern).
+		WithArgs("%EECS%", "%EECS%", 50, 0).
 		WillReturnRows(rows)
 
 	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
