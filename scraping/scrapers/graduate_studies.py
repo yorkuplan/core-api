@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 from helpers.parser import parse_course_timetable_html
+from helpers.description_loader import load_course_descriptions, add_descriptions_to_courses
 
 
 def main():
@@ -19,6 +20,11 @@ def main():
 
     try:
         result = parse_course_timetable_html(html_content, extract_metadata=False, allow_alphanumeric_course_id=True)
+        
+        # Load and add course descriptions
+        descriptions = load_course_descriptions(scraping_dir)
+        add_descriptions_to_courses(result.get('courses', []), descriptions)
+        
         data_path.parent.mkdir(parents=True, exist_ok=True)
         data_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"Saved: {data_path}")
