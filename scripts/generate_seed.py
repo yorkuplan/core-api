@@ -45,7 +45,28 @@ def generate_rate_my_prof_url(first_name: str, last_name: str) -> str:
     encoded_name = quote_plus(full_name)
     return f"https://www.ratemyprofessors.com/search/professors/?q={encoded_name}"
 
-def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[List[Dict], Dict[str, str], Dict[str, int]]:
+def load_course_descriptions(descriptions_file: str) -> Dict[str, str]:
+    """Load course descriptions from JSON file and create a mapping of code to description"""
+    descriptions_map = {}
+    try:
+        with open(descriptions_file, 'r', encoding='utf-8') as f:
+            descriptions_data = json.load(f)
+        
+        for item in descriptions_data:
+            code = item.get('course_code', '')
+            description = item.get('description', '')
+            if code and description:
+                descriptions_map[code] = description
+        
+        print(f"Loaded {len(descriptions_map)} course descriptions from {descriptions_file}")
+    except FileNotFoundError:
+        print(f"Warning: Course descriptions file not found: {descriptions_file}")
+    except Exception as e:
+        print(f"Warning: Error loading course descriptions: {e}")
+    
+    return descriptions_map
+
+def collect_courses_and_instructors(courses: List[Dict], descriptions_map: Dict[str, str] = None) -> Tuple[List[Dict], Dict[str, str], Dict[str, int]]:
     """Collect unique courses (unique by code + term combination)"""
     courses_list: List[Dict] = []
     course_code_to_uuid: Dict[str, str] = {}
@@ -71,7 +92,12 @@ def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[List[Dict], Di
             except (ValueError, TypeError):
                 credits = 0.0
             
-            description = course.get('notes', '')
+            # Get description from descriptions_map if available, otherwise use notes field
+            description = ''
+            if descriptions_map:
+                description = descriptions_map.get(course_code, '')
+            if not description:
+                description = course.get('notes', '')
             
             course_uuid = str(uuid.uuid4())
             course_code_to_uuid[course_key] = course_uuid
@@ -280,8 +306,13 @@ def generate_section_sql(sections_list: List[Dict], courses_list: List[Dict]) ->
     
     return sql_lines
 
-def generate_seed_sql(json_files: list[str], output_file: str):
+def generate_seed_sql(json_files: list[str], output_file: str, descriptions_file: str = None):
     """Generate seed.sql for all generated JSON data"""
+
+    # Load course descriptions if file is provided
+    descriptions_map = {}
+    if descriptions_file:
+        descriptions_map = load_course_descriptions(descriptions_file)
 
     # Initialize collections
     all_courses_list = []
@@ -301,7 +332,7 @@ def generate_seed_sql(json_files: list[str], output_file: str):
         courses = data.get('courses', [])
         
         # Collect data from JSON
-        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
+        courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses, descriptions_map)
         activities_list, sections_list, instructors_list = process_sections(courses, course_code_to_index)
         
         # Adjust course indices to avoid collisions
@@ -362,11 +393,14 @@ if __name__ == '__main__':
     
     data_dir = 'scraping/data'
     output_file = 'db/seed.sql'
+    descriptions_file = 'scraping/scrapers/descriptions/course_descriptions.json'
     
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
     if len(sys.argv) > 2:
         output_file = sys.argv[2]
+    if len(sys.argv) > 3:
+        descriptions_file = sys.argv[3]
 
     json_files = glob.glob(os.path.join(data_dir, '*.json'))
 
@@ -378,4 +412,4 @@ if __name__ == '__main__':
     for json_file in json_files:
         print(f"  - {json_file}")
     
-    generate_seed_sql(json_files, output_file)
+    generate_seed_sql(json_files, output_file, descriptions_file)
