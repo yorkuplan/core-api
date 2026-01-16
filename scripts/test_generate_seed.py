@@ -13,6 +13,7 @@ from generate_seed import (
     format_schedule,
     parse_instructor_name,
     generate_rate_my_prof_url,
+    load_course_descriptions,
     collect_courses_and_instructors,
     process_sections,
     generate_instructor_sql,
@@ -124,6 +125,80 @@ class TestGenerateRateMyProfURL(unittest.TestCase):
     
     def test_first_name_whitespace_last_name_whitespace(self):
         self.assertIsNone(generate_rate_my_prof_url(" ", " "))
+
+
+class TestLoadCourseDescriptions(unittest.TestCase):
+    """Test load_course_descriptions function"""
+    
+    def test_load_valid_descriptions(self):
+        descriptions_data = [
+            {"course_code": "EECS1000", "description": "Introduction to CS"},
+            {"course_code": "MATH1090", "description": "Introduction to Math"}
+        ]
+        
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            json.dump(descriptions_data, f)
+            temp_file = f.name
+        
+        try:
+            descriptions_map = load_course_descriptions(temp_file)
+            
+            self.assertEqual(len(descriptions_map), 2)
+            self.assertEqual(descriptions_map["EECS1000"], "Introduction to CS")
+            self.assertEqual(descriptions_map["MATH1090"], "Introduction to Math")
+        finally:
+            os.unlink(temp_file)
+    
+    def test_load_empty_file(self):
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            json.dump([], f)
+            temp_file = f.name
+        
+        try:
+            descriptions_map = load_course_descriptions(temp_file)
+            self.assertEqual(len(descriptions_map), 0)
+        finally:
+            os.unlink(temp_file)
+    
+    def test_load_nonexistent_file(self):
+        descriptions_map = load_course_descriptions("/nonexistent/path/file.json")
+        self.assertEqual(len(descriptions_map), 0)
+    
+    def test_skip_entries_without_code(self):
+        descriptions_data = [
+            {"course_code": "EECS1000", "description": "Introduction to CS"},
+            {"description": "No code"},
+            {"course_code": "", "description": "Empty code"}
+        ]
+        
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            json.dump(descriptions_data, f)
+            temp_file = f.name
+        
+        try:
+            descriptions_map = load_course_descriptions(temp_file)
+            self.assertEqual(len(descriptions_map), 1)
+            self.assertIn("EECS1000", descriptions_map)
+        finally:
+            os.unlink(temp_file)
+    
+    def test_skip_entries_without_description(self):
+        descriptions_data = [
+            {"course_code": "EECS1000", "description": "Introduction to CS"},
+            {"course_code": "MATH1090"},
+            {"course_code": "PHYS1010", "description": ""}
+        ]
+        
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            json.dump(descriptions_data, f)
+            temp_file = f.name
+        
+        try:
+            descriptions_map = load_course_descriptions(temp_file)
+            self.assertEqual(len(descriptions_map), 1)
+            self.assertIn("EECS1000", descriptions_map)
+        finally:
+            os.unlink(temp_file)
 
 
 class TestCollectCoursesAndInstructors(unittest.TestCase):
@@ -269,6 +344,65 @@ class TestCollectCoursesAndInstructors(unittest.TestCase):
         
         self.assertEqual(len(courses_list), 1)
         self.assertEqual(courses_list[0]['credits'], 0.0)
+    
+    def test_with_descriptions_map(self):
+        descriptions_map = {
+            'TEST1000': 'Description from map'
+        }
+        
+        courses = [{
+            'courseTitle': 'Test Course',
+            'department': 'TEST',
+            'courseId': '1000',
+            'credits': '3.00',
+            'notes': 'Description from notes',
+            'faculty': 'LE',
+            'term': 'F',
+            'sections': []
+        }]
+        
+        courses_list, _, _ = collect_courses_and_instructors(courses, descriptions_map)
+        
+        self.assertEqual(len(courses_list), 1)
+        self.assertEqual(courses_list[0]['description'], 'Description from map')
+    
+    def test_descriptions_map_fallback_to_notes(self):
+        descriptions_map = {
+            'OTHER1000': 'Other description'
+        }
+        
+        courses = [{
+            'courseTitle': 'Test Course',
+            'department': 'TEST',
+            'courseId': '1000',
+            'credits': '3.00',
+            'notes': 'Description from notes',
+            'faculty': 'LE',
+            'term': 'F',
+            'sections': []
+        }]
+        
+        courses_list, _, _ = collect_courses_and_instructors(courses, descriptions_map)
+        
+        self.assertEqual(len(courses_list), 1)
+        self.assertEqual(courses_list[0]['description'], 'Description from notes')
+    
+    def test_no_descriptions_map(self):
+        courses = [{
+            'courseTitle': 'Test Course',
+            'department': 'TEST',
+            'courseId': '1000',
+            'credits': '3.00',
+            'notes': 'Description from notes',
+            'faculty': 'LE',
+            'term': 'F',
+            'sections': []
+        }]
+        
+        courses_list, _, _ = collect_courses_and_instructors(courses, None)
+        
+        self.assertEqual(len(courses_list), 1)
+        self.assertEqual(courses_list[0]['description'], 'Description from notes')
 
 
 class TestProcessSections(unittest.TestCase):
@@ -388,7 +522,7 @@ class TestProcessSections(unittest.TestCase):
             }]
         }]
         
-        _, _, _, instructors = process_sections(courses, self.course_code_to_index)
+        _, _, instructors = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(instructors), 2)
         names = [inst['name'] for inst in instructors]
@@ -527,7 +661,7 @@ class TestProcessSections(unittest.TestCase):
             }]
         }]
         
-        _, _, sections, instructors = process_sections(courses, self.course_code_to_index)
+        _, sections, instructors = process_sections(courses, self.course_code_to_index)
         
         self.assertEqual(len(sections), 1)
         self.assertEqual(len(instructors), 1)
@@ -910,7 +1044,7 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
             
             try:
                 # Pass the list of JSON files to the function
-                generate_seed_sql(json_files, sql_path)
+                generate_seed_sql(json_files, sql_path, None)
                 
                 # Verify file was created
                 self.assertTrue(os.path.exists(sql_path))
@@ -924,7 +1058,7 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
                 self.assertIn('INSERT INTO instructors', content)
                 self.assertIn('INSERT INTO courses', content)
                 self.assertIn('INSERT INTO sections', content)
-                self.assertIn('INSERT INTO labs', content)
+                self.assertIn('INSERT INTO section_activities', content)
                 self.assertIn('Test Course 1', content)
                 self.assertIn('Test Course 2', content)
                 self.assertIn('John', content)
