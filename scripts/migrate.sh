@@ -6,16 +6,32 @@ set -e
 
 echo "Running database migrations..."
 
-DATABASE_URL="${DATABASE_URL:-postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable}"
+# Use DATABASE_URL from environment (provided by Render)
+if [ -z "$DATABASE_URL" ]; then
+    echo "Error: DATABASE_URL environment variable is not set"
+    exit 1
+fi
 
-until pg_isready -h postgres -U yuplan_core_api_user -d yuplan_core_api_db; do
-  echo "Waiting for postgres to be ready..."
-  sleep 2
-done
+# Normalize postgresql:// to postgres:// for golang-migrate
+# Also ensure SSL mode is set for Render databases
+MIGRATE_URL="$DATABASE_URL"
+if [[ "$MIGRATE_URL" == postgresql://* ]]; then
+    MIGRATE_URL="${MIGRATE_URL/postgresql:/postgres:}"
+fi
 
-echo "Postgres is ready. Running migrations..."
+# Add sslmode=require if not present (Render databases require SSL)
+if [[ "$MIGRATE_URL" != *"sslmode"* ]]; then
+    if [[ "$MIGRATE_URL" == *"?"* ]]; then
+        MIGRATE_URL="${MIGRATE_URL}&sslmode=require"
+    else
+        MIGRATE_URL="${MIGRATE_URL}?sslmode=require"
+    fi
+fi
 
-migrate -path ./migrations -database "$DATABASE_URL" up
+echo "Running migrations with connection string..."
+
+# Run migrations
+migrate -path ./migrations -database "$MIGRATE_URL" up
 
 echo "Migrations completed successfully!"
 
