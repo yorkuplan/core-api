@@ -12,14 +12,26 @@ if [ -z "$DATABASE_URL" ]; then
     exit 1
 fi
 
-# Ensure SSL mode is set for Render databases (psql supports both postgres:// and postgresql://)
+# Ensure SSL mode is set correctly (psql supports both postgres:// and postgresql://)
+# Detect if it's Render (hostname starts with "dpg-") or docker-compose (hostname is "postgres")
 SEED_URL="$DATABASE_URL"
 if [[ "$SEED_URL" != *"sslmode"* ]]; then
-    if [[ "$SEED_URL" == *"?"* ]]; then
-        SEED_URL="${SEED_URL}&sslmode=require"
-    else
-        SEED_URL="${SEED_URL}?sslmode=require"
+    if [[ "$SEED_URL" == *"@dpg-"* ]]; then
+        # Render databases require SSL
+        if [[ "$SEED_URL" == *"?"* ]]; then
+            SEED_URL="${SEED_URL}&sslmode=require"
+        else
+            SEED_URL="${SEED_URL}?sslmode=require"
+        fi
+    elif [[ "$SEED_URL" == *"@postgres:"* ]]; then
+        # Docker-compose local database doesn't use SSL
+        if [[ "$SEED_URL" == *"?"* ]]; then
+            SEED_URL="${SEED_URL}&sslmode=disable"
+        else
+            SEED_URL="${SEED_URL}?sslmode=disable"
+        fi
     fi
+    # If neither pattern matches, don't add sslmode (use's default)
 fi
 
 # Run seed file using DATABASE_URL directly (psql supports connection strings)
