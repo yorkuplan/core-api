@@ -35,15 +35,13 @@ services:
       ports: 
         - "8080:8080"
       environment:
-        - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db
+        - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable
       depends_on:
         postgres:
           condition: service_healthy
         migrate:
           condition: service_completed_successfully
-      volumes:
-       - ./:/app
-      command: go run cmd/api/main.go
+      # Note: No volume mount needed - using the built binary from the image
 
 volumes:
   yuplan_core_api_data:
