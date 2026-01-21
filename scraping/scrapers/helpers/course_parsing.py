@@ -47,21 +47,11 @@ def find_section_type_index(row_cells: List[Tag]) -> int | None:
     return None
 
 
-def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, course: Dict[str, Any], allow_alphanumeric_course_id: bool = True) -> str:
-    """Populate courseId, credits, language of instruction, and return section letter.
-    
-    Args:
-        row_cells: List of table cell elements
-        section_type_index: Index of the section type cell
-        course: Course dictionary to populate
-        allow_alphanumeric_course_id: If True, allows course IDs like "4800Q" (default: True)
-    
-    Returns:
-        Section letter string (empty if not found)
-    """
+def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, course: Dict[str, Any]) -> str:
+    """Populate courseId, credits, language of instruction, and return section letter."""
     section_letter = ""
 
-    pattern = r"(\d{3,4}[A-Z]?)\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)" if allow_alphanumeric_course_id else r"(\d{3,4})\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)"
+    pattern = r"(\d{3,4}[A-Z]?)\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)"
     summary_pattern = re.compile(pattern)
     for j in range(section_type_index - 1, -1, -1):
         match = summary_pattern.search(cell_text(row_cells[j]))
@@ -156,22 +146,16 @@ def make_section_detail(row_cells: List[Tag], section_type_index: int, section_t
     return section_detail
 
 
-def parse_section_row(row_cells: List[Tag], course: Dict[str, Any], allow_alphanumeric_course_id: bool = True) -> Dict[str, Any] | None:
+def parse_section_row(row_cells: List[Tag], course: Dict[str, Any]) -> Dict[str, Any] | None:
     """Parse a section row into a detail dict and update course summary/LOI.
-    Returns a section detail or None if the row doesn't contain a section type.
-    
-    Args:
-        row_cells: List of table cell elements
-        course: Course dictionary to update
-        allow_alphanumeric_course_id: If True, allows course IDs like "4800Q" (default: True)
-    """
+    Returns a section detail or None if the row doesn't contain a section type."""
     # 1) Locate the section type column
     section_type_index = find_section_type_index(row_cells)
     if section_type_index is None:
         return None
 
     # 2) Update course summary (courseId/credits) and LOI
-    section_letter = fill_course_summary_and_loi(row_cells, section_type_index, course, allow_alphanumeric_course_id)
+    section_letter = fill_course_summary_and_loi(row_cells, section_type_index, course)
 
     # 3) Determine section type
     section_type = get_section_type(cell_text(row_cells[section_type_index]))
