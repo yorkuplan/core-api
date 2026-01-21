@@ -15,17 +15,8 @@ from .course_parsing import (
 )
 
 
-def parse_course_timetable_html(html_content: str, extract_metadata: bool = False, allow_alphanumeric_course_id: bool = True) -> Dict[str, Any]:
-    """Parse HTML timetable into structured course data.
-    
-    Args:
-        html_content: HTML content string
-        extract_metadata: If True, extracts title and lastUpdated from page (default: False)
-        allow_alphanumeric_course_id: If True, allows course IDs like "4800Q" (default: True)
-    
-    Returns:
-        Dictionary with 'courses' list, and optionally 'metadata' dict
-    """
+def parse_course_timetable_html(html_content: str, extract_metadata: bool = False) -> Dict[str, Any]:
+    """Parse HTML timetable into structured course data."""
     soup = BeautifulSoup(html_content, "html.parser")
 
     metadata = None
@@ -62,7 +53,7 @@ def parse_course_timetable_html(html_content: str, extract_metadata: bool = Fals
             row_cells = element.find_all("td", recursive=False)
             if not row_cells:
                 continue
-            section_detail = parse_section_row(row_cells, course, allow_alphanumeric_course_id)
+            section_detail = parse_section_row(row_cells, course)
             if section_detail is not None:
                 course["sections"].append(section_detail)
         courses.append(course)

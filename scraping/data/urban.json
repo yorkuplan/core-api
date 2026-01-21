@@ -2484,13 +2484,14 @@
       "department": "ENVS",
       "term": "W",
       "courseTitle": "Digital Worlds and Urban Futures: Cities, Technology, and Justice",
-      "courseId": "",
-      "credits": "",
+      "courseId": "3800C",
+      "credits": "3.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "C31J01",
           "schedule": [
             {
@@ -3501,13 +3502,14 @@
       "department": "ENVS",
       "term": "F",
       "courseTitle": "Land and Urban Development",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4800Q",
+      "credits": "3.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X09D01",
           "schedule": [
             {
@@ -3530,13 +3532,14 @@
       "department": "ENVS",
       "term": "O3",
       "courseTitle": "Advanced Topics in Environment and Health",
-      "courseId": "",
-      "credits": "",
+      "courseId": "4800A",
+      "credits": "3.00",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "K11Z01",
           "schedule": [
             {
