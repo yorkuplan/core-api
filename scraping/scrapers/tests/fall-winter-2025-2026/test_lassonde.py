@@ -6,9 +6,9 @@ from pathlib import Path
 from unittest.mock import patch, mock_open
 import json
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fall-winter-2025-2026"))
 
-from scraping.scrapers import lassonde
+import lassonde
 
 
 class TestLassondeIntegration(unittest.TestCase):
@@ -82,7 +82,7 @@ class TestLassondeIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.write_text'), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.lassonde.parse_course_timetable_html') as mock_parse, \
+            patch('lassonde.parse_course_timetable_html') as mock_parse, \
             patch('builtins.print'):
             
             mock_parse.return_value = {'courses': []}
@@ -100,7 +100,7 @@ class TestLassondeIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.lassonde.parse_course_timetable_html') as mock_parse, \
+            patch('lassonde.parse_course_timetable_html') as mock_parse, \
             patch('pathlib.Path.write_text', side_effect=Exception("Write error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
@@ -121,7 +121,7 @@ class TestLassondeIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.lassonde.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
+            patch('lassonde.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             

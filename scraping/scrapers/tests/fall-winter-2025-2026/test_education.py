@@ -5,9 +5,9 @@ import sys
 from pathlib import Path
 from unittest.mock import patch
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fall-winter-2025-2026"))
 
-from scraping.scrapers import education
+import education
 
 
 class TestEducationIntegration(unittest.TestCase):
@@ -75,7 +75,7 @@ class TestEducationIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
              patch('pathlib.Path.write_text'), \
              patch('pathlib.Path.mkdir'), \
-             patch('scraping.scrapers.education.parse_course_timetable_html') as mock_parse, \
+             patch('education.parse_course_timetable_html') as mock_parse, \
              patch('builtins.print'):
 
             mock_parse.return_value = {'courses': []}
@@ -92,7 +92,7 @@ class TestEducationIntegration(unittest.TestCase):
 
         with patch('pathlib.Path.read_text', return_value=test_html), \
              patch('pathlib.Path.mkdir'), \
-             patch('scraping.scrapers.education.parse_course_timetable_html') as mock_parse, \
+             patch('education.parse_course_timetable_html') as mock_parse, \
              patch('pathlib.Path.write_text', side_effect=Exception("Write error")), \
              patch('builtins.print') as mock_print, \
              patch('traceback.print_exc') as mock_traceback:
@@ -110,7 +110,7 @@ class TestEducationIntegration(unittest.TestCase):
 
         with patch('pathlib.Path.read_text', return_value=test_html), \
              patch('pathlib.Path.mkdir'), \
-             patch('scraping.scrapers.education.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
+             patch('education.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
              patch('builtins.print') as mock_print, \
              patch('traceback.print_exc') as mock_traceback:
 
@@ -140,7 +140,7 @@ class TestEducationIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
              patch('pathlib.Path.write_text'), \
              patch('pathlib.Path.mkdir'), \
-             patch('scraping.scrapers.education.parse_course_timetable_html', return_value=mock_result), \
+             patch('education.parse_course_timetable_html', return_value=mock_result), \
              patch('builtins.print') as mock_print:
 
             education.main()
