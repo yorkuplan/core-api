@@ -7,6 +7,7 @@ import json
 import tempfile
 import os
 import uuid
+import runpy
 from unittest.mock import patch, mock_open
 from generate_seed import (
     escape_sql_string,
@@ -197,6 +198,19 @@ class TestLoadCourseDescriptions(unittest.TestCase):
             descriptions_map = load_course_descriptions(temp_file)
             self.assertEqual(len(descriptions_map), 1)
             self.assertIn("EECS1000", descriptions_map)
+        finally:
+            os.unlink(temp_file)
+
+    def test_invalid_json_logs_warning(self):
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            f.write('{invalid json')
+            temp_file = f.name
+
+        try:
+            with patch('builtins.print') as mock_print:
+                descriptions_map = load_course_descriptions(temp_file)
+                self.assertEqual(len(descriptions_map), 0)
+                self.assertTrue(any('Warning: Error loading course descriptions' in str(call) for call in mock_print.call_args_list))
         finally:
             os.unlink(temp_file)
 
@@ -1075,6 +1089,49 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
             for json_file in json_files:
                 if os.path.exists(json_file):
                     os.unlink(json_file)
+
+    def test_generation_with_descriptions_file(self):
+        descriptions = [
+            {"course_code": "TEST1000", "description": "From map"}
+        ]
+        json_files = []
+        try:
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as desc_file:
+                json.dump(descriptions, desc_file)
+                descriptions_path = desc_file.name
+
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as json_file:
+                json.dump(self.test_json_1, json_file)
+                json_files.append(json_file.name)
+
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.sql', delete=False) as sql_file:
+                sql_path = sql_file.name
+
+            generate_seed_sql(json_files, sql_path, descriptions_path)
+
+            with open(sql_path, 'r') as f:
+                content = f.read()
+
+            self.assertIn('From map', content)
+        finally:
+            if os.path.exists(descriptions_path):
+                os.unlink(descriptions_path)
+            if os.path.exists(sql_path):
+                os.unlink(sql_path)
+            for json_file in json_files:
+                if os.path.exists(json_file):
+                    os.unlink(json_file)
+
+
+class TestGenerateSeedMain(unittest.TestCase):
+    """Test __main__ block behavior"""
+
+    def test_main_exits_when_no_json_files(self):
+        with patch('glob.glob', return_value=[]), \
+             patch('builtins.print'):
+            with self.assertRaises(SystemExit) as ctx:
+                runpy.run_module('generate_seed', run_name='__main__')
+            self.assertEqual(ctx.exception.code, 1)
 
 
 if __name__ == '__main__':

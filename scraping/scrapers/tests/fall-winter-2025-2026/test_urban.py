@@ -1,24 +1,24 @@
-"""Test cases for health.py scraper"""
+"""Test cases for urban.py scraper"""
 
 import unittest
 import sys
 from pathlib import Path
-from unittest.mock import patch, mock_open
-import json
-
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
-from scraping.scrapers import health
+from unittest.mock import patch
 
 
-class TesthealthIntegration(unittest.TestCase):
-    """Integration tests for health scraper"""
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fall-winter-2025-2026"))
+
+import urban
+
+
+class TestUrbanIntegration(unittest.TestCase):
+    """Integration tests for urban scraper"""
     
     def test_main_with_missing_html_file(self):
         """Test main function handles missing HTML file gracefully"""
         with patch('pathlib.Path.read_text', side_effect=FileNotFoundError("File not found")), \
              patch('builtins.print') as mock_print:
-            health.main()
+            urban.main()
             # Should print error message
             call_args = [str(call) for call in mock_print.call_args_list]
             self.assertTrue(any('Error reading HTML' in arg for arg in call_args))
@@ -30,17 +30,17 @@ class TesthealthIntegration(unittest.TestCase):
             <body>
                 <table>
                     <tr>
-                        <td class="bodytext">Faculty of Science</td>
-                        <td class="bodytext">EECS</td>
-                        <td class="bodytext">FW 2024</td>
-                        <td class="bodytext" colspan="2">Introduction to Programming</td>
+                        <td class="bodytext">EU</td>
+                        <td class="bodytext">ENVS</td>
+                        <td class="bodytext">FW25</td>
+                        <td class="bodytext" colspan="6">Environmental Science</td>
                     </tr>
                     <tr>
-                        <td>1000 3.00</td>
+                        <td>1012 3.00 A</td>
                         <td>EN</td>
-                        <td>LECT</td>
+                        <td>LEC</td>
                         <td>01</td>
-                        <td>A</td>
+                        <td>A01</td>
                     </tr>
                 </table>
             </body>
@@ -52,7 +52,7 @@ class TesthealthIntegration(unittest.TestCase):
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
             
-            health.main()
+            urban.main()
             
             # Verify write was called
             self.assertTrue(mock_write.called)
@@ -70,7 +70,7 @@ class TesthealthIntegration(unittest.TestCase):
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
             
-            health.main()
+            urban.main()
             
             # Should complete without crashing
             self.assertTrue(mock_print.called)
@@ -82,11 +82,11 @@ class TesthealthIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.write_text'), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.health.parse_course_timetable_html') as mock_parse, \
+            patch('urban.parse_course_timetable_html') as mock_parse, \
             patch('builtins.print'):
             
             mock_parse.return_value = {'courses': []}
-            health.main()
+            urban.main()
             
             # Verify parser was called with correct parameters
             mock_parse.assert_called_once()
@@ -100,13 +100,13 @@ class TesthealthIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.health.parse_course_timetable_html') as mock_parse, \
+            patch('urban.parse_course_timetable_html') as mock_parse, \
             patch('pathlib.Path.write_text', side_effect=Exception("Write error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             
             mock_parse.return_value = {'courses': []}
-            health.main()
+            urban.main()
             
             # Verify error was printed
             call_args = [str(call) for call in mock_print.call_args_list]
@@ -121,16 +121,47 @@ class TesthealthIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.health.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
+            patch('urban.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             
-            health.main()
+            urban.main()
             
             # Verify error handling
             call_args = [str(call) for call in mock_print.call_args_list]
             self.assertTrue(any('Error parsing HTML' in arg for arg in call_args))
             self.assertTrue(mock_traceback.called)
+
+    def test_main_prints_course_details(self):
+        """Test main function prints course details"""
+        test_html = "<table></table>"
+        
+        mock_result = {
+            'courses': [
+                {
+                    'courseId': '1000',
+                    'courseTitle': 'Test Course',
+                    'sections': [
+                        {'section': 'A', 'type': 'LECT'},
+                        {'section': 'B', 'type': 'LECT'}
+                    ]
+                }
+            ]
+        }
+        
+        with patch('pathlib.Path.read_text', return_value=test_html), \
+            patch('pathlib.Path.write_text'), \
+            patch('pathlib.Path.mkdir'), \
+            patch('urban.parse_course_timetable_html', return_value=mock_result), \
+            patch('builtins.print') as mock_print:
+            
+            urban.main()
+            
+            # Verify course details were printed
+            call_args = str(mock_print.call_args_list)
+            self.assertIn('1000', call_args)
+            self.assertIn('Test Course', call_args)
+            self.assertIn('Section', call_args)
 
 
 if __name__ == '__main__':
