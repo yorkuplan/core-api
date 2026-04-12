@@ -1,0 +1,7002 @@
+[
+  {
+    "id": "fb734908-a1b5-4387-b80b-e99b9df8b6b7",
+    "code": "ACTG2010",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Introduction To Financial Accounting I"
+  },
+  {
+    "id": "448dbb5a-d3d8-4a1d-b114-16db1faa84f0",
+    "code": "ACTG2011",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Introduction To Financial Actg II"
+  },
+  {
+    "id": "9baac69a-6b3d-4c40-946e-c4ab4265a7dd",
+    "code": "ACTG2020",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Management Accounting Concepts"
+  },
+  {
+    "id": "78141d53-bc91-4f55-a102-905d4e276f3b",
+    "code": "ACTG3000",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Financial Reporting and Analysis"
+  },
+  {
+    "id": "5cb88806-6940-4f24-b5f9-8a9d6512e6a3",
+    "code": "ACTG3000",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Financial Reporting and Analysis"
+  },
+  {
+    "id": "d6f15105-34e0-4c0d-9ad5-e41b08e2a526",
+    "code": "ACTG3110",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting I"
+  },
+  {
+    "id": "49baab85-dada-4c6f-a291-42bfcba4f281",
+    "code": "ACTG3120",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "id": "bfda4ee0-90b4-47ca-a632-9287b0d7656f",
+    "code": "ACTG3120",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "id": "49693d95-d64a-4bb5-be7d-f6d34783b88f",
+    "code": "ACTG4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Accounting in the Intermediate-Senior Divisions - A"
+  },
+  {
+    "id": "d721be26-f62a-4679-9d38-321e9518e839",
+    "code": "ACTG4001",
+    "term": "W",
+    "faculty": "ED",
+    "name": "Teaching Accounting in the Intermediate-Senior Divisions - B"
+  },
+  {
+    "id": "ab126b6d-ef77-4f54-a7f3-41573e9e9b43",
+    "code": "ACTG4200",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Contemporary Issues In Accounting"
+  },
+  {
+    "id": "c445dd13-ae82-4214-86d4-fba0e1ad147e",
+    "code": "ACTG4400",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Managerial Cost Accounting & Analysis"
+  },
+  {
+    "id": "8fcdbf3a-4bb1-430a-8566-8b2900904c65",
+    "code": "ACTG4400",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Managerial Cost Accounting & Analysis"
+  },
+  {
+    "id": "884c876a-8406-45a3-98ca-895724702f94",
+    "code": "ACTG4600",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Auditing Standards & Applications"
+  },
+  {
+    "id": "a3735d59-0024-4744-8400-b2adf94ab9cb",
+    "code": "ACTG4710",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Introduction To Income Taxation"
+  },
+  {
+    "id": "9209acc9-af47-4a37-9ca3-bfe71d1c634e",
+    "code": "ACTG4720",
+    "term": "W",
+    "faculty": "SB",
+    "name": "Advanced Income Taxation"
+  },
+  {
+    "id": "e607b6de-c2d4-4c8e-8d41-fb35eee2dc26",
+    "code": "ACTG4900",
+    "term": "F",
+    "faculty": "SB",
+    "name": "Guided Study - Selected Problems in Accounting"
+  },
+  {
+    "id": "adfc7505-f37a-47f1-b01e-ddf1d3f3ab98",
+    "code": "ACTG5100",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Financial Accounting For Managers"
+  },
+  {
+    "id": "f81c3e69-43f7-48f5-b2e2-37fe55add055",
+    "code": "ACTG5100",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Financial Accounting For Managers"
+  },
+  {
+    "id": "f18daf82-ebac-487c-889c-af334fa26ca0",
+    "code": "ACTG5200",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Financial Decisions for Managers"
+  },
+  {
+    "id": "aae3bd7f-ce11-4432-b906-5f2c709108c3",
+    "code": "ACTG5210",
+    "term": "C",
+    "faculty": "SB",
+    "name": "Management Accounting"
+  },
+  {
+    "id": "3ec7a4e0-cb28-4f37-98bb-002871ece460",
+    "code": "ACTG5210",
+    "term": "N",
+    "faculty": "SB",
+    "name": "Management Accounting"
+  },
+  {
+    "id": "2b7addce-fc94-418b-b25d-aeb4f000b41f",
+    "code": "ACTG6120",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting I"
+  },
+  {
+    "id": "df87ecc9-ef7b-4513-a787-3a1bb0210196",
+    "code": "ACTG6130",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting for Finance Majors"
+  },
+  {
+    "id": "9a04cb68-5da9-4b26-b08e-f933232ccb9e",
+    "code": "ACTG6140",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "id": "cbb9ea93-95c2-498d-879e-60d2a439885f",
+    "code": "ACTG6140",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "id": "b2f4fa86-91ab-41d1-80bd-a26863fa1f89",
+    "code": "ACTG6160",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Advanced Financial Accounting"
+  },
+  {
+    "id": "804e889c-813d-4e1a-99e8-2537079c6cc3",
+    "code": "ACTG6201",
+    "term": "A",
+    "faculty": "SB",
+    "name": "Multi-Competency Case Analysis for Accountants"
+  },
+  {
+    "id": "e7a309b2-1118-4928-a78a-99dd3de4c5df",
+    "code": "ACTG6250",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Financial Reporting and Analysis"
+  },
+  {
+    "id": "f367c285-5b25-4b61-9ce9-722b283245e1",
+    "code": "ACTG6250",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Financial Reporting and Analysis"
+  },
+  {
+    "id": "c30dd843-ff10-433c-9b59-11856782cba6",
+    "code": "ACTG6301",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Integrative Case Analysis for Accountants"
+  },
+  {
+    "id": "fbbea7e1-4be6-4a3d-ba4e-17cfe0ad966f",
+    "code": "ACTG6550",
+    "term": "M",
+    "faculty": "SB",
+    "name": "Advanced Management Accounting"
+  },
+  {
+    "id": "a528d79b-0d8b-4195-a0f4-8fe945ff8c73",
+    "code": "ACTG6600",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Auditing Standards & Applications"
+  },
+  {
+    "id": "ee54abca-1ae3-46ff-ae29-64ed25a0c51e",
+    "code": "ACTG6610",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Advanced Auditing"
+  },
+  {
+    "id": "4b2edfd7-5a4d-47e2-b386-2a3e3d54115c",
+    "code": "ACTG6710",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Introduction to Income Taxation"
+  },
+  {
+    "id": "95ab4a85-4e76-485a-a927-d515bd26e654",
+    "code": "ACTG6720",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Advanced Income Taxation"
+  },
+  {
+    "id": "55a1ccc3-2a78-4373-ba8a-7a5b98098365",
+    "code": "ACTG6730",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Managerial Tax Planning"
+  },
+  {
+    "id": "488855b6-d5fc-4e26-b4c2-fba9d0172583",
+    "code": "ACTG6900",
+    "term": "A",
+    "faculty": "SB",
+    "name": "Individual Study: Accounting"
+  },
+  {
+    "id": "dc725daf-647c-4eac-8668-24700e439a2a",
+    "code": "ACTG6900",
+    "term": "C",
+    "faculty": "SB",
+    "name": "Individual Study: Accounting"
+  },
+  {
+    "id": "ec216c72-422c-4093-9164-efe80df7a546",
+    "code": "ACTG6900",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Individual Study - Accounting"
+  },
+  {
+    "id": "d63c163c-2604-4011-8eec-a669ee1a6c4c",
+    "code": "ACTG6900",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Individual Study - Accounting"
+  },
+  {
+    "id": "c27ac31e-7d05-467a-8d10-636b029f0833",
+    "code": "ACTG7900",
+    "term": "F3",
+    "faculty": "SB",
+    "name": "Independent Study - Accounting"
+  },
+  {
+    "id": "5926b354-a5db-4445-924e-1ac13da4416e",
+    "code": "ADLW6701",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Selected Topics in Administrative Law"
+  },
+  {
+    "id": "2462567d-4937-4255-90da-2cad84465402",
+    "code": "ADMS1000",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Business"
+  },
+  {
+    "id": "72016c00-d308-46e1-8e04-2d0c578818dc",
+    "code": "ADMS1000",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Business"
+  },
+  {
+    "id": "b0e7c4b5-7a9e-434e-aa1a-bda322d61370",
+    "code": "ADMS1010",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Exploring the Functions of Business"
+  },
+  {
+    "id": "b34f1130-3717-495c-a786-e1719a936bf1",
+    "code": "ADMS1010",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Exploring the Functions of Business"
+  },
+  {
+    "id": "fcd0ccf9-9654-4dd3-b74b-759a205ad359",
+    "code": "ADMS1500",
+    "term": "F",
+    "faculty": "AP",
+    "name": "An Introduction to Accounting for Human Resource Professionals"
+  },
+  {
+    "id": "d95208ba-2a39-4191-b67a-2d8e975b07e0",
+    "code": "ADMS1500",
+    "term": "W",
+    "faculty": "AP",
+    "name": "An Introduction to Accounting for Human Resource Professionals"
+  },
+  {
+    "id": "e1754527-8a4e-476c-8fc3-5bdab5f11350",
+    "code": "ADMS1550",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Accounting for Non-Financial Managers"
+  },
+  {
+    "id": "4ceb58f8-097c-4b3a-9fbd-1fd6de282e4b",
+    "code": "ADMS1701",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Disasters: Case Studies of Causes and Impacts"
+  },
+  {
+    "id": "310783ae-152a-4a83-abe3-d7b2d0e1964f",
+    "code": "ADMS1701",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Disasters: Case Studies of Causes and Impacts"
+  },
+  {
+    "id": "e39ed5ca-b432-45c5-a0fa-05e43af4c58e",
+    "code": "ADMS2200",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introductory Marketing"
+  },
+  {
+    "id": "8d65f40c-44b5-4bc7-aff0-f0bef2ef4062",
+    "code": "ADMS2200",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introductory Marketing"
+  },
+  {
+    "id": "8a64bfa5-c4d4-462a-96d1-311187b7797d",
+    "code": "ADMS2310",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Business Statistics Through Applications"
+  },
+  {
+    "id": "cf8c73d6-1e32-40c0-b516-34214aacf0a6",
+    "code": "ADMS2320",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Business Statistics"
+  },
+  {
+    "id": "7e5bc42a-29c9-482f-b67f-80886778afb4",
+    "code": "ADMS2320",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Business Statistics"
+  },
+  {
+    "id": "941a41b8-85ba-401f-921c-acb72a7960e1",
+    "code": "ADMS2400",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Organizational Behaviour"
+  },
+  {
+    "id": "65270800-cdd2-4bb1-8d6e-906af54791a8",
+    "code": "ADMS2400",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Organizational Behaviour"
+  },
+  {
+    "id": "e2c4b055-b905-4b88-a1ef-8327351d00c6",
+    "code": "ADMS2500",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Financial Accounting"
+  },
+  {
+    "id": "d4c2d5db-fd0e-4b59-b94e-d58bd62bb1bd",
+    "code": "ADMS2500",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Financial Accounting"
+  },
+  {
+    "id": "e6c020a6-3028-438c-9887-158ca6d1ef77",
+    "code": "ADMS2510",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Management Accounting"
+  },
+  {
+    "id": "15e9f1c2-e5de-4982-a847-131350aa4fe6",
+    "code": "ADMS2510",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Management Accounting"
+  },
+  {
+    "id": "c1bfb1dd-ab14-4cac-a1ae-5a21b79878a0",
+    "code": "ADMS2511",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Management Information Systems"
+  },
+  {
+    "id": "516f2a04-8909-4cc6-b4fc-2dcbf1f2fb57",
+    "code": "ADMS2511",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Management Information Systems"
+  },
+  {
+    "id": "9047681f-f03c-41ae-8741-41232a7349e5",
+    "code": "ADMS2541",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Personal Finance"
+  },
+  {
+    "id": "efaba484-046b-4865-96e8-2708aab1b866",
+    "code": "ADMS2541",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Personal Finance"
+  },
+  {
+    "id": "a922cf0e-4d21-4792-ac90-76b761931723",
+    "code": "ADMS2610",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Elements of Law: Part One"
+  },
+  {
+    "id": "9f712e1e-5eb4-4b41-84f2-558c21fc007b",
+    "code": "ADMS2610",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Elements of Law: Part One"
+  },
+  {
+    "id": "6d3d7e56-5b70-444d-b5db-30f68bd86d4d",
+    "code": "ADMS2700",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Fundamentals of Emergency Management"
+  },
+  {
+    "id": "c703305d-69f7-4534-b80e-e6412bc0ac35",
+    "code": "ADMS2700",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Fundamentals of Emergency Management"
+  },
+  {
+    "id": "f8654833-20ac-420c-b5f4-986c495fe8e8",
+    "code": "ADMS2920",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to innovation and creativity"
+  },
+  {
+    "id": "affeeeaf-eee2-4aae-bd08-5e9ff6baffb8",
+    "code": "ADMS2920",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to innovation and creativity"
+  },
+  {
+    "id": "cce744ad-e71d-497b-af9e-b54222651a87",
+    "code": "ADMS3000",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "ba64c48e-0074-4881-bff8-6a68b5dd37d2",
+    "code": "ADMS3000",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "ef0d3157-0fbf-458e-b49c-b3a2efb6e2d1",
+    "code": "ADMS3120",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Gender Issues in Management"
+  },
+  {
+    "id": "df44c426-e1e5-4004-824f-a49bb48b6402",
+    "code": "ADMS3120",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Gender Issues in Management"
+  },
+  {
+    "id": "a4c413d8-cc07-4213-aee9-2d725ebb335b",
+    "code": "ADMS3210",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Consumer Behaviour"
+  },
+  {
+    "id": "497ab705-aa3a-4047-8b68-a58911f09ec0",
+    "code": "ADMS3210",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Consumer Behaviour"
+  },
+  {
+    "id": "df779c20-a01b-48e7-a46f-dbde34be62f4",
+    "code": "ADMS3220",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Applied Marketing Management"
+  },
+  {
+    "id": "fdf5bd79-c0b7-46be-ba3f-e3f52a49ce26",
+    "code": "ADMS3220",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Applied Marketing Management"
+  },
+  {
+    "id": "f6fb0a35-56a2-4826-9d24-efc4820c4c40",
+    "code": "ADMS3300",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Decision Analysis"
+  },
+  {
+    "id": "3c8f3377-d565-4cbb-a727-4cb438832285",
+    "code": "ADMS3300",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Decision Analysis"
+  },
+  {
+    "id": "86d17743-0017-4f87-b591-2e2cdee9bb68",
+    "code": "ADMS3330",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Management Science"
+  },
+  {
+    "id": "7aabc7b3-9697-4993-995c-45332ccdee8d",
+    "code": "ADMS3330",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Management Science"
+  },
+  {
+    "id": "8f5ab7ad-1d0a-4aca-859b-e42f72c7142d",
+    "code": "ADMS3351",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Operations Management"
+  },
+  {
+    "id": "aa72e2c7-1f15-4986-9d37-bac15d171f00",
+    "code": "ADMS3351",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Operations Management"
+  },
+  {
+    "id": "c48fc43c-eeb6-4435-87fd-317e397b9fe6",
+    "code": "ADMS3352",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Sampling Techniques and Survey Design"
+  },
+  {
+    "id": "84e7b589-53c9-4473-8a8f-64146485ef83",
+    "code": "ADMS3353",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Project Management"
+  },
+  {
+    "id": "4a08d3d9-6c95-46c8-8a10-336f28dd79cd",
+    "code": "ADMS3353",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Project Management"
+  },
+  {
+    "id": "9275e52b-0ac2-47e2-a08f-463048c300a3",
+    "code": "ADMS3360",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Physical Distribution and Transportation"
+  },
+  {
+    "id": "3882153a-faa4-4ef5-9f00-d41972995c95",
+    "code": "ADMS3370",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Advanced Spreadsheets for Business Applications"
+  },
+  {
+    "id": "b2302858-a3c2-4791-a48a-b98e196b3a4d",
+    "code": "ADMS3440",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Leadership and Management Skills"
+  },
+  {
+    "id": "f5bc10c9-810d-4a28-aa18-33f3152b4b63",
+    "code": "ADMS3440",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Leadership and Management Skills"
+  },
+  {
+    "id": "ceb494fa-6441-48b1-9712-e3da6b1f88d7",
+    "code": "ADMS3450",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Equity, Diversity and Inclusion in the Workplace"
+  },
+  {
+    "id": "58a82740-c123-4272-94d7-64fad66a22da",
+    "code": "ADMS3450",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Equity, Diversity and Inclusion in the Workplace"
+  },
+  {
+    "id": "f0995498-fcec-40f7-b1e5-4c7a20fb627f",
+    "code": "ADMS3502",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Business Process Integration with Enterprise Resource Planning Systems"
+  },
+  {
+    "id": "8a112699-f666-4b65-979d-413ac4c3c65a",
+    "code": "ADMS3510",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Managerial Cost Accounting and Analysis"
+  },
+  {
+    "id": "6b98d2dd-6879-4d24-bdf3-7005608b215a",
+    "code": "ADMS3510",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Managerial Cost Accounting and Analysis"
+  },
+  {
+    "id": "db1c11d1-6075-4b62-bbe1-050048924847",
+    "code": "ADMS3511",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Business Analytics: Introduction, Methods and Practical Approaches"
+  },
+  {
+    "id": "b28e1967-d40d-4e63-8c21-4948ecee8954",
+    "code": "ADMS3520",
+    "term": "F",
+    "faculty": "AP",
+    "name": "An Overview of Canadian Income Taxation"
+  },
+  {
+    "id": "f827fdbf-1d4e-4f3c-b282-2e664bd08844",
+    "code": "ADMS3520",
+    "term": "W",
+    "faculty": "AP",
+    "name": "An Overview of Canadian Income Taxation"
+  },
+  {
+    "id": "98ec93b8-c867-44e5-8488-ed97b5de5442",
+    "code": "ADMS3521",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Management of Electronic Commerce Systems"
+  },
+  {
+    "id": "90146ffa-05da-4adc-91e4-436824872cab",
+    "code": "ADMS3521",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Management of Electronic Commerce Systems"
+  },
+  {
+    "id": "bcb43c9d-7f0b-4f18-b738-6999b8ea221d",
+    "code": "ADMS3524",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Public Sector Budget Process"
+  },
+  {
+    "id": "8ba12126-4842-4d6c-b855-65d0e1e69857",
+    "code": "ADMS3530",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Finance"
+  },
+  {
+    "id": "fe0fb6c9-613e-4e95-a2e5-c30b1dea7540",
+    "code": "ADMS3530",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Finance"
+  },
+  {
+    "id": "9d12be91-3c9e-48b1-b945-1752feaefdb8",
+    "code": "ADMS3531",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Personal Investment Management"
+  },
+  {
+    "id": "26700af5-1f3f-4aaf-bfe4-25f8527ed188",
+    "code": "ADMS3531",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Personal Investment Management"
+  },
+  {
+    "id": "471be5d5-77a4-444c-b369-8b051e2d397b",
+    "code": "ADMS3541",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Personal Financial Planning"
+  },
+  {
+    "id": "ee9c9e07-18fe-4d26-8bf8-28b300b8d1a7",
+    "code": "ADMS3541",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Personal Financial Planning"
+  },
+  {
+    "id": "4601a9e5-f1f9-493f-8a8a-90a0ec348722",
+    "code": "ADMS3585",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Intermediate Financial Accounting I"
+  },
+  {
+    "id": "ee9cfd17-8ed6-4a97-a653-a5bb079573f3",
+    "code": "ADMS3585",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Intermediate Financial Accounting I"
+  },
+  {
+    "id": "95e48cae-234b-4c42-a81d-9a64af1ce359",
+    "code": "ADMS3595",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "id": "6ea5f2c0-50d1-4b0e-90ad-90f2694a222d",
+    "code": "ADMS3595",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Intermediate Financial Accounting II"
+  },
+  {
+    "id": "f9d648a6-021d-44d3-b4d5-8c3d94e73283",
+    "code": "ADMS3660",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Business Ethics and Corporate Social Responsibility"
+  },
+  {
+    "id": "6bb18acd-0940-4524-84eb-1d2136cc7617",
+    "code": "ADMS3660",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Business Ethics and Corporate Social Responsibility"
+  },
+  {
+    "id": "9cda749f-0040-4f5e-9a07-94d2779adf2c",
+    "code": "ADMS3701",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Disaster Risk Management"
+  },
+  {
+    "id": "dbcb1243-7c40-4087-9fbf-7fab790bd64b",
+    "code": "ADMS3701",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Disaster Risk Management"
+  },
+  {
+    "id": "a83ee8fe-3ee0-47b5-afb7-e8626893be9a",
+    "code": "ADMS3702",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Comprehensive Emergency Management: Integrating Critical Knowledge with Practice"
+  },
+  {
+    "id": "dc889c10-1f57-4c12-9c8c-ce95b59518cd",
+    "code": "ADMS3703",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Business Continuity Planning"
+  },
+  {
+    "id": "1df168fd-c91b-4827-8baf-980e2239720f",
+    "code": "ADMS3704",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Emergency Management Communications"
+  },
+  {
+    "id": "ecb2b063-3eae-497d-b573-281f91a8dcff",
+    "code": "ADMS3705",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Emergency Management: Field Experience"
+  },
+  {
+    "id": "8874d0e9-4851-479e-aae6-4d55f0ec0b94",
+    "code": "ADMS3706",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Disasters and Humans"
+  },
+  {
+    "id": "78ec579b-4cb7-4f0a-8636-5e407a066119",
+    "code": "ADMS3707",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Ethics: Society, the Environment and Disasters"
+  },
+  {
+    "id": "a51dd486-0b1e-45b7-8664-65cf7d1070be",
+    "code": "ADMS3708",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Social Issues in Disaster Management"
+  },
+  {
+    "id": "ea148bcf-edae-42c9-b558-42ca5c4cb607",
+    "code": "ADMS3810",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Real Estate"
+  },
+  {
+    "id": "566029f4-9126-442b-b847-1b2d6921d339",
+    "code": "ADMS3810",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Real Estate"
+  },
+  {
+    "id": "97bea0e9-cd64-46c6-9280-df396f18183b",
+    "code": "ADMS3820",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Real Estate Law I"
+  },
+  {
+    "id": "f27aae78-afd2-46bf-8386-d6da6116cbf8",
+    "code": "ADMS3840",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Real Estate Valuation, Part I"
+  },
+  {
+    "id": "d0ee6245-d16a-408f-9451-7994b569807f",
+    "code": "ADMS3900",
+    "term": "F",
+    "faculty": "AP",
+    "name": "The Practice of General Management"
+  },
+  {
+    "id": "b7835a9d-9e1c-4f21-8a09-bb834f64a629",
+    "code": "ADMS3900",
+    "term": "W",
+    "faculty": "AP",
+    "name": "The Practice of General Management"
+  },
+  {
+    "id": "cf8e9019-b0ec-4280-bbba-d8a5ef93cbfd",
+    "code": "ADMS3920",
+    "term": "F",
+    "faculty": "AP",
+    "name": "New Venture and Small Business Management"
+  },
+  {
+    "id": "fb415071-2817-4760-a736-28ed0b738b44",
+    "code": "ADMS3920",
+    "term": "W",
+    "faculty": "AP",
+    "name": "New Venture and Small Business Management"
+  },
+  {
+    "id": "c57b54b3-9990-454f-ae71-f326c73ce9bf",
+    "code": "ADMS3950",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Social entrepreneurship and innovation"
+  },
+  {
+    "id": "d5f59555-8d28-4770-9e2d-9f8a632453aa",
+    "code": "ADMS3960",
+    "term": "F",
+    "faculty": "AP",
+    "name": "International Business"
+  },
+  {
+    "id": "e0c1fb5b-9229-4679-8988-700e7af7c4b9",
+    "code": "ADMS3960",
+    "term": "W",
+    "faculty": "AP",
+    "name": "International Business"
+  },
+  {
+    "id": "e5fac65a-4bf5-4348-9594-7b6de6de2405",
+    "code": "ADMS3990",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Hackathon I"
+  },
+  {
+    "id": "e8591979-6c63-4f6e-88f3-6f26964e2379",
+    "code": "ADMS4000",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "739f6851-6e6a-4f90-b18d-5c8a0b4e173e",
+    "code": "ADMS4000",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "fdb39994-ac5b-4746-8846-0e398c46687c",
+    "code": "ADMS4002",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Interdisciplinary Capstone Project"
+  },
+  {
+    "id": "5d909614-bc38-45ba-bc3d-b79ff111dd79",
+    "code": "ADMS4010",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Organization and Administrative Theory"
+  },
+  {
+    "id": "58f24d8b-9854-44f6-8dc9-c533db862edd",
+    "code": "ADMS4010",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Organization and Administrative Theory"
+  },
+  {
+    "id": "dcc8ad8a-c54c-42ec-a775-4972f537e4f5",
+    "code": "ADMS4200",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Personal Selling and Sales Force Management"
+  },
+  {
+    "id": "87cf24b4-5ee8-4c50-acd6-730978a0a15e",
+    "code": "ADMS4210",
+    "term": "F",
+    "faculty": "AP",
+    "name": "International Marketing"
+  },
+  {
+    "id": "9e3b0711-f68c-485e-a70d-7e0d03c0d84f",
+    "code": "ADMS4210",
+    "term": "W",
+    "faculty": "AP",
+    "name": "International Marketing"
+  },
+  {
+    "id": "6b79c59f-5173-4193-8088-86c8d06ce27d",
+    "code": "ADMS4211",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Live-Client Learning Marketing"
+  },
+  {
+    "id": "99c77010-2701-4ed4-933d-67330a4ce39a",
+    "code": "ADMS4215",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Business to Business Marketing"
+  },
+  {
+    "id": "f40770f3-49d7-4f3a-b834-7dbd9bc83206",
+    "code": "ADMS4225",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Retailing Management"
+  },
+  {
+    "id": "835230ca-fc4a-41e6-9009-c61b08ada56a",
+    "code": "ADMS4230",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Marketing Channels"
+  },
+  {
+    "id": "af8c7ca8-a229-4663-8eca-b697bad4c177",
+    "code": "ADMS4235",
+    "term": "F",
+    "faculty": "AP",
+    "name": "New Product Management"
+  },
+  {
+    "id": "aaa904c1-dd0a-4dc8-b6be-0d3119fa835f",
+    "code": "ADMS4235",
+    "term": "W",
+    "faculty": "AP",
+    "name": "New Product Management"
+  },
+  {
+    "id": "e766ef89-b644-4bd0-a823-7efc1617279f",
+    "code": "ADMS4240",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Advertising and Communications"
+  },
+  {
+    "id": "a19f0f10-8afb-4d16-9d46-e24816a292fc",
+    "code": "ADMS4240",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Advertising and Communications"
+  },
+  {
+    "id": "1dfb8c86-c48b-40fd-bc05-c46ab5e29342",
+    "code": "ADMS4245",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Digital Marketing"
+  },
+  {
+    "id": "83ff797c-b7f2-4eca-991b-78eb5e8d6509",
+    "code": "ADMS4245",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Digital Marketing"
+  },
+  {
+    "id": "e35ad746-6d2a-499a-84b9-30a9c7007900",
+    "code": "ADMS4250",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Marketing Strategy Development and Implementation"
+  },
+  {
+    "id": "81e123fb-46d2-41ab-bd94-4150181e7f39",
+    "code": "ADMS4250",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Marketing Strategy Development and Implementation"
+  },
+  {
+    "id": "97a8e1fe-59a4-40b6-8518-9a25613dc0a9",
+    "code": "ADMS4255",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Customer Relationship Management"
+  },
+  {
+    "id": "f2a8ff23-a507-46ed-85b3-3768a1ce09e9",
+    "code": "ADMS4255",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Customer Relationship Management"
+  },
+  {
+    "id": "88cc3b39-6a09-47b0-9f2a-a061f3a60e65",
+    "code": "ADMS4260",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Marketing Research"
+  },
+  {
+    "id": "1df65b31-24bb-45ee-bb40-d5e5c55ed94d",
+    "code": "ADMS4260",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Marketing Research"
+  },
+  {
+    "id": "f262c425-a03c-44ea-996d-db575dce9a17",
+    "code": "ADMS4265",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Marketing Analytics"
+  },
+  {
+    "id": "93e55d5c-d0d7-4dc5-867b-77dab829f073",
+    "code": "ADMS4275",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Services Marketing"
+  },
+  {
+    "id": "dba1ddaf-6e1e-430a-a304-4bbc32e65c18",
+    "code": "ADMS4285",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Brand Management"
+  },
+  {
+    "id": "4dc99e61-8d83-43b0-bb3f-357c61fccdb2",
+    "code": "ADMS4285",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Brand Management"
+  },
+  {
+    "id": "6a3bccf4-9117-45a0-8462-609a4ff36eb0",
+    "code": "ADMS4333",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Supply Chain Management"
+  },
+  {
+    "id": "4adacbd2-4199-4489-b026-2b01c7e31b91",
+    "code": "ADMS4345",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Modeling and Simulation for Management"
+  },
+  {
+    "id": "acd54941-ab07-4802-ad54-2365e7c2ceb4",
+    "code": "ADMS4360",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Materials and Inventory Management"
+  },
+  {
+    "id": "aba824c7-b598-4d34-952a-3d02a9fa0e2c",
+    "code": "ADMS4370",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Data Analysis Systems"
+  },
+  {
+    "id": "c552e0bd-5f20-4c52-b104-9b9f89cd9e3c",
+    "code": "ADMS4430",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Career Management"
+  },
+  {
+    "id": "da635a34-dec5-42e9-9fe9-ef35d8720b9e",
+    "code": "ADMS4430",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Career Management"
+  },
+  {
+    "id": "ff0c0e88-d0c0-4208-8440-085579421796",
+    "code": "ADMS4444",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Identity and Inclusivity in Organizations: Advanced Topics"
+  },
+  {
+    "id": "e0d7ccf4-df99-48a3-b55f-62c646209112",
+    "code": "ADMS4480",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Cross Cultural Management"
+  },
+  {
+    "id": "e12a005b-1d90-44d4-b560-23fa92225047",
+    "code": "ADMS4481",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Organizational Communication"
+  },
+  {
+    "id": "a08d23dc-ea1c-4027-85dd-61729ada380a",
+    "code": "ADMS4485",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Executive Coaching"
+  },
+  {
+    "id": "4c3ea882-e9a2-4fb5-b97b-a2e65bef50f9",
+    "code": "ADMS4490",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Negotiations for Human Resource Management"
+  },
+  {
+    "id": "b85836ed-fb74-49d2-8f67-5709591490d5",
+    "code": "ADMS4490",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Negotiations for Human Resource Management"
+  },
+  {
+    "id": "bc269092-7872-48a4-addd-8619a78713b7",
+    "code": "ADMS4495",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Managing Effective Groups and Teams"
+  },
+  {
+    "id": "ddecd662-509a-4e37-84ef-81f926aa4042",
+    "code": "ADMS4495",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Managing Effective Groups and Teams"
+  },
+  {
+    "id": "de6b1b7a-42fa-40b3-a13a-180f5827217b",
+    "code": "ADMS4501",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Advanced Portfolio Management"
+  },
+  {
+    "id": "50ca3073-6ffa-43e0-89f5-baec3aadf594",
+    "code": "ADMS4501",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Advanced Portfolio Management"
+  },
+  {
+    "id": "334e6bb6-5ba2-4898-8965-086635b192c9",
+    "code": "ADMS4502",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Ethics for Investment Managers"
+  },
+  {
+    "id": "f999e682-7a56-4dbf-8c95-ed083760c841",
+    "code": "ADMS4502",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Ethics for Investment Managers"
+  },
+  {
+    "id": "d4e167ee-f80e-47a9-9431-694fca6f2668",
+    "code": "ADMS4503",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Derivative Securities"
+  },
+  {
+    "id": "b09f8599-b9c9-477b-8d48-958c02828629",
+    "code": "ADMS4503",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Derivative Securities"
+  },
+  {
+    "id": "cd1701dc-d2f3-46ea-b3b6-3e589f9ab0d2",
+    "code": "ADMS4504",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Fixed Income Securities and Risk Management"
+  },
+  {
+    "id": "94d46336-82ad-43e2-9bb6-6c5676f59626",
+    "code": "ADMS4504",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Fixed Income Securities and Risk Management"
+  },
+  {
+    "id": "96f56ade-d835-4753-beb1-48d988039038",
+    "code": "ADMS4505",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Retirement and Estate Planning"
+  },
+  {
+    "id": "7baebc65-f3d9-4cbd-90cd-4e5f81fff302",
+    "code": "ADMS4506",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Professional Financial Planning"
+  },
+  {
+    "id": "f9bf6af6-8ebe-488f-a5c0-8323958c7db1",
+    "code": "ADMS4507",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Insurance and Other Finance Topics"
+  },
+  {
+    "id": "70fc8f07-049f-47c1-a2ed-bc963180e1c7",
+    "code": "ADMS4507",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Insurance and Other Finance Topics"
+  },
+  {
+    "id": "8a4914e6-ef2a-4650-8d57-c5c1764b4d02",
+    "code": "ADMS4508",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Money Behaviours and Client Communication"
+  },
+  {
+    "id": "b6579eaf-29ea-4999-9803-1090b0f78841",
+    "code": "ADMS4509",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Financial Risk Management"
+  },
+  {
+    "id": "7a3add3a-9976-498e-a8ad-6b5e241902d5",
+    "code": "ADMS4509",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Financial Risk Management"
+  },
+  {
+    "id": "f44b08bd-0ea0-42fa-a20f-432b5818c133",
+    "code": "ADMS4510",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Accounting Theory and Contemporary Issues"
+  },
+  {
+    "id": "8ad29a88-aac6-46e5-9a0b-f683044fbee1",
+    "code": "ADMS4510",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Accounting Theory and Contemporary Issues"
+  },
+  {
+    "id": "6b888bb8-947a-4a98-bfb3-79cba318dac4",
+    "code": "ADMS4511",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Managing and Implementing Strategic Information Systems"
+  },
+  {
+    "id": "df8f8a7c-cf4c-4ebf-b374-7fcda31e1062",
+    "code": "ADMS4511",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Managing and Implementing Strategic Information Systems"
+  },
+  {
+    "id": "d24e0065-c147-4a53-98e1-d07c0204eba3",
+    "code": "ADMS4515",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Internal Audit"
+  },
+  {
+    "id": "c480a2ca-1f74-4d97-88e9-6a704123e35e",
+    "code": "ADMS4520",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Advanced Financial Accounting"
+  },
+  {
+    "id": "9c501520-15af-4370-8dab-afa1fbec84be",
+    "code": "ADMS4520",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Advanced Financial Accounting"
+  },
+  {
+    "id": "fcf2d18c-2918-4c60-a30c-5e8994fbafcc",
+    "code": "ADMS4535",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Financial Statement Analysis"
+  },
+  {
+    "id": "28298a3f-bce1-4a81-9885-aef3eb894ea2",
+    "code": "ADMS4535",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Financial Statement Analysis"
+  },
+  {
+    "id": "c8df024b-c26c-42dd-af78-2d874f1b9abe",
+    "code": "ADMS4536",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Security Valuation"
+  },
+  {
+    "id": "cf34eda7-a5e1-451e-83b8-2d06adcfaf64",
+    "code": "ADMS4537",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Sustainable Investing"
+  },
+  {
+    "id": "38e1c42b-8e50-45ef-b18f-ae2eea1095d7",
+    "code": "ADMS4540",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Financial Management"
+  },
+  {
+    "id": "f63244ad-6bc7-4a71-805f-1411d39c1dbf",
+    "code": "ADMS4540",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Financial Management"
+  },
+  {
+    "id": "7968997c-8f66-47f7-a44d-5ed47074aeeb",
+    "code": "ADMS4541",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Applied Corporate Finance"
+  },
+  {
+    "id": "82851302-7da8-4a94-b9b4-bb6196e0faba",
+    "code": "ADMS4541",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Applied Corporate Finance"
+  },
+  {
+    "id": "79ea5758-60f4-4b1b-8b00-caf621ff3666",
+    "code": "ADMS4542",
+    "term": "F",
+    "faculty": "AP",
+    "name": "International Financial Management"
+  },
+  {
+    "id": "45cb2a2a-6bd3-4189-b7f2-01e466d43ef0",
+    "code": "ADMS4542",
+    "term": "W",
+    "faculty": "AP",
+    "name": "International Financial Management"
+  },
+  {
+    "id": "7b920a45-a9a7-4af2-9249-89486c0ef1bb",
+    "code": "ADMS4551",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Auditing and Other Assurance Services"
+  },
+  {
+    "id": "9d4ff2a0-100e-4ed5-be13-36dad5b073a7",
+    "code": "ADMS4551",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Auditing and Other Assurance Services"
+  },
+  {
+    "id": "e65f3d8a-c12d-4886-8920-fca31c37dca5",
+    "code": "ADMS4552",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Information Systems Audits"
+  },
+  {
+    "id": "9cff42b4-7ad3-4f4f-8df2-3130dab4bb82",
+    "code": "ADMS4553",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Auditing: Advanced Topics"
+  },
+  {
+    "id": "8b8b98a1-a35e-41b5-99b9-c6d3238ca844",
+    "code": "ADMS4553",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Auditing: Advanced Topics"
+  },
+  {
+    "id": "e2d4fbe3-8350-44f4-af46-4052616ef89e",
+    "code": "ADMS4561",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Taxation Of Personal Income in Canada"
+  },
+  {
+    "id": "90d67bcb-e154-445b-9eff-2ea9da4e61cc",
+    "code": "ADMS4561",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Taxation Of Personal Income in Canada"
+  },
+  {
+    "id": "92ad5430-b04e-4988-886f-cbf6cc3c6ad7",
+    "code": "ADMS4562",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Corporate Taxation in Canada"
+  },
+  {
+    "id": "d4be16da-f8f6-44f5-a5ae-9fabba6958af",
+    "code": "ADMS4562",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Corporate Taxation in Canada"
+  },
+  {
+    "id": "909745cb-ec44-4303-a1d8-98bac41f59e4",
+    "code": "ADMS4570",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Management Planning and Control Systems"
+  },
+  {
+    "id": "7a6ebc79-3b29-44fd-bf1f-f1a1c35379db",
+    "code": "ADMS4570",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Management Planning and Control Systems"
+  },
+  {
+    "id": "b841b193-93f2-4e92-9969-3bd771ca41ea",
+    "code": "ADMS4590",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Comprehensive and Multi-subject Accounting Problems"
+  },
+  {
+    "id": "5f7f62a6-ad92-427d-9cea-c0cf8ffd9b2b",
+    "code": "ADMS4590",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Comprehensive and Multi-subject Accounting Problems"
+  },
+  {
+    "id": "fff82f3a-5de2-43e5-ae4e-369b70fdb160",
+    "code": "ADMS4591",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Business technology management integration project"
+  },
+  {
+    "id": "adb720db-cb7a-409d-b74e-da39e549a2d5",
+    "code": "ADMS4704",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Disaster and Logistics"
+  },
+  {
+    "id": "c615b7ef-9a0f-4049-9f16-bf05827eb329",
+    "code": "ADMS4705",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Comprehensive Emergency Management 2: The Canadian Context"
+  },
+  {
+    "id": "a47c08af-feb3-4f17-b3e3-03b0d3e3db3c",
+    "code": "ADMS4707",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Managing Risks to Critical Infrastructure"
+  },
+  {
+    "id": "bc445731-e7a9-46f8-84d5-e56fe9e34cd2",
+    "code": "ADMS4709",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Terrorism: The New Threat"
+  },
+  {
+    "id": "619c7eb6-93dc-4cab-80c9-0ecc74c4431b",
+    "code": "ADMS4721",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Qualitative Methods"
+  },
+  {
+    "id": "d1e0c245-4905-4ef5-9857-0f69747711aa",
+    "code": "ADMS4900",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Management Policy Part I"
+  },
+  {
+    "id": "bbf5a77e-4ed0-441c-87ce-b1fd4148b552",
+    "code": "ADMS4900",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Management Policy Part I"
+  },
+  {
+    "id": "b5b50bd4-de25-4156-8548-6d361d503c1f",
+    "code": "ADMS4910",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Management Policy Part II"
+  },
+  {
+    "id": "f0387f30-86c0-4305-a817-96f5e8cc8b80",
+    "code": "ADMS4910",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Management Policy Part II"
+  },
+  {
+    "id": "5a332905-3cce-481d-8930-b8167a2259ce",
+    "code": "ADMS4940",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Innovation Management"
+  },
+  {
+    "id": "cf84b19d-1bdf-4924-88cf-8ece060eeced",
+    "code": "ADMS4970",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Managing for Sustainability"
+  },
+  {
+    "id": "78d5b177-fcb0-4ca4-88cc-f4ff85f21171",
+    "code": "ADMS4970",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Managing for Sustainability"
+  },
+  {
+    "id": "ab9e3b2a-bd15-4514-944b-2ef3d04c847d",
+    "code": "ALDR6300",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Introduction to Dispute Resolution"
+  },
+  {
+    "id": "0b20e337-486b-4a7b-a7d6-def0e17dc2be",
+    "code": "ALDR6301",
+    "term": "W",
+    "faculty": "GS",
+    "name": "The Theory & Practice Of ADR"
+  },
+  {
+    "id": "99492983-9e60-4a96-8a04-c7343a891c57",
+    "code": "ALDR6302",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Culture Diversity and Power in Dispute Resolution"
+  },
+  {
+    "id": "af3f821b-e0e8-437e-9441-9ae902bcfcf3",
+    "code": "ALDR6304",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Crown Indigenous Negotiations"
+  },
+  {
+    "id": "6c6dc129-cda3-44cb-ade9-c6de533ac977",
+    "code": "ANTH1120",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Making Sense of a Changing World: Anthropology Today"
+  },
+  {
+    "id": "54e59304-ae69-4a1e-b9a0-1f99c4f60ca5",
+    "code": "ANTH1130",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "The Living and the Dead: The Anthropology of Im/mortality from"
+  },
+  {
+    "id": "eaf287a8-a434-4404-a507-2b7c07a943b5",
+    "code": "ANTH1140",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "What does it mean to be human? Introduction to Sociocultural Anthropology"
+  },
+  {
+    "id": "e6f4f246-5bf8-4c7b-ab40-b939f037a235",
+    "code": "ANTH2110",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Core Concepts in Anthropology"
+  },
+  {
+    "id": "619ace02-60ea-4498-b361-aaabde4f9dcf",
+    "code": "ANTH2140",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Archaeology and Prehistory: Humanity's Journeys'"
+  },
+  {
+    "id": "fa16af4f-438c-4cad-ab0d-d94413293ab9",
+    "code": "ANTH2140",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Archaeology and Prehistory: Humanity's Journeys'"
+  },
+  {
+    "id": "3ba454da-d59f-4aaf-95e0-f9c6b07269c4",
+    "code": "ANTH2170",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Sex, Gender and the Body: Cross-Cultural Approaches to the Body, Gender, Sexuality and Kinship"
+  },
+  {
+    "id": "a6b58b41-fb97-46dd-9954-6ed3d450d7f9",
+    "code": "ANTH3040",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "The Anthropology of Digital Media and Visual Representation"
+  },
+  {
+    "id": "c5ceaa15-95b3-42b8-a05a-13f0fe8d22c1",
+    "code": "ANTH3110",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Acquiring Research Skills"
+  },
+  {
+    "id": "51eec30b-ddf9-47af-b73e-83307b7a3e9e",
+    "code": "ANTH3380",
+    "term": "F",
+    "faculty": "AP",
+    "name": "The Everyday Politics of Rage: Anthropological Perspectives on Populism"
+  },
+  {
+    "id": "fb88755f-f56e-4a4d-83e9-d7b165454131",
+    "code": "ANTH3510",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Indigenous Peoples and Archaeology: From Conflict to Coalition"
+  },
+  {
+    "id": "8facba8f-2a92-4a46-9890-5885df3c9bce",
+    "code": "ANTH3620",
+    "term": "W",
+    "faculty": "AP",
+    "name": "The Oral Tradition in Caribbean Culture"
+  },
+  {
+    "id": "b373f91c-2af0-4c3e-9108-7f8ecca803f1",
+    "code": "ANTH4010",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "40ad3c98-86b6-4418-8f1e-f7bec877bdbc",
+    "code": "ANTH4010",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "b6b4896e-8e33-443b-8309-540a855db4c4",
+    "code": "ANTH4010",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Directed Reading"
+  },
+  {
+    "id": "3cc3798a-8530-40b4-bfdd-ff8714f5768b",
+    "code": "ANTH4110",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Development of Theory in Social Anthropology"
+  },
+  {
+    "id": "bba42c60-bf43-40b3-b1cb-1c6cf6e80556",
+    "code": "ANTH4120",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Anthropology Beyond the Academy: Bridging Theory and Practice"
+  },
+  {
+    "id": "c63242be-e5b3-4aca-9c5f-a2714419592e",
+    "code": "ANTH4130",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "The Professional Anthropologist: The Anthropologist as Practitioner"
+  },
+  {
+    "id": "ba06d2f3-e510-4d6a-8922-4889467a1a1f",
+    "code": "ANTH4330",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Critical Issues in Medical Anthropology"
+  },
+  {
+    "id": "0c6f1b54-ad70-4e27-be37-bfaa8875445d",
+    "code": "ANTH4400",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Speculative Futures: The Anthropology of What Might-Be"
+  },
+  {
+    "id": "c1eff60e-7f83-453b-9376-27e0df9919d3",
+    "code": "ANTH5000",
+    "term": "Y",
+    "faculty": "GS",
+    "name": "Graduate Seminar in Ethnographic Research, Practice, and Professionalization"
+  },
+  {
+    "id": "820dd263-805b-4f99-90ba-41ec90789e72",
+    "code": "ANTH5040",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Placement Option MA"
+  },
+  {
+    "id": "6179db3b-06b7-4144-88ea-ba0bb00bb628",
+    "code": "ANTH5040",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Placement Option MA"
+  },
+  {
+    "id": "861204fe-e0c5-4958-933c-2151a33608ae",
+    "code": "ANTH5060",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Classic and Contemporary Theory in Social Anthropology"
+  },
+  {
+    "id": "fd71f884-3cb3-4d1c-9190-8e856beaed1e",
+    "code": "ANTH5130",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Anthropology of Health, Medicine, and the Body"
+  },
+  {
+    "id": "3545677a-d954-4d2c-8f05-6326d6aa8b2a",
+    "code": "ANTH5160",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Fem.Issues In Anth. Hist.& Current Deb"
+  },
+  {
+    "id": "f1c46d20-f3bb-43d0-a54d-a501bdc38622",
+    "code": "ANTH5210",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Independent Directed Reading"
+  },
+  {
+    "id": "f9c094ae-2c05-4eb8-91d9-32cdf4f857f8",
+    "code": "ANTH5210",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Independent Directed Reading"
+  },
+  {
+    "id": "eef5e95a-7eb3-4981-8c65-ed220fea4a81",
+    "code": "ANTH5300",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Convergences, Disparities, and Fault lines: Research in Latin American and Caribbean Studies"
+  },
+  {
+    "id": "2c2b5ccb-fae3-411b-af40-2a80efa520a9",
+    "code": "ANTH6011",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Theoretical Concepts in Ethnographic Inquiry"
+  },
+  {
+    "id": "7db36d8b-10ed-41c1-86d4-0cf08f33b66a",
+    "code": "ANTH6020",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Advanced Methods In Anthropology"
+  },
+  {
+    "id": "eadc2b99-5b48-42bb-b8f8-5297ee1a9da0",
+    "code": "ANTH6040",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Placement Option PhD"
+  },
+  {
+    "id": "790cd379-f844-4f13-8951-c4ad891c08fe",
+    "code": "ANTH6040",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Placement Option PhD"
+  },
+  {
+    "id": "3d5bf983-aba9-4a8d-aa8c-7557f1acdd3c",
+    "code": "ANTH6210",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Independent Directed Reading"
+  },
+  {
+    "id": "87b7f7e0-8a6f-4d00-8c85-599929e3fd22",
+    "code": "ANTH6210",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Independent Directed Reading"
+  },
+  {
+    "id": "ebc6914c-3b50-4626-9ce6-50ccbd6230c5",
+    "code": "ARB1010",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Modern Standard Arabic for Advanced Beginners"
+  },
+  {
+    "id": "61145f1f-0445-4fc2-952d-467e155e775f",
+    "code": "ARB2000",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Intermediate Arabic"
+  },
+  {
+    "id": "f411fa21-44a3-43a1-9a5f-40efbed8d8e6",
+    "code": "ARB2700",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Arab Culture"
+  },
+  {
+    "id": "a4fb5677-a7e4-48d5-b6b3-3f31255c364a",
+    "code": "ARTH1000",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Critical Issues in Contemporary Art"
+  },
+  {
+    "id": "c5bc488c-b855-4087-b09a-fec6514138c1",
+    "code": "ARTH1130",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Introduction to Art History"
+  },
+  {
+    "id": "952afaeb-ad79-4b36-8afb-06922fb22545",
+    "code": "ARTH1900",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Art in the City"
+  },
+  {
+    "id": "bba3a634-3acf-4400-b47c-5c83dbccb1fc",
+    "code": "ARTH2350",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Islamic Art and Architecture"
+  },
+  {
+    "id": "ca895cf1-d882-4a44-89d7-8631dc4afc97",
+    "code": "ARTH3620A",
+    "term": "F",
+    "faculty": "FA",
+    "name": "The Painting of Modern Life: Studies in Realism and Impressionism"
+  },
+  {
+    "id": "f96d3302-3e3b-43aa-a940-1ae96cf60d8a",
+    "code": "ARTH3999",
+    "term": "W",
+    "faculty": "FA",
+    "name": "New Media Art: From Duchamp to the Postdigital"
+  },
+  {
+    "id": "ec2a6535-b9e5-446a-ac92-15b9dfecf440",
+    "code": "ARTH4110",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Joan Goldfarb Visual Arts Study Centre Curatorial Placement"
+  },
+  {
+    "id": "ac5ced2a-890d-4b59-a66c-fd99ba8caa0f",
+    "code": "ARTH4351",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Issues in Contemporary Indigenous Art"
+  },
+  {
+    "id": "f9674c28-5471-47ca-b78b-3937ad9de350",
+    "code": "ARTH5100",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Methods: Historiography and Contemporary Methodologies"
+  },
+  {
+    "id": "b45a7526-89e6-49b7-a066-4cfdb3718e72",
+    "code": "ARTH5160",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Theoretical Issues in Contemporary Art"
+  },
+  {
+    "id": "ee6afe31-5461-4e32-a5d1-04d51fef0c2d",
+    "code": "ARTH5185",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Technological Mediations in Visual Culture"
+  },
+  {
+    "id": "79b3d11f-7507-4a32-8895-7ab8932a165d",
+    "code": "ARTH5190",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Placement"
+  },
+  {
+    "id": "d77efc41-bff2-428c-8e59-50c41173650c",
+    "code": "ARTH5190",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Placement"
+  },
+  {
+    "id": "9e64c226-385d-4dfb-8964-43a4f5de4419",
+    "code": "ARTH5500A",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Individualized Reading"
+  },
+  {
+    "id": "dfe55d73-43da-4e04-81ae-5dae929e055a",
+    "code": "ARTH5500A",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Individualized Reading"
+  },
+  {
+    "id": "94fd3b1f-5a52-4d72-ae91-17e5f0957237",
+    "code": "ARTH5500B",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Individualized Reading"
+  },
+  {
+    "id": "c84dc3f0-530d-4075-bfe0-1055ecacefc3",
+    "code": "ARTH5500B",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Individualized Reading"
+  },
+  {
+    "id": "8742089f-fa6a-48e6-9227-4a8c30bf74d1",
+    "code": "ARTH6000",
+    "term": "Y",
+    "faculty": "GS",
+    "name": "Research and Professional Practices Seminar"
+  },
+  {
+    "id": "917cc2c7-c0f0-4a5d-a623-fc9465da61ca",
+    "code": "ARTH6010",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Research Paper"
+  },
+  {
+    "id": "cf8df043-704f-4f6d-ad41-11aa757a1325",
+    "code": "ARTH6010",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Research Paper"
+  },
+  {
+    "id": "9ea33e8d-1dba-48a6-bd56-a2e77f1ee7b6",
+    "code": "ARTM6301",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Transformation in Media and Culture"
+  },
+  {
+    "id": "bc187990-a078-4a05-a20f-c2bee4918f1a",
+    "code": "ARTM6340",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Media Models from Network to Netflix"
+  },
+  {
+    "id": "f136eec9-467d-4d6e-a2e8-8cf939bad822",
+    "code": "ARTM6350",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "The Business of Creativity in the Cultural Sector"
+  },
+  {
+    "id": "c1c66729-4ecc-4aad-90d9-f6595ccb08e2",
+    "code": "ARTM6900",
+    "term": "A",
+    "faculty": "SB",
+    "name": "Individual Study: Selected Problems in Arts and Cultural Management"
+  },
+  {
+    "id": "9a1253f6-9519-401f-868d-2cac5053bf86",
+    "code": "ARTM6900",
+    "term": "C",
+    "faculty": "SB",
+    "name": "Individual Study: Selected Problems in Arts and Cultural Management"
+  },
+  {
+    "id": "7aac94b1-9cf6-47c3-b6ee-7a57fec4cc3e",
+    "code": "ARTM6900",
+    "term": "F2",
+    "faculty": "SB",
+    "name": "Individual Study: Selected Problems in Arts and Cultural Management"
+  },
+  {
+    "id": "eb5ef4d9-e362-4619-b8fc-60c3ebc54afd",
+    "code": "ARTM6900",
+    "term": "W2",
+    "faculty": "SB",
+    "name": "Individual Study: Selected Problems in Arts and Cultural Management"
+  },
+  {
+    "id": "c12175e4-db34-4dc8-a824-84b1c6dcfeeb",
+    "code": "ASL1000",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "American Sign Language, Level I: Introduction to Sign Language Studies"
+  },
+  {
+    "id": "7a4393b9-3afe-490f-81d9-7a487d46b3d5",
+    "code": "AUCO3555",
+    "term": "B2",
+    "faculty": "ED",
+    "name": "Educational Audiology"
+  },
+  {
+    "id": "b2c1790f-0021-488a-8a73-c0e1a3860fc2",
+    "code": "BBED3570",
+    "term": "B4",
+    "faculty": "ED",
+    "name": "Bilingual - Bicultural Education"
+  },
+  {
+    "id": "95566d84-1e23-44aa-b92f-97ce72ecf7a7",
+    "code": "BC3000",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introduction to Peer Leadership"
+  },
+  {
+    "id": "6986a375-215e-4d28-abdf-88b970e08a5a",
+    "code": "BC3000",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introduction to Peer Leadership"
+  },
+  {
+    "id": "762d9cea-c666-4996-8a97-39beda7a4ef7",
+    "code": "BC3010",
+    "term": "Y",
+    "faculty": "SC",
+    "name": "Advanced Peer Leadership"
+  },
+  {
+    "id": "4d1fc887-5d3a-48a5-b890-cd8108ad4150",
+    "code": "BCHM2020",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "59fff124-e27a-4cb1-9edd-1ceae5749ef8",
+    "code": "BCHM2020",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "d94d4aa6-a9f6-4a80-be87-a2844ad4a33c",
+    "code": "BCHM2021",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Cell Biology"
+  },
+  {
+    "id": "d5d65ca5-748c-42d1-a69f-70a86af4c3ce",
+    "code": "BCHM3010",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry"
+  },
+  {
+    "id": "ab92f5f3-516a-4442-9aad-c8d060df8289",
+    "code": "BCHM3051",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Macromolecules of Biochemical Interest"
+  },
+  {
+    "id": "d266c934-0c9f-4016-8085-12bb631955f4",
+    "code": "BCHM3110",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Molecular Biology I: Nucleic Acid Metabolism"
+  },
+  {
+    "id": "e7fd7af8-7d98-4040-9571-0fc5f5a2063a",
+    "code": "BCHM3110",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Molecular Biology I: Nucleic Acid Metabolism"
+  },
+  {
+    "id": "c08f91b8-0cb7-4908-acc2-456fd639826d",
+    "code": "BCHM3130",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Molecular Biology II: Regulation of Gene Expression"
+  },
+  {
+    "id": "9b6ffea3-9117-4241-87c1-06a046f7bdda",
+    "code": "BCHM3140",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry and Molecular Genetics Laboratory"
+  },
+  {
+    "id": "f6067c4f-4938-4079-bbdb-ba2df078f02c",
+    "code": "BCHM3140",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry and Molecular Genetics Laboratory"
+  },
+  {
+    "id": "f5cb0700-f4e1-4692-8db3-89a237c695e7",
+    "code": "BCHM4000",
+    "term": "WS",
+    "faculty": "SC",
+    "name": "Biochemistry Research Project"
+  },
+  {
+    "id": "8506bd8d-142a-43a6-a43c-7309a940d523",
+    "code": "BCHM4000",
+    "term": "Y",
+    "faculty": "SC",
+    "name": "Biochemistry Research Project"
+  },
+  {
+    "id": "4d6fc7da-e114-43f2-801a-392d1d905d6e",
+    "code": "BCHM4290",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biotechnology"
+  },
+  {
+    "id": "c6adfca8-26f1-4c28-92d4-1919d78646fc",
+    "code": "BCHM4290",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biotechnology"
+  },
+  {
+    "id": "f8d26011-cfa4-4c5a-8fda-8c369fea985e",
+    "code": "BIOL1000",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biology I - Cells, Molecular Biology and Genetics"
+  },
+  {
+    "id": "a8b56d9d-db10-40c7-b22b-cbbf33b76cf8",
+    "code": "BIOL1000",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biology I - Cells, Molecular Biology and Genetics"
+  },
+  {
+    "id": "e98a864f-2abf-4383-990c-d693a9687b5b",
+    "code": "BIOL1000",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Introduction to Biological Science"
+  },
+  {
+    "id": "720a9014-842f-4279-b648-dff504ce1456",
+    "code": "BIOL1001",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biology II - Evolution, Ecology, Biodiversity and Conservation Biology"
+  },
+  {
+    "id": "8cdf0f86-1314-4332-a926-396d47a63d9e",
+    "code": "BIOL1001",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biology II - Evolution, Ecology, Biodiversity and Conservation Biology"
+  },
+  {
+    "id": "9c5e7ed5-15a8-4781-a875-7cc62cec31d3",
+    "code": "BIOL1500",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introduction to Biology"
+  },
+  {
+    "id": "fc288556-3fc0-4e11-baf3-aebd02e99501",
+    "code": "BIOL1601",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "df2b4e55-81b3-4154-be33-2e0792366410",
+    "code": "BIOL1602",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "bc861eb8-6138-4983-946b-7bd11ce9b848",
+    "code": "BIOL2010",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Plant Biology"
+  },
+  {
+    "id": "b44728ca-b171-4347-8f1a-539c196487ab",
+    "code": "BIOL2020",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "d35ace11-d1a7-4165-936a-b4a0542fb3d1",
+    "code": "BIOL2020",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "a32a483d-1336-43ab-b772-bb3a74cb7278",
+    "code": "BIOL2021",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Cell Biology"
+  },
+  {
+    "id": "21e42cf9-eb36-45da-8042-a84d21f4076a",
+    "code": "BIOL2030",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Animals"
+  },
+  {
+    "id": "c75a39d9-fbca-448d-9abc-def661e65b46",
+    "code": "BIOL2030",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Animals"
+  },
+  {
+    "id": "a7a3e9ad-3a1b-4787-b632-ebd064af835f",
+    "code": "BIOL2040",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Genetics"
+  },
+  {
+    "id": "42cd3162-44c5-4505-8303-385d928fd46c",
+    "code": "BIOL2040",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Genetics"
+  },
+  {
+    "id": "c21a9484-4bd0-44b7-a5d4-f25d7675b677",
+    "code": "BIOL2050",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Ecology"
+  },
+  {
+    "id": "c00451e8-d3cd-4779-9703-e73f84cebef8",
+    "code": "BIOL2060",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Statistics for Biologists"
+  },
+  {
+    "id": "fb517fb8-cae4-4b4d-8f08-56c3543887c2",
+    "code": "BIOL2060",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Statistics for Biologists"
+  },
+  {
+    "id": "47eeae88-ab21-4db4-bd84-2e2a4f572130",
+    "code": "BIOL2070",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Methods in Cell and Molecular Biology"
+  },
+  {
+    "id": "b32e183e-9f6a-4042-ba6d-e38023a6414a",
+    "code": "BIOL2070",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Methods in Cell and Molecular Biology"
+  },
+  {
+    "id": "91f828a0-6006-4d03-b09d-861d8b27ecda",
+    "code": "BIOL2080",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Ecology in Practice - Research Fundamentals in Ecology and Evolution"
+  },
+  {
+    "id": "c3465362-6ac8-4552-839f-c28dad60557d",
+    "code": "BIOL2150",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Introduction to Genetics / Introduction à la génétique"
+  },
+  {
+    "id": "ffeef4de-f200-4bbf-aec0-1345ae2bd78d",
+    "code": "BIOL2300",
+    "term": "W",
+    "faculty": "GL",
+    "name": "General Ecology"
+  },
+  {
+    "id": "f3816f28-aedd-48b4-951e-48047783b429",
+    "code": "BIOL2325",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Zoology"
+  },
+  {
+    "id": "69c3c19a-0cc0-45ba-b49d-0ddb9afc34e6",
+    "code": "BIOL2601",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "a5baa403-6fb3-4d8f-bd13-ab749937a58a",
+    "code": "BIOL2602",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "ba0fc8e8-3b62-4ea2-a470-14cd4fe72cc1",
+    "code": "BIOL2900",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Clinical Microbiology for Nurses"
+  },
+  {
+    "id": "8d53d711-16a6-45f0-b4b7-f6ab8f5fdcd3",
+    "code": "BIOL2905",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introduction to Medical Microbiology"
+  },
+  {
+    "id": "47f991bc-900d-415f-a938-c49fef62bfc4",
+    "code": "BIOL2905",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introduction to Medical Microbiology"
+  },
+  {
+    "id": "9c694e5a-cf22-4692-a483-fc47f8558cb5",
+    "code": "BIOL3010",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry"
+  },
+  {
+    "id": "eaf49488-20ed-4bb0-a12c-73fed960beae",
+    "code": "BIOL3030",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Physiology of the Invertebrates"
+  },
+  {
+    "id": "d535e3e2-7df2-49fa-a743-77c79d05304f",
+    "code": "BIOL3030",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Physiology of the Invertebrates"
+  },
+  {
+    "id": "d3895d76-40bc-4e45-bb3c-1c7c6408db8e",
+    "code": "BIOL3051",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Macromolecules of Biochemical Interest"
+  },
+  {
+    "id": "5fd1e6ec-20b9-456d-a2b3-eacba30e19f1",
+    "code": "BIOL3060",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Animal Physiology I"
+  },
+  {
+    "id": "a315a795-7d2c-4066-80a1-c2aa0fac218e",
+    "code": "BIOL3070",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Animal Physiology II"
+  },
+  {
+    "id": "354a7f8c-9c95-4a9d-967f-384f4a7434a3",
+    "code": "BIOL3075",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introduction to Drug Discovery and Development"
+  },
+  {
+    "id": "891d4559-3c57-4daa-8e55-fd0063509dad",
+    "code": "BIOL3110",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Molecular Biology I: Nucleic Acid Metabolism"
+  },
+  {
+    "id": "dc56f662-aa1a-4812-8be5-fc9e88f6c143",
+    "code": "BIOL3110",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Molecular Biology I: Nucleic Acid Metabolism"
+  },
+  {
+    "id": "93c97fba-e408-4354-9ad9-6644a0ae0fb9",
+    "code": "BIOL3120",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Immunobiology"
+  },
+  {
+    "id": "ec562e94-a52d-44d7-af09-61d7f640672d",
+    "code": "BIOL3120",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Immunobiology"
+  },
+  {
+    "id": "529d8d02-a334-411b-b711-0248e9fcb2b7",
+    "code": "BIOL3130",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Molecular Biology II: Regulation of Gene Expression"
+  },
+  {
+    "id": "c129a615-c1b0-439d-9a99-f45c761cb0d7",
+    "code": "BIOL3140",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry and Molecular Genetics Laboratory"
+  },
+  {
+    "id": "6418e191-3ac3-4af9-b1e8-25512b81bc3b",
+    "code": "BIOL3140",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry and Molecular Genetics Laboratory"
+  },
+  {
+    "id": "ac4ccd50-8092-4b48-abb2-a70c603a7161",
+    "code": "BIOL3150",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Microbiology"
+  },
+  {
+    "id": "c294a8e6-d8a2-4c2d-a9b7-bbd980162813",
+    "code": "BIOL3150",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Microbiology"
+  },
+  {
+    "id": "b9ecc996-ec3d-40b0-92d4-0ff9a840feb2",
+    "code": "BIOL3155",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Virology"
+  },
+  {
+    "id": "5c325830-e9e8-4f10-8aa0-cd85768733a8",
+    "code": "BIOL3171",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Population Ecology"
+  },
+  {
+    "id": "b66ad213-612b-4c48-baf7-f787a7dc5579",
+    "code": "BIOL3172",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Community Ecology"
+  },
+  {
+    "id": "d15a62b0-b63e-47f5-a3c3-7b5fb980a2c0",
+    "code": "BIOL3206",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Human parasitology"
+  },
+  {
+    "id": "992fb20f-7cbe-4282-b67a-13f7ecf00a0b",
+    "code": "BIOL3225",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Biology of insects and related arthropods"
+  },
+  {
+    "id": "6413c9ca-0583-46f2-bfec-6f20a553f09f",
+    "code": "BIOL3305",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Evolution and Ecology of Humans"
+  },
+  {
+    "id": "ffd16b58-c039-447a-9b7d-aba8bb017be0",
+    "code": "BIOL3350",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Comparative Chordate Anatomy"
+  },
+  {
+    "id": "bf955174-c171-481b-99b3-978e37782c68",
+    "code": "BIOL3500",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biogeography"
+  },
+  {
+    "id": "e34f234f-f716-4af1-86b7-df3a354ab4c8",
+    "code": "BIOL3601",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "4f1743c4-099e-4d9c-8f52-6694861eeefa",
+    "code": "BIOL3602",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "7d3498ab-782f-4bb0-87b3-b32dfba18f89",
+    "code": "BIOL4000",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Honours Thesis in Biology"
+  },
+  {
+    "id": "93381b41-652e-402a-a66c-be4b09b2e19e",
+    "code": "BIOL4000",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Honours Thesis in Biology"
+  },
+  {
+    "id": "a48863c3-b3cc-49a7-b942-7513e02e95b9",
+    "code": "BIOL4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Biology in the Intermediate-Senior Divisions - A"
+  },
+  {
+    "id": "bfc02a83-1231-4397-be0d-08c3c7968ac1",
+    "code": "BIOL4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Biology in the Intermediate-Senior Divisions - A"
+  },
+  {
+    "id": "6981a700-642c-4e69-8db7-123923cf19ec",
+    "code": "BIOL4000",
+    "term": "WS",
+    "faculty": "SC",
+    "name": "Honours Thesis"
+  },
+  {
+    "id": "12641de1-db73-4e07-9ab0-da25797af417",
+    "code": "BIOL4000",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Honours Thesis in Biology"
+  },
+  {
+    "id": "b69961bb-9f1f-4aaa-80be-d31631c115b0",
+    "code": "BIOL4000",
+    "term": "Y",
+    "faculty": "SC",
+    "name": "Honours Thesis"
+  },
+  {
+    "id": "f5161145-d51e-4acf-83f5-9a1f8eaddb92",
+    "code": "BIOL4000",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Honours Thesis in Biology"
+  },
+  {
+    "id": "b4c396ba-996f-4d3f-8d4a-90201cc19f2c",
+    "code": "BIOL4001",
+    "term": "W",
+    "faculty": "ED",
+    "name": "Teaching Biology in the Intermediate-Senior Divisions - B"
+  },
+  {
+    "id": "ff20e144-08fe-4c7a-a912-d487bbca35b5",
+    "code": "BIOL4005",
+    "term": "W",
+    "faculty": "SC",
+    "name": "The Scientific Method: Applications and Controversies"
+  },
+  {
+    "id": "cc127e5b-e45c-47aa-8361-bc5787ecb2de",
+    "code": "BIOL4010",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biology of Cancer"
+  },
+  {
+    "id": "d93cdc9a-5f60-4d25-b659-14ce13d39687",
+    "code": "BIOL4010",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biology of Cancer"
+  },
+  {
+    "id": "cb2ea388-cd00-4d17-95ce-fc962eb6e551",
+    "code": "BIOL4020",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Genomics"
+  },
+  {
+    "id": "ad1c12ce-3548-4a96-bed9-4c854d1e7d6e",
+    "code": "BIOL4030",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Proteomics"
+  },
+  {
+    "id": "8f4eb3fd-3a24-4f31-89fb-635da167e2a5",
+    "code": "BIOL4061",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Cell and Molecular Biology of Development"
+  },
+  {
+    "id": "ea87c09a-3514-4a4a-b121-c4d51cd2db0e",
+    "code": "BIOL4120",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Applied Immunology"
+  },
+  {
+    "id": "e638e72f-26a6-4856-9cfd-89dae81b02cf",
+    "code": "BIOL4120",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Applied Immunology"
+  },
+  {
+    "id": "e699706f-7eec-4f3b-8073-5298a1f9b2b9",
+    "code": "BIOL4141",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Current Topics and Methods in Cell Biology"
+  },
+  {
+    "id": "e12d081e-a769-45b6-95fe-e1c77b549a8e",
+    "code": "BIOL4150",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Cellular Regulation"
+  },
+  {
+    "id": "bcd76720-9c63-4636-89ef-c52baf58ffec",
+    "code": "BIOL4150",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Cellular Regulation"
+  },
+  {
+    "id": "9fd88d5b-823e-4f00-ba2a-d7d52a578ecf",
+    "code": "BIOL4151",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Membrane Transport"
+  },
+  {
+    "id": "88a4df7f-01bc-4ad1-ae03-643f2997c9ca",
+    "code": "BIOL4154",
+    "term": "F",
+    "faculty": "SC",
+    "name": "The Human Microbiome"
+  },
+  {
+    "id": "f5711cbd-566c-4b6b-9fcb-4b43981e5877",
+    "code": "BIOL4154",
+    "term": "W",
+    "faculty": "SC",
+    "name": "The Human Microbiome"
+  },
+  {
+    "id": "75c4b164-890a-4dda-bbc8-d200f4979b65",
+    "code": "BIOL4155",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Advanced Virology"
+  },
+  {
+    "id": "95db59b9-74ae-459a-aa18-343fdb2df2c7",
+    "code": "BIOL4200",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Selected Readings in Biology"
+  },
+  {
+    "id": "ed7a8ea2-a747-4216-bd29-52619246e2ea",
+    "code": "BIOL4200",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Selected Readings in Biology"
+  },
+  {
+    "id": "c71490d5-4443-4821-ba93-a41f606b9d13",
+    "code": "BIOL4210",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Insect Herbivore Ecology"
+  },
+  {
+    "id": "d852f7f6-3aaf-401d-a359-d77520a588b0",
+    "code": "BIOL4215",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Animal Communication and Sensory Ecology"
+  },
+  {
+    "id": "7a6495bc-83e1-414c-811c-61e872902cdd",
+    "code": "BIOL4220",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Histology"
+  },
+  {
+    "id": "90a44c19-e209-407d-be46-53962cf4268a",
+    "code": "BIOL4220",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Histology"
+  },
+  {
+    "id": "f7bfc4a0-27b5-4c72-8391-f1bf0d6c54ea",
+    "code": "BIOL4250",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Birds and the Environment"
+  },
+  {
+    "id": "ceabefaa-5a73-4d64-98b5-ffea28e7ac03",
+    "code": "BIOL4255",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biodiversity"
+  },
+  {
+    "id": "fde1e845-d98e-489b-8a1a-3f2daf33f2cc",
+    "code": "BIOL4270",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Integrative Reproduction: Questions and Concepts"
+  },
+  {
+    "id": "68db5784-8f2c-466b-8f86-6507dc83ad80",
+    "code": "BIOL4270",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Integrative Reproduction: Questions and Concepts"
+  },
+  {
+    "id": "aceb1ab7-ccbe-4e19-82fc-91c4d12a79bb",
+    "code": "BIOL4275",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Fungi: Threads of Life"
+  },
+  {
+    "id": "a1a43299-dfe8-461a-a5f8-e52150743f3e",
+    "code": "BIOL4285",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Human Molecular Genetics"
+  },
+  {
+    "id": "caf0c4d5-8c46-4b0c-8a70-f784200e5bb4",
+    "code": "BIOL4285",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Human Molecular Genetics"
+  },
+  {
+    "id": "304fce66-1816-4229-9214-605749556c6b",
+    "code": "BIOL4290",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biotechnology"
+  },
+  {
+    "id": "9f4e811d-007d-4251-a75b-0ea302a554ad",
+    "code": "BIOL4290",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biotechnology"
+  },
+  {
+    "id": "ee89fb16-f66e-4188-8573-33ced0c52a36",
+    "code": "BIOL4300",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Environmental physiology"
+  },
+  {
+    "id": "574a87cf-ece1-485b-a8c2-85d7e0847401",
+    "code": "BIOL4305",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Controversies in the Modern Life Sciences"
+  },
+  {
+    "id": "faf0a01b-0ed4-44f9-945b-a7ee67871cc2",
+    "code": "BIOL4305",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Controversies in the Modern Life Sciences"
+  },
+  {
+    "id": "8bc4d41a-5a08-474c-a430-16217e59b1d4",
+    "code": "BIOL4310",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Physiology of Circadian Timing"
+  },
+  {
+    "id": "7e9c6629-b0cf-420e-96d9-56a53c860f14",
+    "code": "BIOL4310",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Physiology of Circadian Timing"
+  },
+  {
+    "id": "d89d18e5-86e4-4634-82ac-f1e861bbf5c5",
+    "code": "BIOL4320",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Vertebrate Endocrinology"
+  },
+  {
+    "id": "7f936c06-1f67-4c51-a49a-71ffb93b6a4b",
+    "code": "BIOL4340",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Fish Biology"
+  },
+  {
+    "id": "f3037426-6413-4ac8-86f8-fc45dfbe5a33",
+    "code": "BIOL4360",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Parasitology"
+  },
+  {
+    "id": "35d4e229-3145-485d-8f77-0d5151998dc6",
+    "code": "BIOL4360",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Parasitology"
+  },
+  {
+    "id": "af706169-6d77-43c0-a343-fa187a840989",
+    "code": "BIOL4390",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Population Genetics"
+  },
+  {
+    "id": "a91485f9-f18e-4368-9cce-e1822751a3b5",
+    "code": "BIOL4400",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Behavioural Genetics"
+  },
+  {
+    "id": "feb9723c-8480-45c7-b14d-0b3917a20d06",
+    "code": "BIOL4450",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Animal Development"
+  },
+  {
+    "id": "ea1b6959-1a42-43a0-972e-7c94e92c654f",
+    "code": "BIOL4510",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Cellular and Molecular Basis of Muscle Physiology"
+  },
+  {
+    "id": "f6c4de62-34e5-43d1-ad8d-27fc79c3d7d1",
+    "code": "BIOL4601",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "b6c2d167-093c-46d8-881a-8917b22b12ed",
+    "code": "BIOL4602",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Practicum"
+  },
+  {
+    "id": "fa668b39-d073-459d-ae64-e9606bc0aa3b",
+    "code": "BIOL4700",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Current Topics in Environmental Biology"
+  },
+  {
+    "id": "787b14fa-8b32-4031-babc-3407a832f675",
+    "code": "BIOL4720",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Environmental Contaminants: Impacts on Organisms and Ecosystems"
+  },
+  {
+    "id": "fe94b41a-9c03-410d-8939-354130de7c57",
+    "code": "BIOL4975",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Professional Work Placement / Placement en milieu de travail"
+  },
+  {
+    "id": "508d6ec1-93bf-450f-b34b-b76392d1a5b4",
+    "code": "BIOL4975",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Professional Work Placement / Placement en milieu de travail"
+  },
+  {
+    "id": "efc9f1ab-8425-4552-ae22-abc5ac4b9e99",
+    "code": "BIOL4975",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Professional Work Placement / Placement en milieu de travail"
+  },
+  {
+    "id": "ede74ee4-eeee-4832-8e3c-b3df2f71a8ba",
+    "code": "BIOL5038",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Current Topics in Molecular and Cellular Biology"
+  },
+  {
+    "id": "9ba3504d-1dcb-460a-ab5d-72afc86dad1d",
+    "code": "BIOL5086",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Critical Skills in Ecology and Evolution"
+  },
+  {
+    "id": "e38dfefc-9422-4205-a4f4-a7ad802e53ac",
+    "code": "BIOL5088",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Advanced Topics in Ecology and Evolution"
+  },
+  {
+    "id": "a1a5810e-53bc-49b3-8274-7d10b88f55b5",
+    "code": "BIOL5100",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Critical Skills in Animal Physiology"
+  },
+  {
+    "id": "33866d4d-54d8-4831-9458-2fdad2d06efb",
+    "code": "BIOL5144",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Computer Programming for Experimental Psychology"
+  },
+  {
+    "id": "cb3a877a-9b76-49f9-8243-705a8b86e251",
+    "code": "BIOL5146",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Fundamentals of Neuroscience I: Structures, Neurons and Synapses"
+  },
+  {
+    "id": "ff1f8e92-781e-44b6-8ce8-162f97397792",
+    "code": "BIOL5147",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Fundamentals of Neuroscience II: Circuits, Systems and Behaviour"
+  },
+  {
+    "id": "e75d0e05-c2b4-42ee-891c-0f4d922a943f",
+    "code": "BIOL6021",
+    "term": "W",
+    "faculty": "GS",
+    "name": "M.Sc. Research Evaluation"
+  },
+  {
+    "id": "bc68ac4b-53af-4d0b-b5e5-50170f9bec8d",
+    "code": "BIOL6022",
+    "term": "W",
+    "faculty": "GS",
+    "name": "M.Sc. Research Evaluation"
+  },
+  {
+    "id": "d057a9f5-e0b0-42fa-8d99-c1932acd30e8",
+    "code": "BIOL7021",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Ph.D. Research Evaluation"
+  },
+  {
+    "id": "c42cd5e0-d555-4fb5-ad40-ed743122451c",
+    "code": "BIOL7022",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Ph.D. Research Evaluation"
+  },
+  {
+    "id": "e3852f7e-d69b-4f81-a2c1-868b62313035",
+    "code": "BIOL7023",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Ph.D. Research Evaluation"
+  },
+  {
+    "id": "9f3ff455-84c0-48e1-bf9c-ea378a874cc1",
+    "code": "BIOL7024",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Ph.D. Research Evaluation"
+  },
+  {
+    "id": "7aa8200d-a037-42f8-a804-cec4b2d40680",
+    "code": "BIOT5000",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Capstone Experience in Biotechnology Management"
+  },
+  {
+    "id": "b4d0200b-79f4-46f0-af3b-4dbb10d472fc",
+    "code": "BIOT5010",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Introduction to Biotechnology Practices"
+  },
+  {
+    "id": "5f8acfcf-6c95-4954-9186-5b5f16abae99",
+    "code": "BIOT5020",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Science Communication and Writing"
+  },
+  {
+    "id": "abe07ed9-aba9-4f02-8e63-4d58528601d8",
+    "code": "BIOT5030",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Research and Development in Biotechnology"
+  },
+  {
+    "id": "729521dd-d2d2-425d-aee7-47182df76a9a",
+    "code": "BIOT5040",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Laboratory Skills in Biotechnology"
+  },
+  {
+    "id": "894ab48b-84be-408b-98b3-6dd800ee2a1a",
+    "code": "BIOT5050",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Data Analysis, Product Development and Commercialization in Biotechnology"
+  },
+  {
+    "id": "3469e514-3bb8-42fb-bad1-a27edfa87a4d",
+    "code": "BLIS6298",
+    "term": "F",
+    "faculty": "GS",
+    "name": "International Commercial Arbitration for Business Law"
+  },
+  {
+    "id": "495deb4e-f3ec-460f-806e-409a74de835a",
+    "code": "BLIS6409",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Online International Business Transactions: Theory, Law, and Practice"
+  },
+  {
+    "id": "eeb2152d-1e8b-4deb-937b-e0bcdeca8b95",
+    "code": "BLIS6501",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Comparative Legal Studies in International Business"
+  },
+  {
+    "id": "e89f5065-7794-4075-ba9f-e3bc6cdf515e",
+    "code": "BLIS6501",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Comparative Legal Studies in International Business"
+  },
+  {
+    "id": "595b3866-5aa4-4d68-b225-25624974a9a9",
+    "code": "BLIS6509",
+    "term": "F",
+    "faculty": "GS",
+    "name": "International Business Transactions"
+  },
+  {
+    "id": "af04326a-33b0-43ae-8423-15c628f0ab68",
+    "code": "BLIS6512",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Anti-Money Laundering and International Country Sanctions - Global Regulatory Challenges"
+  },
+  {
+    "id": "f178cdc6-395c-46d9-8c46-8fed8f058693",
+    "code": "BLIS6522",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Multinational Enterprises and the Law"
+  },
+  {
+    "id": "da686575-b14e-4355-8e63-0d3ad2c6bec9",
+    "code": "BLIS6533",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Comparative Corporate Governance"
+  },
+  {
+    "id": "dbbf1ae1-0ab5-4d6e-884a-f4d4f7074dda",
+    "code": "BLIS6688",
+    "term": "F",
+    "faculty": "GS",
+    "name": "US-China Relations: Implications for International Trade"
+  },
+  {
+    "id": "b96c239b-6e7a-4758-bac8-fe851b01b337",
+    "code": "BLIS6815",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Business and Human Rights"
+  },
+  {
+    "id": "e9401f7a-224d-4244-afa5-5f4d5b19839d",
+    "code": "BLIS6838",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Business Associations for International Law Graduates"
+  },
+  {
+    "id": "cdaccdbd-fe17-47b0-b2e3-e482a2639d7d",
+    "code": "BLIS6875",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Contract Law for Business"
+  },
+  {
+    "id": "d9ea72c4-e42f-4cd5-bdec-64f749992d45",
+    "code": "BLIS6890",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Topics in Advanced Contract Law"
+  },
+  {
+    "id": "b9553d80-b474-4585-8269-a3ddda4ae9d8",
+    "code": "BPHS3900",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biophysics Internship Work Term"
+  },
+  {
+    "id": "9f148aad-3e5d-4afd-96f1-36716ee876b7",
+    "code": "BPHS3900",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biophysics Internship Work Term"
+  },
+  {
+    "id": "4b9d748a-14dc-4425-b4a0-4d1d2e616679",
+    "code": "BPHS4310",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biophysics Research Project"
+  },
+  {
+    "id": "d6ac7116-4a67-491c-8034-5c665e2351b6",
+    "code": "BPHS4310",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Biophysics Research Project"
+  },
+  {
+    "id": "f0400a75-54f9-4ad2-af06-3570c6538cd8",
+    "code": "BPHS4310",
+    "term": "Y",
+    "faculty": "SC",
+    "name": "Biophysics Research Project"
+  },
+  {
+    "id": "d502ac7a-7ab6-4771-8f2c-87f24da4e0b4",
+    "code": "BUEC1600",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Introduction à la gestion"
+  },
+  {
+    "id": "ed6f5782-92e1-477e-a83c-12fcc70f1b1a",
+    "code": "BUEC2610",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Introduction à la gestion de ressources humaines"
+  },
+  {
+    "id": "67361a50-b26b-4221-aee7-c6f42a27fc84",
+    "code": "BUEC2612",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Introduction au marketing"
+  },
+  {
+    "id": "f92cabbc-cd48-4d71-a4bf-7b9bdd705e59",
+    "code": "BUEC3645",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Applied Business Analytics"
+  },
+  {
+    "id": "d8d6f166-179c-4483-a2bd-79d6dbc6fca2",
+    "code": "BUEC3646",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Business Information Systems"
+  },
+  {
+    "id": "8f20b907-5c23-4256-a12e-ebcd22112046",
+    "code": "BUEC4500",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Professional work placement"
+  },
+  {
+    "id": "c40618df-69b2-40b4-a409-49775305afed",
+    "code": "BUSI4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Business Studies in the Intermediate-Senior Divisions - A"
+  },
+  {
+    "id": "eef85976-59ae-43cd-8e1e-9bd36cf86e96",
+    "code": "BUSI4001",
+    "term": "W",
+    "faculty": "ED",
+    "name": "Teaching Business Studies in the Intermediate-Senior Divisions  B"
+  },
+  {
+    "id": "7f375cf0-ce2b-4058-9a09-5a70107dbee8",
+    "code": "CAPS4000",
+    "term": "Y",
+    "faculty": "SC",
+    "name": "C4 Capstone Project"
+  },
+  {
+    "id": "a26425e7-4457-4c8a-a3d3-9929a7f11721",
+    "code": "CCLW6402",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Foundations of Canadian Law (Online)"
+  },
+  {
+    "id": "779c98b2-c346-4aad-90d3-ae2dbd747c14",
+    "code": "CCLW6402",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Foundations of Canadian Law (Online)"
+  },
+  {
+    "id": "cd9c9eeb-04a5-4685-9c08-2a156f6a7f75",
+    "code": "CCLW6440",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Contract Law (Online)"
+  },
+  {
+    "id": "44df826d-067d-42ef-95ce-58a72dacdf7f",
+    "code": "CCLW6441",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Constitutional Law (Online)"
+  },
+  {
+    "id": "fedac344-33a4-4c3b-a372-fa2721c8065b",
+    "code": "CCLW6441",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Constitutional Law (Online)"
+  },
+  {
+    "id": "ff7750f3-8a4b-420d-a1d4-f3b4d558b96a",
+    "code": "CCLW6442",
+    "term": "F",
+    "faculty": "GS",
+    "name": "The Online Course in Canadian Administrative Law"
+  },
+  {
+    "id": "7c79794e-36c8-4139-af25-516616785045",
+    "code": "CCLW6442",
+    "term": "W",
+    "faculty": "GS",
+    "name": "The Online Course in Canadian Administrative Law"
+  },
+  {
+    "id": "f5493bb5-03fc-4016-8def-7a0bdf848700",
+    "code": "CCLW6443",
+    "term": "F",
+    "faculty": "GS",
+    "name": "The Online Course in Canadian Criminal Law"
+  },
+  {
+    "id": "9d824f14-0a95-47f6-88bf-1cba0d6ed669",
+    "code": "CCLW6444",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Professional Responsibility (Online)"
+  },
+  {
+    "id": "c8da0d64-7cfa-47c7-9d36-64298c00a926",
+    "code": "CCLW6444",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Professional Responsibility (Online)"
+  },
+  {
+    "id": "c98bd7d1-ceae-43df-80be-cc9c6ff34090",
+    "code": "CCLW6453",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Property Law (Online)"
+  },
+  {
+    "id": "d2c8f9cd-a5a2-4d08-973c-10c18db0f18c",
+    "code": "CCLW6502",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Foundations of Canadian Law"
+  },
+  {
+    "id": "f3edcdce-76a0-4797-b058-b5aacab965ee",
+    "code": "CCLW6502",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Foundations of Canadian Law"
+  },
+  {
+    "id": "cdaee733-31b5-4983-8264-857319ceb5f8",
+    "code": "CCLW6516",
+    "term": "W",
+    "faculty": "GS",
+    "name": "The Canadian Law of Obligations (Contract and Torts)"
+  },
+  {
+    "id": "cd1c59c2-be1f-4740-821e-17d7fe30e378",
+    "code": "CCLW6609",
+    "term": "Y",
+    "faculty": "GS",
+    "name": "Canadian Legal Strategy, Research, and Writing"
+  },
+  {
+    "id": "3389fa2c-276c-4acb-a406-2fb2aa51a646",
+    "code": "CCLW6638",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Business Transactions"
+  },
+  {
+    "id": "ff2a4dfb-65d5-4a3e-aa8f-2c972be18ab9",
+    "code": "CCLW6840",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Contract Law"
+  },
+  {
+    "id": "c6df734d-73b1-46fa-8bd6-e890a9de2472",
+    "code": "CCLW6841",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Constitutional Law"
+  },
+  {
+    "id": "d12f3277-94a5-457d-84e0-583c232d8055",
+    "code": "CCLW6841",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Constitutional Law"
+  },
+  {
+    "id": "4320da32-d288-49b6-a39b-44d5e4758cc6",
+    "code": "CCLW6842",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Administrative Law"
+  },
+  {
+    "id": "5074c207-0aa9-4f1e-9999-ab96a47945d6",
+    "code": "CCLW6842",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Administrative Law"
+  },
+  {
+    "id": "684dbd9a-3e3a-4ad5-9f17-2629767e82da",
+    "code": "CCLW6843",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Criminal Law"
+  },
+  {
+    "id": "76770df4-2a7c-4067-90d3-ba9e1b85a374",
+    "code": "CCLW6843",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Criminal Law"
+  },
+  {
+    "id": "bdb657f9-6464-4170-9a11-5d488033b1db",
+    "code": "CCLW6844",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Professional Responsibility"
+  },
+  {
+    "id": "ebe1c266-3ffd-49a2-a8c8-90322c6e9312",
+    "code": "CCLW6844",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Professional Responsibility"
+  },
+  {
+    "id": "80251e8a-434c-44ed-a7cd-21443ea6f702",
+    "code": "CCLW6847",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Public and Constitutional Law"
+  },
+  {
+    "id": "f8d5a4b7-a0d7-44d5-a92c-296ece4aad42",
+    "code": "CCLW6847",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Public and Constitutional Law"
+  },
+  {
+    "id": "f94595cb-2bb4-4119-a8f3-ddcf391e8af9",
+    "code": "CCLW6849",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Law of Evidence"
+  },
+  {
+    "id": "e2f586d9-3f71-4e1b-ac04-97def3702ebe",
+    "code": "CCLW6850",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Tort Law"
+  },
+  {
+    "id": "f4cf5f4f-d24b-41c9-baf5-769a4ffb818d",
+    "code": "CCLW6850",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Tort Law"
+  },
+  {
+    "id": "fcbd971f-b79d-40b8-b845-cbc9d733b931",
+    "code": "CCLW6853",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Canadian Law of Property"
+  },
+  {
+    "id": "5f5fe101-dc26-4343-8743-0eb1685275e4",
+    "code": "CCLW6853",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Law of Property"
+  },
+  {
+    "id": "b74595f3-cc3c-4c98-a165-f7dc4f83be85",
+    "code": "CCLW6878",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Canadian Commercial Law"
+  },
+  {
+    "id": "fbbb5912-6d94-49bd-8fbc-9a3b41ca7dd8",
+    "code": "CCY1999",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Children, Childhood & Youth Studies"
+  },
+  {
+    "id": "3eb75cfb-04cc-4993-9673-c97371bb96a5",
+    "code": "CCY2999",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Global Cultures of Children and Young People"
+  },
+  {
+    "id": "d9823fac-cc13-46a4-9be2-5076c9e05851",
+    "code": "CCY3687",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Graphic Narratives for and about Children and Youth"
+  },
+  {
+    "id": "df540177-20da-4585-b77c-5f39c5113c09",
+    "code": "CCY3688",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Holocaust Literature of Children and Youth"
+  },
+  {
+    "id": "83d9c0c0-3e60-4e93-8c87-957284949936",
+    "code": "CCY3690",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Children's Literature & Film Adaptations"
+  },
+  {
+    "id": "fc90b960-3d4e-4775-b341-b7c1734dc532",
+    "code": "CCY3691",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Picturebooks in Children's Culture"
+  },
+  {
+    "id": "83e5028b-8334-4242-8ea3-04cdd3e776f8",
+    "code": "CCY3692",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Representations of Children's Alterity"
+  },
+  {
+    "id": "e2ee6f2f-a0ea-4ffc-a39d-2a6107deb125",
+    "code": "CCY3693",
+    "term": "W",
+    "faculty": "AP",
+    "name": "The Rainbow List: GLBTQ literature and culture for children and youth"
+  },
+  {
+    "id": "0d9a390d-2186-455d-9a1c-f7e735a508c2",
+    "code": "CCY3998",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "The Child and the Book: Children's Literature Research Methods"
+  },
+  {
+    "id": "d29e6dc3-018b-4050-bab9-1be53100033a",
+    "code": "CCY4141",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Children, Youth, and Digital Culture"
+  },
+  {
+    "id": "fac1a89f-841e-49df-8802-e6cf662a07a7",
+    "code": "CCY4142",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Contemporary Children's Culture"
+  },
+  {
+    "id": "52658d07-9170-4940-a6ad-d09ab835a7d8",
+    "code": "CCY4145",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Fantasy and Children's Culture"
+  },
+  {
+    "id": "fa7cadd1-a844-49cc-8fff-d2956a236899",
+    "code": "CCY4900",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "CCY Work-Focused Placement Course"
+  },
+  {
+    "id": "479120e2-28d6-4d80-b6c1-b1ab6debf5ba",
+    "code": "CCY4998",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "The Child and the Book: Honours Research Project"
+  },
+  {
+    "id": "fb17d515-1f40-49d2-9a0d-562a93311b6d",
+    "code": "CCY4999",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Research with Children and Young People: Honours Research Project"
+  },
+  {
+    "id": "a72ae4ae-1629-4d27-ac3f-5f938ee63ab8",
+    "code": "CCY4999",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Research with Children and Young People: Honours Research Project"
+  },
+  {
+    "id": "8efde9db-8d50-4bdd-af28-ca70c9cf8cb0",
+    "code": "CDIS5000",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Directed Reading in Critical Disability Studies"
+  },
+  {
+    "id": "62e85976-bc46-4ead-829b-f2959a64c03c",
+    "code": "CDIS5000",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Directed Reading in Critical Disability Studies"
+  },
+  {
+    "id": "e6599ba4-175c-425b-a781-ac9fb486f526",
+    "code": "CDIS5055",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Knowledge Production"
+  },
+  {
+    "id": "e5aa2525-0bbb-405b-a440-546308621e4c",
+    "code": "CDIS5095",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Intersectionality, Disability, and Health"
+  },
+  {
+    "id": "b41f90f6-7819-4d1a-bf75-49522ce2d130",
+    "code": "CDIS5100",
+    "term": "Y",
+    "faculty": "GS",
+    "name": "Disability Studies: An Overview"
+  },
+  {
+    "id": "de5513bf-cb88-4a72-aca6-a24cdac59ee2",
+    "code": "CDIS5110",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Methodology"
+  },
+  {
+    "id": "e55937f6-85f2-441c-a8a8-5ff31d1793bc",
+    "code": "CDIS5120",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Critical Disability Law"
+  },
+  {
+    "id": "ba3075da-7baa-444e-9e32-14e72cd0c3d9",
+    "code": "CDIS6001",
+    "term": "F",
+    "faculty": "GS",
+    "name": "MA Major Research Paper"
+  },
+  {
+    "id": "67339afb-48f8-492c-a52b-87a580796a06",
+    "code": "CDIS6001",
+    "term": "W",
+    "faculty": "GS",
+    "name": "MA Major Research Paper"
+  },
+  {
+    "id": "a5d83a01-0b8f-4c5e-a523-ad23aeffd8c1",
+    "code": "CDIS6100",
+    "term": "Y",
+    "faculty": "GS",
+    "name": "Doctoral Seminar in Critical Disability Studies"
+  },
+  {
+    "id": "803d5fa6-498a-4571-9ec5-aa8196be6620",
+    "code": "CDNS1900",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Reconciling Literature: Understanding Texts & Contexts"
+  },
+  {
+    "id": "3b88e7ec-063f-482f-84b0-8a2bd522a9b3",
+    "code": "CDNS2602",
+    "term": "W",
+    "faculty": "GL",
+    "name": "La citoyenneté et l'immigration au Canada"
+  },
+  {
+    "id": "d8d80610-de30-478a-8646-0da3c81013ca",
+    "code": "CDNS2636",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Anishinaabemowin (Ojibway) Language and Culture I"
+  },
+  {
+    "id": "8e7b6adc-e857-47ab-8aef-c210d6404d67",
+    "code": "CDNS2638",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Anishinaabemowin (Ojibway) Language and Culture II"
+  },
+  {
+    "id": "d195d49d-2094-4ac9-8f5d-da3f526ad09a",
+    "code": "CDNS3625",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Canadian Government and Politics"
+  },
+  {
+    "id": "ad3e63ce-e264-4bc6-8fc9-33b38f77aa65",
+    "code": "CDNS4975",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Professional Work Placement / Placement en milieu de travail"
+  },
+  {
+    "id": "ea199f13-c4f3-4cf4-9b7f-d97d27e79c2c",
+    "code": "CDNS4975",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Professional Work Placement / Placement en milieu de travail"
+  },
+  {
+    "id": "cc8699fe-bb5c-42c3-8a6b-185127c19deb",
+    "code": "CDNS4975",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Professional Work Placement / Placement en milieu de travail"
+  },
+  {
+    "id": "cfbd0ef9-5912-441e-8d7b-4cb8fc6c28ca",
+    "code": "CH1000",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Elementary Modern Standard Chinese"
+  },
+  {
+    "id": "6755679a-b991-4ec8-bc94-e5af9dcede41",
+    "code": "CH2000",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Intermediate Modern Standard Chinese"
+  },
+  {
+    "id": "f7918ce9-f964-4681-bea6-c191e1414373",
+    "code": "CH2200",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Chinese Literature"
+  },
+  {
+    "id": "f8175968-eba6-453a-8009-e7e3df13a24a",
+    "code": "CH3711",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Women Writers in Modern and Contemporary China"
+  },
+  {
+    "id": "9b5c8914-1f50-4195-9b46-924b5ad388ad",
+    "code": "CH3850",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Christianity, Christian Culture and Modern Chinese Culture and Literature"
+  },
+  {
+    "id": "fceb50f6-cc53-4313-835f-2157c9c7c4d7",
+    "code": "CH4860",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Eileen Chang: Major Author Studies in Modern Chinese Literature"
+  },
+  {
+    "id": "6d3c3cd9-efe0-4aa5-bd8a-834f62623a3b",
+    "code": "CHEM1000",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Chemical Structure"
+  },
+  {
+    "id": "c73f98ff-e9dd-4fe6-a327-a5c761ef7928",
+    "code": "CHEM1000",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Chemical Structure"
+  },
+  {
+    "id": "da0ba7d1-11c4-436e-a254-e5a05c98c4e6",
+    "code": "CHEM1001",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Chemical Dynamics"
+  },
+  {
+    "id": "7d861f11-7071-4a70-a0a6-033ff01d5e3f",
+    "code": "CHEM1001",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Chemical Dynamics"
+  },
+  {
+    "id": "3c1185d6-b599-4b8d-859f-4b0ce1121f28",
+    "code": "CHEM1100",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Chemistry and Materials Science for Engineers"
+  },
+  {
+    "id": "fa55c2e5-e0ce-4afd-9c6f-922cf171605c",
+    "code": "CHEM1500",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introduction to Chemistry"
+  },
+  {
+    "id": "1b74004d-aed5-4e4c-bd0d-1f8b9c8400e4",
+    "code": "CHEM2000",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Problem Solving in Chemistry"
+  },
+  {
+    "id": "b0b6da94-1dd0-4dbc-b8e0-c56adbd69aec",
+    "code": "CHEM2011",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introduction to Thermodynamics"
+  },
+  {
+    "id": "da1b69fa-3b8b-4427-99c0-3143f0f539dc",
+    "code": "CHEM2020",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introductory Organic Chemistry I"
+  },
+  {
+    "id": "980b3c6d-2118-48e9-a1c8-4fa6e9b63329",
+    "code": "CHEM2020",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introductory Organic Chemistry I"
+  },
+  {
+    "id": "8d042910-a26c-4420-9aa6-b3960e818837",
+    "code": "CHEM2021",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introductory Organic Chemistry II"
+  },
+  {
+    "id": "827382c5-8425-4b64-9a8f-5aa3297f8c6f",
+    "code": "CHEM2030",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Basic Inorganic Chemistry"
+  },
+  {
+    "id": "e0ca4573-10f3-44e9-a2f7-1b8d340c47e5",
+    "code": "CHEM2050",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introductory Biochemistry"
+  },
+  {
+    "id": "eefd749c-3026-4ba0-9873-25316cddbdf0",
+    "code": "CHEM2080",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Analytical Chemistry"
+  },
+  {
+    "id": "71c62d38-ca2a-460c-875c-c04323932153",
+    "code": "CHEM2200",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "e1cc8ab8-faae-4666-84ec-7464be1defd6",
+    "code": "CHEM2200",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "ac570e90-a9ae-4386-a2e1-61279e058b93",
+    "code": "CHEM2201",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "f7bf0bd8-52ba-46f2-9eed-55ec337b6efa",
+    "code": "CHEM2201",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "c9511fb8-51b7-49aa-84b5-f47d00b21f8f",
+    "code": "CHEM2202",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "f1159cec-79eb-4291-b4aa-d17c8d7f5349",
+    "code": "CHEM2202",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "569aa02c-2efc-475a-8a03-6265dc9312f7",
+    "code": "CHEM3000",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Experimental Chemistry I"
+  },
+  {
+    "id": "f928a0f6-6895-4cdc-89fa-376a24e3d411",
+    "code": "CHEM3001",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Experimental Chemistry II"
+  },
+  {
+    "id": "f74c9acf-1ac6-433a-a96a-16feabf987b6",
+    "code": "CHEM3010",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Quantum Chemistry"
+  },
+  {
+    "id": "a32adbd8-4632-4696-aaa8-75c9f6ca97de",
+    "code": "CHEM3011",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Chemical Kinetics"
+  },
+  {
+    "id": "9afc0831-36d7-4979-bec8-703858cfc958",
+    "code": "CHEM3020",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Intermediate Organic Chemistry I"
+  },
+  {
+    "id": "940ee9ec-7366-4b2d-a3e2-ad52c11f5246",
+    "code": "CHEM3021",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Intermediate Organic Chemistry II"
+  },
+  {
+    "id": "c2d7fbb9-65f6-4140-821a-4553832b351e",
+    "code": "CHEM3030",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Transition Metal Chemistry"
+  },
+  {
+    "id": "ecf02d7b-8d3c-4f5a-a2a2-d5b578b779f8",
+    "code": "CHEM3050",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Advanced Biochemistry"
+  },
+  {
+    "id": "fbfe81c4-bd8f-4afe-b1cb-9c6c1b518e24",
+    "code": "CHEM3051",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Macromolecules of Biochemical Interest"
+  },
+  {
+    "id": "ec6f60c9-15e1-4f52-9ab7-0aa325e16c27",
+    "code": "CHEM3060",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introductory Atmospheric Chemistry"
+  },
+  {
+    "id": "f3618a82-2c06-4751-8144-bf6d05bedc6a",
+    "code": "CHEM3061",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Environmental Chemistry"
+  },
+  {
+    "id": "24dc1027-870e-47d3-a2fb-267e0b58708e",
+    "code": "CHEM3075",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introduction to Drug Discovery and Development"
+  },
+  {
+    "id": "d7db4ae2-e0d0-4bdd-9701-122470ffdb48",
+    "code": "CHEM3080",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Instrumental Methods of Chemical Analysis"
+  },
+  {
+    "id": "4c3af054-7a8d-46a4-bffb-945c92764c28",
+    "code": "CHEM3200",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "6d2d94a8-cb3d-468a-86a9-4e0b76f689c5",
+    "code": "CHEM3200",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "54f2363c-7f44-4275-9e25-b22301749d39",
+    "code": "CHEM3201",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "957c2681-b516-4af6-96b7-89c9f2f791da",
+    "code": "CHEM3201",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "ad4a1f2f-4e76-4b46-a2b5-786b0534502c",
+    "code": "CHEM3202",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "2a63bf04-9eac-4198-b3a5-e9e92f53b0bc",
+    "code": "CHEM3202",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "d34b221e-5071-4d7e-a022-98df0c345038",
+    "code": "CHEM4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Chemistry in the Intermediate-Senior Divisions - A"
+  },
+  {
+    "id": "b751d979-fd2b-4fb8-b070-935ba32e8a4b",
+    "code": "CHEM4000",
+    "term": "Y",
+    "faculty": "SC",
+    "name": "Research Project"
+  },
+  {
+    "id": "e4c69cc8-0432-4d7e-b32d-de0c9f313f2f",
+    "code": "CHEM4001",
+    "term": "W",
+    "faculty": "ED",
+    "name": "Teaching Chemistry in the Intermediate-Senior Divisions - B"
+  },
+  {
+    "id": "f1b6d139-abe0-4c92-847e-e2f8acdfa3f5",
+    "code": "CHEM4024",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Structure Elucidation of Organic and Organometallic Compounds"
+  },
+  {
+    "id": "b20387d4-d392-403d-aa50-77e3d377faee",
+    "code": "CHEM4052",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Chemical Biology"
+  },
+  {
+    "id": "c04a3afd-d640-4bfe-b564-90d9631161f6",
+    "code": "CHEM4055",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Enzyme Design in Virtual Reality"
+  },
+  {
+    "id": "bf333bcb-2f51-4a2a-8b51-1e24246426d2",
+    "code": "CHEM4093",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Biomaterials Chemistry"
+  },
+  {
+    "id": "be3e2c0b-8456-4cc1-9c83-c96c7556ea3f",
+    "code": "CHEM4200",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "bbea4e74-047e-4e59-9cb8-6cdbd7a2291a",
+    "code": "CHEM4200",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "2c86ab0c-e139-48c9-bc02-6fc46951bef0",
+    "code": "CHEM4201",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "fbd40efa-dceb-4ac4-85f4-8e803cf49824",
+    "code": "CHEM4201",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "b6c529a2-2fa1-48b1-942a-081925d24e48",
+    "code": "CHEM4202",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "8708e714-4a26-44e3-acb4-0ac6fd0092d8",
+    "code": "CHEM4202",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Research Experience Term"
+  },
+  {
+    "id": "3de2148b-8862-49a3-9c71-9b0efcf499d2",
+    "code": "CHEM4300",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Selected Topics in Chemistry"
+  },
+  {
+    "id": "2f7ffb85-df80-4bee-a78d-ea193a6e17a2",
+    "code": "CHEM4300",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Selected Topics in Chemistry"
+  },
+  {
+    "id": "baf6eca0-9f02-4ed0-b97c-b6da9352756d",
+    "code": "CHEM5024",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Structural Elucidation in Organic and Organometallic Chemistry"
+  },
+  {
+    "id": "8294fb73-bde2-4557-b466-e625a30ec266",
+    "code": "CHEM5052",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Chemical Biology"
+  },
+  {
+    "id": "a73bc72e-13cf-424f-9f06-c6f3d9b9663e",
+    "code": "CHEM6000",
+    "term": "F",
+    "faculty": "GS",
+    "name": "MSc Review Essay"
+  },
+  {
+    "id": "9c7b2a13-9cec-4ed2-a79b-f4be16bcf7a1",
+    "code": "CHEM6000",
+    "term": "W",
+    "faculty": "GS",
+    "name": "MSc Review Essay"
+  },
+  {
+    "id": "8f499570-11d6-4e1a-9e0d-a315b30e077e",
+    "code": "CHEM6000",
+    "term": "Y",
+    "faculty": "GS",
+    "name": "MSc Review Essay"
+  },
+  {
+    "id": "2864a6d8-f2d8-4676-92de-e95ec85b3248",
+    "code": "CIVL2000",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Civil Engineering Design Project"
+  },
+  {
+    "id": "bd000f3b-a2bd-42ba-b10b-2a7bcf95c149",
+    "code": "CIVL2120",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Civil Engineering Materials"
+  },
+  {
+    "id": "80807755-5a27-45b0-8dab-fd0cefc0f160",
+    "code": "CIVL2150",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Civil Engineering Graphics"
+  },
+  {
+    "id": "b028e0bc-beac-485e-b03c-0287261db211",
+    "code": "CIVL2160",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Geological Processes"
+  },
+  {
+    "id": "ebc7c109-969e-47ef-9d22-a40f0ac4db6c",
+    "code": "CIVL2210",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "id": "df4ace32-2272-4b3c-9426-b61f370f6d88",
+    "code": "CIVL2220",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Mechanics of Materials"
+  },
+  {
+    "id": "d521a49e-3ce6-419e-a03b-af35d1e5d52f",
+    "code": "CIVL2240",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Introduction to Environmental Engineering"
+  },
+  {
+    "id": "ad84db44-1ed7-43dd-a794-c6d16ebf27be",
+    "code": "CIVL3110",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Soil Mechanics"
+  },
+  {
+    "id": "bead0b68-dc26-490a-af22-e6427561ce16",
+    "code": "CIVL3120",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Hydraulics"
+  },
+  {
+    "id": "d1646eb7-bd2c-4b6c-9efe-4be251f97472",
+    "code": "CIVL3130",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Structural Analysis"
+  },
+  {
+    "id": "39b7a3f4-d32d-4858-b2b9-de0ecebc681c",
+    "code": "CIVL3140",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Civil Engineering Computational Methods"
+  },
+  {
+    "id": "993a793e-2a0e-40f6-96c0-c4aef6591d5f",
+    "code": "CIVL3160",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Transportation Engineering"
+  },
+  {
+    "id": "de031a6d-5342-48af-a3af-9c97d4166b9d",
+    "code": "CIVL3210",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Geotechnical Engineering"
+  },
+  {
+    "id": "879c4a76-3283-456a-a1dd-9f17a1198f3b",
+    "code": "CIVL3220",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Hydrology"
+  },
+  {
+    "id": "c06e6cf7-61a4-40a6-8ddd-0b60ddb7e836",
+    "code": "CIVL3230",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Introduction to Structural Design"
+  },
+  {
+    "id": "c003fb1c-a16b-4d69-baba-c42b3daaf87e",
+    "code": "CIVL3240",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Sanitary and Environmental Engineering"
+  },
+  {
+    "id": "f8d739e3-1161-4d73-ac65-825b403a473d",
+    "code": "CIVL3260",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Transportation Planning and Evaluation"
+  },
+  {
+    "id": "c6214102-a8ed-4526-9283-d3db414a9919",
+    "code": "CIVL4000",
+    "term": "Y",
+    "faculty": "LE",
+    "name": "Civil Engineering Capstone Design Project"
+  },
+  {
+    "id": "d4a379cc-c75d-4910-bb45-e3cd36526f6b",
+    "code": "CIVL4002",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Reinforced Concrete Design"
+  },
+  {
+    "id": "9d619177-7716-474a-8566-681175df379b",
+    "code": "CIVL4013",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Hydrogeology"
+  },
+  {
+    "id": "f36a3464-547f-4b90-816c-98f39284cb3c",
+    "code": "CIVL4021",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Hydraulic Structures"
+  },
+  {
+    "id": "6bc75051-2fa2-447f-8009-2f632aae8c01",
+    "code": "CIVL4031",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Pavement Materials and Design"
+  },
+  {
+    "id": "84358f6d-4a2a-483f-b19b-c58d86a5df71",
+    "code": "CIVL4034",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Freight Transportation"
+  },
+  {
+    "id": "6a2acc07-eab3-4743-9881-bf3ebcd54125",
+    "code": "CIVL4041",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Landfill Design"
+  },
+  {
+    "id": "d0298425-1409-49d3-a29d-a5fd826e100d",
+    "code": "CIVL4042",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Environmental Impact Assessment and Sustainability"
+  },
+  {
+    "id": "7cd32442-0965-42a6-8ae3-1ed9acca84b4",
+    "code": "CIVL4043",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Advanced Sanitary and Environmental Engineering"
+  },
+  {
+    "id": "71dab2a7-c4a7-4b7b-a082-36a17cae571e",
+    "code": "CIVL4044",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Environmental Geotechnics"
+  },
+  {
+    "id": "cb337e5c-1007-4722-ab4c-beea4596f1c5",
+    "code": "CIVL4051",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Building Science Principles and Applications"
+  },
+  {
+    "id": "f0f92e3b-5443-4000-986c-91c06529d9e0",
+    "code": "CIVL4110",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Civil Engineering Project Management"
+  },
+  {
+    "id": "a7e516bf-e6e4-4829-ab26-d0307847d1d0",
+    "code": "CIVL4210",
+    "term": "W",
+    "faculty": "LE",
+    "name": "Civil Engineering for a Sustainable Future"
+  },
+  {
+    "id": "eba88d8d-c704-4fc0-bc24-98f0f3483484",
+    "code": "CIVL6000",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Graduate Seminar Series in Civil Engineering"
+  },
+  {
+    "id": "d0053272-a260-4222-b348-488376d35005",
+    "code": "CIVL6000",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Graduate Seminar Series in Civil Engineering"
+  },
+  {
+    "id": "f449b252-6626-4be0-a07b-618c3ea77aaf",
+    "code": "CIVL6001",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Doctor of Philosophy (PhD) in Civil Engineering Thesis"
+  },
+  {
+    "id": "f8c8638a-c6f4-4308-9cc2-1d83ad1230be",
+    "code": "CIVL6001",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Doctor of Philosophy (PhD) in Civil Engineering Thesis"
+  },
+  {
+    "id": "6feac12c-7fef-4169-8263-681b91148488",
+    "code": "CIVL6002",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Master of Applied Science in Civil Engineering Thesis"
+  },
+  {
+    "id": "ae2fd65a-e150-40eb-9c11-d910ae9e328d",
+    "code": "CIVL6002",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Master of Applied Science in Civil Engineering Thesis"
+  },
+  {
+    "id": "acb483a5-bb06-4846-979a-c650fb4ba95e",
+    "code": "CIVL6112",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Emerging Contaminants in the Environment: Challenges and Fate"
+  },
+  {
+    "id": "d59e86a4-788d-4f6b-b8b5-1f0715f47477",
+    "code": "CIVL6310",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Advanced Hydrogeology"
+  },
+  {
+    "id": "c7b3f0c8-e45f-40d1-a66e-de148a9bc3ab",
+    "code": "CIVL6400",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Directed Reading in Structural Engineering"
+  },
+  {
+    "id": "cbfd12ed-a26c-4f87-8ff8-e64a2f20166c",
+    "code": "CIVL6490",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Human Behaviour in Fires"
+  },
+  {
+    "id": "e2774f13-87f5-4d20-8597-061c5914bad8",
+    "code": "CLST2100",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Ancient Greek and Roman History: From the Trojan War to the Fall of the Western Roman Empire"
+  },
+  {
+    "id": "f1bb21d0-36bd-4eb8-bff8-32fa017f85f8",
+    "code": "CLST2105",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Roman Literature and Culture"
+  },
+  {
+    "id": "3dec55ad-66d1-41c6-ad63-aa3637ecf60a",
+    "code": "CLST2900",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Sex, Swords, and Sandals: Classical Foundations of English Literature"
+  },
+  {
+    "id": "31eecc31-ffb2-431c-80bc-b36ff0e94a68",
+    "code": "CLST3135",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Spectacle and Society in Ancient Rome"
+  },
+  {
+    "id": "d30c8cc9-7b2a-45e8-a237-42eeb2122042",
+    "code": "CLTR1953",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Canadian Writers in Person"
+  },
+  {
+    "id": "6d81726a-458d-42a6-aef8-581c93d932f0",
+    "code": "CLTR3318",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Black Popular Culture"
+  },
+  {
+    "id": "91c93e6f-064a-4ee1-b907-498e35e74ad0",
+    "code": "CLTR3520",
+    "term": "F",
+    "faculty": "AP",
+    "name": "The Arts and the Law of Copyright"
+  },
+  {
+    "id": "d3c6f43c-3a12-4bfb-99d1-04e5b73ca395",
+    "code": "CLTR4000",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Independent Studies in Culture & Expression"
+  },
+  {
+    "id": "8a4dcf24-40df-42ab-bbe1-a8349f70f313",
+    "code": "CLTR4000",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Independent Studies in Culture & Expression"
+  },
+  {
+    "id": "74f5e7b3-fa00-428c-bcba-d2ea74d52b32",
+    "code": "CLTR4000",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Independent Studies in Culture & Expression"
+  },
+  {
+    "id": "de9ac3ee-fecc-4e4c-934c-839f466b2459",
+    "code": "CLTR4851",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Literary, Musical, and Visual Cultures: Modernism Across the Arts"
+  },
+  {
+    "id": "11dd7557-c04e-417d-a11e-3e520c5dfbff",
+    "code": "CLWP6781",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Issues in Criminal Law: Hist Evol & Theo"
+  },
+  {
+    "id": "da3a47df-3d52-4bd4-b56d-603de56fe511",
+    "code": "CLWP6782",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Criminal Law and the Charter; Implications & Expectations"
+  },
+  {
+    "id": "b81f6fd8-f3ea-4062-a697-117d89885f17",
+    "code": "CMA1001",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Introduction to Media Industries"
+  },
+  {
+    "id": "ed87cc3f-dba3-483e-8e52-06f21b8ea0c4",
+    "code": "CMA1010",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Introduction to Filmmaking I"
+  },
+  {
+    "id": "b49270a1-f3b8-41a6-8338-e310616ef723",
+    "code": "CMA1020",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Introduction to Filmmaking II"
+  },
+  {
+    "id": "b4490ccd-7d32-447e-9fea-6db2462fb495",
+    "code": "CMA1101",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Media Practice I"
+  },
+  {
+    "id": "9e0a325e-61df-4a4a-9cc1-6a6fc31f9289",
+    "code": "CMA1120",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Introduction to Screenwriting"
+  },
+  {
+    "id": "c3514209-7c0e-43e6-8e4f-83e5da93c296",
+    "code": "CMA1123",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Writing for Games & Interactive Media I"
+  },
+  {
+    "id": "c07bd9ab-c91e-4acd-8130-4ca2c94ad05a",
+    "code": "CMA1400",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Film Art: An Introduction"
+  },
+  {
+    "id": "8bb15aa9-72bd-4b94-bffc-654216fe6687",
+    "code": "CMA1402",
+    "term": "F",
+    "faculty": "FA",
+    "name": "New Practices of Cinema and Media Criticism"
+  },
+  {
+    "id": "c23f7a6b-0e24-4f24-b356-f01eca5ef0d0",
+    "code": "CMA1701",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Hollywood: Old and New"
+  },
+  {
+    "id": "91a3dfb9-bda3-4962-93e5-679319145503",
+    "code": "CMA1800",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "The Biology of Story"
+  },
+  {
+    "id": "8428e459-fc4d-4e87-a2c3-638443099783",
+    "code": "CMA1900",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Cinema and the City"
+  },
+  {
+    "id": "f442a2c2-56bb-4d9b-b55b-3b394d667f7b",
+    "code": "CMA2010",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Film & Video Production"
+  },
+  {
+    "id": "a5770ffd-2b6f-4284-a1bd-ae193531019c",
+    "code": "CMA2056",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Time-Based Art: Introduction to Video Art - Production"
+  },
+  {
+    "id": "d4b2db93-34ef-4449-ae91-c3191736cfa2",
+    "code": "CMA2065",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Photography: Digital Post-Production for Screen and Web"
+  },
+  {
+    "id": "a7067313-ea41-432f-855a-f556236b30b2",
+    "code": "CMA2101",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Media Practice II"
+  },
+  {
+    "id": "90248e2b-9366-446e-bf6c-0f9bf14f0b34",
+    "code": "CMA2120",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Screenwriting Fundamentals (Production)"
+  },
+  {
+    "id": "268752cb-9838-4ef4-a3ec-2c16b152f3b4",
+    "code": "CMA2121",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Screenwriting Fundamentals"
+  },
+  {
+    "id": "dfe43e56-55be-49e2-9888-604cf1366a85",
+    "code": "CMA2170",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Production Planning & Management"
+  },
+  {
+    "id": "441fa7da-35bf-4930-9054-adde837c40af",
+    "code": "CMA2200",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Early Cinema to the Coming of Sound: 1895 - 1930"
+  },
+  {
+    "id": "5dc091df-141b-45ed-bc03-8a68075746b5",
+    "code": "CMA2205",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Exploring Media Industries"
+  },
+  {
+    "id": "a69ca222-e693-4ae8-af53-fb7a1b007c3e",
+    "code": "CMA2230",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Film and Television as Mass Culture, 1920s-1960s"
+  },
+  {
+    "id": "e8e68ae2-94b5-4157-89da-5650a607e3b3",
+    "code": "CMA2405",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Television Studies"
+  },
+  {
+    "id": "a91dbaa2-51ec-410b-a494-cedfb0d67dd2",
+    "code": "CMA2500",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Introduction to 3D Modelling"
+  },
+  {
+    "id": "51c88571-88de-45c3-97db-1a8e87be9d7e",
+    "code": "CMA2501",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Introduction to 3D Animation"
+  },
+  {
+    "id": "711a3abb-5a8d-49c1-b1e8-0a60959fd2ff",
+    "code": "CMA3001",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Fiction Project Workshop I"
+  },
+  {
+    "id": "d07c8c59-0085-4898-b0bb-42fe3a5b3f30",
+    "code": "CMA3002",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Documentary Filmmaking Workshop I"
+  },
+  {
+    "id": "dcff6098-1083-4358-9083-640d97498c72",
+    "code": "CMA3003",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Alternative Project Workshop I"
+  },
+  {
+    "id": "ff78c8e9-f18c-41d9-b6e3-bdfcf19ecc2a",
+    "code": "CMA3101",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Media Practice III"
+  },
+  {
+    "id": "e3ed901f-b112-4f1c-89e1-52182a01ae8e",
+    "code": "CMA3103",
+    "term": "F",
+    "faculty": "FA",
+    "name": "The Interactive Documentary"
+  },
+  {
+    "id": "9e3ad5ff-493b-47e3-b8e7-2f9f4a9bffe3",
+    "code": "CMA3120",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Feature Screenwriting I"
+  },
+  {
+    "id": "ab221adc-3c63-4008-b295-4c8fa8d31054",
+    "code": "CMA3123",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Transmedia Storytelling"
+  },
+  {
+    "id": "de5462a0-e18e-4fc3-9a2c-867f485f6215",
+    "code": "CMA3124",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Writing for Television I"
+  },
+  {
+    "id": "9b370990-78f4-402e-a7dc-4961131e9170",
+    "code": "CMA3124",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Writing for Television I"
+  },
+  {
+    "id": "c7af1b61-ab69-49ef-a072-1ec1fcfa2a1a",
+    "code": "CMA3130",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Editing Technique I"
+  },
+  {
+    "id": "9f3715e2-f5a9-42b6-b6ea-822b511181ae",
+    "code": "CMA3155",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Sound Techniques I"
+  },
+  {
+    "id": "a912956f-5d51-4b9a-9236-52d699bb93ef",
+    "code": "CMA3160",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Cinematography I"
+  },
+  {
+    "id": "bf316263-be95-431f-b7ca-5c3507f4e02d",
+    "code": "CMA3175",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Production Planning & Management I"
+  },
+  {
+    "id": "d8fe02e2-117e-414a-ac42-a7e7b2cc53ea",
+    "code": "CMA3180",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Acting and Directing I - Basic Concepts and Technique"
+  },
+  {
+    "id": "d2dcc61d-883e-4a4b-9485-68c19b729cb0",
+    "code": "CMA3191",
+    "term": "F",
+    "faculty": "FA",
+    "name": "SPOTLIGHT Your Skills: Professional Development for Cinema and Media Arts"
+  },
+  {
+    "id": "d0ec1eb5-3aa1-40a0-9e19-745f02b5e0b1",
+    "code": "CMA3200",
+    "term": "F",
+    "faculty": "FA",
+    "name": "New Waves: 1960s - 1980s"
+  },
+  {
+    "id": "119e6e02-d982-40bc-95d3-c3412bc64a6e",
+    "code": "CMA3211",
+    "term": "F",
+    "faculty": "FA",
+    "name": "American Film and Television"
+  },
+  {
+    "id": "e1e2a698-c1aa-4be4-8846-a4fb93a67931",
+    "code": "CMA3213",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Film Festivals: Local Cultures + Global Circuits"
+  },
+  {
+    "id": "d9a468f5-bed6-4276-9587-fb03b04ad660",
+    "code": "CMA3230",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary Directions in Cinema and Media Studies: 1980s - present"
+  },
+  {
+    "id": "223f5d90-33ee-4b7b-9274-7096b043a83e",
+    "code": "CMA3401",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Cinemas in Canada"
+  },
+  {
+    "id": "624d0450-67b9-4d7c-a5e3-d49cad1a05e7",
+    "code": "CMA3420D",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Studies in Genre: Horror"
+  },
+  {
+    "id": "f46e5eae-f463-4561-aa9e-9dd863781f4e",
+    "code": "CMA3840",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Games and Media"
+  },
+  {
+    "id": "bbe2064c-259b-493e-a415-4c87a0464704",
+    "code": "CMA3842",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Animation and New Media"
+  },
+  {
+    "id": "55eddc2b-6c80-45f8-b831-f16a6b2a839e",
+    "code": "CMA3843",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Podcasting: The Art of Audio Storytelling"
+  },
+  {
+    "id": "6411f2c1-f83f-4a83-a4b9-60de5d9044bd",
+    "code": "CMA3844",
+    "term": "W",
+    "faculty": "FA",
+    "name": "The Art of Animating"
+  },
+  {
+    "id": "b087cb27-1093-43f0-94a3-ef09992bbbfb",
+    "code": "CMA3845",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Sonic Cinema: Designing Sound for Expanded Cinema"
+  },
+  {
+    "id": "e5858149-0515-40c9-b808-1c2b8c20724e",
+    "code": "CMA3852",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Virtual Cinematography: Blending Real and Digital Worlds"
+  },
+  {
+    "id": "d7896678-d83b-405d-8f15-43d5b0133f3e",
+    "code": "CMA3853",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Motion Capture: Performance and Interactivity"
+  },
+  {
+    "id": "02bac89f-4f42-4fcb-82cb-38dc3a618a5b",
+    "code": "CMA4001",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Fiction Project Workshop II"
+  },
+  {
+    "id": "57ea18ed-15a9-4e65-b53c-6c1eeadcd6ed",
+    "code": "CMA4002",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Documentary Filmmaking Workshop II"
+  },
+  {
+    "id": "247bbbed-8bfd-4111-bad1-f24f2d14b221",
+    "code": "CMA4003",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Alternative Project Workshop II"
+  },
+  {
+    "id": "b2e46063-a847-4c8f-887b-3ec0a17f8809",
+    "code": "CMA4101",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Fourth Year Projects"
+  },
+  {
+    "id": "ec96fb8b-ad03-4112-b1d2-af26178c9b0a",
+    "code": "CMA4102",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Creative Producing for the Media Industries"
+  },
+  {
+    "id": "745d77e8-8d5a-4e5b-a857-cf839f60c8fb",
+    "code": "CMA4120",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Feature Screenwriting II"
+  },
+  {
+    "id": "70722303-fcde-4f40-bdbb-66ba3eca3b73",
+    "code": "CMA4124",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Writing for Television II"
+  },
+  {
+    "id": "f6f95a4f-9b1d-40be-85ff-511eb240df6f",
+    "code": "CMA4130",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Editing Techniques II"
+  },
+  {
+    "id": "574b7292-d19b-4ebb-be61-36af2796d590",
+    "code": "CMA4135",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Editing Techniques III"
+  },
+  {
+    "id": "6b3321e8-c1fb-4802-b38d-d442130c8758",
+    "code": "CMA4140",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Production Design for Film"
+  },
+  {
+    "id": "e3d21834-2a58-4ec9-ae11-ceae0173d606",
+    "code": "CMA4150",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Sound Techniques II"
+  },
+  {
+    "id": "ceab3767-710b-4ba8-bddf-f7c4d6809632",
+    "code": "CMA4155",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Sound Techniques III"
+  },
+  {
+    "id": "9ec92d6e-207f-461a-a99b-8638675f6b74",
+    "code": "CMA4161",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Cinematography II"
+  },
+  {
+    "id": "4ca16d69-3336-4b02-8e11-9b7c91c77541",
+    "code": "CMA4165",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Cinematography III"
+  },
+  {
+    "id": "f5fb5d6a-11db-4a39-83af-0636c7daee71",
+    "code": "CMA4175",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Production Planning and Management II"
+  },
+  {
+    "id": "f9f35d48-10ec-44bf-b5a2-fbd3d5cfdb58",
+    "code": "CMA4180",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Acting and Directing II - Directing Actors for the Screen"
+  },
+  {
+    "id": "8abb26fc-8e70-4b06-bc32-f328fe12b48d",
+    "code": "CMA4191",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Field Placement for Cinema & Media Studies/Media Arts"
+  },
+  {
+    "id": "e30cfb60-ed15-4eef-80ac-d3d087385561",
+    "code": "CMA4191",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Field Placement for Cinema & Media Studies/Media Arts"
+  },
+  {
+    "id": "b57c2a44-3626-492d-872a-a33dd8b0b6c7",
+    "code": "CMA4230",
+    "term": "W",
+    "faculty": "FA",
+    "name": "The Business of Film & Television"
+  },
+  {
+    "id": "512a1b7b-0b49-441c-b2ef-7a6a5076da8a",
+    "code": "CMA4711",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Issues in Film Historiography"
+  },
+  {
+    "id": "f82a568a-49ab-4a5b-857e-36602b273073",
+    "code": "CMA4800",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Honours Thesis"
+  },
+  {
+    "id": "fbf0b4bf-6531-41b1-b303-dd7b70418288",
+    "code": "CMA4800",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Honours Thesis"
+  },
+  {
+    "id": "e0712fa5-92bf-4274-ad94-7a46419a8892",
+    "code": "CMA4800",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Honours Thesis"
+  },
+  {
+    "id": "f82a02eb-4a5a-44cc-a777-c48d74cf9abd",
+    "code": "CMA4900",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Independent Studies in Film/Television"
+  },
+  {
+    "id": "d784a93e-12f9-422d-a4c7-8d40a9f62b07",
+    "code": "CMA4900",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Independent Studies in Film/Television"
+  },
+  {
+    "id": "d9940ffb-ab43-4f25-a161-899a00830793",
+    "code": "CMA4900",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Independent Studies in Film/Television"
+  },
+  {
+    "id": "ba101bb0-29e0-40dd-a94f-2ebc2a58251a",
+    "code": "CMA4901",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Independent Studies in Film/Television"
+  },
+  {
+    "id": "db697ad2-eece-427a-8b10-adb254474418",
+    "code": "CMA4901",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Independent Studies in Film/Television"
+  },
+  {
+    "id": "f118b404-394c-4589-a9ae-c46cadf960d6",
+    "code": "CMA4901",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Independent Studies in Film/Television"
+  },
+  {
+    "id": "3bb4ce51-e100-4173-9492-fa8d27d6d248",
+    "code": "CMCT5503",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Media Ethics"
+  },
+  {
+    "id": "f4ac6636-0623-420d-9ef0-b9d109afa8d5",
+    "code": "CMCT6002",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Research Methodologies"
+  },
+  {
+    "id": "af979657-3d5e-4829-9e50-e31bc8ea2202",
+    "code": "CMCT6004",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Communication & Culture: An Interdisciplinary Approach"
+  },
+  {
+    "id": "e266f41e-ad89-402b-842d-ab12a9bf2aa5",
+    "code": "CMCT6110",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Visual Culture"
+  },
+  {
+    "id": "601562e1-2d18-415a-b128-c7fb6a8a9d0b",
+    "code": "CMCT6113",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Contemporary Topics in Social Theory"
+  },
+  {
+    "id": "405b3c7b-ff8a-4c3f-bf36-34b5fee50a4f",
+    "code": "CMCT6300",
+    "term": "F",
+    "faculty": "GS",
+    "name": "The Political Economy of Culture and Communication"
+  },
+  {
+    "id": "8ce7e1d9-f6ec-4eef-9c6a-100ed465ad9b",
+    "code": "CMCT6335",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Selected Topics in Politics and Policy"
+  },
+  {
+    "id": "6f3dd667-016c-42d6-ae36-d8ae9bac4cb0",
+    "code": "CMCT6335",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Selected Topics in Politics and Policy"
+  },
+  {
+    "id": "7c124cf5-dfad-4441-8354-da5d844e4345",
+    "code": "CMCT6336",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Politics of Aesthetics"
+  },
+  {
+    "id": "c7fbd3c4-826e-4217-b183-67c1e7650f00",
+    "code": "CMCT6340",
+    "term": "F2",
+    "faculty": "GS",
+    "name": "Media Models from Network to Netflix"
+  },
+  {
+    "id": "a2118e85-858c-44a5-963a-062aefd8390d",
+    "code": "CMCT6500",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Advanced Communication Technology"
+  },
+  {
+    "id": "d2f12576-9d05-44aa-9d25-3d9b03d17845",
+    "code": "CMCT6508",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Future Cinema II: Applied Theory"
+  },
+  {
+    "id": "bb071fe0-7ad0-4cfa-9cc9-5868d82bdf86",
+    "code": "CMCT6511",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Race and Gender in Digital Technology"
+  },
+  {
+    "id": "97c5b55e-7687-476a-a1f3-0bd165bfb534",
+    "code": "CMCT6535",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Selected Topics in Technology in Practice"
+  },
+  {
+    "id": "edb08df8-93b2-493e-a213-2f81b1713804",
+    "code": "CMCT6537",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Digital Games and Learning"
+  },
+  {
+    "id": "d222f1bb-f4e0-49d3-b799-a1df10b26ef7",
+    "code": "CMCT6539",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Technological Mediations in Visual Culture"
+  },
+  {
+    "id": "4e4bbf4b-64d0-4e14-8e7a-47a0706fce15",
+    "code": "CMCT6909",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Field Placements"
+  },
+  {
+    "id": "d0c8cd58-c7cf-49d0-a07f-4fcce88b1a06",
+    "code": "CMCT6909",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Field Placements"
+  },
+  {
+    "id": "a8732002-53bc-4dec-90c4-2cdbb7224102",
+    "code": "CMCT6911",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Directed Readings (Master's Level)"
+  },
+  {
+    "id": "f1bb28ce-20b4-4a89-816b-020803668f56",
+    "code": "CMCT6911",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Directed Readings (Master's Level)"
+  },
+  {
+    "id": "de713754-49a6-4bda-a84f-a6e28364c29c",
+    "code": "CMCT6922",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Selected Topics in Research Methods"
+  },
+  {
+    "id": "b1c11b55-a466-49a8-8a82-c52f30f839e4",
+    "code": "CMCT7000",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Perspectives in Communication and Cultural Studies"
+  },
+  {
+    "id": "a4ccc6a6-1035-48d8-aa0a-007191647268",
+    "code": "CMCT7011",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Directed Readings (Ph.D. Level)"
+  },
+  {
+    "id": "be3231e1-527b-41e6-9d86-19fc2a407823",
+    "code": "CMCT7011",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Directed Readings (Ph.D. Level)"
+  },
+  {
+    "id": "7611bc24-285c-4afb-bdf3-137e236b94c6",
+    "code": "CMCT7012",
+    "term": "F",
+    "faculty": "GS",
+    "name": "Directed Readings (Ph.D. Level)"
+  },
+  {
+    "id": "fa2ee330-c8e4-431d-8d4f-d765d804c540",
+    "code": "CMCT7012",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Directed Readings (Ph.D. Level)"
+  },
+  {
+    "id": "ca97726c-da2c-4f03-a03b-49ac0016c452",
+    "code": "CMCT7200",
+    "term": "W",
+    "faculty": "GS",
+    "name": "Advanced Research Methodologies"
+  },
+  {
+    "id": "fb140d8c-8ff9-40d6-b879-2c9f15e01d0a",
+    "code": "CMDS1000",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Communication & Media"
+  },
+  {
+    "id": "f60b6972-5c6b-476d-a15d-595b6df0e0ff",
+    "code": "CMDS1001",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Being a Digital Citizen"
+  },
+  {
+    "id": "d6ea7a52-00e0-4bba-ae38-0c384aad9418",
+    "code": "CMDS1002",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Mobilizing Digital Citizenship"
+  },
+  {
+    "id": "7952ba51-3d61-4642-81df-9615be756b48",
+    "code": "CMDS1401",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Fake News, Fact-Finding and the Future of Journalism"
+  },
+  {
+    "id": "df18dd19-cc1d-459e-9c5b-c79005d3a582",
+    "code": "CMDS1435",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Stories We Tell: Media and Representation"
+  },
+  {
+    "id": "d64e0878-a445-4650-bd6a-63f389320f20",
+    "code": "CMDS1630",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Video Gaming and Society"
+  },
+  {
+    "id": "ee8febc2-f384-460b-b624-dc92471c679b",
+    "code": "CMDS1666",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Social Media, Public Relations and Society"
+  },
+  {
+    "id": "53ab0227-f389-4ba5-97b5-32b02f08307d",
+    "code": "CMDS2060",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Sport, Social Media and Public Relations"
+  },
+  {
+    "id": "d7c32c20-f574-4390-9507-4243ef6ef3cf",
+    "code": "CMDS2100",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Foundational Communication & Media Theory"
+  },
+  {
+    "id": "c4cb30ab-3987-4830-93c9-463cd3433a60",
+    "code": "CMDS2150",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Research Methods in Communication and Media Studies"
+  },
+  {
+    "id": "d90e44dc-168c-47c7-8b5a-e3c08627922f",
+    "code": "CMDS2200",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Introduction to Politics, Policy and the Media"
+  },
+  {
+    "id": "af5f6282-1ad7-4a08-841a-c0cc3bf7cd7d",
+    "code": "CMDS2200",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Introduction to Politics, Policy and the Media"
+  },
+  {
+    "id": "da131e0a-5c63-414f-9894-805b861d7705",
+    "code": "CMDS2500",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Information and Technology"
+  },
+  {
+    "id": "cfd05bed-d38a-4795-96f3-ec786a23ed82",
+    "code": "CMDS2500",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Information and Technology"
+  },
+  {
+    "id": "be408801-e8e4-4bbb-b47a-30daf1ede9d1",
+    "code": "CMDS3101",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Contemporary Communication Theory"
+  },
+  {
+    "id": "adf232df-74ce-4a31-a332-733e4d4c2479",
+    "code": "CMDS3204",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Public Diplomacy as Communication"
+  },
+  {
+    "id": "3b9dffd4-2124-4431-a877-be763b1ae176",
+    "code": "CMDS3220",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Organizing Social Movements"
+  },
+  {
+    "id": "de819f92-b116-4b69-8373-96c706efa534",
+    "code": "CMDS3250",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Communication Policy I: A Comparative Introduction"
+  },
+  {
+    "id": "ee7dfb74-e40a-462b-a896-efb014c6af9f",
+    "code": "CMDS3517",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Bodies, Media, Technology"
+  },
+  {
+    "id": "e4c6fee3-f4c4-4eae-9a94-663fd0b0f5a8",
+    "code": "CMDS3520",
+    "term": "W",
+    "faculty": "AP",
+    "name": "AI, Automation, and Mediation"
+  },
+  {
+    "id": "7bfe9712-6d47-4c9c-b1bb-253d103bda2b",
+    "code": "CMDS3590",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Feminist Perspectives on Media"
+  },
+  {
+    "id": "ffd53e06-1bb6-4e54-a623-a3b4c853bdf4",
+    "code": "CMDS3591",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Feminist Perspectives on Technology"
+  },
+  {
+    "id": "ec9278dd-184c-49c8-ba5d-530f4cbd4775",
+    "code": "CMDS3700",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Advertising: Media and the Development of Consumer Culture"
+  },
+  {
+    "id": "f97fab65-8f49-4142-ae5c-7994ca7d21c9",
+    "code": "CMDS3701",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Advertising, Culture and Society"
+  },
+  {
+    "id": "eebdb0cf-34b8-4127-9abf-a60c5158eb1e",
+    "code": "CMDS3730",
+    "term": "W",
+    "faculty": "AP",
+    "name": "An Introduction to the Documentary (for non-film majors)"
+  },
+  {
+    "id": "7bd81009-5526-4e5d-a803-d809e7aae1d3",
+    "code": "CMDS3781",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Media and Environment"
+  },
+  {
+    "id": "e139bc29-b2df-4151-a52c-a8ce3835848d",
+    "code": "CMDS4140",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Communications Field Experience: Corporate and Cultural Industries"
+  },
+  {
+    "id": "5713cccb-83a5-412b-961d-496ae4f6543c",
+    "code": "CMDS4306",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Inside Technology"
+  },
+  {
+    "id": "ade946ee-3372-4315-9600-3d49af3b5072",
+    "code": "CMDS4507",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Case Studies in Information and Communication Technologies"
+  },
+  {
+    "id": "685ef186-229a-4082-a0ac-39ee5c9339b1",
+    "code": "CMDS4708",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Youth Cultures and Media Practices"
+  },
+  {
+    "id": "53486328-0ebc-441a-b7ee-48887b1f9c03",
+    "code": "CMDS4725",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Mediations of Identity"
+  },
+  {
+    "id": "1e84a111-b425-4749-bac9-b71b3251300c",
+    "code": "CMDS4740",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Surveillance, media, and society"
+  },
+  {
+    "id": "a56aab88-8a75-4980-92fb-73049e994646",
+    "code": "CMDS4742",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Sport, Media and Society"
+  },
+  {
+    "id": "3511a06b-5c3e-465e-ab61-969340d152ab",
+    "code": "CMDS4755",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Indigenous Media in the Canadian Context"
+  },
+  {
+    "id": "b969851d-5296-443b-aaae-a81e3761f124",
+    "code": "COGS2160",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Minds, Brains and Machines"
+  },
+  {
+    "id": "e66c0e88-8d6d-4cfa-9210-f4b7e0bd8c4f",
+    "code": "COGS2160",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Minds, Brains and Machines"
+  },
+  {
+    "id": "97ddcd41-daa8-4c96-8a00-3b562af710f0",
+    "code": "COGS2800",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Language and Mind"
+  },
+  {
+    "id": "bc2afdd7-3582-405a-a394-5e33ea03ec5a",
+    "code": "COGS3750",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Philosophy of Artificial Intelligence"
+  },
+  {
+    "id": "c97dae7b-2d8a-4956-b81b-d28fc1db0cc4",
+    "code": "COGS4750",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Honours Thesis in Cognitive Science"
+  },
+  {
+    "id": "765034b9-ab11-4b85-8262-bdb4c1737d5f",
+    "code": "COGS4901",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Honours Seminar in Cognitive Science"
+  },
+  {
+    "id": "ec08df9d-bb73-4c49-9100-f506f3b17e81",
+    "code": "COMS1100",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Methods in Communication Research"
+  },
+  {
+    "id": "c9d57ae0-b3c0-45e8-a98c-a55da05c2e01",
+    "code": "COMS1910",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Introduction aux études en communication"
+  },
+  {
+    "id": "d94892c6-fd23-4823-aaaf-53899a2fef69",
+    "code": "COMS2000",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Social Media, Marketing and Advertising"
+  },
+  {
+    "id": "e4c78390-f344-4d7e-b30e-8001620f9615",
+    "code": "COMS2010",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Pixel Power: Digital Games as Communications"
+  },
+  {
+    "id": "da4ea004-06b4-40b6-bb30-daccaef44b0c",
+    "code": "COMS2100",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Beyond Words: Communications, Languages and Media"
+  },
+  {
+    "id": "d9490e75-db30-4abc-a96d-8adebc78ccbd",
+    "code": "COMS2200",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Computer tools and applications for communication"
+  },
+  {
+    "id": "dbd42ba7-4397-4943-ae05-0fa038e21189",
+    "code": "COMS2205",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Creating and Promoting Web Content"
+  },
+  {
+    "id": "cd1775de-1a29-4d7f-b9be-fccf3c036cb7",
+    "code": "COMS2300",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Attention! Introduction to Social Content Creation"
+  },
+  {
+    "id": "d8799a5c-f6ce-4898-aa18-bb9e97adb11c",
+    "code": "COMS2400",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Au-delà des binaires: genre, médias et communications"
+  },
+  {
+    "id": "f876ba21-6bea-4564-8bc9-b0b5545b63b6",
+    "code": "COMS3201",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Beyond Borders and Bridges: Transnational Communications"
+  },
+  {
+    "id": "f2afc0b2-6e57-4f8e-a499-a1da5fe4f237",
+    "code": "COMS3202",
+    "term": "F",
+    "faculty": "GL",
+    "name": "The Hitchhiker's Guide to Technoculture: Digital Discourse and Design"
+  },
+  {
+    "id": "bbea227e-7959-4484-9207-8a2ed44cb062",
+    "code": "COMS3203",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Practices in Intercultural Communications"
+  },
+  {
+    "id": "72fb24c9-b3af-494d-8c89-f3c5ecd8e2f7",
+    "code": "COMS3208",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Can Theory Save The Planet? Emergent Ideas/Idées émergentes 1"
+  },
+  {
+    "id": "c53c1ee7-cdd8-47ee-9c17-dd9e106f50b9",
+    "code": "COMS3209",
+    "term": "W",
+    "faculty": "GL",
+    "name": "The Production of the World Is the Message: Emergent Ideas in Communications 2"
+  },
+  {
+    "id": "8acd2a86-96a2-4f1b-9ef9-3ebf0d763336",
+    "code": "COMS3800",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Apprendre en faisant / Less reading, more doing: Work placement/placement en milieu de travail I"
+  },
+  {
+    "id": "6ad37ee3-6b84-48eb-8435-d75e7c723620",
+    "code": "COMS3800",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Apprendre en faisant / Less reading, more doing: Work placement/placement en milieu de travail I"
+  },
+  {
+    "id": "bbd557fc-0e82-4598-acde-658523ddfdd6",
+    "code": "COMS4200",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Dissémination des connaissances: talking taboos and breaking news"
+  },
+  {
+    "id": "9cc84411-3f24-4dea-8ba5-339454d2b523",
+    "code": "COMS4201",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Fail. Fail again. Fail better. Mediations and Conflicts"
+  },
+  {
+    "id": "6b7d7afd-ebd8-449a-8b61-e61d71f7c770",
+    "code": "COMS4202",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Boîte à outils pour les communications d'aujourd'hui : Advanced Communications Research Methods"
+  },
+  {
+    "id": "a23a9d09-27e0-4f78-9410-accbf3d1ebae",
+    "code": "COMS4208",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Dreaming of Electric Sheep: Emergent Practices in Communications 1"
+  },
+  {
+    "id": "e60ac206-1cdd-45d0-8a4d-0c4a926f7b90",
+    "code": "COMS4800",
+    "term": "F",
+    "faculty": "GL",
+    "name": "De la carte au territoire - From map to territory: Work placement/placement en milieu de travail II"
+  },
+  {
+    "id": "65e3b704-f426-40d7-b08c-20264ec15f00",
+    "code": "COMS4800",
+    "term": "W",
+    "faculty": "GL",
+    "name": "De la carte au territoire - From map to territory: Work placement/placement en milieu de travail II"
+  },
+  {
+    "id": "dd5fcb70-1765-477b-b6e1-7f89843080df",
+    "code": "COOP2000",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Introductory Professional Communications"
+  },
+  {
+    "id": "e7d36b96-1266-49c7-b94b-69f5cb163808",
+    "code": "COOP2000",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Liberal Arts & Professional Studies Co-op Work Term 1"
+  },
+  {
+    "id": "3dc4bf44-1aab-4fd6-b4d2-d68bd3635e1e",
+    "code": "COOP2000",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Liberal Arts & Professional Studies Co-op Work Term 1"
+  },
+  {
+    "id": "85b87588-8659-4693-836d-d3714fe3e930",
+    "code": "COOP2000",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Introductory Professional Communications"
+  },
+  {
+    "id": "09a9847a-dac0-4603-a62f-f9e31ba6b6d4",
+    "code": "COOP2001",
+    "term": "F",
+    "faculty": "EU",
+    "name": "Co-op Professional Development"
+  },
+  {
+    "id": "6e4288fa-4717-43e5-9e96-3b2ff57e418b",
+    "code": "COOP2001",
+    "term": "F",
+    "faculty": "EU",
+    "name": "Co-op Professional Development"
+  },
+  {
+    "id": "cb36a2ed-abe8-4b45-a0f1-0a8251822e9b",
+    "code": "COOP2001",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "7718acef-5674-409e-b1d8-4dc66c863d3d",
+    "code": "COOP2001",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "b96274b3-539d-4f7a-a958-53a99bdbd9d9",
+    "code": "COOP2001",
+    "term": "W",
+    "faculty": "EU",
+    "name": "Co-op Professional Development"
+  },
+  {
+    "id": "fda8453d-fe78-4415-866f-730aba4ff2aa",
+    "code": "COOP2001",
+    "term": "W",
+    "faculty": "EU",
+    "name": "Co-op Professional Development"
+  },
+  {
+    "id": "527f254f-85ef-49c8-9821-7b0c7402171a",
+    "code": "COOP2109",
+    "term": "F",
+    "faculty": "EU",
+    "name": "EUC Co-op Work Term"
+  },
+  {
+    "id": "dbbaae68-e222-4ce1-9b5e-1b497dafa0bb",
+    "code": "COOP2109",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Lassonde Co-op Work-term"
+  },
+  {
+    "id": "2a4695c7-39de-447b-a79e-6c00dc47a7fa",
+    "code": "COOP2109",
+    "term": "W",
+    "faculty": "EU",
+    "name": "EUC Co-op Work Term"
+  },
+  {
+    "id": "a89f5637-893f-4596-82d8-3456866f0251",
+    "code": "COOP2109",
+    "term": "W",
+    "faculty": "EU",
+    "name": "EUC Co-op Work Term"
+  },
+  {
+    "id": "f20c8e29-46ef-4d85-b6f8-e592e728e156",
+    "code": "COOP2999",
+    "term": "F",
+    "faculty": "HH",
+    "name": "Preparing for Co-op Work in Health and Health-related Environments"
+  },
+  {
+    "id": "e6b3881c-9378-42fa-8116-6deffc12d899",
+    "code": "COOP3001",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "bba50b6a-0410-4560-84f0-f96307cacdde",
+    "code": "COOP3001",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "de2f8769-a0db-4b6e-aa59-d5f9c695a4de",
+    "code": "COOP3002",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "84a4c36f-be2c-417f-89bd-530da44cc7f2",
+    "code": "COOP3002",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "a2fc3932-1dc2-43b5-8c31-d8be4396c4b2",
+    "code": "COOP3003",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "77485b22-b1a5-4a35-a7d1-097e85d93c9e",
+    "code": "COOP3003",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "b4c1b644-f1e8-43f2-8755-badc3ab51d55",
+    "code": "COOP3004",
+    "term": "F",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "751fcc27-ab6d-42ac-923b-0016e1b1ffa7",
+    "code": "COOP3004",
+    "term": "W",
+    "faculty": "SC",
+    "name": "Co-op Work Term"
+  },
+  {
+    "id": "7ebf5c40-8f0c-4b7b-86f0-7248025b76f1",
+    "code": "COOP3109",
+    "term": "F",
+    "faculty": "EU",
+    "name": "EUC Co-op Work Term"
+  },
+  {
+    "id": "a9d26e80-fd5f-475f-b021-74ef34d8296c",
+    "code": "COOP3109",
+    "term": "F",
+    "faculty": "LE",
+    "name": "Lassonde Co-op Work-term"
+  },
+  {
+    "id": "4aae98d1-b295-41fb-bf4b-7471d31c74f0",
+    "code": "COOP3109",
+    "term": "W",
+    "faculty": "EU",
+    "name": "EUC Co-op Work Term"
+  },
+  {
+    "id": "914fab6a-ea7f-40ab-b5c6-6722acf13f23",
+    "code": "COOP3109",
+    "term": "W",
+    "faculty": "EU",
+    "name": "EUC Co-op Work Term"
+  },
+  {
+    "id": "cd9991e5-8826-4e6d-832d-f6c4cafaa935",
+    "code": "CORE1605",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Hispanic Culture: Language, Art, Literature and Cinema"
+  },
+  {
+    "id": "470da514-adb8-4ec5-bc0a-e4ee6cbeb13e",
+    "code": "CORE1625",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Introduction to Computing & Programming"
+  },
+  {
+    "id": "e2e1bc60-6ef2-449a-a22f-2849472dd651",
+    "code": "CORE1630",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Building your future: University & beyond"
+  },
+  {
+    "id": "dfb5d062-fd8f-4bb1-9ae2-e3196ff3cf81",
+    "code": "CORE1630",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Building your future: University & beyond"
+  },
+  {
+    "id": "fd54ba72-8bae-4a33-8c25-ae0c2b5fe6b4",
+    "code": "CORE1635",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Introduction to Academic Research in the Humanities and Social Sciences"
+  },
+  {
+    "id": "430bf0d4-f58e-44a8-8d63-8ccb96817627",
+    "code": "CORE1640",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Ideas Through Time and Space: Knowledge Transfer Across Languages and Cultures"
+  },
+  {
+    "id": "fb7528bb-2a11-4ffd-b19d-9a4999fb47df",
+    "code": "CORE1711",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Critical Thinking"
+  },
+  {
+    "id": "0a968fca-ce6e-4fa9-ae16-815a1439e7ca",
+    "code": "CORE1900",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Reconciling Literature: Understanding Texts & Contexts"
+  },
+  {
+    "id": "fd75bf7b-d237-43b4-9136-3e9b62e364b4",
+    "code": "CORE2602",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Citizenship and Immigration in Canada"
+  },
+  {
+    "id": "a4b06ecd-48df-47a2-9948-4971dd2a7b00",
+    "code": "CORE2615",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Moral Questions and Social Policies"
+  },
+  {
+    "id": "451e37fa-7b4a-4888-881a-ece8901ac73f",
+    "code": "CORE2640",
+    "term": "Y",
+    "faculty": "GL",
+    "name": "Logic"
+  },
+  {
+    "id": "bb9e1017-ffd8-4d61-a9ed-1f54841a3f54",
+    "code": "CORE2900",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Sex, Swords, and Sandals: Classical Foundations of English Literature"
+  },
+  {
+    "id": "e9b2e9cc-626a-4c9a-b06a-b3906c93ab09",
+    "code": "CORE2923",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Introduction to Law and Social Thought"
+  },
+  {
+    "id": "a5be432e-3b1b-4cfa-baf1-c631e249ed69",
+    "code": "CORE2925",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Law, justice and equality"
+  },
+  {
+    "id": "77772db4-561d-446b-a53a-a96804662bdd",
+    "code": "CORE2934",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Global Philosophies"
+  },
+  {
+    "id": "edd12e33-7e7a-466b-ab66-a1b389f9712f",
+    "code": "CORE3636",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Social Inequality"
+  },
+  {
+    "id": "bba4bcf9-1e8e-41ba-93f0-57e688e0349c",
+    "code": "CORE4275",
+    "term": "W",
+    "faculty": "GL",
+    "name": "Global Environmental Challenges - Local Solutions / Défis environnementaux mondiaux - solutions locales"
+  },
+  {
+    "id": "42751f24-f417-491e-bb97-d9060a13e128",
+    "code": "CORE4605",
+    "term": "F",
+    "faculty": "GL",
+    "name": "Sociology of Masculinities: From Iron John to Buck Angel"
+  },
+  {
+    "id": "e8805164-e6ec-4ae5-b640-72e3ecf730b7",
+    "code": "COST4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Computer Studies in the Intermediate Division - A"
+  },
+  {
+    "id": "968d775b-6976-4190-903c-25d48ef6105d",
+    "code": "COST4001",
+    "term": "W",
+    "faculty": "ED",
+    "name": "Teaching Computer Studies in the Intermediate-Senior Divisions - B"
+  },
+  {
+    "id": "cb3d70dc-cd3f-406e-9197-600f45b706b4",
+    "code": "CRIM1650",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Criminology"
+  },
+  {
+    "id": "70c9ce55-ac23-4806-8110-9b4872a47656",
+    "code": "CRIM2650",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Theories of Criminology"
+  },
+  {
+    "id": "a29c1d87-1b0d-4b08-95cb-1d20515f22ff",
+    "code": "CRIM2652",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Criminal Justice Systems"
+  },
+  {
+    "id": "8f58c050-d0c8-4488-a46e-b82bab3b3495",
+    "code": "CRIM2653",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Research Methods in Criminology"
+  },
+  {
+    "id": "36f936a1-5bed-4faf-b994-8ee0e7316b0a",
+    "code": "CRIM3654",
+    "term": "F",
+    "faculty": "AP",
+    "name": "The Politics of Crime Prevention"
+  },
+  {
+    "id": "f7b6241f-d822-4759-8c2e-10f6c299298c",
+    "code": "CRIM3655",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Policing"
+  },
+  {
+    "id": "7f658127-4147-4557-8696-d5d4d00f5063",
+    "code": "CRIM3656",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Punishment"
+  },
+  {
+    "id": "dc7222cf-2848-46e2-a20b-ed7174f22821",
+    "code": "CRIM3657",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Youth Crime"
+  },
+  {
+    "id": "d6a1c49f-3496-42a6-a0e1-13db2ae61a59",
+    "code": "CRIM3658",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Crime, Science, and Technology"
+  },
+  {
+    "id": "547681d6-854b-49d5-834e-d492b2a40802",
+    "code": "CRIM3659",
+    "term": "F",
+    "faculty": "AP",
+    "name": "Criminology and Human Rights"
+  },
+  {
+    "id": "81a871da-2d92-48db-9b90-2205db859553",
+    "code": "CRIM3661",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Global Private Security Industry"
+  },
+  {
+    "id": "fec34542-d697-4be5-b449-01be5bfedc85",
+    "code": "CRIM3663",
+    "term": "W",
+    "faculty": "AP",
+    "name": "Gender and Crime"
+  },
+  {
+    "id": "fe47cf0e-b155-41b7-9920-887165362255",
+    "code": "CRIM4650",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Criminology Honours Seminar"
+  },
+  {
+    "id": "9c62f811-2c0a-4402-b5d9-cb9618fd0dcb",
+    "code": "CRIM4654",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Representing Crime"
+  },
+  {
+    "id": "c67d7ea4-f42b-4b48-9c6a-d1ccb6746c85",
+    "code": "CRIM4655",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Cultures of Violence"
+  },
+  {
+    "id": "9f11512b-3aed-4ccf-a778-2e1b93b5ef4c",
+    "code": "CRIM4657",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Crime and the Corporation"
+  },
+  {
+    "id": "4e5c3136-3767-4ece-8a98-41d709baef8d",
+    "code": "CRIM4658",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Law, Crime and Borders"
+  },
+  {
+    "id": "2e4c383a-e71a-4ecc-a521-556ce6cd0dcc",
+    "code": "CRIM4659",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Indigenous Peoples, Crime, and Justice"
+  },
+  {
+    "id": "f63a5352-aa7d-4940-bb55-388b4cd9b002",
+    "code": "CRIM4660",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Criminalization of Dissent"
+  },
+  {
+    "id": "cceacd9a-d5d4-4895-b9e2-64119821b6f5",
+    "code": "CRIM4661",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Surveillance and Crime"
+  },
+  {
+    "id": "ee658ed7-a0f9-43c7-a109-b842baa5f311",
+    "code": "CRIM4662",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Criminal Justice Policy"
+  },
+  {
+    "id": "6c123550-9604-4778-b9f4-0adefc4807b2",
+    "code": "CRIM4663",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Critical Victimology"
+  },
+  {
+    "id": "eefa08ce-6c62-4721-a7ce-186e4d3f204a",
+    "code": "CRIM4664",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "The Politics of Canadian Policing in Global Context"
+  },
+  {
+    "id": "d9d202c6-f58d-44f8-8b48-e5e377067f73",
+    "code": "CRIM4665",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Global Approaches to Internet and Digital Crime"
+  },
+  {
+    "id": "57f4be3d-ad75-42b5-bb3d-160e603af1a8",
+    "code": "CRIM4666",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Sex, Crime & Danger"
+  },
+  {
+    "id": "18a4c955-c847-44b4-9091-ea0e63149127",
+    "code": "CRIM4667",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Criminology placement course"
+  },
+  {
+    "id": "bc27c64e-f28d-4997-9017-e9a89573bc46",
+    "code": "CRTE1000",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Audiovisual Tools I: Sound Editing with Reaper"
+  },
+  {
+    "id": "82d47918-7414-42fc-bf5b-9abae3e2f2db",
+    "code": "CRTE1100",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Methods for Creative Technologies I"
+  },
+  {
+    "id": "df39d193-8522-4ce5-9ec3-ccdd00dc7a27",
+    "code": "CRTE1110",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Methods for Creative Technologies II"
+  },
+  {
+    "id": "9d0cf41a-ea6b-4e9b-bcaa-7e8766261812",
+    "code": "CRTE1200",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Fundamentals of Collaboration"
+  },
+  {
+    "id": "d89cfda9-cdd4-4375-97f4-03f3e8194d37",
+    "code": "CRTE1300",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Understanding Coding"
+  },
+  {
+    "id": "0325a8a4-f79f-4cc7-95dc-52210cc3c62f",
+    "code": "CRTE1900",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Being a Digital Citizen"
+  },
+  {
+    "id": "9c4dd0ae-f7a3-4abf-a3a7-73cb39de3d83",
+    "code": "CRTE1901",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Mobilizing Digital Citizenship"
+  },
+  {
+    "id": "7d52af3c-e4e5-40dd-8900-a71bd015f0f0",
+    "code": "CRTE2010",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Tech Knowledge Training: Game Engine Interactivity with Unreal Engine"
+  },
+  {
+    "id": "9cf8582a-9741-42f9-812b-c2b9e44fc0e9",
+    "code": "CRTE2100",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Histories of Applied Digital Arts"
+  },
+  {
+    "id": "d0f97bdd-a40b-4ea3-9472-22f82a4120df",
+    "code": "CRTE2200",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Decolonizing the Arts"
+  },
+  {
+    "id": "817db07f-fea6-4155-96e5-211183c0cc44",
+    "code": "CRTE2700",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Creative Technologies Entrepreneurship"
+  },
+  {
+    "id": "bc45bb56-f790-4d1f-9182-a4d865ea2af9",
+    "code": "CRTE2900",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Immersive Sound Narratives and Techniques"
+  },
+  {
+    "id": "1f22f025-d5fb-4b80-8359-08dfcacb0cb2",
+    "code": "CWR2600",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Introduction to Creative Writing"
+  },
+  {
+    "id": "a28442a9-6fe9-48cd-8e19-70049ec99384",
+    "code": "CWR3610",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Intermediate Prose Workshop: Fiction"
+  },
+  {
+    "id": "aab3d6fa-db48-4c53-815a-8360396284cd",
+    "code": "CWR3620",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Intermediate Poetry Workshop"
+  },
+  {
+    "id": "a11977f3-64f2-427b-8483-ace755be4148",
+    "code": "CWR4600",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Advanced Creative Nonfiction Writing"
+  },
+  {
+    "id": "cf250d34-9877-46ee-951e-c1bb5225584c",
+    "code": "CWR4610",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Senior Prose Workshop: Fiction"
+  },
+  {
+    "id": "2c0e2ec3-6199-4b96-8b04-2b92ee46a86e",
+    "code": "CWR4620",
+    "term": "Y",
+    "faculty": "AP",
+    "name": "Senior Poetry Workshop"
+  },
+  {
+    "id": "57c73b58-ca7f-4bd0-9a7c-5b1bc9e8e75d",
+    "code": "DANC1205",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "e99c4580-1d89-4458-bcf2-ff57bf5b10a0",
+    "code": "DANC1207",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "b40434f5-57c9-49c8-8bb4-2d364d4b4a61",
+    "code": "DANC1215",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "dbab7ec7-d21a-4df5-9ba2-f037526284c2",
+    "code": "DANC1216",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "d830c0f7-9287-42c1-a447-de728bc81e90",
+    "code": "DANC1217",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "74fa8eb6-11fd-40d4-b912-22e5fd94d776",
+    "code": "DANC1218",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "aa1c8c8a-82ec-4d75-9a5a-f19982cab8be",
+    "code": "DANC1220",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Fundamentals of Physical Practice"
+  },
+  {
+    "id": "88f2babb-30f4-4d36-aad6-77cee5bc806a",
+    "code": "DANC1271",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dance Production"
+  },
+  {
+    "id": "7034c3a4-2c02-4d60-bf9a-66ddaf6dd257",
+    "code": "DANC1340",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dance Studies: An Introduction"
+  },
+  {
+    "id": "a97eee53-093b-4456-993d-e5a5b910675a",
+    "code": "DANC1400",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dancing for Non Majors"
+  },
+  {
+    "id": "f6a14811-b5fd-42f4-835e-a0cb00576a29",
+    "code": "DANC1400",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Dancing for Non Majors"
+  },
+  {
+    "id": "8ecb9e70-cb41-4b4b-9d94-5bddfea43b7f",
+    "code": "DANC1500",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Big Dance Small Space: The Virtual Dance Experience"
+  },
+  {
+    "id": "38936de9-2a76-4688-ae9e-e0c0713804a7",
+    "code": "DANC1900",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Dance, Film, and Culture"
+  },
+  {
+    "id": "5d401346-70a3-4b68-aca0-19d07cb14ae7",
+    "code": "DANC2205",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "deefca0e-ec58-4af2-95b0-b88ec2c25acb",
+    "code": "DANC2207",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "a8eaaece-433f-4151-98ac-0f681ed202b0",
+    "code": "DANC2215",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "e6666d2c-0fa2-4a5b-afff-b120966460d7",
+    "code": "DANC2216",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "796edfe9-625d-41b9-8c23-0f310dbcb204",
+    "code": "DANC2217",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "a943d9a5-9767-43ad-ba25-429b980476f0",
+    "code": "DANC2218",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "de991ff9-0b8a-40a9-95cc-d45e6f7be158",
+    "code": "DANC2225",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Choreography"
+  },
+  {
+    "id": "f3c4de91-3458-412a-b8c4-096a0e84a4f2",
+    "code": "DANC2226",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Choreography"
+  },
+  {
+    "id": "50b22a58-07e3-43fb-93dd-97f3690235bc",
+    "code": "DANC2271",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dance Production Practicum"
+  },
+  {
+    "id": "c014cc40-1b5d-4d25-88d5-ccdadc2d1720",
+    "code": "DANC2271",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Dance Production Practicum"
+  },
+  {
+    "id": "fcd23436-4c3b-41c8-87f4-2f0ac5e52f7a",
+    "code": "DANC2320",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dance Kinesiology"
+  },
+  {
+    "id": "cbef2840-4a99-48ee-b4b6-394e9b3103ab",
+    "code": "DANC2510L",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Breaking and Hip-Hop Dance Practices"
+  },
+  {
+    "id": "c0143bf6-933e-47a8-8d56-6fceaa70846a",
+    "code": "DANC3000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Dance in the Intermediate Division"
+  },
+  {
+    "id": "aa13dc8e-b4ef-4dd9-b855-6e5eb618ccfd",
+    "code": "DANC3205",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "ef50715b-9717-4340-8540-82838181b6b9",
+    "code": "DANC3206",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "d98bb93f-5bde-4627-a548-4baf33cc4d90",
+    "code": "DANC3207",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "95f22da4-c66c-4d87-9b4b-2809b52ac1bc",
+    "code": "DANC3208",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "83c29882-25c0-491f-8821-97b73c5a43d6",
+    "code": "DANC3215",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "77838bc8-3ed7-4cb7-b6a2-e6d17f956cc9",
+    "code": "DANC3216",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "94ad7471-1769-43b8-9843-f734a98f6185",
+    "code": "DANC3217",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "ba03e507-d60d-48c0-9603-733f43b88e68",
+    "code": "DANC3218",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "ae0eb0bd-f7f1-444e-8f59-959c01513202",
+    "code": "DANC3220",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Choreography"
+  },
+  {
+    "id": "b2819252-7c47-4718-ab14-a645f2958c3d",
+    "code": "DANC3235",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Performance"
+  },
+  {
+    "id": "e564c21f-54ee-4076-9942-04d36bbe75a2",
+    "code": "DANC3236",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Performance"
+  },
+  {
+    "id": "f227e7b4-87f3-4b01-ab17-c2c8e719fde2",
+    "code": "DANC3240",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Dance Ensemble Apprenticeship"
+  },
+  {
+    "id": "997e1f97-149d-4f20-8d52-6465274b5767",
+    "code": "DANC3271",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Intermediate Dance Production Practicum"
+  },
+  {
+    "id": "eda94902-67f7-436e-af16-d7859fffde26",
+    "code": "DANC3271",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Intermediate Dance Production Practicum"
+  },
+  {
+    "id": "4bdb62bf-274c-4a37-bfa6-e84632434713",
+    "code": "DANC3321",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Health and Wellbeing in the Performing Arts"
+  },
+  {
+    "id": "320843b4-0415-4cee-80f6-c632c88b0ccd",
+    "code": "DANC3330",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Reading, Writing, Dancing"
+  },
+  {
+    "id": "895ad049-b25b-4150-af6b-64c21a868403",
+    "code": "DANC3370",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dance Pedagogy"
+  },
+  {
+    "id": "9f140b34-7f9d-486f-8898-0c676f8888bc",
+    "code": "DANC3510L",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Breaking and Hip-Hop Dance Practices"
+  },
+  {
+    "id": "b269492c-0d5e-4b9d-9936-acc5ed690434",
+    "code": "DANC4000",
+    "term": "F",
+    "faculty": "ED",
+    "name": "Teaching Dance in the Intermediate-Senior Divisions - A"
+  },
+  {
+    "id": "7e0ea079-be84-42f3-8d60-4cbc9c71bb24",
+    "code": "DANC4001",
+    "term": "W",
+    "faculty": "ED",
+    "name": "Teaching Dance in the Intermediate-Senior Divisions - B"
+  },
+  {
+    "id": "48523d3a-5a5f-4c2f-a899-04b54f7c5dd2",
+    "code": "DANC4205",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "5efac97a-b0b1-4903-9859-b2daa905ee64",
+    "code": "DANC4206",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "a4e2e28c-20a8-4ae3-8f9e-382db70849ae",
+    "code": "DANC4207",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "feffd9ea-280c-4df9-ae2d-52288b8a0850",
+    "code": "DANC4208",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Ballet Dance Forms"
+  },
+  {
+    "id": "dfe6f56e-1c40-4165-8327-fe4a0de171b8",
+    "code": "DANC4215",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "9820c927-588e-46fb-a3cc-9f1268620f02",
+    "code": "DANC4216",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "4e2f2a0f-47d5-450c-8aaa-e10d14e46f00",
+    "code": "DANC4217",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "a141b160-b493-47ff-b0ee-9ce47e542aae",
+    "code": "DANC4218",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Contemporary/Modern Dance Forms"
+  },
+  {
+    "id": "346c785b-4df2-40e0-823f-db83f4ba0b0b",
+    "code": "DANC4220",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Choreography"
+  },
+  {
+    "id": "eedb606d-a370-4410-9197-50a4e906ef01",
+    "code": "DANC4245",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Dance Ensemble I"
+  },
+  {
+    "id": "2d857ea8-cb1f-4001-b58e-6b013f0bae04",
+    "code": "DANC4246",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Dance Ensemble II"
+  },
+  {
+    "id": "382f0cc0-181f-43d8-941e-89c705e4f641",
+    "code": "DANC4270",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Lighting Design for Dance I"
+  },
+  {
+    "id": "d6f7c689-e7bc-403e-a96c-0c41cf9458ab",
+    "code": "DANC4271",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Advanced Dance Production Practicum"
+  },
+  {
+    "id": "747ffc62-5ed8-416d-881e-1ce849ff4fab",
+    "code": "DANC4271",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Advanced Dance Production Practicum"
+  },
+  {
+    "id": "a69cad7f-268d-4e64-9d9b-12eb1f047b96",
+    "code": "DANC4345",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Canadian Dance History"
+  },
+  {
+    "id": "d08ab17f-c2e8-460d-9462-c173b431dee2",
+    "code": "DANC4400",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Senior Projects"
+  },
+  {
+    "id": "8f08ba2e-0848-4744-b8d0-f279aae4b960",
+    "code": "DANC4401",
+    "term": "F",
+    "faculty": "FA",
+    "name": "Independent Studies"
+  },
+  {
+    "id": "cf8700c0-cdb4-4913-b208-0d9a38167389",
+    "code": "DANC4401",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Independent Studies"
+  },
+  {
+    "id": "ce59d63f-4c27-4d5e-bdd9-dbebc6b189a5",
+    "code": "DANC4401",
+    "term": "Y",
+    "faculty": "FA",
+    "name": "Independent Studies"
+  },
+  {
+    "id": "b5207b66-5b9c-4619-be76-0c0afefed051",
+    "code": "DANC4510L",
+    "term": "W",
+    "faculty": "FA",
+    "name": "Breaking and Hip-Hop Dance Practices"
+  }
+]

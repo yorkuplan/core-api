@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 
+from helpers.html_io import read_scraping_html
 from helpers.parser import parse_course_timetable_html
 
 
@@ -12,7 +13,7 @@ def main():
     data_path = scraping_dir / "data" / "summer-2026" / "schulich.json"
 
     try:
-        html_content = html_path.read_text(encoding="utf-8", errors="replace")
+        html_content = read_scraping_html(html_path)
     except Exception as error:
         print(f"Error reading HTML: {error}")
         return

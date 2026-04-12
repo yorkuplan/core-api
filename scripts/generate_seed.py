@@ -329,6 +329,10 @@ def generate_seed_sql(json_files: list[str], output_file: str, descriptions_file
         
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
+
+        if not isinstance(data, dict) or 'courses' not in data:
+            print(f"  Skipping (not a faculty scrape export with top-level 'courses')")
+            continue
         
         courses = data.get('courses', [])
         
@@ -393,25 +397,45 @@ if __name__ == '__main__':
     import glob
     
     repo_root = Path(__file__).resolve().parents[1]
-    data_dir = str(repo_root / 'scraping' / 'data')
+    data_root = repo_root / 'scraping' / 'data'
+    # Default: one academic term only. Globbing all of scraping/data/*/*.json merges
+    # multiple years and duplicates every (code, term) row.
+    default_term_dir = 'fall-winter-2026-2027'
     output_file = str(repo_root / 'db' / 'seed.sql')
     descriptions_file = str(repo_root / 'scraping' / 'scrapers' / 'descriptions' / 'course_descriptions.json')
-    
+
     if len(sys.argv) > 1:
-        data_dir = sys.argv[1]
+        arg1 = sys.argv[1]
+        p = Path(arg1)
+        if p.is_dir():
+            json_dir = p.resolve()
+        else:
+            json_dir = (data_root / arg1).resolve()
+    else:
+        json_dir = (data_root / default_term_dir).resolve()
+
+    if not json_dir.is_dir():
+        print(f"Not a directory: {json_dir}")
+        sys.exit(1)
+
     if len(sys.argv) > 2:
         output_file = sys.argv[2]
     if len(sys.argv) > 3:
         descriptions_file = sys.argv[3]
 
-    json_files = glob.glob(os.path.join(data_dir, '*', '*.json'))
+    json_files = sorted(
+        p
+        for p in glob.glob(str(json_dir / '*.json'))
+        if Path(p).name not in {'duplicates.json'}
+    )
 
     if not json_files:
-        print(f"No JSON files found in {data_dir}")
+        print(f"No JSON files found under {json_dir}")
         sys.exit(1)
 
-    print(f"Found {len(json_files)} JSON file(s) to process:")  # Fixed!
+    print(f"Course JSON directory: {json_dir}")
+    print(f"Found {len(json_files)} JSON file(s) to process:")
     for json_file in json_files:
         print(f"  - {json_file}")
-    
+
     generate_seed_sql(json_files, output_file, descriptions_file)

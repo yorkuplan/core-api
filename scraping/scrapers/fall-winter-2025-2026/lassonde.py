@@ -3,16 +3,17 @@
 import json
 from pathlib import Path
 
+from helpers.html_io import read_scraping_html
 from helpers.parser import parse_course_timetable_html
+from helpers.term_paths import fall_winter_paths
 
 
 def main():
     scraping_dir = Path(__file__).resolve().parents[2]
-    html_path = scraping_dir / "page_source" / "fall-winter-2025-2026" / "lassonde.html"
-    data_path = scraping_dir / "data" / "fall-winter-2025-2026" / "lassonde.json"
+    html_path, data_path = fall_winter_paths(scraping_dir, "lassonde")
 
     try:
-        html_content = html_path.read_text(encoding="utf-8", errors="replace")
+        html_content = read_scraping_html(html_path)
     except Exception as error:
         print(f"Error reading HTML: {error}")
         return

@@ -5,7 +5,9 @@ import sys
 from pathlib import Path
 from unittest.mock import patch
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fall-winter-2025-2026"))
+_scrapers_root = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(_scrapers_root / "fall-winter-2025-2026"))
+sys.path.insert(1, str(_scrapers_root))
 
 import science
 
@@ -15,7 +17,7 @@ class TestScienceIntegration(unittest.TestCase):
 
     def test_main_with_missing_html_file(self):
         """Test main function handles missing HTML file gracefully"""
-        with patch('pathlib.Path.read_text', side_effect=FileNotFoundError("File not found")), \
+        with patch('pathlib.Path.read_bytes', side_effect=FileNotFoundError("File not found")), \
              patch('builtins.print') as mock_print:
             science.main()
             call_args = [str(call) for call in mock_print.call_args_list]
@@ -45,7 +47,7 @@ class TestScienceIntegration(unittest.TestCase):
         </html>
         """
 
-        with patch('pathlib.Path.read_text', return_value=test_html), \
+        with patch('pathlib.Path.read_bytes', return_value=test_html.encode('utf-8')), \
              patch('pathlib.Path.write_text') as mock_write, \
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
@@ -60,7 +62,7 @@ class TestScienceIntegration(unittest.TestCase):
         """Test main function handles parsing errors"""
         invalid_html = "<html><invalid></html>"
 
-        with patch('pathlib.Path.read_text', return_value=invalid_html), \
+        with patch('pathlib.Path.read_bytes', return_value=invalid_html.encode('utf-8')), \
              patch('pathlib.Path.write_text'), \
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
@@ -72,7 +74,7 @@ class TestScienceIntegration(unittest.TestCase):
         """Test that main uses correct parser parameters"""
         test_html = "<table></table>"
 
-        with patch('pathlib.Path.read_text', return_value=test_html), \
+        with patch('pathlib.Path.read_bytes', return_value=test_html.encode('utf-8')), \
              patch('pathlib.Path.write_text'), \
              patch('pathlib.Path.mkdir'), \
              patch('science.parse_course_timetable_html') as mock_parse, \
@@ -90,7 +92,7 @@ class TestScienceIntegration(unittest.TestCase):
         """Test main function handles JSON serialization errors"""
         test_html = "<table></table>"
 
-        with patch('pathlib.Path.read_text', return_value=test_html), \
+        with patch('pathlib.Path.read_bytes', return_value=test_html.encode('utf-8')), \
              patch('pathlib.Path.mkdir'), \
              patch('science.parse_course_timetable_html') as mock_parse, \
              patch('pathlib.Path.write_text', side_effect=Exception("Write error")), \
@@ -108,7 +110,7 @@ class TestScienceIntegration(unittest.TestCase):
         """Test main function handles parser exceptions with traceback"""
         test_html = "<table></table>"
 
-        with patch('pathlib.Path.read_text', return_value=test_html), \
+        with patch('pathlib.Path.read_bytes', return_value=test_html.encode('utf-8')), \
              patch('pathlib.Path.mkdir'), \
              patch('science.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
              patch('builtins.print') as mock_print, \
@@ -137,7 +139,7 @@ class TestScienceIntegration(unittest.TestCase):
             ]
         }
 
-        with patch('pathlib.Path.read_text', return_value=test_html), \
+        with patch('pathlib.Path.read_bytes', return_value=test_html.encode('utf-8')), \
              patch('pathlib.Path.write_text'), \
              patch('pathlib.Path.mkdir'), \
              patch('science.parse_course_timetable_html', return_value=mock_result), \
