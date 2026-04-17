@@ -32,6 +32,15 @@
         "schulich": "SB",
         "science": "SC"
       }
+    },
+    "summer-2026": {
+      "year_prefix": "SU2025",
+      "_year_prefix_note": "Summer calendar 2026 uses York's SU2025*.html static files (e.g. SU2025UG.html for AP/ED/ES/FA/GL/HH/LE/SC, SU2025GS.html, SU2025SB.html). When the next summer posts, bump to SU2026 etc. per registrar/SIS.",
+      "stem_to_faculty_code": {
+        "ap-ed-es-fa-gl-hh-le-sc": "UG",
+        "graduate_studies": "GS",
+        "schulich": "SB"
+      }
     }
   }
 }

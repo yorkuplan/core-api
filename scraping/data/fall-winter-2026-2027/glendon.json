@@ -14481,6 +14481,34 @@
     {
       "faculty": "GL",
       "department": "NATS",
+      "term": "F",
+      "courseTitle": "Human-Insect Interactions",
+      "courseId": "4205",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X28V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "12:00",
+              "duration": "170",
+              "campus": "Glendon",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "NATS",
       "term": "W",
       "courseTitle": "Stories, Minds and Brains",
       "courseId": "4615",
@@ -21824,7 +21852,7 @@
   ],
   "metadata": {
     "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Fri, 10 Apr 2026 at 03:33:18 AM",
+    "lastUpdated": "Thu, 16 Apr 2026 at 03:32:55 AM",
     "source": "York University"
   }
 }

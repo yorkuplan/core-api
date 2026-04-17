@@ -1,0 +1,4007 @@
+[
+  {
+    "file": "glendon.json",
+    "index": 92,
+    "faculty": "GL",
+    "department": "CORE",
+    "term": "F",
+    "courseTitle": "Animal and Environmental Ethics",
+    "lookup_hint": "GL/CORE — F — Animal and Environmental Ethics"
+  },
+  {
+    "file": "glendon.json",
+    "index": 115,
+    "faculty": "GL",
+    "department": "CORE",
+    "term": "W",
+    "courseTitle": "International Perspectives on Race and Racism",
+    "lookup_hint": "GL/CORE — W — International Perspectives on Race and Racism"
+  },
+  {
+    "file": "glendon.json",
+    "index": 156,
+    "faculty": "GL",
+    "department": "ECON",
+    "term": "W",
+    "courseTitle": "Marketing and Consumer Economics",
+    "lookup_hint": "GL/ECON — W — Marketing and Consumer Economics"
+  },
+  {
+    "file": "glendon.json",
+    "index": 282,
+    "faculty": "GL",
+    "department": "HIST",
+    "term": "W",
+    "courseTitle": "Memory and Historical Narratives",
+    "lookup_hint": "GL/HIST — W — Memory and Historical Narratives"
+  },
+  {
+    "file": "glendon.json",
+    "index": 307,
+    "faculty": "GL",
+    "department": "HUMA",
+    "term": "F",
+    "courseTitle": "Animal and Environmental Ethics",
+    "lookup_hint": "GL/HUMA — F — Animal and Environmental Ethics"
+  },
+  {
+    "file": "glendon.json",
+    "index": 309,
+    "faculty": "GL",
+    "department": "HUMA",
+    "term": "F",
+    "courseTitle": "The Quest for Meaning",
+    "lookup_hint": "GL/HUMA — F — The Quest for Meaning"
+  },
+  {
+    "file": "glendon.json",
+    "index": 386,
+    "faculty": "GL",
+    "department": "ILST",
+    "term": "W",
+    "courseTitle": "International Perspectives on Race and Racism",
+    "lookup_hint": "GL/ILST — W — International Perspectives on Race and Racism"
+  },
+  {
+    "file": "glendon.json",
+    "index": 390,
+    "faculty": "GL",
+    "department": "ILST",
+    "term": "F",
+    "courseTitle": "Migration and Citizenship",
+    "lookup_hint": "GL/ILST — F — Migration and Citizenship"
+  },
+  {
+    "file": "glendon.json",
+    "index": 434,
+    "faculty": "GL",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Machine Learning: An Introduction",
+    "lookup_hint": "GL/MATH — W — Machine Learning: An Introduction"
+  },
+  {
+    "file": "glendon.json",
+    "index": 435,
+    "faculty": "GL",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematics Through the Ages and Civilizations",
+    "lookup_hint": "GL/MATH — F — Mathematics Through the Ages and Civilizations"
+  },
+  {
+    "file": "glendon.json",
+    "index": 465,
+    "faculty": "GL",
+    "department": "PHIL",
+    "term": "F",
+    "courseTitle": "Animal and Environmental Ethics",
+    "lookup_hint": "GL/PHIL — F — Animal and Environmental Ethics"
+  },
+  {
+    "file": "glendon.json",
+    "index": 467,
+    "faculty": "GL",
+    "department": "PHIL",
+    "term": "F",
+    "courseTitle": "The Quest for Meaning",
+    "lookup_hint": "GL/PHIL — F — The Quest for Meaning"
+  },
+  {
+    "file": "glendon.json",
+    "index": 499,
+    "faculty": "GL",
+    "department": "POLS",
+    "term": "F",
+    "courseTitle": "European Politics",
+    "lookup_hint": "GL/POLS — F — European Politics"
+  },
+  {
+    "file": "glendon.json",
+    "index": 528,
+    "faculty": "GL",
+    "department": "POLS",
+    "term": "F",
+    "courseTitle": "Migration and Citizenship",
+    "lookup_hint": "GL/POLS — F — Migration and Citizenship"
+  },
+  {
+    "file": "glendon.json",
+    "index": 600,
+    "faculty": "GL",
+    "department": "SOCI",
+    "term": "W",
+    "courseTitle": "International Perspectives on Race and Racism",
+    "lookup_hint": "GL/SOCI — W — International Perspectives on Race and Racism"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 36,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "F",
+    "courseTitle": "Professional Development for Co-Op Students",
+    "lookup_hint": "LE/COOP — F — Professional Development for Co-Op Students"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 37,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "W",
+    "courseTitle": "Professional Development for Co-Op Students",
+    "lookup_hint": "LE/COOP — W — Professional Development for Co-Op Students"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 38,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "F",
+    "courseTitle": "Lassonde Co-op Work-term",
+    "lookup_hint": "LE/COOP — F — Lassonde Co-op Work-term"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 39,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "W",
+    "courseTitle": "Lassonde Co-op Work-term",
+    "lookup_hint": "LE/COOP — W — Lassonde Co-op Work-term"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 40,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "F",
+    "courseTitle": "Critical Reflection on Work Experience using Professional Portfolios",
+    "lookup_hint": "LE/COOP — F — Critical Reflection on Work Experience using Professional Portfolios"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 41,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "W",
+    "courseTitle": "Critical Reflection on Work Experience using Professional Portfolios",
+    "lookup_hint": "LE/COOP — W — Critical Reflection on Work Experience using Professional Portfolios"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 42,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "F",
+    "courseTitle": "Lassonde Co-op Work-term",
+    "lookup_hint": "LE/COOP — F — Lassonde Co-op Work-term"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 43,
+    "faculty": "LE",
+    "department": "COOP",
+    "term": "W",
+    "courseTitle": "Lassonde Co-op Work-term",
+    "lookup_hint": "LE/COOP — W — Lassonde Co-op Work-term"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 44,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Introduction to Computer Programming (CS0)",
+    "lookup_hint": "LE/CSSD — F — Introduction to Computer Programming (CS0)"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 45,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A1",
+    "courseTitle": "Coding through Biology (CS1 A)",
+    "lookup_hint": "LE/CSSD — A1 — Coding through Biology (CS1 A)"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 46,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A2",
+    "courseTitle": "Coding through Chemistry (CS1 B)",
+    "lookup_hint": "LE/CSSD — A2 — Coding through Chemistry (CS1 B)"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 47,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Teamwork and Communication in Software Development",
+    "lookup_hint": "LE/CSSD — F — Teamwork and Communication in Software Development"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 48,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Coding with Objects (CS2)",
+    "lookup_hint": "LE/CSSD — W — Coding with Objects (CS2)"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 49,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Web-Centric Programming",
+    "lookup_hint": "LE/CSSD — W — Web-Centric Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 50,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Logic and Computing",
+    "lookup_hint": "LE/CSSD — W — Logic and Computing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 51,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A3",
+    "courseTitle": "Preparation for the Workplace",
+    "lookup_hint": "LE/CSSD — A3 — Preparation for the Workplace"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 52,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "B1",
+    "courseTitle": "Preparation for the Workplace",
+    "lookup_hint": "LE/CSSD — B1 — Preparation for the Workplace"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 53,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Object-Oriented Programming",
+    "lookup_hint": "LE/CSSD — F — Object-Oriented Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 54,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Data Structures & Algorithms",
+    "lookup_hint": "LE/CSSD — F — Data Structures & Algorithms"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 55,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "M3",
+    "courseTitle": "Shell Scripting",
+    "lookup_hint": "LE/CSSD — M3 — Shell Scripting"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 56,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "M4",
+    "courseTitle": "Programming in C",
+    "lookup_hint": "LE/CSSD — M4 — Programming in C"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 57,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "M5",
+    "courseTitle": "Programming in Assembly",
+    "lookup_hint": "LE/CSSD — M5 — Programming in Assembly"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 58,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "M6",
+    "courseTitle": "Testing, Debugging & Profiling C Code",
+    "lookup_hint": "LE/CSSD — M6 — Testing, Debugging & Profiling C Code"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 59,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Design and Analysis of Algorithms",
+    "lookup_hint": "LE/CSSD — W — Design and Analysis of Algorithms"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 60,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Software Design",
+    "lookup_hint": "LE/CSSD — W — Software Design"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 61,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Introduction to Cloud Computing",
+    "lookup_hint": "LE/CSSD — W — Introduction to Cloud Computing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 62,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Introduction to Security",
+    "lookup_hint": "LE/CSSD — W — Introduction to Security"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 63,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Introduction to Data Science & Application",
+    "lookup_hint": "LE/CSSD — W — Introduction to Data Science & Application"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 64,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Professionalism, Systems Thinking & Meaningful Impact in Technology",
+    "lookup_hint": "LE/CSSD — W — Professionalism, Systems Thinking & Meaningful Impact in Technology"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 65,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "User Interface Development",
+    "lookup_hint": "LE/CSSD — F — User Interface Development"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 66,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Computing Challenges: Project 1",
+    "lookup_hint": "LE/CSSD — F — Computing Challenges: Project 1"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 67,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Computing Challenges: Project 1",
+    "lookup_hint": "LE/CSSD — W — Computing Challenges: Project 1"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 68,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Computing Challenges: Project 2",
+    "lookup_hint": "LE/CSSD — F — Computing Challenges: Project 2"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 69,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Computing Challenges: Project 2",
+    "lookup_hint": "LE/CSSD — W — Computing Challenges: Project 2"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 70,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Computing Challenges: Project 3",
+    "lookup_hint": "LE/CSSD — F — Computing Challenges: Project 3"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 71,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Computing Challenges: Project 3",
+    "lookup_hint": "LE/CSSD — W — Computing Challenges: Project 3"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 72,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Computing Challenges: Project 4",
+    "lookup_hint": "LE/CSSD — F — Computing Challenges: Project 4"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 73,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Computing Challenges: Project 4",
+    "lookup_hint": "LE/CSSD — W — Computing Challenges: Project 4"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 74,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Computing Challenges: Project 5",
+    "lookup_hint": "LE/CSSD — F — Computing Challenges: Project 5"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 75,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Computing Challenges: Project 5",
+    "lookup_hint": "LE/CSSD — W — Computing Challenges: Project 5"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 76,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Computing Challenges: Showcase",
+    "lookup_hint": "LE/CSSD — W — Computing Challenges: Showcase"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 77,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Software Requirements & Analysis",
+    "lookup_hint": "LE/CSSD — F — Software Requirements & Analysis"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 78,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A3",
+    "courseTitle": "Introduction to Functional & Logic Programming",
+    "lookup_hint": "LE/CSSD — A3 — Introduction to Functional & Logic Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 79,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A4",
+    "courseTitle": "Programming for Multicore CPUs & GPUs",
+    "lookup_hint": "LE/CSSD — A4 — Programming for Multicore CPUs & GPUs"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 80,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A3",
+    "courseTitle": "Principles of Computer Networks",
+    "lookup_hint": "LE/CSSD — A3 — Principles of Computer Networks"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 81,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "A4",
+    "courseTitle": "Operating Systems Essentials",
+    "lookup_hint": "LE/CSSD — A4 — Operating Systems Essentials"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 82,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Software Development for Cloud Computing",
+    "lookup_hint": "LE/CSSD — F — Software Development for Cloud Computing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 83,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "F",
+    "courseTitle": "Machine Learning",
+    "lookup_hint": "LE/CSSD — F — Machine Learning"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 84,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Introduction to Databases",
+    "lookup_hint": "LE/CSSD — W — Introduction to Databases"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 85,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Software Testing and Quality",
+    "lookup_hint": "LE/CSSD — W — Software Testing and Quality"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 86,
+    "faculty": "LE",
+    "department": "CSSD",
+    "term": "W",
+    "courseTitle": "Distributed Computing & Cloud Systems",
+    "lookup_hint": "LE/CSSD — W — Distributed Computing & Cloud Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 87,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Introduction to Computational Problem Solving",
+    "lookup_hint": "LE/DIGT — F — Introduction to Computational Problem Solving"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 88,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Teamwork and Communication in Software Development",
+    "lookup_hint": "LE/DIGT — Y — Teamwork and Communication in Software Development"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 89,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Being a Digital Citizen",
+    "lookup_hint": "LE/DIGT — F — Being a Digital Citizen"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 90,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "WS",
+    "courseTitle": "Object-Oriented Problem Solving",
+    "lookup_hint": "LE/DIGT — WS — Object-Oriented Problem Solving"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 91,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Mobilizing Digital Citizenship",
+    "lookup_hint": "LE/DIGT — W — Mobilizing Digital Citizenship"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 92,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "FS",
+    "courseTitle": "Data Structures, Algorithms & Analysis",
+    "lookup_hint": "LE/DIGT — FS — Data Structures, Algorithms & Analysis"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 93,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Introduction to Computer Organization & Systems",
+    "lookup_hint": "LE/DIGT — Y — Introduction to Computer Organization & Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 94,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "FS",
+    "courseTitle": "Practice of Software Development",
+    "lookup_hint": "LE/DIGT — FS — Practice of Software Development"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 95,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Introduction to Data Science",
+    "lookup_hint": "LE/DIGT — W — Introduction to Data Science"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 96,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Computer Networks",
+    "lookup_hint": "LE/DIGT — W — Computer Networks"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 97,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "FS",
+    "courseTitle": "Software Development Lifecycle",
+    "lookup_hint": "LE/DIGT — FS — Software Development Lifecycle"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 98,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Data Management Systems",
+    "lookup_hint": "LE/DIGT — Y — Data Management Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 99,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "WS",
+    "courseTitle": "Network Security",
+    "lookup_hint": "LE/DIGT — WS — Network Security"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 100,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Introduction to Machine Learning I",
+    "lookup_hint": "LE/DIGT — Y — Introduction to Machine Learning I"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 101,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Software I: Software Design and Architecture",
+    "lookup_hint": "LE/DIGT — Y — Software I: Software Design and Architecture"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 102,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "FS",
+    "courseTitle": "Digital Technologies Project",
+    "lookup_hint": "LE/DIGT — FS — Digital Technologies Project"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 103,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "WS",
+    "courseTitle": "Distributed Systems",
+    "lookup_hint": "LE/DIGT — WS — Distributed Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 104,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "WS",
+    "courseTitle": "Security and Privacy: Awareness and Governance",
+    "lookup_hint": "LE/DIGT — WS — Security and Privacy: Awareness and Governance"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 105,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Security by Design",
+    "lookup_hint": "LE/DIGT — Y — Security by Design"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 106,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "WS",
+    "courseTitle": "Introduction to Machine Learning II",
+    "lookup_hint": "LE/DIGT — WS — Introduction to Machine Learning II"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 107,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "WS",
+    "courseTitle": "Software II: Software Testing and Quality Assurance",
+    "lookup_hint": "LE/DIGT — WS — Software II: Software Testing and Quality Assurance"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 108,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Artificial Intelligence & Symbolic Reasoning",
+    "lookup_hint": "LE/DIGT — F — Artificial Intelligence & Symbolic Reasoning"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 109,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Auditing & Governance of Information Systems",
+    "lookup_hint": "LE/DIGT — F — Auditing & Governance of Information Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 110,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "User Interface Development",
+    "lookup_hint": "LE/DIGT — F — User Interface Development"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 111,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Threat Management & Protection of Systems",
+    "lookup_hint": "LE/DIGT — W — Threat Management & Protection of Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 112,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Security Development & Operations",
+    "lookup_hint": "LE/DIGT — W — Security Development & Operations"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 113,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Applied Machine Learning: Projects, Evaluation & Responsible AI",
+    "lookup_hint": "LE/DIGT — W — Applied Machine Learning: Projects, Evaluation & Responsible AI"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 114,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Big Data Analytics & Mining",
+    "lookup_hint": "LE/DIGT — F — Big Data Analytics & Mining"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 115,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Software Development I: Software Requirements",
+    "lookup_hint": "LE/DIGT — F — Software Development I: Software Requirements"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 116,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Software Development II: Model-based Design & Verification of Software Systems",
+    "lookup_hint": "LE/DIGT — W — Software Development II: Model-based Design & Verification of Software Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 117,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "Y",
+    "courseTitle": "Specialization Synoptic Project",
+    "lookup_hint": "LE/DIGT — Y — Specialization Synoptic Project"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 118,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Cloud Computing: Development & Operations",
+    "lookup_hint": "LE/DIGT — W — Cloud Computing: Development & Operations"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 119,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "F",
+    "courseTitle": "Digital Forensics",
+    "lookup_hint": "LE/DIGT — F — Digital Forensics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 120,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Deep Learning: Vision, Language & Generative Models",
+    "lookup_hint": "LE/DIGT — W — Deep Learning: Vision, Language & Generative Models"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 121,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Software Development III: DevOps & Software Reliability",
+    "lookup_hint": "LE/DIGT — W — Software Development III: DevOps & Software Reliability"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 122,
+    "faculty": "LE",
+    "department": "DIGT",
+    "term": "W",
+    "courseTitle": "Technology Leadership & Professional Reflection 4",
+    "lookup_hint": "LE/DIGT — W — Technology Leadership & Professional Reflection 4"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 123,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "Y",
+    "courseTitle": "Research Directions in Computing",
+    "lookup_hint": "LE/EECS — Y — Research Directions in Computing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 124,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Computational Thinking Through Procedural Programming and Mechatronics",
+    "lookup_hint": "LE/EECS — F — Computational Thinking Through Procedural Programming and Mechatronics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 125,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Computational Thinking Through Procedural Programming and Mechatronics",
+    "lookup_hint": "LE/EECS — W — Computational Thinking Through Procedural Programming and Mechatronics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 126,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Computing: A Net-centric Approach",
+    "lookup_hint": "LE/EECS — F — Introduction to Computing: A Net-centric Approach"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 127,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computing: A Net-centric Approach",
+    "lookup_hint": "LE/EECS — W — Introduction to Computing: A Net-centric Approach"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 128,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Computer Science and Programming",
+    "lookup_hint": "LE/EECS — F — Introduction to Computer Science and Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 129,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computer Science and Programming",
+    "lookup_hint": "LE/EECS — W — Introduction to Computer Science and Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 130,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Discrete Mathematics for Computer Science",
+    "lookup_hint": "LE/EECS — F — Discrete Mathematics for Computer Science"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 131,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Discrete Mathematics for Computer Science",
+    "lookup_hint": "LE/EECS — W — Discrete Mathematics for Computer Science"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 132,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Object-Oriented Programming & Telemetry as Engineering Cornerstones",
+    "lookup_hint": "LE/EECS — F — Object-Oriented Programming & Telemetry as Engineering Cornerstones"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 133,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Object-Oriented Programming & Telemetry as Engineering Cornerstones",
+    "lookup_hint": "LE/EECS — W — Object-Oriented Programming & Telemetry as Engineering Cornerstones"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 134,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Object Oriented Programming",
+    "lookup_hint": "LE/EECS — F — Introduction to Object Oriented Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 135,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Object Oriented Programming",
+    "lookup_hint": "LE/EECS — W — Introduction to Object Oriented Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 136,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Discrete Mathematics for Engineers",
+    "lookup_hint": "LE/EECS — F — Discrete Mathematics for Engineers"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 137,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Discrete Mathematics for Engineers",
+    "lookup_hint": "LE/EECS — W — Discrete Mathematics for Engineers"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 138,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W4",
+    "courseTitle": "Discrete Mathematics for Engineers",
+    "lookup_hint": "LE/EECS — W4 — Discrete Mathematics for Engineers"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 139,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Object Oriented Design and Principles using Python",
+    "lookup_hint": "LE/EECS — W — Object Oriented Design and Principles using Python"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 140,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Computing for Data Analysis and Visualization",
+    "lookup_hint": "LE/EECS — F — Introduction to Computing for Data Analysis and Visualization"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 141,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computing for Data Analysis and Visualization",
+    "lookup_hint": "LE/EECS — W — Introduction to Computing for Data Analysis and Visualization"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 142,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Computer Use for the Natural Sciences",
+    "lookup_hint": "LE/EECS — F — Computer Use for the Natural Sciences"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 143,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Computer Use for the Natural Sciences",
+    "lookup_hint": "LE/EECS — W — Computer Use for the Natural Sciences"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 144,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computing for the Physical Sciences",
+    "lookup_hint": "LE/EECS — W — Introduction to Computing for the Physical Sciences"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 145,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Computing for Mathematics and Statistics",
+    "lookup_hint": "LE/EECS — F — Introduction to Computing for Mathematics and Statistics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 146,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computing for Mathematics and Statistics",
+    "lookup_hint": "LE/EECS — W — Introduction to Computing for Mathematics and Statistics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 147,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Computing for Psychology",
+    "lookup_hint": "LE/EECS — F — Introduction to Computing for Psychology"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 148,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computing & Programming",
+    "lookup_hint": "LE/EECS — W — Introduction to Computing & Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 149,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction à l'informatique et à la programmation",
+    "lookup_hint": "LE/EECS — W — Introduction à l'informatique et à la programmation"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 150,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Programming for Digital Media",
+    "lookup_hint": "LE/EECS — F — Programming for Digital Media"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 151,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Building Interactive Systems",
+    "lookup_hint": "LE/EECS — W — Building Interactive Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 152,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to the Theory of Computation",
+    "lookup_hint": "LE/EECS — F — Introduction to the Theory of Computation"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 153,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to the Theory of Computation",
+    "lookup_hint": "LE/EECS — W — Introduction to the Theory of Computation"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 154,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Computer Organization",
+    "lookup_hint": "LE/EECS — F — Computer Organization"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 155,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Computer Organization",
+    "lookup_hint": "LE/EECS — W — Computer Organization"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 156,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Engineering Mathematics",
+    "lookup_hint": "LE/EECS — F — Engineering Mathematics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 157,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Advanced Object Oriented Programming",
+    "lookup_hint": "LE/EECS — F — Advanced Object Oriented Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 158,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Advanced Object Oriented Programming",
+    "lookup_hint": "LE/EECS — W — Advanced Object Oriented Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 159,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Software Tools",
+    "lookup_hint": "LE/EECS — F — Software Tools"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 160,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Software Tools",
+    "lookup_hint": "LE/EECS — W — Software Tools"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 161,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Embedded Systems",
+    "lookup_hint": "LE/EECS — F — Introduction to Embedded Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 162,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Embedded Systems",
+    "lookup_hint": "LE/EECS — W — Introduction to Embedded Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 163,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Fundamentals of Data Structures",
+    "lookup_hint": "LE/EECS — F — Fundamentals of Data Structures"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 164,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Fundamentals of Data Structures",
+    "lookup_hint": "LE/EECS — W — Fundamentals of Data Structures"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 165,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Electrical Circuits",
+    "lookup_hint": "LE/EECS — F — Electrical Circuits"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 166,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Electrical Circuits",
+    "lookup_hint": "LE/EECS — W — Electrical Circuits"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 167,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Electronic Circuits and Devices",
+    "lookup_hint": "LE/EECS — F — Electronic Circuits and Devices"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 168,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Electronic Circuits and Devices",
+    "lookup_hint": "LE/EECS — W — Electronic Circuits and Devices"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 169,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Software Development Project",
+    "lookup_hint": "LE/EECS — W — Software Development Project"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 170,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Fortran and Scientific Computing",
+    "lookup_hint": "LE/EECS — F — Fortran and Scientific Computing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 171,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Data Structures for Data Science",
+    "lookup_hint": "LE/EECS — W — Data Structures for Data Science"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 172,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Professional Practice in Computing",
+    "lookup_hint": "LE/EECS — W — Professional Practice in Computing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 173,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Design and Analysis of Algorithms",
+    "lookup_hint": "LE/EECS — F — Design and Analysis of Algorithms"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 174,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Design and Analysis of Algorithms",
+    "lookup_hint": "LE/EECS — W — Design and Analysis of Algorithms"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 175,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Numerical Methods I",
+    "lookup_hint": "LE/EECS — F — Numerical Methods I"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 176,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Numerical Methods II",
+    "lookup_hint": "LE/EECS — W — Numerical Methods II"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 177,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Digital Logic Design",
+    "lookup_hint": "LE/EECS — F — Digital Logic Design"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 178,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Digital Logic Design",
+    "lookup_hint": "LE/EECS — W — Digital Logic Design"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 179,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Communication Networks",
+    "lookup_hint": "LE/EECS — F — Communication Networks"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 180,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Communication Networks",
+    "lookup_hint": "LE/EECS — W — Communication Networks"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 181,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Computer Network Protocols and Applications",
+    "lookup_hint": "LE/EECS — F — Computer Network Protocols and Applications"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 182,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Computer Network Protocols and Applications",
+    "lookup_hint": "LE/EECS — W — Computer Network Protocols and Applications"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 183,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Embedded Systems",
+    "lookup_hint": "LE/EECS — F — Embedded Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 184,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Digital Systems Engineering: Modeling, Implementation and Validation",
+    "lookup_hint": "LE/EECS — F — Digital Systems Engineering: Modeling, Implementation and Validation"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 185,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Digital Systems Engineering: Modeling, Implementation and Validation",
+    "lookup_hint": "LE/EECS — W — Digital Systems Engineering: Modeling, Implementation and Validation"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 186,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Operating System Fundamentals",
+    "lookup_hint": "LE/EECS — F — Operating System Fundamentals"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 187,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Operating System Fundamentals",
+    "lookup_hint": "LE/EECS — W — Operating System Fundamentals"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 188,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Software Design",
+    "lookup_hint": "LE/EECS — F — Software Design"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 189,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Software Design",
+    "lookup_hint": "LE/EECS — W — Software Design"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 190,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "System Specification and Refinement",
+    "lookup_hint": "LE/EECS — F — System Specification and Refinement"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 191,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Artificial Intelligence and Logic Programming",
+    "lookup_hint": "LE/EECS — F — Introduction to Artificial Intelligence and Logic Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 192,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Artificial Intelligence and Logic Programming",
+    "lookup_hint": "LE/EECS — W — Introduction to Artificial Intelligence and Logic Programming"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 193,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Applied Machine Learning",
+    "lookup_hint": "LE/EECS — W — Applied Machine Learning"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 194,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Fundamentals of Machine Learning",
+    "lookup_hint": "LE/EECS — F — Fundamentals of Machine Learning"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 195,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Database Systems",
+    "lookup_hint": "LE/EECS — F — Introduction to Database Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 196,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Database Systems",
+    "lookup_hint": "LE/EECS — W — Introduction to Database Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 197,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to 3D Computer Graphics",
+    "lookup_hint": "LE/EECS — F — Introduction to 3D Computer Graphics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 198,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Signals and Systems",
+    "lookup_hint": "LE/EECS — F — Signals and Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 199,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Signals and Systems",
+    "lookup_hint": "LE/EECS — W — Signals and Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 200,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Linear Control Systems",
+    "lookup_hint": "LE/EECS — W — Linear Control Systems"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 201,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "User Interfaces",
+    "lookup_hint": "LE/EECS — F — User Interfaces"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 202,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "User Interfaces",
+    "lookup_hint": "LE/EECS — W — User Interfaces"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 203,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Applied Cryptography",
+    "lookup_hint": "LE/EECS — F — Applied Cryptography"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 204,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Introduction to Computer Security",
+    "lookup_hint": "LE/EECS — F — Introduction to Computer Security"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 205,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Computer Security",
+    "lookup_hint": "LE/EECS — W — Introduction to Computer Security"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 206,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Electrical Systems for Mechanical Engineers",
+    "lookup_hint": "LE/EECS — F — Electrical Systems for Mechanical Engineers"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 207,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Electrical Systems for Mechanical Engineers",
+    "lookup_hint": "LE/EECS — W — Electrical Systems for Mechanical Engineers"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 208,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Probability and Stochastic Processes in Communications and Signal Processing",
+    "lookup_hint": "LE/EECS — W — Probability and Stochastic Processes in Communications and Signal Processing"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 209,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "F",
+    "courseTitle": "Electromechanical Energy Conversion",
+    "lookup_hint": "LE/EECS — F — Electromechanical Energy Conversion"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 210,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Applied Electromagnetism",
+    "lookup_hint": "LE/EECS — W — Applied Electromagnetism"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 211,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Analog Electronics",
+    "lookup_hint": "LE/EECS — W — Analog Electronics"
+  },
+  {
+    "file": "lassonde.json",
+    "index": 212,
+    "faculty": "LE",
+    "department": "EECS",
+    "term": "W",
+    "courseTitle": "Introduction to Sensors and Measurement Instruments",
+    "lookup_hint": "LE/EECS — W — Introduction to Sensors and Measurement Instruments"
+  },
+  {
+    "file": "schulich.json",
+    "index": 141,
+    "faculty": "SB",
+    "department": "DDPR",
+    "term": "F",
+    "courseTitle": "Dual Degree - Non Business Elective",
+    "lookup_hint": "SB/DDPR — F — Dual Degree - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 142,
+    "faculty": "SB",
+    "department": "DDPR",
+    "term": "W",
+    "courseTitle": "Dual Degree - Non Business Elective",
+    "lookup_hint": "SB/DDPR — W — Dual Degree - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 143,
+    "faculty": "SB",
+    "department": "DDPR",
+    "term": "F",
+    "courseTitle": "Dual Degree - Non Business Elective",
+    "lookup_hint": "SB/DDPR — F — Dual Degree - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 144,
+    "faculty": "SB",
+    "department": "DDPR",
+    "term": "W",
+    "courseTitle": "Dual Degree - Non Business Elective",
+    "lookup_hint": "SB/DDPR — W — Dual Degree - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 145,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Quantitative Methods for Business",
+    "lookup_hint": "SB/EMBA — EW — Quantitative Methods for Business"
+  },
+  {
+    "file": "schulich.json",
+    "index": 146,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Managerial Decision Analysis",
+    "lookup_hint": "SB/EMBA — EW — Managerial Decision Analysis"
+  },
+  {
+    "file": "schulich.json",
+    "index": 147,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Financial Reporting Systems",
+    "lookup_hint": "SB/EMBA — EW — Financial Reporting Systems"
+  },
+  {
+    "file": "schulich.json",
+    "index": 148,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Marketing",
+    "lookup_hint": "SB/EMBA — EW — Marketing"
+  },
+  {
+    "file": "schulich.json",
+    "index": 149,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "ER",
+    "courseTitle": "Leadership and Organizations",
+    "lookup_hint": "SB/EMBA — ER — Leadership and Organizations"
+  },
+  {
+    "file": "schulich.json",
+    "index": 150,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Management Planning and Control",
+    "lookup_hint": "SB/EMBA — EF — Management Planning and Control"
+  },
+  {
+    "file": "schulich.json",
+    "index": 151,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "The World Economy",
+    "lookup_hint": "SB/EMBA — EW — The World Economy"
+  },
+  {
+    "file": "schulich.json",
+    "index": 152,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Unlocking Executive & Enterprise Value with Generative AI",
+    "lookup_hint": "SB/EMBA — EF — Unlocking Executive & Enterprise Value with Generative AI"
+  },
+  {
+    "file": "schulich.json",
+    "index": 153,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "China Marketing: Tech, Society and Beyond",
+    "lookup_hint": "SB/EMBA — EF — China Marketing: Tech, Society and Beyond"
+  },
+  {
+    "file": "schulich.json",
+    "index": 154,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "China Marketing: Tech, Society and Beyond",
+    "lookup_hint": "SB/EMBA — EW — China Marketing: Tech, Society and Beyond"
+  },
+  {
+    "file": "schulich.json",
+    "index": 155,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "China in Transition",
+    "lookup_hint": "SB/EMBA — EF — China in Transition"
+  },
+  {
+    "file": "schulich.json",
+    "index": 156,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "International Business with Chinese Opportunities and Challenges",
+    "lookup_hint": "SB/EMBA — EF — International Business with Chinese Opportunities and Challenges"
+  },
+  {
+    "file": "schulich.json",
+    "index": 157,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Mergers & Acquisitions and Other Reorganization Methods",
+    "lookup_hint": "SB/EMBA — EW — Mergers & Acquisitions and Other Reorganization Methods"
+  },
+  {
+    "file": "schulich.json",
+    "index": 158,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Political Economy  A Global Perspective",
+    "lookup_hint": "SB/EMBA — EF — Political Economy  A Global Perspective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 159,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Political Economy  A Global Perspective",
+    "lookup_hint": "SB/EMBA — EW — Political Economy  A Global Perspective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 160,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies",
+    "lookup_hint": "SB/EMBA — EF — Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 161,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies",
+    "lookup_hint": "SB/EMBA — EW — Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 162,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "From Risk to Reward: Strategies for Sustainable Business Transformation",
+    "lookup_hint": "SB/EMBA — EF — From Risk to Reward: Strategies for Sustainable Business Transformation"
+  },
+  {
+    "file": "schulich.json",
+    "index": 163,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Leader Development Models and Practice",
+    "lookup_hint": "SB/EMBA — EW — Leader Development Models and Practice"
+  },
+  {
+    "file": "schulich.json",
+    "index": 164,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Selling Yourself and Your Ideas",
+    "lookup_hint": "SB/EMBA — EW — Selling Yourself and Your Ideas"
+  },
+  {
+    "file": "schulich.json",
+    "index": 165,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Innovating for Social Impact",
+    "lookup_hint": "SB/EMBA — EF — Innovating for Social Impact"
+  },
+  {
+    "file": "schulich.json",
+    "index": 166,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "ER",
+    "courseTitle": "Managing Globally",
+    "lookup_hint": "SB/EMBA — ER — Managing Globally"
+  },
+  {
+    "file": "schulich.json",
+    "index": 167,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "ER",
+    "courseTitle": "Building and Scaling Intelligent Products: An Entrepreneurial and GenAI Perspective",
+    "lookup_hint": "SB/EMBA — ER — Building and Scaling Intelligent Products: An Entrepreneurial and GenAI Perspective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 168,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Global Corporate Restructuring",
+    "lookup_hint": "SB/EMBA — EW — Global Corporate Restructuring"
+  },
+  {
+    "file": "schulich.json",
+    "index": 169,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Influencing Decisions through Decks & Dashboards",
+    "lookup_hint": "SB/EMBA — EW — Influencing Decisions through Decks & Dashboards"
+  },
+  {
+    "file": "schulich.json",
+    "index": 170,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Managing Healthcare Services in a Value-Based Setting",
+    "lookup_hint": "SB/EMBA — EW — Managing Healthcare Services in a Value-Based Setting"
+  },
+  {
+    "file": "schulich.json",
+    "index": 171,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Leading High Impact Teams",
+    "lookup_hint": "SB/EMBA — EW — Leading High Impact Teams"
+  },
+  {
+    "file": "schulich.json",
+    "index": 172,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Value Investing",
+    "lookup_hint": "SB/EMBA — EF — Value Investing"
+  },
+  {
+    "file": "schulich.json",
+    "index": 173,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Value Creation and Capture in Biopharmaceuticals",
+    "lookup_hint": "SB/EMBA — EW — Value Creation and Capture in Biopharmaceuticals"
+  },
+  {
+    "file": "schulich.json",
+    "index": 174,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Leading Organizational Transformation",
+    "lookup_hint": "SB/EMBA — EW — Leading Organizational Transformation"
+  },
+  {
+    "file": "schulich.json",
+    "index": 175,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Phase 0",
+    "lookup_hint": "SB/EMBA — EW — Phase 0"
+  },
+  {
+    "file": "schulich.json",
+    "index": 176,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Creating and Managing Strategic Alliances",
+    "lookup_hint": "SB/EMBA — EW — Creating and Managing Strategic Alliances"
+  },
+  {
+    "file": "schulich.json",
+    "index": 177,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "ER",
+    "courseTitle": "Early Stage Investing & Fundraising",
+    "lookup_hint": "SB/EMBA — ER — Early Stage Investing & Fundraising"
+  },
+  {
+    "file": "schulich.json",
+    "index": 178,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Launching and Leading Startups",
+    "lookup_hint": "SB/EMBA — EW — Launching and Leading Startups"
+  },
+  {
+    "file": "schulich.json",
+    "index": 179,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Strategic Brand Management",
+    "lookup_hint": "SB/EMBA — EF — Strategic Brand Management"
+  },
+  {
+    "file": "schulich.json",
+    "index": 180,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Strategic Brand Management",
+    "lookup_hint": "SB/EMBA — EW — Strategic Brand Management"
+  },
+  {
+    "file": "schulich.json",
+    "index": 181,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Nonprofit Board Governance",
+    "lookup_hint": "SB/EMBA — EW — Nonprofit Board Governance"
+  },
+  {
+    "file": "schulich.json",
+    "index": 182,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Strategic Marketing Decisions",
+    "lookup_hint": "SB/EMBA — EW — Strategic Marketing Decisions"
+  },
+  {
+    "file": "schulich.json",
+    "index": 183,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Advertising Strategy",
+    "lookup_hint": "SB/EMBA — EW — Advertising Strategy"
+  },
+  {
+    "file": "schulich.json",
+    "index": 184,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Leading Product Organizations",
+    "lookup_hint": "SB/EMBA — EF — Leading Product Organizations"
+  },
+  {
+    "file": "schulich.json",
+    "index": 185,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Leading Product Organizations",
+    "lookup_hint": "SB/EMBA — EW — Leading Product Organizations"
+  },
+  {
+    "file": "schulich.json",
+    "index": 186,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Responsible Business Leadership",
+    "lookup_hint": "SB/EMBA — EF — Responsible Business Leadership"
+  },
+  {
+    "file": "schulich.json",
+    "index": 187,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "ER",
+    "courseTitle": "The Business of Social Change",
+    "lookup_hint": "SB/EMBA — ER — The Business of Social Change"
+  },
+  {
+    "file": "schulich.json",
+    "index": 188,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Digital Strategy: Individual and Organizational Transformation for a Digital Age",
+    "lookup_hint": "SB/EMBA — EW — Digital Strategy: Individual and Organizational Transformation for a Digital Age"
+  },
+  {
+    "file": "schulich.json",
+    "index": 189,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Economics of Competition",
+    "lookup_hint": "SB/EMBA — EW — Economics of Competition"
+  },
+  {
+    "file": "schulich.json",
+    "index": 190,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Strategy Beyond Markets",
+    "lookup_hint": "SB/EMBA — EW — Strategy Beyond Markets"
+  },
+  {
+    "file": "schulich.json",
+    "index": 191,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Social Dynamics and Networks",
+    "lookup_hint": "SB/EMBA — EW — Social Dynamics and Networks"
+  },
+  {
+    "file": "schulich.json",
+    "index": 192,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Financial Instruments and Capital Markets",
+    "lookup_hint": "SB/EMBA — EF — Financial Instruments and Capital Markets"
+  },
+  {
+    "file": "schulich.json",
+    "index": 193,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "FinTech Strategy: Innovations in Financial Services",
+    "lookup_hint": "SB/EMBA — EW — FinTech Strategy: Innovations in Financial Services"
+  },
+  {
+    "file": "schulich.json",
+    "index": 194,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Value Creation and Capture in an Evolving Healthcare Services Landscape",
+    "lookup_hint": "SB/EMBA — EW — Value Creation and Capture in an Evolving Healthcare Services Landscape"
+  },
+  {
+    "file": "schulich.json",
+    "index": 195,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Strategies for Growth",
+    "lookup_hint": "SB/EMBA — EW — Strategies for Growth"
+  },
+  {
+    "file": "schulich.json",
+    "index": 196,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Biases, Forecasts and Deep Uncertainty",
+    "lookup_hint": "SB/EMBA — EW — Biases, Forecasts and Deep Uncertainty"
+  },
+  {
+    "file": "schulich.json",
+    "index": 197,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Human and Machine Intelligence: Creating Business Value Through Artificial Intelligence",
+    "lookup_hint": "SB/EMBA — EW — Human and Machine Intelligence: Creating Business Value Through Artificial Intelligence"
+  },
+  {
+    "file": "schulich.json",
+    "index": 198,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Incentives, Organization and Strategy",
+    "lookup_hint": "SB/EMBA — EW — Incentives, Organization and Strategy"
+  },
+  {
+    "file": "schulich.json",
+    "index": 199,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Healthcare Strategy",
+    "lookup_hint": "SB/EMBA — EW — Healthcare Strategy"
+  },
+  {
+    "file": "schulich.json",
+    "index": 200,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Entrepreneurial Finance and Venture Capital",
+    "lookup_hint": "SB/EMBA — EW — Entrepreneurial Finance and Venture Capital"
+  },
+  {
+    "file": "schulich.json",
+    "index": 201,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "International Real Estate",
+    "lookup_hint": "SB/EMBA — EW — International Real Estate"
+  },
+  {
+    "file": "schulich.json",
+    "index": 202,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Advanced Negotiations",
+    "lookup_hint": "SB/EMBA — EW — Advanced Negotiations"
+  },
+  {
+    "file": "schulich.json",
+    "index": 203,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Deal-Making in China and Asia",
+    "lookup_hint": "SB/EMBA — EF — Deal-Making in China and Asia"
+  },
+  {
+    "file": "schulich.json",
+    "index": 204,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "Understanding Consumers",
+    "lookup_hint": "SB/EMBA — EF — Understanding Consumers"
+  },
+  {
+    "file": "schulich.json",
+    "index": 205,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Leading and Managing Diverse Organizations",
+    "lookup_hint": "SB/EMBA — EW — Leading and Managing Diverse Organizations"
+  },
+  {
+    "file": "schulich.json",
+    "index": 206,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EF",
+    "courseTitle": "International Finance",
+    "lookup_hint": "SB/EMBA — EF — International Finance"
+  },
+  {
+    "file": "schulich.json",
+    "index": 207,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "International Finance",
+    "lookup_hint": "SB/EMBA — EW — International Finance"
+  },
+  {
+    "file": "schulich.json",
+    "index": 208,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Investment Banks, Hedge Funds and Private Equity",
+    "lookup_hint": "SB/EMBA — EW — Investment Banks, Hedge Funds and Private Equity"
+  },
+  {
+    "file": "schulich.json",
+    "index": 209,
+    "faculty": "SB",
+    "department": "EMBA",
+    "term": "EW",
+    "courseTitle": "Family Enterprises",
+    "lookup_hint": "SB/EMBA — EW — Family Enterprises"
+  },
+  {
+    "file": "schulich.json",
+    "index": 210,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F",
+    "courseTitle": "Business Essentials for Technology Entrepreneurs I",
+    "lookup_hint": "SB/ENTR — F — Business Essentials for Technology Entrepreneurs I"
+  },
+  {
+    "file": "schulich.json",
+    "index": 211,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W",
+    "courseTitle": "Business Essentials for Technology Entrepreneurs II",
+    "lookup_hint": "SB/ENTR — W — Business Essentials for Technology Entrepreneurs II"
+  },
+  {
+    "file": "schulich.json",
+    "index": 212,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F",
+    "courseTitle": "Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential",
+    "lookup_hint": "SB/ENTR — F — Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential"
+  },
+  {
+    "file": "schulich.json",
+    "index": 213,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W",
+    "courseTitle": "Entrepreneurship and Technology Ventures",
+    "lookup_hint": "SB/ENTR — W — Entrepreneurship and Technology Ventures"
+  },
+  {
+    "file": "schulich.json",
+    "index": 214,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F",
+    "courseTitle": "Entrepreneurship and New Venture Creation",
+    "lookup_hint": "SB/ENTR — F — Entrepreneurship and New Venture Creation"
+  },
+  {
+    "file": "schulich.json",
+    "index": 215,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F",
+    "courseTitle": "Financing Growing Ventures",
+    "lookup_hint": "SB/ENTR — F — Financing Growing Ventures"
+  },
+  {
+    "file": "schulich.json",
+    "index": 216,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W",
+    "courseTitle": "Financing Growing Ventures",
+    "lookup_hint": "SB/ENTR — W — Financing Growing Ventures"
+  },
+  {
+    "file": "schulich.json",
+    "index": 217,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W",
+    "courseTitle": "Social Entrepreneurship",
+    "lookup_hint": "SB/ENTR — W — Social Entrepreneurship"
+  },
+  {
+    "file": "schulich.json",
+    "index": 218,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F",
+    "courseTitle": "Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies",
+    "lookup_hint": "SB/ENTR — F — Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 219,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W",
+    "courseTitle": "Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies",
+    "lookup_hint": "SB/ENTR — W — Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 220,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F",
+    "courseTitle": "Startup Lab: The Together Mission",
+    "lookup_hint": "SB/ENTR — F — Startup Lab: The Together Mission"
+  },
+  {
+    "file": "schulich.json",
+    "index": 221,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W",
+    "courseTitle": "Managing the Family Enterprise",
+    "lookup_hint": "SB/ENTR — W — Managing the Family Enterprise"
+  },
+  {
+    "file": "schulich.json",
+    "index": 222,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F2",
+    "courseTitle": "Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential",
+    "lookup_hint": "SB/ENTR — F2 — Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential"
+  },
+  {
+    "file": "schulich.json",
+    "index": 223,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F2",
+    "courseTitle": "Startup Lab: The Together Mission",
+    "lookup_hint": "SB/ENTR — F2 — Startup Lab: The Together Mission"
+  },
+  {
+    "file": "schulich.json",
+    "index": 224,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F2",
+    "courseTitle": "Entrepreneurship and New Firm Creation",
+    "lookup_hint": "SB/ENTR — F2 — Entrepreneurship and New Firm Creation"
+  },
+  {
+    "file": "schulich.json",
+    "index": 225,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "A",
+    "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
+    "lookup_hint": "SB/ENTR — A — Individual Study: Selected Problems in Entrepreneurial Studies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 226,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "C",
+    "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
+    "lookup_hint": "SB/ENTR — C — Individual Study: Selected Problems in Entrepreneurial Studies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 227,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F2",
+    "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
+    "lookup_hint": "SB/ENTR — F2 — Individual Study: Selected Problems in Entrepreneurial Studies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 228,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W2",
+    "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
+    "lookup_hint": "SB/ENTR — W2 — Individual Study: Selected Problems in Entrepreneurial Studies"
+  },
+  {
+    "file": "schulich.json",
+    "index": 229,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "F2",
+    "courseTitle": "Venture Capital & Private Equity",
+    "lookup_hint": "SB/ENTR — F2 — Venture Capital & Private Equity"
+  },
+  {
+    "file": "schulich.json",
+    "index": 230,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W2",
+    "courseTitle": "Venture Capital & Private Equity",
+    "lookup_hint": "SB/ENTR — W2 — Venture Capital & Private Equity"
+  },
+  {
+    "file": "schulich.json",
+    "index": 231,
+    "faculty": "SB",
+    "department": "ENTR",
+    "term": "W2",
+    "courseTitle": "Mentorship Match: Learning to Innovate with Venture Leaders",
+    "lookup_hint": "SB/ENTR — W2 — Mentorship Match: Learning to Innovate with Venture Leaders"
+  },
+  {
+    "file": "schulich.json",
+    "index": 232,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 233,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 234,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 235,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 236,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 237,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 238,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 239,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 240,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 241,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 242,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 243,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 244,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 245,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 246,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 247,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 248,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 249,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 250,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 251,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 252,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 253,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 254,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 255,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 256,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 257,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 258,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 259,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 260,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 261,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 262,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 263,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 264,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 265,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 266,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 267,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 268,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 269,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 270,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 271,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 272,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 273,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 274,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 275,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 276,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 277,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 278,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 279,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 280,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 281,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 282,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 283,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 284,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 285,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 286,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 287,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 288,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 289,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 290,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 291,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 292,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 293,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 294,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 295,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Globally Focused Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Globally Focused Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 296,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 297,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 298,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 299,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 300,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 301,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 302,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 303,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 304,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 305,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 306,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 307,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 308,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 309,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 310,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 311,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 312,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 313,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Non Business Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Non Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 314,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 315,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 316,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 317,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 318,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 319,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 320,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 321,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 322,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 323,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 324,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 325,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 326,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 327,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 328,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — F — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 329,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W",
+    "courseTitle": "Exchange - Language Elective",
+    "lookup_hint": "SB/EXCH — W — Exchange - Language Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 330,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F2",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F2 — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 331,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "W2",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — W2 — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "schulich.json",
+    "index": 332,
+    "faculty": "SB",
+    "department": "EXCH",
+    "term": "F2",
+    "courseTitle": "Exchange - Schulich Business Elective",
+    "lookup_hint": "SB/EXCH — F2 — Exchange - Schulich Business Elective"
+  },
+  {
+    "file": "science.json",
+    "index": 266,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Differential Calculus with Applications",
+    "lookup_hint": "SC/MATH — F — Differential Calculus with Applications"
+  },
+  {
+    "file": "science.json",
+    "index": 267,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Differential Calculus with Applications",
+    "lookup_hint": "SC/MATH — W — Differential Calculus with Applications"
+  },
+  {
+    "file": "science.json",
+    "index": 268,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Integral Calculus with Applications",
+    "lookup_hint": "SC/MATH — F — Integral Calculus with Applications"
+  },
+  {
+    "file": "science.json",
+    "index": 269,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Integral Calculus with Applications",
+    "lookup_hint": "SC/MATH — W — Integral Calculus with Applications"
+  },
+  {
+    "file": "science.json",
+    "index": 270,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematics I for the Biological and Health Sciences",
+    "lookup_hint": "SC/MATH — F — Mathematics I for the Biological and Health Sciences"
+  },
+  {
+    "file": "science.json",
+    "index": 271,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematics I for the Biological and Health Sciences",
+    "lookup_hint": "SC/MATH — W — Mathematics I for the Biological and Health Sciences"
+  },
+  {
+    "file": "science.json",
+    "index": 272,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematics II for the Biological and Health Sciences",
+    "lookup_hint": "SC/MATH — F — Mathematics II for the Biological and Health Sciences"
+  },
+  {
+    "file": "science.json",
+    "index": 273,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematics II for the Biological and Health Sciences",
+    "lookup_hint": "SC/MATH — W — Mathematics II for the Biological and Health Sciences"
+  },
+  {
+    "file": "science.json",
+    "index": 274,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "Y",
+    "courseTitle": "Fundamentals of Mathematics",
+    "lookup_hint": "SC/MATH — Y — Fundamentals of Mathematics"
+  },
+  {
+    "file": "science.json",
+    "index": 275,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "General Mathematics for Software Development",
+    "lookup_hint": "SC/MATH — F — General Mathematics for Software Development"
+  },
+  {
+    "file": "science.json",
+    "index": 276,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Introduction to Calculus, with Vectors",
+    "lookup_hint": "SC/MATH — F — Introduction to Calculus, with Vectors"
+  },
+  {
+    "file": "science.json",
+    "index": 277,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Introduction to Calculus, with Vectors",
+    "lookup_hint": "SC/MATH — W — Introduction to Calculus, with Vectors"
+  },
+  {
+    "file": "science.json",
+    "index": 278,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Statistics for Business and Society",
+    "lookup_hint": "SC/MATH — F — Statistics for Business and Society"
+  },
+  {
+    "file": "science.json",
+    "index": 279,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Statistics for Business and Society",
+    "lookup_hint": "SC/MATH — W — Statistics for Business and Society"
+  },
+  {
+    "file": "science.json",
+    "index": 280,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Business Mathematics I",
+    "lookup_hint": "SC/MATH — F — Business Mathematics I"
+  },
+  {
+    "file": "science.json",
+    "index": 281,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Business Mathematics I",
+    "lookup_hint": "SC/MATH — W — Business Mathematics I"
+  },
+  {
+    "file": "science.json",
+    "index": 282,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Real Analysis l",
+    "lookup_hint": "SC/MATH — W — Real Analysis l"
+  },
+  {
+    "file": "science.json",
+    "index": 283,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Applied Multivariate and Vector Calculus",
+    "lookup_hint": "SC/MATH — F — Applied Multivariate and Vector Calculus"
+  },
+  {
+    "file": "science.json",
+    "index": 284,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Applied Multivariate and Vector Calculus",
+    "lookup_hint": "SC/MATH — W — Applied Multivariate and Vector Calculus"
+  },
+  {
+    "file": "science.json",
+    "index": 285,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Linear Algebra II",
+    "lookup_hint": "SC/MATH — W — Linear Algebra II"
+  },
+  {
+    "file": "science.json",
+    "index": 286,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Elementary Probability",
+    "lookup_hint": "SC/MATH — F — Elementary Probability"
+  },
+  {
+    "file": "science.json",
+    "index": 287,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Elementary Probability",
+    "lookup_hint": "SC/MATH — W — Elementary Probability"
+  },
+  {
+    "file": "science.json",
+    "index": 288,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Symbolic Computation Laboratory I",
+    "lookup_hint": "SC/MATH — F — Symbolic Computation Laboratory I"
+  },
+  {
+    "file": "science.json",
+    "index": 289,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Principles and Techniques of Data Science",
+    "lookup_hint": "SC/MATH — W — Principles and Techniques of Data Science"
+  },
+  {
+    "file": "science.json",
+    "index": 290,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Introduction to Statistics II",
+    "lookup_hint": "SC/MATH — W — Introduction to Statistics II"
+  },
+  {
+    "file": "science.json",
+    "index": 291,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Differential Equations",
+    "lookup_hint": "SC/MATH — W — Differential Equations"
+  },
+  {
+    "file": "science.json",
+    "index": 292,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Differential Equations for Scientists and Engineers",
+    "lookup_hint": "SC/MATH — F — Differential Equations for Scientists and Engineers"
+  },
+  {
+    "file": "science.json",
+    "index": 293,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Differential Equations for Scientists and Engineers",
+    "lookup_hint": "SC/MATH — W — Differential Equations for Scientists and Engineers"
+  },
+  {
+    "file": "science.json",
+    "index": 294,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "The Mathematical Theory of Interest",
+    "lookup_hint": "SC/MATH — F — The Mathematical Theory of Interest"
+  },
+  {
+    "file": "science.json",
+    "index": 295,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Models for Financial Economics",
+    "lookup_hint": "SC/MATH — W — Models for Financial Economics"
+  },
+  {
+    "file": "science.json",
+    "index": 296,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Introduction to Applied Statistics",
+    "lookup_hint": "SC/MATH — F — Introduction to Applied Statistics"
+  },
+  {
+    "file": "science.json",
+    "index": 297,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Introduction to Applied Statistics",
+    "lookup_hint": "SC/MATH — W — Introduction to Applied Statistics"
+  },
+  {
+    "file": "science.json",
+    "index": 298,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Introductory Probability and Statistics",
+    "lookup_hint": "SC/MATH — F — Introductory Probability and Statistics"
+  },
+  {
+    "file": "science.json",
+    "index": 299,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Introductory Probability and Statistics",
+    "lookup_hint": "SC/MATH — W — Introductory Probability and Statistics"
+  },
+  {
+    "file": "science.json",
+    "index": 300,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Real Analysis II",
+    "lookup_hint": "SC/MATH — F — Real Analysis II"
+  },
+  {
+    "file": "science.json",
+    "index": 301,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Algebra I",
+    "lookup_hint": "SC/MATH — F — Algebra I"
+  },
+  {
+    "file": "science.json",
+    "index": 302,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Algebra II",
+    "lookup_hint": "SC/MATH — W — Algebra II"
+  },
+  {
+    "file": "science.json",
+    "index": 303,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Geometries and Education",
+    "lookup_hint": "SC/MATH — F — Geometries and Education"
+  },
+  {
+    "file": "science.json",
+    "index": 304,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Computational Mathematics",
+    "lookup_hint": "SC/MATH — F — Computational Mathematics"
+  },
+  {
+    "file": "science.json",
+    "index": 305,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematical Statistics I",
+    "lookup_hint": "SC/MATH — F — Mathematical Statistics I"
+  },
+  {
+    "file": "science.json",
+    "index": 306,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematical Statistics II",
+    "lookup_hint": "SC/MATH — W — Mathematical Statistics II"
+  },
+  {
+    "file": "science.json",
+    "index": 307,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Introduction to Number Theory",
+    "lookup_hint": "SC/MATH — F — Introduction to Number Theory"
+  },
+  {
+    "file": "science.json",
+    "index": 308,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Linear Optimization",
+    "lookup_hint": "SC/MATH — F — Linear Optimization"
+  },
+  {
+    "file": "science.json",
+    "index": 309,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Numerical Methods I",
+    "lookup_hint": "SC/MATH — F — Numerical Methods I"
+  },
+  {
+    "file": "science.json",
+    "index": 310,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Numerical Methods II",
+    "lookup_hint": "SC/MATH — W — Numerical Methods II"
+  },
+  {
+    "file": "science.json",
+    "index": 311,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Introduction to Graph Theory",
+    "lookup_hint": "SC/MATH — W — Introduction to Graph Theory"
+  },
+  {
+    "file": "science.json",
+    "index": 312,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Partial Differential Equations",
+    "lookup_hint": "SC/MATH — F — Partial Differential Equations"
+  },
+  {
+    "file": "science.json",
+    "index": 313,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematics of Life Contingencies I",
+    "lookup_hint": "SC/MATH — F — Mathematics of Life Contingencies I"
+  },
+  {
+    "file": "science.json",
+    "index": 314,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematics of Life Contingencies II",
+    "lookup_hint": "SC/MATH — W — Mathematics of Life Contingencies II"
+  },
+  {
+    "file": "science.json",
+    "index": 315,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematical Finance",
+    "lookup_hint": "SC/MATH — F — Mathematical Finance"
+  },
+  {
+    "file": "science.json",
+    "index": 316,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Regression Analysis",
+    "lookup_hint": "SC/MATH — F — Regression Analysis"
+  },
+  {
+    "file": "science.json",
+    "index": 317,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Data analytics: A Hands-on Approach",
+    "lookup_hint": "SC/MATH — W — Data analytics: A Hands-on Approach"
+  },
+  {
+    "file": "science.json",
+    "index": 318,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Complex Variables",
+    "lookup_hint": "SC/MATH — W — Complex Variables"
+  },
+  {
+    "file": "science.json",
+    "index": 319,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Sample Survey Design",
+    "lookup_hint": "SC/MATH — W — Sample Survey Design"
+  },
+  {
+    "file": "science.json",
+    "index": 320,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — F — Mathematic and Statistics Internship Work Term"
+  },
+  {
+    "file": "science.json",
+    "index": 321,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — W — Mathematic and Statistics Internship Work Term"
+  },
+  {
+    "file": "science.json",
+    "index": 322,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — F — Mathematic and Statistics Internship Work Term"
+  },
+  {
+    "file": "science.json",
+    "index": 323,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — W — Mathematic and Statistics Internship Work Term"
+  },
+  {
+    "file": "science.json",
+    "index": 324,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — F — Mathematic and Statistics Internship Work Term"
+  },
+  {
+    "file": "science.json",
+    "index": 325,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "W",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — W — Mathematic and Statistics Internship Work Term"
+  },
+  {
+    "file": "science.json",
+    "index": 326,
+    "faculty": "SC",
+    "department": "MATH",
+    "term": "F",
+    "courseTitle": "Mathematic and Statistics Internship Work Term",
+    "lookup_hint": "SC/MATH — F — Mathematic and Statistics Internship Work Term"
+  }
+]

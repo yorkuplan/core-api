@@ -5,7 +5,9 @@ scraping/page_source/catalog_resource_map.json.
 
 Usage:
   python scripts/fetch_page_sources.py --term fall-winter-2026-2027
+  python scripts/fetch_page_sources.py --term summer-2026
   python scraping/scrapers/scrape.py --fall-winter-term fall-winter-2026-2027
+  python scripts/refresh_timetables_and_seed.py
   python scripts/fetch_page_sources.py --term fall-winter-2025-2026 --only schulich,science
   python scripts/fetch_page_sources.py --term fall-winter-2026-2027 --dry-run
   python scripts/fetch_page_sources.py --term fall-winter-2026-2027 --delay 0

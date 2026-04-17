@@ -6,6 +6,7 @@ import unittest
 import json
 import tempfile
 import os
+import sys
 import uuid
 import runpy
 from unittest.mock import patch, mock_open
@@ -1127,7 +1128,9 @@ class TestGenerateSeedMain(unittest.TestCase):
     """Test __main__ block behavior"""
 
     def test_main_exits_when_no_json_files(self):
-        with patch('glob.glob', return_value=[]), \
+        argv = [sys.executable, 'generate_seed']
+        with patch.object(sys, 'argv', argv), \
+             patch('glob.glob', return_value=[]), \
              patch('builtins.print'):
             with self.assertRaises(SystemExit) as ctx:
                 runpy.run_module('generate_seed', run_name='__main__')

@@ -5016,16 +5016,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "N",
-          "catalogNumber": "M55M01 (GS SOCI) G02V01 (GS CMCT)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -5896,7 +5888,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0004"
+              "room": "VH 1022"
             }
           ],
           "instructors": [],
@@ -6503,11 +6495,11 @@
           "catalogNumber": "W05Z01",
           "schedule": [
             {
-              "day": "R",
+              "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S101"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -7908,7 +7900,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "HNE 034"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -13634,18 +13626,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "D12P01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "Course runs from 10-2pm on Nov. 20, 23, 27, 30 and Dec. 4 and 7."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "Y68E01",
           "schedule": [
             {
               "day": "F",
               "time": "10:00",
-              "duration": "230",
+              "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "Course runs from 10-2pm on Nov. 20, 23, 27, 30 and Dec. 4 and 7."
+          "notes": ""
         }
       ]
     },
@@ -17130,11 +17131,59 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Z00U01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "HIST",
+      "term": "W",
+      "courseTitle": "Indigenous History of North America Before 1900",
+      "courseId": "5190",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "R42J01",
           "schedule": [
             {
               "day": "W",
               "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "HIST",
+      "term": "F",
+      "courseTitle": "Religion, Secularism and the Colonial Encounter",
+      "courseId": "5420",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F23D01 (GS HUMA) Y76R01 (GS HIST)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:00",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -19062,7 +19111,27 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "D33J01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "HUMA",
+      "term": "F",
+      "courseTitle": "Religion, Secularism and the Colonial Encounter",
+      "courseId": "6228",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F23D01 (GS HUMA) Y76R01 (GS HIST)",
           "schedule": [
             {
               "day": "W",
@@ -20233,23 +20302,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "M48V01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -21776,15 +21830,15 @@
           "catalogNumber": "N70N01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "T",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
             },
             {
-              "day": "W",
-              "time": "11:30",
+              "day": "R",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
@@ -21913,23 +21967,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "H10G01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -23168,7 +23207,7 @@
               "time": "13:30",
               "duration": "180",
               "campus": "Keele",
-              "room": "BRG 213"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -23189,16 +23228,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "E09G01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:00",
-              "duration": "180",
-              "campus": "Keele",
-              "room": "BRG 213"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -23224,7 +23255,7 @@
               "time": "10:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "BRG 213"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -23245,14 +23276,34 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "K62U01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "MSES",
+      "term": "W",
+      "courseTitle": "Two-Phase Flow and Heat Transfer",
+      "courseId": "6109",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D48X01",
           "schedule": [
             {
-              "day": "R",
-              "time": "15:30",
-              "duration": "180",
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
               "campus": "Keele",
-              "room": "BRG 213"
+              "room": "BRG 217"
             }
           ],
           "instructors": [],
@@ -23273,16 +23324,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Z03A01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "13:30",
-              "duration": "180",
-              "campus": "Keele",
-              "room": "BRG 213"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -32218,7 +32261,27 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "G81A01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "PSYC",
+      "term": "W",
+      "courseTitle": "Introduction to Qualitative Research",
+      "courseId": "6474",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B23T01",
           "schedule": [
             {
               "day": "F",
@@ -33425,7 +33488,7 @@
           "catalogNumber": "H99H01",
           "schedule": [
             {
-              "day": "R",
+              "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
@@ -33566,6 +33629,34 @@
           "schedule": [
             {
               "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SLST",
+      "term": "W",
+      "courseTitle": "Colonialism, Race and the Law: Sociological Implications",
+      "courseId": "6065",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U82P01 (GS SOCI) H76K01 (GS SLST) Z29B01 (GS SPTH)",
+          "schedule": [
+            {
+              "day": "R",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
@@ -33943,16 +34034,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "N",
-          "catalogNumber": "M55M01 (GS SOCI) G02V01 (GS CMCT)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -34056,6 +34139,34 @@
           "meetNumber": "01",
           "section": "A",
           "catalogNumber": "P81P01 (GS GEOG) T51K01 (GS ENVS) M98T01 (GS SOCI)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SOCI",
+      "term": "W",
+      "courseTitle": "Colonialism, Race and the Law: Sociological Implications",
+      "courseId": "6893",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U82P01 (GS SOCI) H76K01 (GS SLST) Z29B01 (GS SPTH)",
           "schedule": [
             {
               "day": "R",
@@ -35784,6 +35895,34 @@
       "faculty": "GS",
       "department": "SPTH",
       "term": "W",
+      "courseTitle": "Colonialism, Race and the Law: Sociological Implications",
+      "courseId": "6146",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U82P01 (GS SOCI) H76K01 (GS SLST) Z29B01 (GS SPTH)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SPTH",
+      "term": "W",
       "courseTitle": "Black Feminisms",
       "courseId": "6154",
       "credits": "3.00",
@@ -36733,6 +36872,34 @@
           "schedule": [
             {
               "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "STS",
+      "term": "F",
+      "courseTitle": "Critical Making and Doing: Justice-Centered Praxis",
+      "courseId": "6315",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "K30Z01",
+          "schedule": [
+            {
+              "day": "R",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",

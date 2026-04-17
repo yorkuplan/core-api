@@ -1,0 +1,446 @@
+file,index,faculty,department,term,courseTitle,lookup_hint
+glendon.json,92,GL,CORE,F,Animal and Environmental Ethics,GL/CORE — F — Animal and Environmental Ethics
+glendon.json,115,GL,CORE,W,International Perspectives on Race and Racism,GL/CORE — W — International Perspectives on Race and Racism
+glendon.json,156,GL,ECON,W,Marketing and Consumer Economics,GL/ECON — W — Marketing and Consumer Economics
+glendon.json,282,GL,HIST,W,Memory and Historical Narratives,GL/HIST — W — Memory and Historical Narratives
+glendon.json,307,GL,HUMA,F,Animal and Environmental Ethics,GL/HUMA — F — Animal and Environmental Ethics
+glendon.json,309,GL,HUMA,F,The Quest for Meaning,GL/HUMA — F — The Quest for Meaning
+glendon.json,386,GL,ILST,W,International Perspectives on Race and Racism,GL/ILST — W — International Perspectives on Race and Racism
+glendon.json,390,GL,ILST,F,Migration and Citizenship,GL/ILST — F — Migration and Citizenship
+glendon.json,434,GL,MATH,W,Machine Learning: An Introduction,GL/MATH — W — Machine Learning: An Introduction
+glendon.json,435,GL,MATH,F,Mathematics Through the Ages and Civilizations,GL/MATH — F — Mathematics Through the Ages and Civilizations
+glendon.json,465,GL,PHIL,F,Animal and Environmental Ethics,GL/PHIL — F — Animal and Environmental Ethics
+glendon.json,467,GL,PHIL,F,The Quest for Meaning,GL/PHIL — F — The Quest for Meaning
+glendon.json,499,GL,POLS,F,European Politics,GL/POLS — F — European Politics
+glendon.json,528,GL,POLS,F,Migration and Citizenship,GL/POLS — F — Migration and Citizenship
+glendon.json,600,GL,SOCI,W,International Perspectives on Race and Racism,GL/SOCI — W — International Perspectives on Race and Racism
+lassonde.json,36,LE,COOP,F,Professional Development for Co-Op Students,LE/COOP — F — Professional Development for Co-Op Students
+lassonde.json,37,LE,COOP,W,Professional Development for Co-Op Students,LE/COOP — W — Professional Development for Co-Op Students
+lassonde.json,38,LE,COOP,F,Lassonde Co-op Work-term,LE/COOP — F — Lassonde Co-op Work-term
+lassonde.json,39,LE,COOP,W,Lassonde Co-op Work-term,LE/COOP — W — Lassonde Co-op Work-term
+lassonde.json,40,LE,COOP,F,Critical Reflection on Work Experience using Professional Portfolios,LE/COOP — F — Critical Reflection on Work Experience using Professional Portfolios
+lassonde.json,41,LE,COOP,W,Critical Reflection on Work Experience using Professional Portfolios,LE/COOP — W — Critical Reflection on Work Experience using Professional Portfolios
+lassonde.json,42,LE,COOP,F,Lassonde Co-op Work-term,LE/COOP — F — Lassonde Co-op Work-term
+lassonde.json,43,LE,COOP,W,Lassonde Co-op Work-term,LE/COOP — W — Lassonde Co-op Work-term
+lassonde.json,44,LE,CSSD,F,Introduction to Computer Programming (CS0),LE/CSSD — F — Introduction to Computer Programming (CS0)
+lassonde.json,45,LE,CSSD,A1,Coding through Biology (CS1 A),LE/CSSD — A1 — Coding through Biology (CS1 A)
+lassonde.json,46,LE,CSSD,A2,Coding through Chemistry (CS1 B),LE/CSSD — A2 — Coding through Chemistry (CS1 B)
+lassonde.json,47,LE,CSSD,F,Teamwork and Communication in Software Development,LE/CSSD — F — Teamwork and Communication in Software Development
+lassonde.json,48,LE,CSSD,W,Coding with Objects (CS2),LE/CSSD — W — Coding with Objects (CS2)
+lassonde.json,49,LE,CSSD,W,Web-Centric Programming,LE/CSSD — W — Web-Centric Programming
+lassonde.json,50,LE,CSSD,W,Logic and Computing,LE/CSSD — W — Logic and Computing
+lassonde.json,51,LE,CSSD,A3,Preparation for the Workplace,LE/CSSD — A3 — Preparation for the Workplace
+lassonde.json,52,LE,CSSD,B1,Preparation for the Workplace,LE/CSSD — B1 — Preparation for the Workplace
+lassonde.json,53,LE,CSSD,F,Object-Oriented Programming,LE/CSSD — F — Object-Oriented Programming
+lassonde.json,54,LE,CSSD,F,Data Structures & Algorithms,LE/CSSD — F — Data Structures & Algorithms
+lassonde.json,55,LE,CSSD,M3,Shell Scripting,LE/CSSD — M3 — Shell Scripting
+lassonde.json,56,LE,CSSD,M4,Programming in C,LE/CSSD — M4 — Programming in C
+lassonde.json,57,LE,CSSD,M5,Programming in Assembly,LE/CSSD — M5 — Programming in Assembly
+lassonde.json,58,LE,CSSD,M6,"Testing, Debugging & Profiling C Code","LE/CSSD — M6 — Testing, Debugging & Profiling C Code"
+lassonde.json,59,LE,CSSD,W,Design and Analysis of Algorithms,LE/CSSD — W — Design and Analysis of Algorithms
+lassonde.json,60,LE,CSSD,W,Software Design,LE/CSSD — W — Software Design
+lassonde.json,61,LE,CSSD,W,Introduction to Cloud Computing,LE/CSSD — W — Introduction to Cloud Computing
+lassonde.json,62,LE,CSSD,W,Introduction to Security,LE/CSSD — W — Introduction to Security
+lassonde.json,63,LE,CSSD,W,Introduction to Data Science & Application,LE/CSSD — W — Introduction to Data Science & Application
+lassonde.json,64,LE,CSSD,W,"Professionalism, Systems Thinking & Meaningful Impact in Technology","LE/CSSD — W — Professionalism, Systems Thinking & Meaningful Impact in Technology"
+lassonde.json,65,LE,CSSD,F,User Interface Development,LE/CSSD — F — User Interface Development
+lassonde.json,66,LE,CSSD,F,Computing Challenges: Project 1,LE/CSSD — F — Computing Challenges: Project 1
+lassonde.json,67,LE,CSSD,W,Computing Challenges: Project 1,LE/CSSD — W — Computing Challenges: Project 1
+lassonde.json,68,LE,CSSD,F,Computing Challenges: Project 2,LE/CSSD — F — Computing Challenges: Project 2
+lassonde.json,69,LE,CSSD,W,Computing Challenges: Project 2,LE/CSSD — W — Computing Challenges: Project 2
+lassonde.json,70,LE,CSSD,F,Computing Challenges: Project 3,LE/CSSD — F — Computing Challenges: Project 3
+lassonde.json,71,LE,CSSD,W,Computing Challenges: Project 3,LE/CSSD — W — Computing Challenges: Project 3
+lassonde.json,72,LE,CSSD,F,Computing Challenges: Project 4,LE/CSSD — F — Computing Challenges: Project 4
+lassonde.json,73,LE,CSSD,W,Computing Challenges: Project 4,LE/CSSD — W — Computing Challenges: Project 4
+lassonde.json,74,LE,CSSD,F,Computing Challenges: Project 5,LE/CSSD — F — Computing Challenges: Project 5
+lassonde.json,75,LE,CSSD,W,Computing Challenges: Project 5,LE/CSSD — W — Computing Challenges: Project 5
+lassonde.json,76,LE,CSSD,W,Computing Challenges: Showcase,LE/CSSD — W — Computing Challenges: Showcase
+lassonde.json,77,LE,CSSD,F,Software Requirements & Analysis,LE/CSSD — F — Software Requirements & Analysis
+lassonde.json,78,LE,CSSD,A3,Introduction to Functional & Logic Programming,LE/CSSD — A3 — Introduction to Functional & Logic Programming
+lassonde.json,79,LE,CSSD,A4,Programming for Multicore CPUs & GPUs,LE/CSSD — A4 — Programming for Multicore CPUs & GPUs
+lassonde.json,80,LE,CSSD,A3,Principles of Computer Networks,LE/CSSD — A3 — Principles of Computer Networks
+lassonde.json,81,LE,CSSD,A4,Operating Systems Essentials,LE/CSSD — A4 — Operating Systems Essentials
+lassonde.json,82,LE,CSSD,F,Software Development for Cloud Computing,LE/CSSD — F — Software Development for Cloud Computing
+lassonde.json,83,LE,CSSD,F,Machine Learning,LE/CSSD — F — Machine Learning
+lassonde.json,84,LE,CSSD,W,Introduction to Databases,LE/CSSD — W — Introduction to Databases
+lassonde.json,85,LE,CSSD,W,Software Testing and Quality,LE/CSSD — W — Software Testing and Quality
+lassonde.json,86,LE,CSSD,W,Distributed Computing & Cloud Systems,LE/CSSD — W — Distributed Computing & Cloud Systems
+lassonde.json,87,LE,DIGT,F,Introduction to Computational Problem Solving,LE/DIGT — F — Introduction to Computational Problem Solving
+lassonde.json,88,LE,DIGT,Y,Teamwork and Communication in Software Development,LE/DIGT — Y — Teamwork and Communication in Software Development
+lassonde.json,89,LE,DIGT,F,Being a Digital Citizen,LE/DIGT — F — Being a Digital Citizen
+lassonde.json,90,LE,DIGT,WS,Object-Oriented Problem Solving,LE/DIGT — WS — Object-Oriented Problem Solving
+lassonde.json,91,LE,DIGT,W,Mobilizing Digital Citizenship,LE/DIGT — W — Mobilizing Digital Citizenship
+lassonde.json,92,LE,DIGT,FS,"Data Structures, Algorithms & Analysis","LE/DIGT — FS — Data Structures, Algorithms & Analysis"
+lassonde.json,93,LE,DIGT,Y,Introduction to Computer Organization & Systems,LE/DIGT — Y — Introduction to Computer Organization & Systems
+lassonde.json,94,LE,DIGT,FS,Practice of Software Development,LE/DIGT — FS — Practice of Software Development
+lassonde.json,95,LE,DIGT,W,Introduction to Data Science,LE/DIGT — W — Introduction to Data Science
+lassonde.json,96,LE,DIGT,W,Computer Networks,LE/DIGT — W — Computer Networks
+lassonde.json,97,LE,DIGT,FS,Software Development Lifecycle,LE/DIGT — FS — Software Development Lifecycle
+lassonde.json,98,LE,DIGT,Y,Data Management Systems,LE/DIGT — Y — Data Management Systems
+lassonde.json,99,LE,DIGT,WS,Network Security,LE/DIGT — WS — Network Security
+lassonde.json,100,LE,DIGT,Y,Introduction to Machine Learning I,LE/DIGT — Y — Introduction to Machine Learning I
+lassonde.json,101,LE,DIGT,Y,Software I: Software Design and Architecture,LE/DIGT — Y — Software I: Software Design and Architecture
+lassonde.json,102,LE,DIGT,FS,Digital Technologies Project,LE/DIGT — FS — Digital Technologies Project
+lassonde.json,103,LE,DIGT,WS,Distributed Systems,LE/DIGT — WS — Distributed Systems
+lassonde.json,104,LE,DIGT,WS,Security and Privacy: Awareness and Governance,LE/DIGT — WS — Security and Privacy: Awareness and Governance
+lassonde.json,105,LE,DIGT,Y,Security by Design,LE/DIGT — Y — Security by Design
+lassonde.json,106,LE,DIGT,WS,Introduction to Machine Learning II,LE/DIGT — WS — Introduction to Machine Learning II
+lassonde.json,107,LE,DIGT,WS,Software II: Software Testing and Quality Assurance,LE/DIGT — WS — Software II: Software Testing and Quality Assurance
+lassonde.json,108,LE,DIGT,F,Artificial Intelligence & Symbolic Reasoning,LE/DIGT — F — Artificial Intelligence & Symbolic Reasoning
+lassonde.json,109,LE,DIGT,F,Auditing & Governance of Information Systems,LE/DIGT — F — Auditing & Governance of Information Systems
+lassonde.json,110,LE,DIGT,F,User Interface Development,LE/DIGT — F — User Interface Development
+lassonde.json,111,LE,DIGT,W,Threat Management & Protection of Systems,LE/DIGT — W — Threat Management & Protection of Systems
+lassonde.json,112,LE,DIGT,W,Security Development & Operations,LE/DIGT — W — Security Development & Operations
+lassonde.json,113,LE,DIGT,W,"Applied Machine Learning: Projects, Evaluation & Responsible AI","LE/DIGT — W — Applied Machine Learning: Projects, Evaluation & Responsible AI"
+lassonde.json,114,LE,DIGT,F,Big Data Analytics & Mining,LE/DIGT — F — Big Data Analytics & Mining
+lassonde.json,115,LE,DIGT,F,Software Development I: Software Requirements,LE/DIGT — F — Software Development I: Software Requirements
+lassonde.json,116,LE,DIGT,W,Software Development II: Model-based Design & Verification of Software Systems,LE/DIGT — W — Software Development II: Model-based Design & Verification of Software Systems
+lassonde.json,117,LE,DIGT,Y,Specialization Synoptic Project,LE/DIGT — Y — Specialization Synoptic Project
+lassonde.json,118,LE,DIGT,W,Cloud Computing: Development & Operations,LE/DIGT — W — Cloud Computing: Development & Operations
+lassonde.json,119,LE,DIGT,F,Digital Forensics,LE/DIGT — F — Digital Forensics
+lassonde.json,120,LE,DIGT,W,"Deep Learning: Vision, Language & Generative Models","LE/DIGT — W — Deep Learning: Vision, Language & Generative Models"
+lassonde.json,121,LE,DIGT,W,Software Development III: DevOps & Software Reliability,LE/DIGT — W — Software Development III: DevOps & Software Reliability
+lassonde.json,122,LE,DIGT,W,Technology Leadership & Professional Reflection 4,LE/DIGT — W — Technology Leadership & Professional Reflection 4
+lassonde.json,123,LE,EECS,Y,Research Directions in Computing,LE/EECS — Y — Research Directions in Computing
+lassonde.json,124,LE,EECS,F,Computational Thinking Through Procedural Programming and Mechatronics,LE/EECS — F — Computational Thinking Through Procedural Programming and Mechatronics
+lassonde.json,125,LE,EECS,W,Computational Thinking Through Procedural Programming and Mechatronics,LE/EECS — W — Computational Thinking Through Procedural Programming and Mechatronics
+lassonde.json,126,LE,EECS,F,Introduction to Computing: A Net-centric Approach,LE/EECS — F — Introduction to Computing: A Net-centric Approach
+lassonde.json,127,LE,EECS,W,Introduction to Computing: A Net-centric Approach,LE/EECS — W — Introduction to Computing: A Net-centric Approach
+lassonde.json,128,LE,EECS,F,Introduction to Computer Science and Programming,LE/EECS — F — Introduction to Computer Science and Programming
+lassonde.json,129,LE,EECS,W,Introduction to Computer Science and Programming,LE/EECS — W — Introduction to Computer Science and Programming
+lassonde.json,130,LE,EECS,F,Discrete Mathematics for Computer Science,LE/EECS — F — Discrete Mathematics for Computer Science
+lassonde.json,131,LE,EECS,W,Discrete Mathematics for Computer Science,LE/EECS — W — Discrete Mathematics for Computer Science
+lassonde.json,132,LE,EECS,F,Object-Oriented Programming & Telemetry as Engineering Cornerstones,LE/EECS — F — Object-Oriented Programming & Telemetry as Engineering Cornerstones
+lassonde.json,133,LE,EECS,W,Object-Oriented Programming & Telemetry as Engineering Cornerstones,LE/EECS — W — Object-Oriented Programming & Telemetry as Engineering Cornerstones
+lassonde.json,134,LE,EECS,F,Introduction to Object Oriented Programming,LE/EECS — F — Introduction to Object Oriented Programming
+lassonde.json,135,LE,EECS,W,Introduction to Object Oriented Programming,LE/EECS — W — Introduction to Object Oriented Programming
+lassonde.json,136,LE,EECS,F,Discrete Mathematics for Engineers,LE/EECS — F — Discrete Mathematics for Engineers
+lassonde.json,137,LE,EECS,W,Discrete Mathematics for Engineers,LE/EECS — W — Discrete Mathematics for Engineers
+lassonde.json,138,LE,EECS,W4,Discrete Mathematics for Engineers,LE/EECS — W4 — Discrete Mathematics for Engineers
+lassonde.json,139,LE,EECS,W,Object Oriented Design and Principles using Python,LE/EECS — W — Object Oriented Design and Principles using Python
+lassonde.json,140,LE,EECS,F,Introduction to Computing for Data Analysis and Visualization,LE/EECS — F — Introduction to Computing for Data Analysis and Visualization
+lassonde.json,141,LE,EECS,W,Introduction to Computing for Data Analysis and Visualization,LE/EECS — W — Introduction to Computing for Data Analysis and Visualization
+lassonde.json,142,LE,EECS,F,Computer Use for the Natural Sciences,LE/EECS — F — Computer Use for the Natural Sciences
+lassonde.json,143,LE,EECS,W,Computer Use for the Natural Sciences,LE/EECS — W — Computer Use for the Natural Sciences
+lassonde.json,144,LE,EECS,W,Introduction to Computing for the Physical Sciences,LE/EECS — W — Introduction to Computing for the Physical Sciences
+lassonde.json,145,LE,EECS,F,Introduction to Computing for Mathematics and Statistics,LE/EECS — F — Introduction to Computing for Mathematics and Statistics
+lassonde.json,146,LE,EECS,W,Introduction to Computing for Mathematics and Statistics,LE/EECS — W — Introduction to Computing for Mathematics and Statistics
+lassonde.json,147,LE,EECS,F,Introduction to Computing for Psychology,LE/EECS — F — Introduction to Computing for Psychology
+lassonde.json,148,LE,EECS,W,Introduction to Computing & Programming,LE/EECS — W — Introduction to Computing & Programming
+lassonde.json,149,LE,EECS,W,Introduction à l'informatique et à la programmation,LE/EECS — W — Introduction à l'informatique et à la programmation
+lassonde.json,150,LE,EECS,F,Programming for Digital Media,LE/EECS — F — Programming for Digital Media
+lassonde.json,151,LE,EECS,W,Building Interactive Systems,LE/EECS — W — Building Interactive Systems
+lassonde.json,152,LE,EECS,F,Introduction to the Theory of Computation,LE/EECS — F — Introduction to the Theory of Computation
+lassonde.json,153,LE,EECS,W,Introduction to the Theory of Computation,LE/EECS — W — Introduction to the Theory of Computation
+lassonde.json,154,LE,EECS,F,Computer Organization,LE/EECS — F — Computer Organization
+lassonde.json,155,LE,EECS,W,Computer Organization,LE/EECS — W — Computer Organization
+lassonde.json,156,LE,EECS,F,Engineering Mathematics,LE/EECS — F — Engineering Mathematics
+lassonde.json,157,LE,EECS,F,Advanced Object Oriented Programming,LE/EECS — F — Advanced Object Oriented Programming
+lassonde.json,158,LE,EECS,W,Advanced Object Oriented Programming,LE/EECS — W — Advanced Object Oriented Programming
+lassonde.json,159,LE,EECS,F,Software Tools,LE/EECS — F — Software Tools
+lassonde.json,160,LE,EECS,W,Software Tools,LE/EECS — W — Software Tools
+lassonde.json,161,LE,EECS,F,Introduction to Embedded Systems,LE/EECS — F — Introduction to Embedded Systems
+lassonde.json,162,LE,EECS,W,Introduction to Embedded Systems,LE/EECS — W — Introduction to Embedded Systems
+lassonde.json,163,LE,EECS,F,Fundamentals of Data Structures,LE/EECS — F — Fundamentals of Data Structures
+lassonde.json,164,LE,EECS,W,Fundamentals of Data Structures,LE/EECS — W — Fundamentals of Data Structures
+lassonde.json,165,LE,EECS,F,Electrical Circuits,LE/EECS — F — Electrical Circuits
+lassonde.json,166,LE,EECS,W,Electrical Circuits,LE/EECS — W — Electrical Circuits
+lassonde.json,167,LE,EECS,F,Electronic Circuits and Devices,LE/EECS — F — Electronic Circuits and Devices
+lassonde.json,168,LE,EECS,W,Electronic Circuits and Devices,LE/EECS — W — Electronic Circuits and Devices
+lassonde.json,169,LE,EECS,W,Software Development Project,LE/EECS — W — Software Development Project
+lassonde.json,170,LE,EECS,F,Fortran and Scientific Computing,LE/EECS — F — Fortran and Scientific Computing
+lassonde.json,171,LE,EECS,W,Data Structures for Data Science,LE/EECS — W — Data Structures for Data Science
+lassonde.json,172,LE,EECS,W,Professional Practice in Computing,LE/EECS — W — Professional Practice in Computing
+lassonde.json,173,LE,EECS,F,Design and Analysis of Algorithms,LE/EECS — F — Design and Analysis of Algorithms
+lassonde.json,174,LE,EECS,W,Design and Analysis of Algorithms,LE/EECS — W — Design and Analysis of Algorithms
+lassonde.json,175,LE,EECS,F,Numerical Methods I,LE/EECS — F — Numerical Methods I
+lassonde.json,176,LE,EECS,W,Numerical Methods II,LE/EECS — W — Numerical Methods II
+lassonde.json,177,LE,EECS,F,Digital Logic Design,LE/EECS — F — Digital Logic Design
+lassonde.json,178,LE,EECS,W,Digital Logic Design,LE/EECS — W — Digital Logic Design
+lassonde.json,179,LE,EECS,F,Communication Networks,LE/EECS — F — Communication Networks
+lassonde.json,180,LE,EECS,W,Communication Networks,LE/EECS — W — Communication Networks
+lassonde.json,181,LE,EECS,F,Computer Network Protocols and Applications,LE/EECS — F — Computer Network Protocols and Applications
+lassonde.json,182,LE,EECS,W,Computer Network Protocols and Applications,LE/EECS — W — Computer Network Protocols and Applications
+lassonde.json,183,LE,EECS,F,Embedded Systems,LE/EECS — F — Embedded Systems
+lassonde.json,184,LE,EECS,F,"Digital Systems Engineering: Modeling, Implementation and Validation","LE/EECS — F — Digital Systems Engineering: Modeling, Implementation and Validation"
+lassonde.json,185,LE,EECS,W,"Digital Systems Engineering: Modeling, Implementation and Validation","LE/EECS — W — Digital Systems Engineering: Modeling, Implementation and Validation"
+lassonde.json,186,LE,EECS,F,Operating System Fundamentals,LE/EECS — F — Operating System Fundamentals
+lassonde.json,187,LE,EECS,W,Operating System Fundamentals,LE/EECS — W — Operating System Fundamentals
+lassonde.json,188,LE,EECS,F,Software Design,LE/EECS — F — Software Design
+lassonde.json,189,LE,EECS,W,Software Design,LE/EECS — W — Software Design
+lassonde.json,190,LE,EECS,F,System Specification and Refinement,LE/EECS — F — System Specification and Refinement
+lassonde.json,191,LE,EECS,F,Introduction to Artificial Intelligence and Logic Programming,LE/EECS — F — Introduction to Artificial Intelligence and Logic Programming
+lassonde.json,192,LE,EECS,W,Introduction to Artificial Intelligence and Logic Programming,LE/EECS — W — Introduction to Artificial Intelligence and Logic Programming
+lassonde.json,193,LE,EECS,W,Applied Machine Learning,LE/EECS — W — Applied Machine Learning
+lassonde.json,194,LE,EECS,F,Fundamentals of Machine Learning,LE/EECS — F — Fundamentals of Machine Learning
+lassonde.json,195,LE,EECS,F,Introduction to Database Systems,LE/EECS — F — Introduction to Database Systems
+lassonde.json,196,LE,EECS,W,Introduction to Database Systems,LE/EECS — W — Introduction to Database Systems
+lassonde.json,197,LE,EECS,F,Introduction to 3D Computer Graphics,LE/EECS — F — Introduction to 3D Computer Graphics
+lassonde.json,198,LE,EECS,F,Signals and Systems,LE/EECS — F — Signals and Systems
+lassonde.json,199,LE,EECS,W,Signals and Systems,LE/EECS — W — Signals and Systems
+lassonde.json,200,LE,EECS,W,Linear Control Systems,LE/EECS — W — Linear Control Systems
+lassonde.json,201,LE,EECS,F,User Interfaces,LE/EECS — F — User Interfaces
+lassonde.json,202,LE,EECS,W,User Interfaces,LE/EECS — W — User Interfaces
+lassonde.json,203,LE,EECS,F,Applied Cryptography,LE/EECS — F — Applied Cryptography
+lassonde.json,204,LE,EECS,F,Introduction to Computer Security,LE/EECS — F — Introduction to Computer Security
+lassonde.json,205,LE,EECS,W,Introduction to Computer Security,LE/EECS — W — Introduction to Computer Security
+lassonde.json,206,LE,EECS,F,Electrical Systems for Mechanical Engineers,LE/EECS — F — Electrical Systems for Mechanical Engineers
+lassonde.json,207,LE,EECS,W,Electrical Systems for Mechanical Engineers,LE/EECS — W — Electrical Systems for Mechanical Engineers
+lassonde.json,208,LE,EECS,W,Probability and Stochastic Processes in Communications and Signal Processing,LE/EECS — W — Probability and Stochastic Processes in Communications and Signal Processing
+lassonde.json,209,LE,EECS,F,Electromechanical Energy Conversion,LE/EECS — F — Electromechanical Energy Conversion
+lassonde.json,210,LE,EECS,W,Applied Electromagnetism,LE/EECS — W — Applied Electromagnetism
+lassonde.json,211,LE,EECS,W,Analog Electronics,LE/EECS — W — Analog Electronics
+lassonde.json,212,LE,EECS,W,Introduction to Sensors and Measurement Instruments,LE/EECS — W — Introduction to Sensors and Measurement Instruments
+schulich.json,141,SB,DDPR,F,Dual Degree - Non Business Elective,SB/DDPR — F — Dual Degree - Non Business Elective
+schulich.json,142,SB,DDPR,W,Dual Degree - Non Business Elective,SB/DDPR — W — Dual Degree - Non Business Elective
+schulich.json,143,SB,DDPR,F,Dual Degree - Non Business Elective,SB/DDPR — F — Dual Degree - Non Business Elective
+schulich.json,144,SB,DDPR,W,Dual Degree - Non Business Elective,SB/DDPR — W — Dual Degree - Non Business Elective
+schulich.json,145,SB,EMBA,EW,Quantitative Methods for Business,SB/EMBA — EW — Quantitative Methods for Business
+schulich.json,146,SB,EMBA,EW,Managerial Decision Analysis,SB/EMBA — EW — Managerial Decision Analysis
+schulich.json,147,SB,EMBA,EW,Financial Reporting Systems,SB/EMBA — EW — Financial Reporting Systems
+schulich.json,148,SB,EMBA,EW,Marketing,SB/EMBA — EW — Marketing
+schulich.json,149,SB,EMBA,ER,Leadership and Organizations,SB/EMBA — ER — Leadership and Organizations
+schulich.json,150,SB,EMBA,EF,Management Planning and Control,SB/EMBA — EF — Management Planning and Control
+schulich.json,151,SB,EMBA,EW,The World Economy,SB/EMBA — EW — The World Economy
+schulich.json,152,SB,EMBA,EF,Unlocking Executive & Enterprise Value with Generative AI,SB/EMBA — EF — Unlocking Executive & Enterprise Value with Generative AI
+schulich.json,153,SB,EMBA,EF,"China Marketing: Tech, Society and Beyond","SB/EMBA — EF — China Marketing: Tech, Society and Beyond"
+schulich.json,154,SB,EMBA,EW,"China Marketing: Tech, Society and Beyond","SB/EMBA — EW — China Marketing: Tech, Society and Beyond"
+schulich.json,155,SB,EMBA,EF,China in Transition,SB/EMBA — EF — China in Transition
+schulich.json,156,SB,EMBA,EF,International Business with Chinese Opportunities and Challenges,SB/EMBA — EF — International Business with Chinese Opportunities and Challenges
+schulich.json,157,SB,EMBA,EW,Mergers & Acquisitions and Other Reorganization Methods,SB/EMBA — EW — Mergers & Acquisitions and Other Reorganization Methods
+schulich.json,158,SB,EMBA,EF,Political Economy  A Global Perspective,SB/EMBA — EF — Political Economy  A Global Perspective
+schulich.json,159,SB,EMBA,EW,Political Economy  A Global Perspective,SB/EMBA — EW — Political Economy  A Global Perspective
+schulich.json,160,SB,EMBA,EF,Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies,SB/EMBA — EF — Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies
+schulich.json,161,SB,EMBA,EW,Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies,SB/EMBA — EW — Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies
+schulich.json,162,SB,EMBA,EF,From Risk to Reward: Strategies for Sustainable Business Transformation,SB/EMBA — EF — From Risk to Reward: Strategies for Sustainable Business Transformation
+schulich.json,163,SB,EMBA,EW,Leader Development Models and Practice,SB/EMBA — EW — Leader Development Models and Practice
+schulich.json,164,SB,EMBA,EW,Selling Yourself and Your Ideas,SB/EMBA — EW — Selling Yourself and Your Ideas
+schulich.json,165,SB,EMBA,EF,Innovating for Social Impact,SB/EMBA — EF — Innovating for Social Impact
+schulich.json,166,SB,EMBA,ER,Managing Globally,SB/EMBA — ER — Managing Globally
+schulich.json,167,SB,EMBA,ER,Building and Scaling Intelligent Products: An Entrepreneurial and GenAI Perspective,SB/EMBA — ER — Building and Scaling Intelligent Products: An Entrepreneurial and GenAI Perspective
+schulich.json,168,SB,EMBA,EW,Global Corporate Restructuring,SB/EMBA — EW — Global Corporate Restructuring
+schulich.json,169,SB,EMBA,EW,Influencing Decisions through Decks & Dashboards,SB/EMBA — EW — Influencing Decisions through Decks & Dashboards
+schulich.json,170,SB,EMBA,EW,Managing Healthcare Services in a Value-Based Setting,SB/EMBA — EW — Managing Healthcare Services in a Value-Based Setting
+schulich.json,171,SB,EMBA,EW,Leading High Impact Teams,SB/EMBA — EW — Leading High Impact Teams
+schulich.json,172,SB,EMBA,EF,Value Investing,SB/EMBA — EF — Value Investing
+schulich.json,173,SB,EMBA,EW,Value Creation and Capture in Biopharmaceuticals,SB/EMBA — EW — Value Creation and Capture in Biopharmaceuticals
+schulich.json,174,SB,EMBA,EW,Leading Organizational Transformation,SB/EMBA — EW — Leading Organizational Transformation
+schulich.json,175,SB,EMBA,EW,Phase 0,SB/EMBA — EW — Phase 0
+schulich.json,176,SB,EMBA,EW,Creating and Managing Strategic Alliances,SB/EMBA — EW — Creating and Managing Strategic Alliances
+schulich.json,177,SB,EMBA,ER,Early Stage Investing & Fundraising,SB/EMBA — ER — Early Stage Investing & Fundraising
+schulich.json,178,SB,EMBA,EW,Launching and Leading Startups,SB/EMBA — EW — Launching and Leading Startups
+schulich.json,179,SB,EMBA,EF,Strategic Brand Management,SB/EMBA — EF — Strategic Brand Management
+schulich.json,180,SB,EMBA,EW,Strategic Brand Management,SB/EMBA — EW — Strategic Brand Management
+schulich.json,181,SB,EMBA,EW,Nonprofit Board Governance,SB/EMBA — EW — Nonprofit Board Governance
+schulich.json,182,SB,EMBA,EW,Strategic Marketing Decisions,SB/EMBA — EW — Strategic Marketing Decisions
+schulich.json,183,SB,EMBA,EW,Advertising Strategy,SB/EMBA — EW — Advertising Strategy
+schulich.json,184,SB,EMBA,EF,Leading Product Organizations,SB/EMBA — EF — Leading Product Organizations
+schulich.json,185,SB,EMBA,EW,Leading Product Organizations,SB/EMBA — EW — Leading Product Organizations
+schulich.json,186,SB,EMBA,EF,Responsible Business Leadership,SB/EMBA — EF — Responsible Business Leadership
+schulich.json,187,SB,EMBA,ER,The Business of Social Change,SB/EMBA — ER — The Business of Social Change
+schulich.json,188,SB,EMBA,EW,Digital Strategy: Individual and Organizational Transformation for a Digital Age,SB/EMBA — EW — Digital Strategy: Individual and Organizational Transformation for a Digital Age
+schulich.json,189,SB,EMBA,EW,Economics of Competition,SB/EMBA — EW — Economics of Competition
+schulich.json,190,SB,EMBA,EW,Strategy Beyond Markets,SB/EMBA — EW — Strategy Beyond Markets
+schulich.json,191,SB,EMBA,EW,Social Dynamics and Networks,SB/EMBA — EW — Social Dynamics and Networks
+schulich.json,192,SB,EMBA,EF,Financial Instruments and Capital Markets,SB/EMBA — EF — Financial Instruments and Capital Markets
+schulich.json,193,SB,EMBA,EW,FinTech Strategy: Innovations in Financial Services,SB/EMBA — EW — FinTech Strategy: Innovations in Financial Services
+schulich.json,194,SB,EMBA,EW,Value Creation and Capture in an Evolving Healthcare Services Landscape,SB/EMBA — EW — Value Creation and Capture in an Evolving Healthcare Services Landscape
+schulich.json,195,SB,EMBA,EW,Strategies for Growth,SB/EMBA — EW — Strategies for Growth
+schulich.json,196,SB,EMBA,EW,"Biases, Forecasts and Deep Uncertainty","SB/EMBA — EW — Biases, Forecasts and Deep Uncertainty"
+schulich.json,197,SB,EMBA,EW,Human and Machine Intelligence: Creating Business Value Through Artificial Intelligence,SB/EMBA — EW — Human and Machine Intelligence: Creating Business Value Through Artificial Intelligence
+schulich.json,198,SB,EMBA,EW,"Incentives, Organization and Strategy","SB/EMBA — EW — Incentives, Organization and Strategy"
+schulich.json,199,SB,EMBA,EW,Healthcare Strategy,SB/EMBA — EW — Healthcare Strategy
+schulich.json,200,SB,EMBA,EW,Entrepreneurial Finance and Venture Capital,SB/EMBA — EW — Entrepreneurial Finance and Venture Capital
+schulich.json,201,SB,EMBA,EW,International Real Estate,SB/EMBA — EW — International Real Estate
+schulich.json,202,SB,EMBA,EW,Advanced Negotiations,SB/EMBA — EW — Advanced Negotiations
+schulich.json,203,SB,EMBA,EF,Deal-Making in China and Asia,SB/EMBA — EF — Deal-Making in China and Asia
+schulich.json,204,SB,EMBA,EF,Understanding Consumers,SB/EMBA — EF — Understanding Consumers
+schulich.json,205,SB,EMBA,EW,Leading and Managing Diverse Organizations,SB/EMBA — EW — Leading and Managing Diverse Organizations
+schulich.json,206,SB,EMBA,EF,International Finance,SB/EMBA — EF — International Finance
+schulich.json,207,SB,EMBA,EW,International Finance,SB/EMBA — EW — International Finance
+schulich.json,208,SB,EMBA,EW,"Investment Banks, Hedge Funds and Private Equity","SB/EMBA — EW — Investment Banks, Hedge Funds and Private Equity"
+schulich.json,209,SB,EMBA,EW,Family Enterprises,SB/EMBA — EW — Family Enterprises
+schulich.json,210,SB,ENTR,F,Business Essentials for Technology Entrepreneurs I,SB/ENTR — F — Business Essentials for Technology Entrepreneurs I
+schulich.json,211,SB,ENTR,W,Business Essentials for Technology Entrepreneurs II,SB/ENTR — W — Business Essentials for Technology Entrepreneurs II
+schulich.json,212,SB,ENTR,F,"Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential","SB/ENTR — F — Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential"
+schulich.json,213,SB,ENTR,W,Entrepreneurship and Technology Ventures,SB/ENTR — W — Entrepreneurship and Technology Ventures
+schulich.json,214,SB,ENTR,F,Entrepreneurship and New Venture Creation,SB/ENTR — F — Entrepreneurship and New Venture Creation
+schulich.json,215,SB,ENTR,F,Financing Growing Ventures,SB/ENTR — F — Financing Growing Ventures
+schulich.json,216,SB,ENTR,W,Financing Growing Ventures,SB/ENTR — W — Financing Growing Ventures
+schulich.json,217,SB,ENTR,W,Social Entrepreneurship,SB/ENTR — W — Social Entrepreneurship
+schulich.json,218,SB,ENTR,F,Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies,SB/ENTR — F — Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies
+schulich.json,219,SB,ENTR,W,Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies,SB/ENTR — W — Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies
+schulich.json,220,SB,ENTR,F,Startup Lab: The Together Mission,SB/ENTR — F — Startup Lab: The Together Mission
+schulich.json,221,SB,ENTR,W,Managing the Family Enterprise,SB/ENTR — W — Managing the Family Enterprise
+schulich.json,222,SB,ENTR,F2,"Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential","SB/ENTR — F2 — Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential"
+schulich.json,223,SB,ENTR,F2,Startup Lab: The Together Mission,SB/ENTR — F2 — Startup Lab: The Together Mission
+schulich.json,224,SB,ENTR,F2,Entrepreneurship and New Firm Creation,SB/ENTR — F2 — Entrepreneurship and New Firm Creation
+schulich.json,225,SB,ENTR,A,Individual Study: Selected Problems in Entrepreneurial Studies,SB/ENTR — A — Individual Study: Selected Problems in Entrepreneurial Studies
+schulich.json,226,SB,ENTR,C,Individual Study: Selected Problems in Entrepreneurial Studies,SB/ENTR — C — Individual Study: Selected Problems in Entrepreneurial Studies
+schulich.json,227,SB,ENTR,F2,Individual Study: Selected Problems in Entrepreneurial Studies,SB/ENTR — F2 — Individual Study: Selected Problems in Entrepreneurial Studies
+schulich.json,228,SB,ENTR,W2,Individual Study: Selected Problems in Entrepreneurial Studies,SB/ENTR — W2 — Individual Study: Selected Problems in Entrepreneurial Studies
+schulich.json,229,SB,ENTR,F2,Venture Capital & Private Equity,SB/ENTR — F2 — Venture Capital & Private Equity
+schulich.json,230,SB,ENTR,W2,Venture Capital & Private Equity,SB/ENTR — W2 — Venture Capital & Private Equity
+schulich.json,231,SB,ENTR,W2,Mentorship Match: Learning to Innovate with Venture Leaders,SB/ENTR — W2 — Mentorship Match: Learning to Innovate with Venture Leaders
+schulich.json,232,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,233,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,234,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,235,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,236,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,237,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,238,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,239,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,240,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,241,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,242,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,243,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,244,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,245,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,246,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,247,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,248,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,249,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,250,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,251,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,252,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,253,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,254,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,255,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,256,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,257,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,258,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,259,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,260,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,261,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,262,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,263,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,264,SB,EXCH,F,Exchange - Schulich Business Elective,SB/EXCH — F — Exchange - Schulich Business Elective
+schulich.json,265,SB,EXCH,W,Exchange - Schulich Business Elective,SB/EXCH — W — Exchange - Schulich Business Elective
+schulich.json,266,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,267,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,268,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,269,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,270,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,271,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,272,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,273,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,274,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,275,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,276,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,277,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,278,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,279,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,280,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,281,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,282,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,283,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,284,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,285,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,286,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,287,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,288,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,289,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,290,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,291,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,292,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,293,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,294,SB,EXCH,F,Exchange - Globally Focused Elective,SB/EXCH — F — Exchange - Globally Focused Elective
+schulich.json,295,SB,EXCH,W,Exchange - Globally Focused Elective,SB/EXCH — W — Exchange - Globally Focused Elective
+schulich.json,296,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,297,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,298,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,299,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,300,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,301,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,302,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,303,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,304,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,305,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,306,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,307,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,308,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,309,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,310,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,311,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,312,SB,EXCH,F,Exchange - Non Business Elective,SB/EXCH — F — Exchange - Non Business Elective
+schulich.json,313,SB,EXCH,W,Exchange - Non Business Elective,SB/EXCH — W — Exchange - Non Business Elective
+schulich.json,314,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,315,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,316,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,317,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,318,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,319,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,320,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,321,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,322,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,323,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,324,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,325,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,326,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,327,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,328,SB,EXCH,F,Exchange - Language Elective,SB/EXCH — F — Exchange - Language Elective
+schulich.json,329,SB,EXCH,W,Exchange - Language Elective,SB/EXCH — W — Exchange - Language Elective
+schulich.json,330,SB,EXCH,F2,Exchange - Schulich Business Elective,SB/EXCH — F2 — Exchange - Schulich Business Elective
+schulich.json,331,SB,EXCH,W2,Exchange - Schulich Business Elective,SB/EXCH — W2 — Exchange - Schulich Business Elective
+schulich.json,332,SB,EXCH,F2,Exchange - Schulich Business Elective,SB/EXCH — F2 — Exchange - Schulich Business Elective
+science.json,266,SC,MATH,F,Differential Calculus with Applications,SC/MATH — F — Differential Calculus with Applications
+science.json,267,SC,MATH,W,Differential Calculus with Applications,SC/MATH — W — Differential Calculus with Applications
+science.json,268,SC,MATH,F,Integral Calculus with Applications,SC/MATH — F — Integral Calculus with Applications
+science.json,269,SC,MATH,W,Integral Calculus with Applications,SC/MATH — W — Integral Calculus with Applications
+science.json,270,SC,MATH,F,Mathematics I for the Biological and Health Sciences,SC/MATH — F — Mathematics I for the Biological and Health Sciences
+science.json,271,SC,MATH,W,Mathematics I for the Biological and Health Sciences,SC/MATH — W — Mathematics I for the Biological and Health Sciences
+science.json,272,SC,MATH,F,Mathematics II for the Biological and Health Sciences,SC/MATH — F — Mathematics II for the Biological and Health Sciences
+science.json,273,SC,MATH,W,Mathematics II for the Biological and Health Sciences,SC/MATH — W — Mathematics II for the Biological and Health Sciences
+science.json,274,SC,MATH,Y,Fundamentals of Mathematics,SC/MATH — Y — Fundamentals of Mathematics
+science.json,275,SC,MATH,F,General Mathematics for Software Development,SC/MATH — F — General Mathematics for Software Development
+science.json,276,SC,MATH,F,"Introduction to Calculus, with Vectors","SC/MATH — F — Introduction to Calculus, with Vectors"
+science.json,277,SC,MATH,W,"Introduction to Calculus, with Vectors","SC/MATH — W — Introduction to Calculus, with Vectors"
+science.json,278,SC,MATH,F,Statistics for Business and Society,SC/MATH — F — Statistics for Business and Society
+science.json,279,SC,MATH,W,Statistics for Business and Society,SC/MATH — W — Statistics for Business and Society
+science.json,280,SC,MATH,F,Business Mathematics I,SC/MATH — F — Business Mathematics I
+science.json,281,SC,MATH,W,Business Mathematics I,SC/MATH — W — Business Mathematics I
+science.json,282,SC,MATH,W,Real Analysis l,SC/MATH — W — Real Analysis l
+science.json,283,SC,MATH,F,Applied Multivariate and Vector Calculus,SC/MATH — F — Applied Multivariate and Vector Calculus
+science.json,284,SC,MATH,W,Applied Multivariate and Vector Calculus,SC/MATH — W — Applied Multivariate and Vector Calculus
+science.json,285,SC,MATH,W,Linear Algebra II,SC/MATH — W — Linear Algebra II
+science.json,286,SC,MATH,F,Elementary Probability,SC/MATH — F — Elementary Probability
+science.json,287,SC,MATH,W,Elementary Probability,SC/MATH — W — Elementary Probability
+science.json,288,SC,MATH,F,Symbolic Computation Laboratory I,SC/MATH — F — Symbolic Computation Laboratory I
+science.json,289,SC,MATH,W,Principles and Techniques of Data Science,SC/MATH — W — Principles and Techniques of Data Science
+science.json,290,SC,MATH,W,Introduction to Statistics II,SC/MATH — W — Introduction to Statistics II
+science.json,291,SC,MATH,W,Differential Equations,SC/MATH — W — Differential Equations
+science.json,292,SC,MATH,F,Differential Equations for Scientists and Engineers,SC/MATH — F — Differential Equations for Scientists and Engineers
+science.json,293,SC,MATH,W,Differential Equations for Scientists and Engineers,SC/MATH — W — Differential Equations for Scientists and Engineers
+science.json,294,SC,MATH,F,The Mathematical Theory of Interest,SC/MATH — F — The Mathematical Theory of Interest
+science.json,295,SC,MATH,W,Models for Financial Economics,SC/MATH — W — Models for Financial Economics
+science.json,296,SC,MATH,F,Introduction to Applied Statistics,SC/MATH — F — Introduction to Applied Statistics
+science.json,297,SC,MATH,W,Introduction to Applied Statistics,SC/MATH — W — Introduction to Applied Statistics
+science.json,298,SC,MATH,F,Introductory Probability and Statistics,SC/MATH — F — Introductory Probability and Statistics
+science.json,299,SC,MATH,W,Introductory Probability and Statistics,SC/MATH — W — Introductory Probability and Statistics
+science.json,300,SC,MATH,F,Real Analysis II,SC/MATH — F — Real Analysis II
+science.json,301,SC,MATH,F,Algebra I,SC/MATH — F — Algebra I
+science.json,302,SC,MATH,W,Algebra II,SC/MATH — W — Algebra II
+science.json,303,SC,MATH,F,Geometries and Education,SC/MATH — F — Geometries and Education
+science.json,304,SC,MATH,F,Computational Mathematics,SC/MATH — F — Computational Mathematics
+science.json,305,SC,MATH,F,Mathematical Statistics I,SC/MATH — F — Mathematical Statistics I
+science.json,306,SC,MATH,W,Mathematical Statistics II,SC/MATH — W — Mathematical Statistics II
+science.json,307,SC,MATH,F,Introduction to Number Theory,SC/MATH — F — Introduction to Number Theory
+science.json,308,SC,MATH,F,Linear Optimization,SC/MATH — F — Linear Optimization
+science.json,309,SC,MATH,F,Numerical Methods I,SC/MATH — F — Numerical Methods I
+science.json,310,SC,MATH,W,Numerical Methods II,SC/MATH — W — Numerical Methods II
+science.json,311,SC,MATH,W,Introduction to Graph Theory,SC/MATH — W — Introduction to Graph Theory
+science.json,312,SC,MATH,F,Partial Differential Equations,SC/MATH — F — Partial Differential Equations
+science.json,313,SC,MATH,F,Mathematics of Life Contingencies I,SC/MATH — F — Mathematics of Life Contingencies I
+science.json,314,SC,MATH,W,Mathematics of Life Contingencies II,SC/MATH — W — Mathematics of Life Contingencies II
+science.json,315,SC,MATH,F,Mathematical Finance,SC/MATH — F — Mathematical Finance
+science.json,316,SC,MATH,F,Regression Analysis,SC/MATH — F — Regression Analysis
+science.json,317,SC,MATH,W,Data analytics: A Hands-on Approach,SC/MATH — W — Data analytics: A Hands-on Approach
+science.json,318,SC,MATH,W,Complex Variables,SC/MATH — W — Complex Variables
+science.json,319,SC,MATH,W,Sample Survey Design,SC/MATH — W — Sample Survey Design
+science.json,320,SC,MATH,F,Mathematic and Statistics Internship Work Term,SC/MATH — F — Mathematic and Statistics Internship Work Term
+science.json,321,SC,MATH,W,Mathematic and Statistics Internship Work Term,SC/MATH — W — Mathematic and Statistics Internship Work Term
+science.json,322,SC,MATH,F,Mathematic and Statistics Internship Work Term,SC/MATH — F — Mathematic and Statistics Internship Work Term
+science.json,323,SC,MATH,W,Mathematic and Statistics Internship Work Term,SC/MATH — W — Mathematic and Statistics Internship Work Term
+science.json,324,SC,MATH,F,Mathematic and Statistics Internship Work Term,SC/MATH — F — Mathematic and Statistics Internship Work Term
+science.json,325,SC,MATH,W,Mathematic and Statistics Internship Work Term,SC/MATH — W — Mathematic and Statistics Internship Work Term
+science.json,326,SC,MATH,F,Mathematic and Statistics Internship Work Term,SC/MATH — F — Mathematic and Statistics Internship Work Term

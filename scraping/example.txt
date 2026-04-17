@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+<addcourse>
+<errors>
+
+</errors>
+<classdata date="1776384237921">
+ <campus n="3" v="Keele"/>
+ <course key="LE-EECS-2030-3.00-EN-" title="Advanced Object Oriented Programming" code="LE-EECS-2030-3.00-EN" number="" desc="This course continues the separation of concern theme introduced in LE/EECS 1020 3.00 and LE/EECS1021 3.00. While 1020 and 1021 focuses on the client concern, this course focuses on the concern of the implementer. Hence, rather than using an API (Application Programming Interface) to build an application, the student is asked to implement a given API. Topics include implementing classes (non-utilities, delegation within the class definition, documentation and API generation, implementing contracts), aggregations (implementing aggregates versus compositions and implementing collections), inheritance hierarchies (attribute visibility, overriding methods, abstract classes versus interfaces, inner classes);applications of aggregation and inheritance in concurrent programming and event-driven programming; recursion; searching and sorting including quick and merge sorts); stacks and queues; linked lists; binary trees. Prerequisites: cumulative GPA of 4.50 or better over all major EECS courses (without second digit &quot;5&quot;); LE/EECS1021 3.00 or LE/EECS 1020 (prior to Fall 2015) 3.00 or LE/EECS1022 3.00 or LE/EECS 1720 3.00. Course credit exclusions: AP/ITEC 2620 3.00. Previously offered as: LE/EECS1030 3.00, LE/CSE 1030 3.00." enr="" waiting="0" cart="" dsel="" faculty="Lassonde Eng.">
+  <uselection key="--2026070_P92Q01-P92Q02-" courseKey="1628" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="251662160,447421189,440408720,447421189,163187210,447421189">
+   <selection key="--2026070_P92Q01-P92Q02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="P92Q01" cartid="P92Q01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="CLH  D" campus="3" psl="null" timeblockids="1,2" loos=""/>
+    <block type="Lab" key="P92Q02" cartid="P92Q02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="3" loos=""/>
+   </selection>
+   <selection key="--2026070_P92Q01-P92Q03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="P92Q01" cartid="P92Q01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="CLH  D" campus="3" psl="null" timeblockids="1,2" loos=""/>
+    <block type="Lab" key="P92Q03" cartid="P92Q03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="3" loos=""/>
+   </selection>
+   <selection key="--2026070_P92Q01-P92Q04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="P92Q01" cartid="P92Q01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="CLH  D" campus="3" psl="null" timeblockids="1,2" loos=""/>
+    <block type="Lab" key="P92Q04" cartid="P92Q04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="3" loos=""/>
+   </selection>
+   <timeblock id="1" day="3" t1="960" t2="1040" d1="6827" d2="6917"/>
+   <timeblock id="2" day="5" t1="960" t2="1040" d1="6827" d2="6917"/>
+   <timeblock id="3" day="2" t1="1050" t2="1130" d1="6827" d2="6917"/>
+  </uselection>
+  <uselection key="--2026070_J39C01-J39C02-" courseKey="1628" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="139593890,447421189,328340450,447421189,340137110,447421189">
+   <selection key="--2026070_J39C01-J39C02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="J39C01" cartid="J39C01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="4,5" loos=""/>
+    <block type="Lab" key="J39C02" cartid="J39C02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="6" loos=""/>
+   </selection>
+   <selection key="--2026070_J39C01-J39C03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="J39C01" cartid="J39C01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="4,5" loos=""/>
+    <block type="Lab" key="J39C03" cartid="J39C03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="6" loos=""/>
+   </selection>
+   <selection key="--2026070_J39C01-J39C04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="J39C01" cartid="J39C01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="4,5" loos=""/>
+    <block type="Lab" key="J39C04" cartid="J39C04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="6" loos=""/>
+   </selection>
+   <timeblock id="4" day="2" t1="690" t2="770" d1="6827" d2="6917"/>
+   <timeblock id="5" day="4" t1="690" t2="770" d1="6827" d2="6917"/>
+   <timeblock id="6" day="4" t1="870" t2="950" d1="6827" d2="6917"/>
+  </uselection>
+  <uselection key="--2026070_C86Y01-C86Y02-" courseKey="1628" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="133695560,447421189,322442120,447421189,346035440,447421189">
+   <selection key="--2026070_C86Y01-C86Y02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="C86Y01" cartid="C86Y01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="7,8" loos=""/>
+    <block type="Lab" key="C86Y02" cartid="C86Y02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="9" loos=""/>
+   </selection>
+   <selection key="--2026070_C86Y01-C86Y03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="C86Y01" cartid="C86Y01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="7,8" loos=""/>
+    <block type="Lab" key="C86Y03" cartid="C86Y03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="9" loos=""/>
+   </selection>
+   <selection key="--2026070_C86Y01-C86Y04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="C86Y01" cartid="C86Y01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="7,8" loos=""/>
+    <block type="Lab" key="C86Y04" cartid="C86Y04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="9" loos=""/>
+   </selection>
+   <timeblock id="7" day="2" t1="600" t2="680" d1="6827" d2="6917"/>
+   <timeblock id="8" day="4" t1="600" t2="680" d1="6827" d2="6917"/>
+   <timeblock id="9" day="4" t1="960" t2="1040" d1="6827" d2="6917"/>
+  </uselection>
+  <uselection key="--2026070_T33T01-T33T02-" courseKey="1628" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="157288880,447421189,346035440,447421189,316543790,447421189">
+   <selection key="--2026070_T33T01-T33T02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="T33T01" cartid="T33T01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="F" credits="3.0" rg="" ac="" pn="F" teacher="" location="CLH  E" campus="3" psl="null" timeblockids="10,11" loos=""/>
+    <block type="Lab" key="T33T02" cartid="T33T02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="F" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="12" loos=""/>
+   </selection>
+   <selection key="--2026070_T33T01-T33T03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="T33T01" cartid="T33T01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="F" credits="3.0" rg="" ac="" pn="F" teacher="" location="CLH  E" campus="3" psl="null" timeblockids="10,11" loos=""/>
+    <block type="Lab" key="T33T03" cartid="T33T03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="F" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="12" loos=""/>
+   </selection>
+   <selection key="--2026070_T33T01-T33T04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="T33T01" cartid="T33T01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="F" credits="3.0" rg="" ac="" pn="F" teacher="" location="CLH  E" campus="3" psl="null" timeblockids="10,11" loos=""/>
+    <block type="Lab" key="T33T04" cartid="T33T04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="F" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="12" loos=""/>
+   </selection>
+   <timeblock id="10" day="2" t1="960" t2="1040" d1="6827" d2="6917"/>
+   <timeblock id="11" day="4" t1="960" t2="1040" d1="6827" d2="6917"/>
+   <timeblock id="12" day="4" t1="510" t2="590" d1="6827" d2="6917"/>
+  </uselection>
+  <uselection key="--2026070_M80F01-M80F02-" courseKey="1628" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="257560490,447421189,446307050,447421189,357832100,447421189">
+   <selection key="--2026070_M80F01-M80F02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="M80F01" cartid="M80F01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="G" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="13,14" loos=""/>
+    <block type="Lab" key="M80F02" cartid="M80F02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="G" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="15" loos=""/>
+   </selection>
+   <selection key="--2026070_M80F01-M80F03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="M80F01" cartid="M80F01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="G" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="13,14" loos=""/>
+    <block type="Lab" key="M80F03" cartid="M80F03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="G" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="15" loos=""/>
+   </selection>
+   <selection key="--2026070_M80F01-M80F04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+    <block type="Lect" key="M80F01" cartid="M80F01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="G" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="13,14" loos=""/>
+    <block type="Lab" key="M80F04" cartid="M80F04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="G" credits="3.0" rg="" ac="" pn="F" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="15" loos=""/>
+   </selection>
+   <timeblock id="13" day="3" t1="1050" t2="1130" d1="6827" d2="6917"/>
+   <timeblock id="14" day="5" t1="1050" t2="1130" d1="6827" d2="6917"/>
+   <timeblock id="15" day="4" t1="1140" t2="1220" d1="6827" d2="6917"/>
+  </uselection>
+  <uselection key="--2026087_G27Z01-G27Z02-" courseKey="1628" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="239865500,455089019,428612060,455089019,326374340,455089019">
+   <selection key="--2026087_G27Z01-G27Z02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="G27Z01" cartid="G27Z01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="16,17" loos=""/>
+    <block type="Lab" key="G27Z02" cartid="G27Z02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="18" loos=""/>
+   </selection>
+   <selection key="--2026087_G27Z01-G27Z03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="G27Z01" cartid="G27Z01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="16,17" loos=""/>
+    <block type="Lab" key="G27Z03" cartid="G27Z03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="18" loos=""/>
+   </selection>
+   <selection key="--2026087_G27Z01-G27Z04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="G27Z01" cartid="G27Z01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="16,17" loos=""/>
+    <block type="Lab" key="G27Z04" cartid="G27Z04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="18" loos=""/>
+   </selection>
+   <timeblock id="16" day="3" t1="780" t2="860" d1="6944" d2="7035"/>
+   <timeblock id="17" day="5" t1="780" t2="860" d1="6944" d2="7035"/>
+   <timeblock id="18" day="4" t1="660" t2="740" d1="6944" d2="7035"/>
+  </uselection>
+  <uselection key="--2026087_W74W01-W74W02-" courseKey="1628" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="233967170,455089019,422713730,455089019,507256460,455089019">
+   <selection key="--2026087_W74W01-W74W02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="W74W01" cartid="W74W01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="19,20" loos=""/>
+    <block type="Lab" key="W74W02" cartid="W74W02" secNo="01" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="WSC  105" campus="3" psl="null" timeblockids="21" loos=""/>
+   </selection>
+   <selection key="--2026087_W74W01-W74W03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="W74W01" cartid="W74W01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="19,20" loos=""/>
+    <block type="Lab" key="W74W03" cartid="W74W03" secNo="02" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="WSC  106" campus="3" psl="null" timeblockids="21" loos=""/>
+   </selection>
+   <selection key="--2026087_W74W01-W74W04-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="W74W01" cartid="W74W01" secNo="01" status="" u="false" os="144" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB  103" campus="3" psl="null" timeblockids="19,20" loos=""/>
+    <block type="Lab" key="W74W04" cartid="W74W04" secNo="03" status="" u="false" os="48" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 03" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="WSC  108" campus="3" psl="null" timeblockids="21" loos=""/>
+   </selection>
+   <timeblock id="19" day="3" t1="690" t2="770" d1="6944" d2="7035"/>
+   <timeblock id="20" day="5" t1="690" t2="770" d1="6944" d2="7035"/>
+   <timeblock id="21" day="6" t1="540" t2="620" d1="6944" d2="7035"/>
+  </uselection>
+  <uselection key="--2026087_Q21X01-Q21X02-" courseKey="1628" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="251662250,455089019,155322770,455089019">
+   <selection key="--2026087_Q21X01-Q21X02-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="Q21X01" cartid="Q21X01" secNo="01" status="" u="false" os="150" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="CLH  A" campus="3" psl="null" timeblockids="22" loos=""/>
+    <block type="Lab" key="Q21X02" cartid="Q21X02" secNo="01" status="" u="false" os="75" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS  1006" campus="3" psl="null" timeblockids="23" loos=""/>
+   </selection>
+   <timeblock id="22" day="3" t1="960" t2="1130" d1="6944" d2="7035"/>
+   <timeblock id="23" day="2" t1="930" t2="1010" d1="6944" d2="7035"/>
+  </uselection>
+  <uselection key="--2026087_Q21X01-Q21X03-" courseKey="1628" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="251662250,455089019,161221100,455089019">
+   <selection key="--2026087_Q21X01-Q21X03-" cmkey="1628" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+    <block type="Lect" key="Q21X01" cartid="Q21X01" secNo="01" status="" u="false" os="150" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="CLH  A" campus="3" psl="null" timeblockids="24" loos=""/>
+    <block type="Lab" key="Q21X03" cartid="Q21X03" secNo="02" status="" u="false" os="75" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS  1006" campus="3" psl="null" timeblockids="25" loos=""/>
+   </selection>
+   <timeblock id="24" day="3" t1="960" t2="1130" d1="6944" d2="7035"/>
+   <timeblock id="25" day="2" t1="1020" t2="1100" d1="6944" d2="7035"/>
+  </uselection>
+  <offering key="1628" cid="1628" ac="null" ag="null" ao="null" rg="" ti="" eq="" clcn=""/>
+  <offering key="1628" cid="1628" ac="null" ag="null" ao="null" rg="" ti="" eq="" clcn=""/>
+  <offering key="1628" cid="1628" ac="null" ag="null" ao="null" rg="" ti="" eq="" clcn=""/>
+ </course>
+</classdata>
+
+</addcourse>
+
+https://schedulebuilder.yorku.ca/vsb/getclassdata.jsp?term=2026102119&course_0_0=LE-EECS-2030-3.00-EN-&t=403&e=30&nouser=1&_=1776384222416
+
+
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<addcourse>
+<errors> </errors>
+<classdata date="1776384443908">
+<campus n="3" v="Keele"/>
+<course key="LE-EECS-3311-3.00-EN-" title="Software Design" code="LE-EECS-3311-3.00-EN" number="" desc="A study of design methods and their use in the correct implementation, maintenance and evolution of software systems. Topics include design, implementation, testing, documentation needs and standards, support tools. Students design and implement components of a software system. Prerequisites: cumulative GPA of 4.50 or better over all major EECS courses (without second digit "5"); LE/EECS 2030 3.00 or LE/EECS 1030 3.00; LE/EECS 2101 3.00 or LE/EECS 2011 3.00; SC/MATH 1090 3.00; LE/EECS 2031 3.00 or LE/EECS 2032 4.00. Course Credit Exclusions: LE/CSE 3311 3.00 and LE/DIGT 3141 3.00." enr="" waiting="0" cart="" dsel="" faculty="Lassonde Eng.">
+<uselection key="--2026070_F10D01-F10D02-" courseKey="1568" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="222170510,447421189,410917070,447421189,322442120,447421189">
+<selection key="--2026070_F10D01-F10D02-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+<block type="Lect" key="F10D01" cartid="F10D01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB 106" campus="3" psl="null" timeblockids="1,2" loos=""/>
+<block type="Lab" key="F10D02" cartid="F10D02" secNo="01" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="3" loos=""/>
+</selection>
+<timeblock id="1" day="3" t1="510" t2="590" d1="6827" d2="6917"/>
+<timeblock id="2" day="5" t1="510" t2="590" d1="6827" d2="6917"/>
+<timeblock id="3" day="4" t1="600" t2="680" d1="6827" d2="6917"/>
+</uselection>
+<uselection key="--2026070_F10D01-F10D03-" courseKey="1568" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="222170510,447421189,410917070,447421189,316543790,447421189">
+<selection key="--2026070_F10D01-F10D03-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+<block type="Lect" key="F10D01" cartid="F10D01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB 106" campus="3" psl="null" timeblockids="4,5" loos=""/>
+<block type="Lab" key="F10D03" cartid="F10D03" secNo="02" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="A" credits="3.0" rg="" ac="" pn="F" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="6" loos=""/>
+</selection>
+<timeblock id="4" day="3" t1="510" t2="590" d1="6827" d2="6917"/>
+<timeblock id="5" day="5" t1="510" t2="590" d1="6827" d2="6917"/>
+<timeblock id="6" day="4" t1="510" t2="590" d1="6827" d2="6917"/>
+</uselection>
+<uselection key="--2026070_V57Y01-V57Y02-" courseKey="1568" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="139593890,447421189,328340450,447421189,351933770,447421189">
+<selection key="--2026070_V57Y01-V57Y02-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+<block type="Lect" key="V57Y01" cartid="V57Y01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB 105" campus="3" psl="null" timeblockids="7,8" loos=""/>
+<block type="Lab" key="V57Y02" cartid="V57Y02" secNo="01" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="9" loos=""/>
+</selection>
+<timeblock id="7" day="2" t1="690" t2="770" d1="6827" d2="6917"/>
+<timeblock id="8" day="4" t1="690" t2="770" d1="6827" d2="6917"/>
+<timeblock id="9" day="4" t1="1050" t2="1130" d1="6827" d2="6917"/>
+</uselection>
+<uselection key="--2026070_V57Y01-V57Y03-" courseKey="1568" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="139593890,447421189,328340450,447421189,334238780,447421189">
+<selection key="--2026070_V57Y01-V57Y03-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+<block type="Lect" key="V57Y01" cartid="V57Y01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LSB 105" campus="3" psl="null" timeblockids="10,11" loos=""/>
+<block type="Lab" key="V57Y03" cartid="V57Y03" secNo="02" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="B" credits="3.0" rg="" ac="" pn="F" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="12" loos=""/>
+</selection>
+<timeblock id="10" day="2" t1="690" t2="770" d1="6827" d2="6917"/>
+<timeblock id="11" day="4" t1="690" t2="770" d1="6827" d2="6917"/>
+<timeblock id="12" day="4" t1="780" t2="860" d1="6827" d2="6917"/>
+</uselection>
+<uselection key="--2026070_P04U01-P04U02-" courseKey="1568" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="163187300,447421189,340137110,447421189">
+<selection key="--2026070_P04U01-P04U02-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+<block type="Lect" key="P04U01" cartid="P04U01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="13" loos=""/>
+<block type="Lab" key="P04U02" cartid="P04U02" secNo="01" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="14" loos=""/>
+</selection>
+<timeblock id="13" day="2" t1="1050" t2="1220" d1="6827" d2="6917"/>
+<timeblock id="14" day="4" t1="870" t2="950" d1="6827" d2="6917"/>
+</uselection>
+<uselection key="--2026070_P04U01-P04U03-" courseKey="1568" d1="6827" d2="6917" de="70128" ss="" mp="false" bs="163187300,447421189,346035440,447421189">
+<selection key="--2026070_P04U01-P04U03-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026070" credits="6.0">
+<block type="Lect" key="P04U01" cartid="P04U01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="" campus="3" psl="null" timeblockids="15" loos=""/>
+<block type="Lab" key="P04U03" cartid="P04U03" secNo="02" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="E" credits="3.0" rg="" ac="" pn="F" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="16" loos=""/>
+</selection>
+<timeblock id="15" day="2" t1="1050" t2="1220" d1="6827" d2="6917"/>
+<timeblock id="16" day="4" t1="960" t2="1040" d1="6827" d2="6917"/>
+</uselection>
+<uselection key="--2026087_X51G01-X51G02-" courseKey="1568" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="511188770,455089019,416815400,455089019">
+<selection key="--2026087_X51G01-X51G02-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+<block type="Lect" key="X51G01" cartid="X51G01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="" campus="3" psl="null" timeblockids="17" loos=""/>
+<block type="Lab" key="X51G02" cartid="X51G02" secNo="01" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="18" loos=""/>
+</selection>
+<timeblock id="17" day="6" t1="600" t2="770" d1="6944" d2="7035"/>
+<timeblock id="18" day="5" t1="600" t2="680" d1="6944" d2="7035"/>
+</uselection>
+<uselection key="--2026087_X51G01-X51G03-" courseKey="1568" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="511188770,455089019,422713730,455089019">
+<selection key="--2026087_X51G01-X51G03-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+<block type="Lect" key="X51G01" cartid="X51G01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="" campus="3" psl="null" timeblockids="19" loos=""/>
+<block type="Lab" key="X51G03" cartid="X51G03" secNo="02" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="M" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="20" loos=""/>
+</selection>
+<timeblock id="19" day="6" t1="600" t2="770" d1="6944" d2="7035"/>
+<timeblock id="20" day="5" t1="690" t2="770" d1="6944" d2="7035"/>
+</uselection>
+<uselection key="--2026087_B98P01-B98P02-" courseKey="1568" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="228068840,455089019,416815400,455089019,511188680,455089019">
+<selection key="--2026087_B98P01-B98P02-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+<block type="Lect" key="B98P01" cartid="B98P01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB 103" campus="3" psl="null" timeblockids="21,22" loos=""/>
+<block type="Lab" key="B98P02" cartid="B98P02" secNo="01" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="23" loos=""/>
+</selection>
+<timeblock id="21" day="3" t1="600" t2="680" d1="6944" d2="7035"/>
+<timeblock id="22" day="5" t1="600" t2="680" d1="6944" d2="7035"/>
+<timeblock id="23" day="6" t1="600" t2="680" d1="6944" d2="7035"/>
+</uselection>
+<uselection key="--2026087_B98P01-B98P03-" courseKey="1568" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="228068840,455089019,416815400,455089019,517087010,455089019">
+<selection key="--2026087_B98P01-B98P03-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+<block type="Lect" key="B98P01" cartid="B98P01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LSB 103" campus="3" psl="null" timeblockids="24,25" loos=""/>
+<block type="Lab" key="B98P03" cartid="B98P03" secNo="02" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="N" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="26" loos=""/>
+</selection>
+<timeblock id="24" day="3" t1="600" t2="680" d1="6944" d2="7035"/>
+<timeblock id="25" day="5" t1="600" t2="680" d1="6944" d2="7035"/>
+<timeblock id="26" day="6" t1="690" t2="770" d1="6944" d2="7035"/>
+</uselection>
+<uselection key="--2026087_S45A01-S45A02-" courseKey="1568" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="517087100,455089019,133695560,455089019">
+<selection key="--2026087_S45A01-S45A02-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+<block type="Lect" key="S45A01" cartid="S45A01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="R S137" campus="3" psl="null" timeblockids="27" loos=""/>
+<block type="Lab" key="S45A02" cartid="S45A02" secNo="01" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 01" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="28" loos=""/>
+</selection>
+<timeblock id="27" day="6" t1="690" t2="860" d1="6944" d2="7035"/>
+<timeblock id="28" day="2" t1="600" t2="680" d1="6944" d2="7035"/>
+</uselection>
+<uselection key="--2026087_S45A01-S45A03-" courseKey="1568" d1="6944" d2="7035" de="70128" ss="" mp="false" bs="517087100,455089019,328340450,455089019">
+<selection key="--2026087_S45A01-S45A03-" cmkey="1568" onCampus="true" thc="" ot="c" co="" inst="" ac="" ssid="2026087" credits="6.0">
+<block type="Lect" key="S45A01" cartid="S45A01" secNo="01" status="" u="false" os="120" me="-1" ws="0" wc="0" c="false" n="" disp="Lect 01" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="R S137" campus="3" psl="null" timeblockids="29" loos=""/>
+<block type="Lab" key="S45A03" cartid="S45A03" secNo="02" status="" u="false" os="60" me="-1" ws="0" wc="0" c="false" n="" disp="Lab 02" usn="Z" credits="3.0" rg="" ac="" pn="W" teacher="" location="LAS 1006" campus="3" psl="null" timeblockids="30" loos=""/>
+</selection>
+<timeblock id="29" day="6" t1="690" t2="860" d1="6944" d2="7035"/>
+<timeblock id="30" day="4" t1="690" t2="770" d1="6944" d2="7035"/>
+</uselection>
+<offering key="1568" cid="1568" ac="null" ag="null" ao="null" rg="" ti="" eq="" clcn=""/>
+<offering key="1568" cid="1568" ac="null" ag="null" ao="null" rg="" ti="" eq="" clcn=""/>
+<offering key="1568" cid="1568" ac="null" ag="null" ao="null" rg="" ti="" eq="" clcn=""/>
+</course>
+</classdata>
+</addcourse>

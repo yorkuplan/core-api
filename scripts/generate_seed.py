@@ -392,50 +392,69 @@ def generate_seed_sql(json_files: list[str], output_file: str, descriptions_file
     print(f"   - {len(all_sections_list)} sections")
 
 if __name__ == '__main__':
-    import sys
-    import os
+    import argparse
     import glob
-    
+    import sys
+
     repo_root = Path(__file__).resolve().parents[1]
     data_root = repo_root / 'scraping' / 'data'
-    # Default: one academic term only. Globbing all of scraping/data/*/*.json merges
-    # multiple years and duplicates every (code, term) row.
-    default_term_dir = 'fall-winter-2026-2027'
-    output_file = str(repo_root / 'db' / 'seed.sql')
-    descriptions_file = str(repo_root / 'scraping' / 'scrapers' / 'descriptions' / 'course_descriptions.json')
-
-    if len(sys.argv) > 1:
-        arg1 = sys.argv[1]
-        p = Path(arg1)
-        if p.is_dir():
-            json_dir = p.resolve()
-        else:
-            json_dir = (data_root / arg1).resolve()
-    else:
-        json_dir = (data_root / default_term_dir).resolve()
-
-    if not json_dir.is_dir():
-        print(f"Not a directory: {json_dir}")
-        sys.exit(1)
-
-    if len(sys.argv) > 2:
-        output_file = sys.argv[2]
-    if len(sys.argv) > 3:
-        descriptions_file = sys.argv[3]
-
-    json_files = sorted(
-        p
-        for p in glob.glob(str(json_dir / '*.json'))
-        if Path(p).name not in {'duplicates.json'}
+    default_output = str(repo_root / 'db' / 'seed.sql')
+    default_descriptions = str(
+        repo_root / 'scraping' / 'scrapers' / 'descriptions' / 'course_descriptions.json'
     )
+    skip_json_names = {'duplicates.json', 'stub_courses.json'}
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Build db/seed.sql from faculty scrape JSON. "
+            "Default inputs: fall-winter-2026-2027 and summer-2026 under scraping/data."
+        )
+    )
+    parser.add_argument(
+        'data_dirs',
+        nargs='*',
+        metavar='DIR',
+        help=(
+            "One or more folders under scraping/data (e.g. fall-winter-2026-2027 summer-2026), "
+            "or absolute paths to data directories."
+        ),
+    )
+    parser.add_argument('-o', '--output', default=default_output, help='Output SQL path')
+    parser.add_argument('--descriptions', default=default_descriptions, help='course_descriptions.json')
+    args = parser.parse_args()
+
+    if args.data_dirs:
+        data_dirs: List[Path] = []
+        for raw in args.data_dirs:
+            p = Path(raw).expanduser()
+            data_dirs.append(p.resolve() if p.is_dir() else (data_root / raw).resolve())
+    else:
+        data_dirs = [
+            (data_root / 'fall-winter-2026-2027').resolve(),
+            (data_root / 'summer-2026').resolve(),
+        ]
+
+    for d in data_dirs:
+        if not d.is_dir():
+            print(f"Not a directory: {d}", file=sys.stderr)
+            sys.exit(1)
+
+    json_files: List[str] = []
+    for json_dir in data_dirs:
+        for p in sorted(glob.glob(str(json_dir / '*.json'))):
+            if Path(p).name in skip_json_names:
+                continue
+            json_files.append(p)
 
     if not json_files:
-        print(f"No JSON files found under {json_dir}")
+        print(f"No JSON files found under: {', '.join(str(d) for d in data_dirs)}", file=sys.stderr)
         sys.exit(1)
 
-    print(f"Course JSON directory: {json_dir}")
+    print('Course JSON directories:')
+    for d in data_dirs:
+        print(f"  - {d}")
     print(f"Found {len(json_files)} JSON file(s) to process:")
     for json_file in json_files:
         print(f"  - {json_file}")
 
-    generate_seed_sql(json_files, output_file, descriptions_file)
+    generate_seed_sql(json_files, args.output, args.descriptions)
