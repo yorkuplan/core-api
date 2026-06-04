@@ -16,11 +16,11 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "T",
-              "time": "15:00",
+              "day": "R",
+              "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH A201"
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -76,11 +76,11 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "T",
-              "time": "12:00",
+              "day": "W",
+              "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH B215"
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -127,7 +127,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Laura McKinnon"
+          ],
           "notes": ""
         }
       ]
@@ -155,7 +157,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jocelyn Martel"
+          ],
           "notes": ""
         }
       ]
@@ -183,7 +187,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Laura McKinnon"
+          ],
           "notes": ""
         },
         {
@@ -255,7 +261,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jocelyn Martel"
+          ],
           "notes": ""
         }
       ]
@@ -273,16 +281,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P87N01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -339,7 +339,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jocelyn Martel"
+          ],
           "notes": ""
         }
       ]
@@ -367,7 +369,9 @@
               "room": "YH B213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         }
       ]
@@ -507,7 +511,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Radu Guiasu"
+          ],
           "notes": ""
         }
       ]
@@ -535,7 +541,9 @@
               "room": "YH A108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Valerie Schoof"
+          ],
           "notes": ""
         }
       ]
@@ -563,7 +571,9 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jocelyn Martel"
+          ],
           "notes": ""
         }
       ]
@@ -591,7 +601,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Radu Guiasu"
+          ],
           "notes": ""
         }
       ]
@@ -619,7 +631,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Spencer Mukai"
+          ],
           "notes": ""
         }
       ]
@@ -647,7 +661,9 @@
               "room": "YH A218"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Laura McKinnon"
+          ],
           "notes": ""
         }
       ]
@@ -672,7 +688,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -728,7 +744,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -759,7 +775,9 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angelo Dossou-Yovo"
+          ],
           "notes": ""
         }
       ]
@@ -787,7 +805,9 @@
               "room": "YH B213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": ""
         }
       ]
@@ -815,7 +835,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": ""
         }
       ]
@@ -843,7 +865,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
@@ -871,7 +895,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
@@ -955,7 +981,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -983,7 +1011,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -1067,7 +1097,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -1095,7 +1127,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amanda Ricci"
+          ],
           "notes": ""
         }
       ]
@@ -1151,7 +1185,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Francis Garon"
+          ],
           "notes": ""
         }
       ]
@@ -1207,7 +1243,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Pierre Thomas"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned."
         }
       ]
@@ -1263,7 +1301,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Myra Bloom"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -1339,7 +1379,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "Spaces are held for self-identified Indigenous (First Nations, Status, non-status, Métis, Inuit) Students. If you are an Indigenous Student and are not able to enrol through the Registration and Enrolment Module (REM), please contact the department for enrolment."
         }
       ]
@@ -1364,7 +1406,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -1420,7 +1462,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -1693,16 +1735,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "H82A01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "18:30",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici. This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -1725,10 +1759,10 @@
           "schedule": [
             {
               "day": "T",
-              "time": "18:00",
+              "time": "16:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH B215"
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -1815,7 +1849,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alison Harvey"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici. This course will meet in person in the location assigned."
         }
       ]
@@ -1871,7 +1907,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "This course will be delivered online, with synchronous and asynchronous elements."
         }
       ]
@@ -2004,9 +2042,9 @@
           "catalogNumber": "K86V01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -2032,9 +2070,9 @@
           "catalogNumber": "E33H01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -2067,7 +2105,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "Ce cours sera offert en ligne, avec des Ã©lÃ©ments synchrones et asynchrones. / This course will be delivered ONLN, with synchronous and asynchronous elements."
         }
       ]
@@ -2141,16 +2181,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "E62W01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "15:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -2172,9 +2204,9 @@
           "catalogNumber": "X62G01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -2200,9 +2232,9 @@
           "catalogNumber": "C09P01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -2235,7 +2267,11 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman",
+            "Shanna Lino",
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "This course is conducted in English and is open to majors and non-majors. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course directors for each module. The exact dates of in-person and asynchronous learning will be made explicit on the course syllabus."
         }
       ]
@@ -2294,7 +2330,9 @@
               "room": "YH 220"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": "This course is offered only to Glendon students entering in their first year."
         },
         {
@@ -2377,7 +2415,9 @@
               "room": "YH 220"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": "Ce cours est offert uniquement aux etudiants de Glendon entrant en premiere annee."
         }
       ]
@@ -2538,7 +2578,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": "Ce cours est offert uniquement aux etudiants de Glendon entrant en premiere annee."
         },
         {
@@ -2555,7 +2597,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": "Ce cours est offert uniquement aux etudiants de Glendon entrant en premiere annee."
         }
       ]
@@ -2583,7 +2627,9 @@
               "room": "YH 204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This course is offered only to Glendon students entering in their first year."
         },
         {
@@ -2599,7 +2645,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": ""
         },
         {
@@ -2631,7 +2679,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": ""
         },
         {
@@ -2860,7 +2910,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Cypher"
+          ],
           "notes": ""
         }
       ]
@@ -3009,7 +3061,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -3047,7 +3101,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Davis"
+          ],
           "notes": ""
         }
       ]
@@ -3075,7 +3131,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -3103,7 +3161,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": ""
         }
       ]
@@ -3166,7 +3226,9 @@
               "room": "YH A218"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Connell"
+          ],
           "notes": ""
         }
       ]
@@ -3222,7 +3284,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -3334,7 +3398,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and on-line (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -3362,7 +3428,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alison Harvey"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici. This course will meet in person in the location assigned."
         }
       ]
@@ -3390,7 +3458,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "This course will be delivered online, with synchronous and asynchronous elements."
         }
       ]
@@ -3446,7 +3516,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -3550,7 +3622,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gertrude Mianda"
+          ],
           "notes": ""
         }
       ]
@@ -3598,7 +3672,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": ""
         }
       ]
@@ -3626,7 +3702,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
@@ -3664,7 +3742,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and on-line (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -3714,10 +3794,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "18:00",
+              "time": "16:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 170"
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -3776,7 +3856,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
         }
       ]
@@ -3832,7 +3914,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
         }
       ]
@@ -3888,7 +3972,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Christine Pioffet"
+          ],
           "notes": ""
         }
       ]
@@ -3916,7 +4002,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
         }
       ]
@@ -4074,16 +4162,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Q17D01 (GL FRAN) J64M01 (GL DRCA)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -4102,16 +4182,8 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "J82J01 (GL FRAN) D29S01 (GL DRCA)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "15:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component. | | (Backup)"
         }
@@ -4137,7 +4209,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -4193,7 +4265,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -4218,10 +4290,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "18:00",
+              "time": "16:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 170"
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -4280,7 +4352,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Christine Pioffet"
+          ],
           "notes": ""
         }
       ]
@@ -4455,7 +4529,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Can Erutku"
+          ],
           "notes": ""
         }
       ]
@@ -4490,7 +4566,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Vincent A Hildebrand"
+          ],
           "notes": ""
         }
       ]
@@ -4525,7 +4603,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Simin Seury"
+          ],
           "notes": ""
         }
       ]
@@ -4560,7 +4640,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Vincent A Hildebrand"
+          ],
           "notes": ""
         }
       ]
@@ -4588,7 +4670,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -4616,7 +4700,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicolas-Guillaume Martineau"
+          ],
           "notes": ""
         }
       ]
@@ -4672,7 +4758,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Arthur Younger"
+          ],
           "notes": ""
         }
       ]
@@ -4822,7 +4910,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicolas-Guillaume Martineau"
+          ],
           "notes": ""
         }
       ]
@@ -4850,7 +4940,9 @@
               "room": "YH A101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Vincent A Hildebrand"
+          ],
           "notes": ""
         }
       ]
@@ -4878,7 +4970,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicolas-Guillaume Martineau"
+          ],
           "notes": ""
         }
       ]
@@ -4934,7 +5028,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Can Erutku"
+          ],
           "notes": ""
         }
       ]
@@ -4962,7 +5058,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Davis"
+          ],
           "notes": ""
         }
       ]
@@ -4997,7 +5095,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -5073,7 +5173,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Vincent A Hildebrand"
+          ],
           "notes": ""
         }
       ]
@@ -5157,7 +5259,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Can Erutku"
+          ],
           "notes": ""
         }
       ]
@@ -5315,16 +5419,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "F92W01",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "9:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -5465,7 +5561,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danielle Russell"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5493,7 +5591,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danielle Russell"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5633,7 +5733,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Myra Bloom"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5689,7 +5791,9 @@
               "room": "YH A110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Myra Bloom"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5717,7 +5821,9 @@
               "room": "YH A108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Myra Bloom"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5745,7 +5851,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danielle Russell"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5801,7 +5909,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danielle Russell"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -5929,6 +6039,62 @@
           ],
           "instructors": [],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned."
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "FRAN",
+      "term": "F",
+      "courseTitle": "Grammaire du français écrit et analyse de textes informatifs",
+      "courseId": "1410",
+      "credits": "3.00",
+      "languageOfInstruction": "FR",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S02B01 (GL TRAN) Y49K01 (GL FRAN)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Glendon",
+              "room": "YH B206"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "FRAN",
+      "term": "W",
+      "courseTitle": "Grammaire du français écrit et analyse de textes littéraires",
+      "courseId": "1411",
+      "credits": "3.00",
+      "languageOfInstruction": "FR",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V43E01 (GL TRAN) Z90N01 (GL FRAN)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Glendon",
+              "room": "YH B206"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -6168,16 +6334,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N23M01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert Ã distance/en ligne asynchrone. | This course will be delivered remotely/on line with asnchronous class sessions. | | (Backup)"
         }
@@ -6223,7 +6381,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Pierre Thomas"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned."
         },
         {
@@ -6302,7 +6462,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aurelie Takam"
+          ],
           "notes": "Ce cours sera offert Ã distance/en ligne avec des sessions synchrones. Le(s) jour(s) et l'heure du dÃ©but du cours sont listÃ©s ici. | This course will be delivered remotely/on line with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -6549,7 +6711,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "This course is by permission only. Students must have at least an intermediate level of French to be considered. Student must apply and be selected to enrol in this course."
         }
       ]
@@ -6577,7 +6741,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Christine Pioffet"
+          ],
           "notes": ""
         }
       ]
@@ -6605,7 +6771,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Elaine Lebel"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component."
         }
       ]
@@ -6633,7 +6801,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Pierre Thomas"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned."
         }
       ]
@@ -6689,7 +6859,9 @@
               "room": "YH A204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aurelie Takam"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component."
         }
       ]
@@ -6707,16 +6879,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "S91Y01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "9:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. Ce cours est l'ancien FRAN 2710-2712. | This course will meet in person in the location assigned. This course is the former FRAN 2710-2712. | | (Backup)"
         }
@@ -6824,7 +6988,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned."
         }
       ]
@@ -6852,7 +7018,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Muriel Péguret"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component."
         }
       ]
@@ -6880,7 +7048,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Pierre Thomas"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned."
         }
       ]
@@ -6908,7 +7078,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Helene Larochelle"
+          ],
           "notes": "Ce cours sera offert dans un format Hyflex, à la fois en présentiel et en ligne, de manière synchrone, dans l'espace assigné ici. | This course will be offered in a Hyflex format concurrent in both in-person and virutal synchronously in the location assigned."
         }
       ]
@@ -6926,16 +7098,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Q17D01 (GL FRAN) J64M01 (GL DRCA)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ© ici. | This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -6964,7 +7128,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Elaine Lebel"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component."
         }
       ]
@@ -6992,7 +7158,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Christine Pioffet"
+          ],
           "notes": "Ce cours sera offert Ã distance/en ligne avec des sessions synchrones. Le(s) jour(s) et l'heure du dÃ©but du cours sont listÃ©s ici. | This course will be delivered remotely/on line with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -7010,16 +7178,8 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "J82J01 (GL FRAN) D29S01 (GL DRCA)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "15:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component. | | (Backup)"
         }
@@ -7076,7 +7236,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Helene Larochelle"
+          ],
           "notes": "Ce cours sera offert dans un format Hyflex, à la fois en présentiel et en ligne, de manière synchrone, dans l'espace assigné ici. | This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously in the location assigned."
         }
       ]
@@ -7166,7 +7328,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and on-line (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -7191,7 +7355,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -7247,7 +7411,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -7316,25 +7480,10 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "A48G01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
-          "notes": "Please complete the placement test before enrolling. | Email fsl@glendon.yorku.ca Â if course is full. | | (Backup)"
+          "notes": "Please complete the placement test before enrolling. | Email fsl@glendon.yorku.ca Â if course is full."
         }
       ]
     },
@@ -7427,7 +7576,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "Course prerequisite is FSL 1001 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
@@ -7475,7 +7626,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "Course prerequisite is FSL 1001 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         }
       ]
@@ -7665,7 +7818,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "Course prerequisite is FSL 1110 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
@@ -7717,7 +7872,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "Course prerequisite is FSL 1120 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
@@ -7741,32 +7898,19 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "Course prerequisite is FSL 1120 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
           "type": "BLEN",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "Y00H01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "16:00",
-              "duration": "80",
-              "campus": "Glendon",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "16:00",
-              "duration": "80",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
-          "notes": "Course prerequisite is FSL 1120 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full. | | (Backup)"
+          "notes": "Course prerequisite is FSL 1120 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         }
       ]
     },
@@ -7966,7 +8110,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "Course prerequisite is FSL 1210 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
@@ -7990,7 +8136,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "Course prerequisite is FSL 1210 with minimum grade of C or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
@@ -8167,18 +8315,10 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "O",
-          "catalogNumber": "V52X01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "15:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
-          "notes": "Course prerequisite is FSL 2000 or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full. | | (Backup)"
+          "notes": "Course prerequisite is FSL 2000 or complete the placement test . | Email fsl@glendon.yorku.ca Â if course is full."
         },
         {
           "type": "ONLN",
@@ -8222,7 +8362,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "This course is by permission only. Students must have at least an intermediate level of French to be considered. Student must apply and be selected to enrol in this course."
         }
       ]
@@ -8250,7 +8392,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Catherine Lamaison"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and on-line (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -8278,7 +8422,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Usha A. Viswanathan"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and on-line (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -8306,8 +8452,10 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Palamarek"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -8334,8 +8482,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Tanya Taylor"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         },
         {
           "type": "TUTR",
@@ -8486,8 +8636,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Cynthia Wright"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8514,8 +8666,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Frances J Latchford"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8570,8 +8724,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Cynthia Wright"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8595,11 +8751,13 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S174"
             }
           ],
-          "instructors": [],
-          "notes": "This course will meet in person in the location assigned. The Lecture will be in person on the Day(s) and Start Time listed here."
+          "instructors": [
+            "Isabella C. Bakker"
+          ],
+          "notes": "This course will meet in person in the location assigned. The Lecture will be in person on the Day(s) and Start Time listed here. Course Outline"
         }
       ]
     },
@@ -8626,8 +8784,11 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Eva C Karpinski",
+            "Nadia Hasan"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8674,8 +8835,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Eva C Karpinski"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8702,8 +8865,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Angele Alook"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8731,7 +8896,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Course Outline"
         }
       ]
     },
@@ -8786,8 +8951,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Nadia Hasan"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8834,7 +9001,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gertrude Mianda"
+          ],
           "notes": ""
         }
       ]
@@ -8862,8 +9031,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Allyson Mitchell"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8890,8 +9061,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Alison D Crosby"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -8938,7 +9111,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": ""
         }
       ]
@@ -9047,7 +9222,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -9103,7 +9278,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -9134,7 +9309,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Cypher"
+          ],
           "notes": ""
         }
       ]
@@ -9238,7 +9415,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amanda Ricci"
+          ],
           "notes": ""
         }
       ]
@@ -9304,7 +9483,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amanda Ricci"
+          ],
           "notes": ""
         }
       ]
@@ -9332,7 +9513,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and online (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -9472,7 +9655,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -9500,7 +9685,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
@@ -9528,7 +9715,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": ""
         }
       ]
@@ -9584,7 +9773,11 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman",
+            "Shanna Lino",
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "This course is conducted in English and is open to majors and non-majors. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course directors for each module. The exact dates of in-person and asynchronous learning will be made explicit on the course syllabus."
         }
       ]
@@ -9696,7 +9889,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
         }
       ]
@@ -9724,7 +9919,9 @@
               "room": "YH 204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This course is offered only to Glendon students entering in their first year."
         },
         {
@@ -9740,7 +9937,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": ""
         },
         {
@@ -9772,7 +9971,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": ""
         },
         {
@@ -10001,7 +10202,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Cypher"
+          ],
           "notes": ""
         }
       ]
@@ -10082,7 +10285,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -10151,7 +10354,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Davis"
+          ],
           "notes": ""
         }
       ]
@@ -10179,16 +10384,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N03U01 (GL LIN ) X45G01 (GL HUMA)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -10377,7 +10574,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
         }
       ]
@@ -10461,7 +10660,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -10517,7 +10718,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
         }
       ]
@@ -10573,7 +10776,9 @@
               "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Alan Campbell"
+          ],
           "notes": ""
         }
       ]
@@ -10761,7 +10966,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "Spaces are held for self-identified Indigenous (First Nations, Status, non-status, Métis, Inuit) Students. If you are an Indigenous Student and are not able to enrol through the Registration and Enrolment Module (REM), please contact the department for enrolment."
         }
       ]
@@ -10776,17 +10983,17 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "ONLN",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "A",
           "catalogNumber": "T29Z01 (GL TRAN) M76A01 (GL HUMA)",
           "schedule": [
             {
-              "day": "",
-              "time": "",
-              "duration": "0",
+              "day": "T",
+              "time": "12:00",
+              "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -10807,16 +11014,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "P65K01 (GL TRAN) J12T01 (GL HUMA)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "12:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -10845,7 +11044,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danielle Russell"
+          ],
           "notes": "This course will meet in person in the location assigned."
         }
       ]
@@ -10873,7 +11074,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Christine Pioffet"
+          ],
           "notes": "Ce cours sera offert Ã distance/en ligne avec des sessions synchrones. Le(s) jour(s) et l'heure du dÃ©but du cours sont listÃ©s ici. | This course will be delivered remotely/on line with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -10929,7 +11132,9 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angelo Dossou-Yovo"
+          ],
           "notes": ""
         }
       ]
@@ -10957,7 +11162,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Cypher"
+          ],
           "notes": ""
         }
       ]
@@ -11013,7 +11220,9 @@
               "room": "YH A110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angelo Dossou-Yovo"
+          ],
           "notes": ""
         }
       ]
@@ -11069,7 +11278,9 @@
               "room": "YH B213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": ""
         }
       ]
@@ -11097,7 +11308,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": ""
         }
       ]
@@ -11237,7 +11450,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Michel Montsion"
+          ],
           "notes": ""
         }
       ]
@@ -11262,10 +11477,12 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Michel Montsion"
+          ],
           "notes": ""
         }
       ]
@@ -11293,7 +11510,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen Gutterman"
+          ],
           "notes": ""
         }
       ]
@@ -11377,7 +11596,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Michel Montsion"
+          ],
           "notes": "In 2026-2027, students in the Sociology program may take this course as the equivalent of SOCI 3680 3.00 EN Logic of Social Inquiry: Qualitative Methods. It will count towards their Sociology degree. They do not require the prerequisite GL/ILST 2200 6.00 (EN or FR) or GL/ILST 2644 6.00 to enrol in this course."
         }
       ]
@@ -11405,7 +11626,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Michel Montsion"
+          ],
           "notes": "En 2026-2027, les étudiant.e.s qui font la majeure en Sociologie peuvent compter ce cours comme léquivalent de SOCI 3680 3.00 FR Logique de lenquête : méthodes qualitatives. Ce cours comptera pour le diplôme en Sociologie. Ces étudiant.e.s nont pas besoin davoir suivi GL/ILST 2200 6.00 (EN ou FR) ou GL/ILST 2644 6.00 avant de prendre ce cours."
         }
       ]
@@ -11453,7 +11676,9 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -11509,7 +11734,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen Gutterman"
+          ],
           "notes": ""
         }
       ]
@@ -11537,7 +11764,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -11565,7 +11794,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and online (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
@@ -11593,7 +11824,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
@@ -11621,7 +11854,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Ali-Hassan"
+          ],
           "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
@@ -11949,7 +12184,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angelo Dossou-Yovo"
+          ],
           "notes": ""
         }
       ]
@@ -12033,7 +12270,9 @@
               "room": "YH A108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angelo Dossou-Yovo"
+          ],
           "notes": ""
         }
       ]
@@ -12081,7 +12320,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gertrude Mianda"
+          ],
           "notes": ""
         }
       ]
@@ -12109,7 +12350,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Barutciski"
+          ],
           "notes": ""
         }
       ]
@@ -12137,7 +12380,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -12221,7 +12466,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
@@ -12287,7 +12534,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Barutciski"
+          ],
           "notes": ""
         }
       ]
@@ -12316,7 +12565,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -12343,7 +12592,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shirin Shahrokni"
+          ],
           "notes": ""
         }
       ]
@@ -12371,7 +12622,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N48P01 (GL POLS) E90R01 (GL ILST)",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "ILST",
+      "term": "F",
+      "courseTitle": "Transnational Crime and Corruption",
+      "courseId": "4682",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X37W01 (GL POLS) B84X01 (GL ILST)",
           "schedule": [
             {
               "day": "T",
@@ -12381,7 +12652,9 @@
               "room": "YH A218"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen Gutterman"
+          ],
           "notes": ""
         }
       ]
@@ -12423,7 +12696,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -12497,16 +12772,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "D09D01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -12525,16 +12792,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "T56Y01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -12597,7 +12856,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aurelie Takam"
+          ],
           "notes": "Ce cours sera offert Ã distance/en ligne avec des sessions synchrones. Le(s) jour(s) et l'heure du dÃ©but du cours sont listÃ©s ici. | This course will be delivered remotely/on line with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -12615,16 +12876,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N03U01 (GL LIN ) X45G01 (GL HUMA)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -12653,7 +12906,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": ""
         }
       ]
@@ -12772,7 +13027,9 @@
               "room": "YH A218"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Connell"
+          ],
           "notes": ""
         }
       ]
@@ -12800,7 +13057,9 @@
               "room": "YH A108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Connell"
+          ],
           "notes": ""
         }
       ]
@@ -12856,7 +13115,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jerzy Kowal"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -12912,7 +13173,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Elaine Lebel"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component."
         }
       ]
@@ -12940,7 +13203,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Connell"
+          ],
           "notes": ""
         }
       ]
@@ -12996,7 +13261,9 @@
               "room": "YH A204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aurelie Takam"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. | This course will meet in person with an online component."
         }
       ]
@@ -13024,7 +13291,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -13052,7 +13321,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -13077,10 +13348,12 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH B206"
+              "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Connell"
+          ],
           "notes": ""
         }
       ]
@@ -13154,16 +13427,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "W88Z01 (GL SP ) Q35A01 (GL LIN )",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Check course prerequisites before enrolling. This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. | | (Backup)"
         }
@@ -13189,10 +13454,12 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH B206"
+              "room": "YH B213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": ""
         }
       ]
@@ -13227,7 +13494,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13262,7 +13531,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13297,7 +13568,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13332,7 +13605,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13374,7 +13649,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13409,7 +13686,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13444,7 +13723,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13479,7 +13760,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -13504,17 +13787,19 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 129"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13539,17 +13824,19 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A101"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -13577,7 +13864,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -13612,7 +13901,9 @@
               "room": "YH A101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13682,7 +13973,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13717,7 +14010,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13772,7 +14067,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13807,7 +14104,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -13842,7 +14141,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13877,7 +14178,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13919,7 +14222,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -13999,7 +14304,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -14034,7 +14341,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -14069,7 +14378,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -14094,17 +14405,19 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 129"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -14129,17 +14442,19 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A101"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -14167,7 +14482,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mario Roy"
+          ],
           "notes": ""
         }
       ]
@@ -14237,7 +14554,9 @@
               "room": "YH A101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Nenashev"
+          ],
           "notes": ""
         }
       ]
@@ -14293,7 +14612,9 @@
               "room": "YH B206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Alan Campbell"
+          ],
           "notes": ""
         }
       ]
@@ -14321,7 +14642,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cardinal-Aucoin"
+          ],
           "notes": ""
         }
       ]
@@ -14407,16 +14730,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "B79D01 (GL PSYC) X96U01 (GL NATS)",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "9:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Backup Â | | (Backup)"
         }
@@ -14465,7 +14780,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Krista Phillips"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
@@ -14521,7 +14838,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": ""
         }
       ]
@@ -14549,7 +14868,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -14630,7 +14951,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -14699,7 +15020,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Davis"
+          ],
           "notes": ""
         }
       ]
@@ -14960,7 +15283,9 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -15016,7 +15341,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Davis"
+          ],
           "notes": ""
         }
       ]
@@ -15044,7 +15371,9 @@
               "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Alan Campbell"
+          ],
           "notes": ""
         }
       ]
@@ -15173,7 +15502,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH B206"
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -15232,7 +15561,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -15260,7 +15591,9 @@
               "room": "YH B206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Alan Campbell"
+          ],
           "notes": ""
         }
       ]
@@ -15324,7 +15657,9 @@
               "room": "YH A101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -15387,7 +15722,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -15422,7 +15759,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -15478,7 +15817,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen Gutterman"
+          ],
           "notes": ""
         }
       ]
@@ -15506,8 +15847,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "This course will meet in person in the location assigned. The Lecture will be in person on the Day(s) and Start Time listed here."
+          "instructors": [
+            "Nergis Canefe"
+          ],
+          "notes": "This course will meet in person in the location assigned. The Lecture will be in person on the Day(s) and Start Time listed here. Course Outline"
         },
         {
           "type": "LECT",
@@ -15524,7 +15867,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Course Outline"
         },
         {
           "type": "ONLN",
@@ -15540,8 +15883,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -15568,8 +15913,10 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -15596,8 +15943,10 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -15624,8 +15973,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "This course will meet in person in the location assigned. The Lecture will be in person on the Day(s) and Start Time listed here."
+          "instructors": [
+            "Nergis Canefe"
+          ],
+          "notes": "This course will meet in person in the location assigned. The Lecture will be in person on the Day(s) and Start Time listed here. Course Outline"
         },
         {
           "type": "LECT",
@@ -15642,7 +15993,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Course Outline"
         },
         {
           "type": "ONLN",
@@ -15658,8 +16009,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -15724,7 +16077,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -15780,7 +16135,9 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -15836,7 +16193,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Francis Garon"
+          ],
           "notes": ""
         }
       ]
@@ -15892,7 +16251,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen Gutterman"
+          ],
           "notes": ""
         }
       ]
@@ -16248,7 +16609,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Barutciski"
+          ],
           "notes": ""
         }
       ]
@@ -16276,7 +16639,9 @@
               "room": "YH A304"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cáit R. Power"
+          ],
           "notes": ""
         }
       ]
@@ -16416,7 +16781,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Barutciski"
+          ],
           "notes": ""
         }
       ]
@@ -16445,7 +16812,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -16472,7 +16839,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N48P01 (GL POLS) E90R01 (GL ILST)",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "POLS",
+      "term": "F",
+      "courseTitle": "Transnational Crime and Corruption",
+      "courseId": "4682",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X37W01 (GL POLS) B84X01 (GL ILST)",
           "schedule": [
             {
               "day": "T",
@@ -16482,7 +16869,9 @@
               "room": "YH A218"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen Gutterman"
+          ],
           "notes": ""
         }
       ]
@@ -16517,7 +16906,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrée-Ann Cyr"
+          ],
           "notes": ""
         }
       ]
@@ -16545,7 +16936,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
@@ -16573,7 +16966,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": ""
         }
       ]
@@ -16601,7 +16996,9 @@
               "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": ""
         },
         {
@@ -16617,7 +17014,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": ""
         },
         {
@@ -16633,7 +17032,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": ""
         },
         {
@@ -16649,7 +17050,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": ""
         },
         {
@@ -16721,7 +17124,9 @@
               "room": "YH A002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Agnieszka Kopinska"
+          ],
           "notes": "For students who are beginning the Psychology program in 2026-2027."
         }
       ]
@@ -16736,7 +17141,7 @@
       "languageOfInstruction": "FR",
       "sections": [
         {
-          "type": "ONLN",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "N",
           "catalogNumber": "Z85X01",
@@ -16750,7 +17155,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Pour les etudiants-es qui commencent le programme en psychologie en 2026-2027. Ce cours sera offert (en-ligne) en mode virtuel et normalement asynchrone, peut comprendre certains composants synchrones.Â"
+          "notes": "Pour les etudiants-es qui commencent le programme en psychologie en 2026-2027. Ce cours sera offert (en-ligne) en mode virtuel sauf pour les examens et normalement asynchrone, peut comprendre certains composants synchrones."
         }
       ]
     },
@@ -16777,7 +17182,9 @@
               "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Agnieszka Kopinska"
+          ],
           "notes": "For students who took GL/PSYC 2530 3.00 in Winter 2026.Â"
         }
       ]
@@ -16805,7 +17212,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Krista Phillips"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -16917,7 +17326,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sze Yuh Nina Wang"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -16963,16 +17374,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "X32R01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "15:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Backup | | (Backup)"
         }
@@ -17001,7 +17404,9 @@
               "room": "YH 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": "Tutoriat 01 est en FRANCAIS - Turotial 01 is in FRENCH."
         },
         {
@@ -17017,7 +17422,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": ""
         },
         {
@@ -17033,7 +17440,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": ""
         },
         {
@@ -17049,7 +17458,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": ""
         },
         {
@@ -17149,7 +17560,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -17177,7 +17590,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sze Yuh Nina Wang"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -17291,16 +17706,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "B79D01 (GL PSYC) X96U01 (GL NATS)",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "9:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Backup Â | | (Backup)"
         }
@@ -17349,7 +17756,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Krista Phillips"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
@@ -17377,7 +17786,9 @@
               "room": "YH A222"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": "Prior approval of the department required. This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -17601,7 +18012,9 @@
               "room": "YH A218"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hannah Tarder-Stoll"
+          ],
           "notes": "Prior approval of the department required. This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -17672,7 +18085,7 @@
       "languageOfInstruction": "FR",
       "sections": [
         {
-          "type": "ONLN",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "A",
           "catalogNumber": "A17V01",
@@ -17686,7 +18099,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Ce cours sera offert (en-ligne) en mode virtuel et normalement asynchrone, peut comprendre certains composants synchrones.Â"
+          "notes": "Ce cours sera offert (en-ligne) en mode virtuel sauf pour les examens et normalement asynchrone, peut comprendre certains composants synchrones."
         }
       ]
     },
@@ -17909,7 +18322,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hannah Tarder-Stoll"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -17937,7 +18352,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sze Yuh Nina Wang"
+          ],
           "notes": ""
         }
       ]
@@ -17965,7 +18382,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Buddhika Bellana"
+          ],
           "notes": ""
         }
       ]
@@ -17993,7 +18412,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Emily Laxer"
+          ],
           "notes": ""
         }
       ]
@@ -18021,7 +18442,9 @@
               "room": "YH B213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shirin Shahrokni"
+          ],
           "notes": ""
         }
       ]
@@ -18056,7 +18479,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -18119,7 +18544,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Samia Challal"
+          ],
           "notes": ""
         }
       ]
@@ -18147,7 +18574,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -18175,7 +18604,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": ""
         }
       ]
@@ -18203,7 +18634,9 @@
               "room": "YH A204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -18335,7 +18768,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -18439,7 +18874,9 @@
               "room": "YH A104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gertrude Mianda"
+          ],
           "notes": ""
         }
       ]
@@ -18467,7 +18904,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "Spaces are held for self-identified Indigenous (First Nations, Status, non-status, Métis, Inuit) Students. If you are an Indigenous Student and are not able to enrol through the Registration and Enrolment Module (REM), please contact the department for enrolment."
         }
       ]
@@ -18515,7 +18954,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": ""
         }
       ]
@@ -18543,7 +18984,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -18582,7 +19025,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -18609,7 +19052,9 @@
               "room": "YH B215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shirin Shahrokni"
+          ],
           "notes": ""
         }
       ]
@@ -18634,7 +19079,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -18690,7 +19135,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -18721,8 +19166,10 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Palamarek"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -18910,7 +19357,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": "Ce cours est offert uniquement aux etudiants de Glendon entrant en premiere annee."
         },
         {
@@ -18927,7 +19376,9 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": "Ce cours est offert uniquement aux etudiants de Glendon entrant en premiere annee."
         }
       ]
@@ -18955,7 +19406,9 @@
               "room": "YH 204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": "This course is offered only to Glendon students entering in their first year."
         },
         {
@@ -18971,7 +19424,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": ""
         },
         {
@@ -19003,7 +19458,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian A McGillivray"
+          ],
           "notes": ""
         },
         {
@@ -19204,7 +19661,9 @@
               "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Cypher"
+          ],
           "notes": ""
         }
       ]
@@ -19260,7 +19719,9 @@
               "room": "YH A202"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -19372,7 +19833,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
@@ -19428,7 +19891,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia I Macaulay"
+          ],
           "notes": ""
         }
       ]
@@ -19512,7 +19977,9 @@
               "room": "YH A204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanna L. Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -19540,7 +20007,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Michel Montsion"
+          ],
           "notes": ""
         }
       ]
@@ -19565,10 +20034,12 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 247"
+              "room": "YH A301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Michel Montsion"
+          ],
           "notes": ""
         }
       ]
@@ -19596,7 +20067,9 @@
               "room": "YH 247"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amanda Ricci"
+          ],
           "notes": ""
         }
       ]
@@ -19652,7 +20125,9 @@
               "room": "YH B211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dr. Geoffrey Ewen"
+          ],
           "notes": ""
         }
       ]
@@ -19764,7 +20239,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Marion"
+          ],
           "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here.Â"
         }
       ]
@@ -19792,8 +20269,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Cynthia Wright"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -19820,7 +20299,9 @@
               "room": "YH A214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Connell"
+          ],
           "notes": ""
         }
       ]
@@ -19876,7 +20357,9 @@
               "room": "YH 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Davis"
+          ],
           "notes": ""
         }
       ]
@@ -19961,7 +20444,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Launchpad program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00 - Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
         }
       ]
     },
@@ -19989,7 +20472,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Launchpad program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00- Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
         }
       ]
     },
@@ -20017,7 +20500,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00 - Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
         }
       ]
     },
@@ -20044,7 +20527,9 @@
               "room": "YH A302"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maya Chacaby"
+          ],
           "notes": "Spaces are held for self-identified Indigenous (First Nations, Status, non-status, Métis, Inuit) Students. If you are an Indigenous Student and are not able to enrol through the Registration and Enrolment Module (REM), please contact the department for enrolment."
         }
       ]
@@ -20125,7 +20610,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -20181,7 +20666,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -20205,18 +20690,18 @@
           "catalogNumber": "M02M01",
           "schedule": [
             {
-              "day": "M",
-              "time": "18:00",
+              "day": "T",
+              "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 245"
+              "room": "YH A214"
             },
             {
-              "day": "W",
-              "time": "18:00",
+              "day": "R",
+              "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH 245"
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -20226,25 +20711,10 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "F49V01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "18:00",
-              "duration": "110",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
-          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This course will be offered in a Blended format. While Blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. The exact dates of in-person and online learning will be outlined in the syllabus. All evaluations (quizzes, compositions, tests, and exams) will take place in person and at Glendon Campus. | | (Backup)"
+          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This course will be offered in a Blended format. While Blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. The exact dates of in-person and online learning will be outlined in the syllabus. All evaluations (quizzes, compositions, tests, and exams) will take place in person and at Glendon Campus."
         }
       ]
     },
@@ -20258,7 +20728,7 @@
       "languageOfInstruction": "FE",
       "sections": [
         {
-          "type": "HYFX",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "M",
           "catalogNumber": "V96G01",
@@ -20268,14 +20738,14 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH A304"
+              "room": "YH A212"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH A304"
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -20331,25 +20801,10 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "X90B01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": "YH 245"
-            },
-            {
-              "day": "W",
-              "time": "18:00",
-              "duration": "110",
-              "campus": "Glendon",
-              "room": "YH 245"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
-          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. The exact dates of in-person and online learning will be outlined in the syllabus. All evaluations (quizzes, compositions, tests, and exams) will take place in person and at Glendon Campus. This course is open to majors and to non-majors. | | (Backup)"
+          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. The exact dates of in-person and online learning will be outlined in the syllabus. All evaluations (quizzes, compositions, tests, and exams) will take place in person and at Glendon Campus. This course is open to majors and to non-majors."
         },
         {
           "type": "LECT",
@@ -20400,7 +20855,11 @@
               "room": "YH A102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman",
+            "Shanna Lino",
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "This course is conducted in English and is open to majors and non-majors. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course directors for each module. The exact dates of in-person and asynchronous learning will be made explicit on the course syllabus."
         }
       ]
@@ -20540,7 +20999,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jerzy Kowal"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -20588,8 +21049,10 @@
               "room": "YH 045"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Maria Constanza Guzman"
+          ],
+          "notes": "Check course prerequisites before enrolling. This course will be offered in a Blended format. While Blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course director. This course is open to majors and to non-majors. Students not majoring in Spanish or pursuing a certificate in Spanish-English Translation or in Spanish for Business and Professional Communication may submit course work in English, French, or Spanish."
         }
       ]
     },
@@ -20644,7 +21107,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jerzy Kowal"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be offered in a remotely/online synchronous format. The delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -20662,16 +21127,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "W88Z01 (GL SP ) Q35A01 (GL LIN )",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "Check course prerequisites before enrolling. This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. | | (Backup)"
         }
@@ -20700,7 +21157,9 @@
               "room": "YH 170"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shanna Lino"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course director. This course is open to majors and to non-majors. Students not majoring in Spanish or pursuing a certificate in Spanish-EnglishÂ Translation or in Spanish for Business and Professional Communication may submit course work in English, French, or Spanish."
         }
       ]
@@ -20728,7 +21187,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman",
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be offered in a remotely/online synchronous format. The delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -20756,7 +21218,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be offered in a remotely/online synchronous format. The delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -20784,7 +21248,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Palamarek"
+          ],
           "notes": ""
         }
       ]
@@ -20812,8 +21278,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Frances J Latchford"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -20830,7 +21298,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "M60T01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "Ce cours sera offert en personne dans l'espace assignée ici."
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "TRAN",
+      "term": "F",
+      "courseTitle": "Grammaire du français écrit et analyse de textes informatifs",
+      "courseId": "1410",
+      "credits": "3.00",
+      "languageOfInstruction": "FR",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S02B01 (GL TRAN) Y49K01 (GL FRAN)",
           "schedule": [
             {
               "day": "T",
@@ -20841,7 +21329,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Ce cours sera offert en personne dans l'espace assignée ici."
+          "notes": ""
         }
       ]
     },
@@ -20858,7 +21346,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "G07F01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "TRAN",
+      "term": "W",
+      "courseTitle": "Grammaire du français écrit et analyse de textes littéraires",
+      "courseId": "1411",
+      "credits": "3.00",
+      "languageOfInstruction": "FR",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V43E01 (GL TRAN) Z90N01 (GL FRAN)",
           "schedule": [
             {
               "day": "T",
@@ -20869,7 +21377,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Ce cours sera offert en personne dans l'espace assignÃ©e ici."
+          "notes": ""
         }
       ]
     },
@@ -20952,7 +21460,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Elaine Lebel"
+          ],
           "notes": "Ce cours sera offert en ligne, avec des Ã©lÃ©ments synchrones et asynchrones."
         }
       ]
@@ -20980,7 +21490,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Elaine Lebel"
+          ],
           "notes": "Ce cours sera offert en ligne, avec des Ã©lÃ©ments synchrones et asynchrones."
         }
       ]
@@ -21015,7 +21527,9 @@
               "room": "YH A108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrew F Clifford"
+          ],
           "notes": "This course will be offered in a Hyflex format, with both in-person and online synchronous sessions offered concurrently on the day/time listed here"
         }
       ]
@@ -21050,7 +21564,9 @@
               "room": "YH A110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrew F Clifford"
+          ],
           "notes": "This course will be offered in a Hyflex format, with both in-person and online synchronous sessions offered concurrently on the day/time listed here"
         }
       ]
@@ -21085,7 +21601,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrew F Clifford"
+          ],
           "notes": "This course will be delivered ONLN, with synchronous and asynchronous elements."
         }
       ]
@@ -21148,7 +21666,9 @@
               "room": "YH A110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrew F Clifford"
+          ],
           "notes": "This course will be offered in a Hyflex format, with both in-person and online synchronous sessions offered concurrently on the day/time listed here"
         }
       ]
@@ -21204,7 +21724,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marie-Christine Aubin"
+          ],
           "notes": "Ce cours sera offert en ligne et se dÃ©roulera de maniÃ¨re asynchrone, sans heures de rencontre prÃ©vues. Des informations supplÃ©mentaires seront fournies par votre chargÃ©(e) de cours (par courriel ou sur le site eClass)."
         }
       ]
@@ -21250,16 +21772,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Z56Q01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will be offered through online delivery and is an asynchronous course with no specified meeting times. Additional information will be provided by your course instructor (by email or on the course eClass website). | | (Backup)"
         }
@@ -21372,7 +21886,9 @@
               "room": "YH A212"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "Ce cours sera offert en personne avec un volet en ligne. This course will meet in person with an online component."
         }
       ]
@@ -21421,9 +21937,9 @@
           "catalogNumber": "N98J01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -21449,9 +21965,9 @@
           "catalogNumber": "H45S01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -21484,7 +22000,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie McDonough Dolmaya"
+          ],
           "notes": "This course will be offered through online delivery and is an asynchronous course with no specified meeting times. Additional information will be provided by your course instructor (by email or on the course website)."
         }
       ]
@@ -21568,7 +22086,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie McDonough Dolmaya"
+          ],
           "notes": "This course will be offered through online delivery and is an asynchronous course with no specified meeting times. Additional information will be provided by your course instructor (by email or on the course website)."
         }
       ]
@@ -21596,7 +22116,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Valerie Florentin"
+          ],
           "notes": "Ce cours sera offert en ligne, avec des Ã©lÃ©ments synchrones et asynchrones. / This course will be delivered ONLN, with synchronous and asynchronous elements."
         }
       ]
@@ -21639,17 +22161,17 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "ONLN",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "A",
           "catalogNumber": "T29Z01 (GL TRAN) M76A01 (GL HUMA)",
           "schedule": [
             {
-              "day": "",
-              "time": "",
-              "duration": "0",
+              "day": "T",
+              "time": "12:00",
+              "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -21670,16 +22192,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "P65K01 (GL TRAN) J12T01 (GL HUMA)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "12:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will meet in person in the location assigned. | | (Backup)"
         }
@@ -21701,9 +22215,9 @@
           "catalogNumber": "A92E01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
               "campus": "Glendon",
               "room": ""
             }
@@ -21764,7 +22278,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman",
+            "Qjinti I Barrios van der Valk"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be offered in a remotely/online synchronous format. The delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -21792,7 +22309,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Constanza Guzman"
+          ],
           "notes": "Check course prerequisites before enrolling. This course will be offered in a remotely/online synchronous format. The delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -21856,7 +22375,7 @@
   ],
   "metadata": {
     "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Sat, 2 May 2026 at 03:33:12 AM",
+    "lastUpdated": "Thu, 4 Jun 2026 at 03:30:38 AM",
     "source": "York University"
   }
 }

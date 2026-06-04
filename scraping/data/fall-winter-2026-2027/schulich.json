@@ -1192,7 +1192,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
+          "type": "BLEN",
           "meetNumber": "01",
           "section": "R",
           "catalogNumber": "X88W01",
@@ -2422,7 +2422,7 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "Q",
-          "catalogNumber": "C90V01",
+          "catalogNumber": "",
           "schedule": [
             {
               "day": "R",
@@ -2430,6 +2430,22 @@
               "duration": "170",
               "campus": "Keele",
               "room": "MB G102"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "C90V02",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "90",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -2453,11 +2469,11 @@
           "catalogNumber": "W78J01",
           "schedule": [
             {
-              "day": "F",
-              "time": "8:30",
+              "day": "R",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E118"
+              "room": "SSB N108"
             }
           ],
           "instructors": [],
@@ -2843,6 +2859,982 @@
           "meetNumber": "01",
           "section": "F",
           "catalogNumber": "R34Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F",
+      "courseTitle": "Microeconomics for Managers",
+      "courseId": "1000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A55F02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W141"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "A55F03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "A55F04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N109"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "A55F05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N109"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "R02N02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W141"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "R02N03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "R02N04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "R02N05",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "K49W02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W141"
+            }
+          ],
+          "instructors": [
+            "Theodoros Tolias"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "K49W03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "K49W04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N109"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "K49W05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N109"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "W",
+      "courseTitle": "Macroeconomics for Managers",
+      "courseId": "1010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "D96X02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W141"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "D96X03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "D96X04",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "D96X05",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "U43Q02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W141"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "U43Q03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "U43Q04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N109"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "U43Q05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N109"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "T",
+          "catalogNumber": "N90C02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W141"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "N90C03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [
+            "Michelle Tong"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "N90C04",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "N90C05",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [
+            "Anjum Siddiqui"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "W",
+      "courseTitle": "Economics of Business Management",
+      "courseId": "3200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "H37Y01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F",
+      "courseTitle": "Applied International Economics",
+      "courseId": "3510",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A84U01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W256"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F",
+      "courseTitle": "Digital Economics",
+      "courseId": "4010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z19R01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S124"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "W",
+      "courseTitle": "Behavioural Economics Insights: Consumers, Business and Markets",
+      "courseId": "4050",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "R31F01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "W",
+      "courseTitle": "Economic Forecasting & Analysis",
+      "courseId": "4210",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "K78Z01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F",
+      "courseTitle": "Guided Study - Selected Problems in Business Economics & Policy",
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E25A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "W",
+      "courseTitle": "Guided Study - Selected Problems in Business Economics & Policy",
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "U72X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "C",
+      "courseTitle": "The Economic Environment Of Business",
+      "courseId": "5100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "J",
+          "catalogNumber": "V88W01",
+          "schedule": [
+            {
+              "day": "U",
+              "time": "9:00",
+              "duration": "410",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "410",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F2",
+      "courseTitle": "The Economic Environment Of Business",
+      "courseId": "5100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P35X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "X82R01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F2",
+      "courseTitle": "Markets, Firms, and the Global Economy",
+      "courseId": "5111",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "J76J01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
+          "instructors": [
+            "Theodoros Tolias"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "F2",
+      "courseTitle": "Individual Study: Selected Problems in Business Economics & Policy",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "C29D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "W2",
+      "courseTitle": "Individual Study: Selected Problems in Business Economics & Policy",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "S76Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "A",
+      "courseTitle": "Individual Study: Selected Problems in Business Economics & Policy",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M23U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "BEAP",
+      "term": "C",
+      "courseTitle": "Individual Study: Selected Problems in Business Economics & Policy",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "F70G01",
           "schedule": [
             {
               "day": "",
@@ -12582,17 +13574,17 @@
           "notes": ""
         },
         {
-          "type": "LECT",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "C65B01",
+          "catalogNumber": "Z15G01",
           "schedule": [
             {
               "day": "T",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S128"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -12760,7 +13752,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB S128"
             }
           ],
           "instructors": [],
@@ -13385,7 +14377,9 @@
               "room": "SSB W357"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mauricio Zelaya"
+          ],
           "notes": ""
         }
       ]
@@ -13497,7 +14491,9 @@
               "room": "SSB S126"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mauricio Zelaya"
+          ],
           "notes": ""
         }
       ]
@@ -14043,7 +15039,7 @@
               "time": "13:00",
               "duration": "90",
               "campus": "Keele",
-              "room": "SSB W257"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -14099,7 +15095,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N108"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -14410,6 +15406,23 @@
               "duration": "50",
               "campus": "Keele",
               "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "U56F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E118"
             }
           ],
           "instructors": [],
@@ -14896,7 +15909,9 @@
               "room": "SSB W256"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Theodoros Tolias"
+          ],
           "notes": ""
         }
       ]
@@ -14952,7 +15967,9 @@
               "room": "SSB W256"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Graeme Deans"
+          ],
           "notes": ""
         }
       ]
@@ -15027,6 +16044,34 @@
           "meetNumber": "01",
           "section": "A",
           "catalogNumber": "J32B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "WS",
+      "courseTitle": "Extended Work Placement",
+      "courseId": "4860",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "H08T01",
           "schedule": [
             {
               "day": "",
@@ -16211,7 +17256,7 @@
           "catalogNumber": "J90E01",
           "schedule": [
             {
-              "day": "F",
+              "day": "S",
               "time": "9:30",
               "duration": "410",
               "campus": "Keele",
@@ -16594,11 +17639,11 @@
           "catalogNumber": "K62B01",
           "schedule": [
             {
-              "day": "M",
-              "time": "14:30",
+              "day": "R",
+              "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N107"
+              "room": "SSB W136"
             }
           ],
           "instructors": [],
@@ -16897,17 +17942,17 @@
           "notes": ""
         },
         {
-          "type": "LECT",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "T",
-          "catalogNumber": "Z61Y01",
+          "catalogNumber": "H62P01",
           "schedule": [
             {
               "day": "T",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S128"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -17547,7 +18592,7 @@
     {
       "faculty": "SB",
       "department": "MKTG",
-      "term": "F2",
+      "term": "W2",
       "courseTitle": "Product Management",
       "courseId": "5210",
       "credits": "3.00",
@@ -17556,8 +18601,8 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "U",
-          "catalogNumber": "K43D01",
+          "section": "X",
+          "catalogNumber": "H28B01",
           "schedule": [
             {
               "day": "M",
@@ -17726,11 +18771,11 @@
           "catalogNumber": "R89V01",
           "schedule": [
             {
-              "day": "T",
+              "day": "R",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N107"
+              "room": "SSB N105"
             }
           ],
           "instructors": [],
@@ -17873,7 +18918,7 @@
           "notes": ""
         },
         {
-          "type": "BLEN",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "X",
           "catalogNumber": "U24F01",
@@ -17883,7 +18928,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "SSB N109"
             }
           ],
           "instructors": [],
@@ -18512,7 +19557,7 @@
           "catalogNumber": "H95E01",
           "schedule": [
             {
-              "day": "R",
+              "day": "W",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
@@ -19145,7 +20190,7 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "SSB W132"
+              "room": "SSB N108"
             }
           ],
           "instructors": [],
@@ -19161,7 +20206,7 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "SSB W132"
+              "room": "SSB N108"
             }
           ],
           "instructors": [],
@@ -19226,7 +20271,7 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "SSB N108"
+              "room": "SSB W132"
             }
           ],
           "instructors": [],
@@ -19242,7 +20287,7 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "SSB N108"
+              "room": "SSB W132"
             }
           ],
           "instructors": [],
@@ -19466,7 +20511,7 @@
           "schedule": [
             {
               "day": "M",
-              "time": "8:30",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
               "room": "SSB W256"
@@ -19532,10 +20577,10 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
+          "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P77C01",
+          "catalogNumber": "R56J01",
           "schedule": [
             {
               "day": "R",
@@ -20459,11 +21504,11 @@
           "catalogNumber": "Y95C01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N105"
+              "room": "SSB W136"
             }
           ],
           "instructors": [],
@@ -20475,8 +21520,8 @@
       "faculty": "SB",
       "department": "OMIS",
       "term": "M",
-      "courseTitle": "Design Thinking for Innovation",
-      "courseId": "6621",
+      "courseTitle": "Storytelling with Data",
+      "courseId": "6631",
       "credits": "1.50",
       "languageOfInstruction": "EN",
       "sections": [
@@ -20484,7 +21529,7 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "U",
-          "catalogNumber": "S48Q01",
+          "catalogNumber": "M88U01",
           "schedule": [
             {
               "day": "M",
@@ -20703,6 +21748,118 @@
               "day": "F",
               "time": "11:30",
               "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "F3",
+      "courseTitle": "OMIS Foundations I",
+      "courseId": "7101",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "K55S01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "180",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "W3",
+      "courseTitle": "OMIS Foundations II",
+      "courseId": "7102",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "E02E01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "180",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "F3",
+      "courseTitle": "OMIS Emerging Topics",
+      "courseId": "7103",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U49M01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:30",
+              "duration": "180",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "F3",
+      "courseTitle": "Selected Problems in Administration",
+      "courseId": "7900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N96V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
               "campus": "Keele",
               "room": ""
             }
@@ -21568,15 +22725,15 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "X",
-          "catalogNumber": "E13F01",
+          "section": "F",
+          "catalogNumber": "U62B01",
           "schedule": [
             {
-              "day": "T",
-              "time": "17:30",
+              "day": "R",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "MB G101"
+              "room": "SSB E111"
             }
           ],
           "instructors": [],
@@ -22730,6 +23887,23 @@
               "duration": "170",
               "campus": "Keele",
               "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "R08J01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
             }
           ],
           "instructors": [],

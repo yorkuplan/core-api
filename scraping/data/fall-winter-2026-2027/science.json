@@ -20,10 +20,12 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "R S174"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Da Sylva"
+          ],
           "notes": ""
         },
         {
@@ -173,16 +175,8 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P02C01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -218,7 +212,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Bayfield"
+          ],
           "notes": ""
         },
         {
@@ -242,7 +238,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         }
       ]
@@ -277,7 +275,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Terrance J Kubiseski"
+          ],
           "notes": ""
         }
       ]
@@ -312,7 +312,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert G Tsushima"
+          ],
           "notes": ""
         },
         {
@@ -336,7 +338,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert G Tsushima"
+          ],
           "notes": ""
         }
       ]
@@ -378,7 +382,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brian Kim"
+          ],
           "notes": ""
         }
       ]
@@ -413,7 +419,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Philip Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -448,7 +456,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Cheung"
+          ],
           "notes": ""
         },
         {
@@ -472,7 +482,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         }
       ]
@@ -497,17 +509,19 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "SLH D"
+              "room": "CLH A"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "SLH D"
+              "room": "CLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yi Sheng"
+          ],
           "notes": ""
         }
       ]
@@ -542,7 +556,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Bayfield"
+          ],
           "notes": ""
         },
         {
@@ -566,7 +582,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Bayfield"
+          ],
           "notes": ""
         }
       ]
@@ -594,7 +612,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gary Sweeney"
+          ],
           "notes": ""
         },
         {
@@ -668,7 +688,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gary Sweeney"
+          ],
           "notes": ""
         },
         {
@@ -770,7 +792,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sylvie Morin"
+          ],
           "notes": ""
         }
       ]
@@ -798,7 +822,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sergey N. Krylov"
+          ],
           "notes": ""
         }
       ]
@@ -823,10 +849,12 @@
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "LSB 101"
+              "room": "BC 230"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Katalin A Hudak"
+          ],
           "notes": ""
         },
         {
@@ -900,7 +928,9 @@
               "room": "R S123"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Katalin A Hudak"
+          ],
           "notes": ""
         },
         {
@@ -988,7 +1018,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Robertson"
+          ],
           "notes": ""
         },
         {
@@ -1307,7 +1339,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Clark"
+          ],
           "notes": ""
         },
         {
@@ -1619,7 +1653,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yi Sheng"
+          ],
           "notes": ""
         },
         {
@@ -1858,7 +1894,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jade Atallah"
+          ],
           "notes": ""
         },
         {
@@ -2112,24 +2150,26 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Markham",
-              "room": "MK 4055"
+              "room": "MK 4045"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Markham",
-              "room": "MK 4055"
+              "room": "MK 4045"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Markham",
-              "room": "MK 4055"
+              "room": "MK 4045"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jade Atallah"
+          ],
           "notes": ""
         },
         {
@@ -2219,7 +2259,10 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yi Sheng",
+            "Julie Clark"
+          ],
           "notes": ""
         },
         {
@@ -2822,7 +2865,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         },
         {
@@ -3040,7 +3085,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tamara Kelly"
+          ],
           "notes": ""
         },
         {
@@ -3391,7 +3438,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elizabeth Clare"
+          ],
           "notes": ""
         },
         {
@@ -3719,7 +3768,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Vicari"
+          ],
           "notes": ""
         },
         {
@@ -4006,7 +4057,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jade Atallah"
+          ],
           "notes": ""
         },
         {
@@ -4229,7 +4282,9 @@
               "room": "MK 4055"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jade Atallah"
+          ],
           "notes": ""
         },
         {
@@ -4312,7 +4367,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmoud Sirdah"
+          ],
           "notes": ""
         }
       ]
@@ -4340,7 +4397,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -4368,7 +4427,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -4410,7 +4471,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nikola Kovinich"
+          ],
           "notes": ""
         },
         {
@@ -4605,7 +4668,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Bayfield"
+          ],
           "notes": ""
         },
         {
@@ -4629,7 +4694,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         }
       ]
@@ -4664,7 +4731,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Terrance J Kubiseski"
+          ],
           "notes": ""
         }
       ]
@@ -4699,7 +4768,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert G Tsushima"
+          ],
           "notes": ""
         },
         {
@@ -4723,7 +4794,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert G Tsushima"
+          ],
           "notes": ""
         }
       ]
@@ -4758,7 +4831,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Scott Phillip Kelly"
+          ],
           "notes": ""
         },
         {
@@ -5049,7 +5124,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrew Donini"
+          ],
           "notes": ""
         },
         {
@@ -5324,7 +5401,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tamara Kelly"
+          ],
           "notes": ""
         },
         {
@@ -5383,7 +5462,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nikola Kovinich"
+          ],
           "notes": ""
         }
       ]
@@ -5405,17 +5486,17 @@
           "schedule": [
             {
               "day": "M",
-              "time": "10:00",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "W",
-              "time": "10:00",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -5453,7 +5534,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Vicari"
+          ],
           "notes": ""
         },
         {
@@ -5466,7 +5549,7 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 211"
             }
           ],
           "instructors": [],
@@ -5498,7 +5581,7 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 211"
             }
           ],
           "instructors": [],
@@ -5674,7 +5757,7 @@
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CC 208"
             }
           ],
           "instructors": [],
@@ -5916,7 +5999,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Justin Colin Greig"
+          ],
           "notes": ""
         },
         {
@@ -6662,7 +6747,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Vicari"
+          ],
           "notes": ""
         },
         {
@@ -6782,7 +6869,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -6810,7 +6899,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -6838,7 +6929,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Gadsden"
+          ],
           "notes": ""
         },
         {
@@ -6855,7 +6948,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Gadsden"
+          ],
           "notes": ""
         }
       ]
@@ -6880,7 +6975,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             }
           ],
           "instructors": [],
@@ -6911,7 +7006,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -6953,7 +7050,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brian Kim"
+          ],
           "notes": ""
         }
       ]
@@ -6988,7 +7087,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andrew Donini"
+          ],
           "notes": ""
         },
         {
@@ -7087,7 +7188,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Clark"
+          ],
           "notes": ""
         },
         {
@@ -7186,7 +7289,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Philip Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -7455,7 +7560,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Paul Paluzzi"
+          ],
           "notes": ""
         },
         {
@@ -7666,7 +7773,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ryan Hili"
+          ],
           "notes": ""
         }
       ]
@@ -7694,7 +7803,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eryn McFarlane"
+          ],
           "notes": ""
         },
         {
@@ -7777,7 +7888,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Cheung"
+          ],
           "notes": ""
         },
         {
@@ -7801,7 +7914,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         }
       ]
@@ -7826,17 +7941,19 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "SLH D"
+              "room": "CLH A"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "SLH D"
+              "room": "CLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yi Sheng"
+          ],
           "notes": ""
         }
       ]
@@ -7871,7 +7988,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuqing Feng"
+          ],
           "notes": ""
         }
       ]
@@ -7941,7 +8060,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Bayfield"
+          ],
           "notes": ""
         },
         {
@@ -7965,7 +8086,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Bayfield"
+          ],
           "notes": ""
         }
       ]
@@ -7993,7 +8116,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gary Sweeney"
+          ],
           "notes": ""
         },
         {
@@ -8067,7 +8192,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gary Sweeney"
+          ],
           "notes": ""
         },
         {
@@ -8496,17 +8623,19 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "VH A"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -8531,17 +8660,19 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 101"
             },
             {
               "day": "W",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gordon Fitch"
+          ],
           "notes": ""
         },
         {
@@ -8608,7 +8739,9 @@
               "room": "R S174"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gordon Fitch"
+          ],
           "notes": ""
         },
         {
@@ -8675,7 +8808,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elizabeth Clare"
+          ],
           "notes": ""
         }
       ]
@@ -8710,7 +8845,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -8908,7 +9045,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joshua Thienpont"
+          ],
           "notes": ""
         },
         {
@@ -8984,7 +9123,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -9012,7 +9153,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -9188,7 +9331,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -9216,7 +9361,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -9251,7 +9398,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Logan Donaldson"
+          ],
           "notes": ""
         }
       ]
@@ -9286,7 +9435,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Logan Donaldson"
+          ],
           "notes": ""
         }
       ]
@@ -9314,7 +9465,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sergey N. Krylov"
+          ],
           "notes": ""
         }
       ]
@@ -9339,10 +9492,12 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Charles McDermott"
+          ],
           "notes": ""
         }
       ]
@@ -9377,7 +9532,9 @@
               "room": "CLH J"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -9502,7 +9659,9 @@
               "room": "BC 215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -9537,7 +9696,9 @@
               "room": "ACW 006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmoud Sirdah"
+          ],
           "notes": ""
         }
       ]
@@ -9562,17 +9723,19 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 105"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmoud Sirdah"
+          ],
           "notes": ""
         }
       ]
@@ -9607,7 +9770,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Backx"
+          ],
           "notes": ""
         }
       ]
@@ -9712,7 +9877,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuqing Feng"
+          ],
           "notes": ""
         }
       ]
@@ -9740,7 +9907,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tamara Kelly"
+          ],
           "notes": ""
         }
       ]
@@ -9796,7 +9965,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Robertson"
+          ],
           "notes": ""
         },
         {
@@ -9888,7 +10059,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Robertson"
+          ],
           "notes": ""
         },
         {
@@ -9987,7 +10160,9 @@
               "room": "CB 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         },
         {
@@ -10054,7 +10229,9 @@
               "room": "LSB 101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         },
         {
@@ -10220,7 +10397,9 @@
               "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tamara Kelly"
+          ],
           "notes": ""
         },
         {
@@ -10244,7 +10423,9 @@
               "room": "VH 3009"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tamara Kelly"
+          ],
           "notes": ""
         }
       ]
@@ -10279,7 +10460,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Robertson"
+          ],
           "notes": ""
         }
       ]
@@ -10314,8 +10497,10 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark Vicari"
+          ],
+          "notes": "$33.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -10390,7 +10575,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmoud Sirdah"
+          ],
           "notes": ""
         }
       ]
@@ -10418,7 +10605,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmoud Sirdah"
+          ],
           "notes": ""
         }
       ]
@@ -10443,10 +10632,12 @@
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "LSB 101"
+              "room": "BC 230"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Katalin A Hudak"
+          ],
           "notes": ""
         },
         {
@@ -10520,7 +10711,9 @@
               "room": "R S123"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Katalin A Hudak"
+          ],
           "notes": ""
         },
         {
@@ -10657,7 +10850,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cardinal-Aucoin"
+          ],
           "notes": ""
         }
       ]
@@ -10692,7 +10887,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -10727,7 +10924,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Chun Peng"
+          ],
           "notes": ""
         }
       ]
@@ -10762,7 +10961,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Chun Peng"
+          ],
           "notes": ""
         }
       ]
@@ -10797,7 +10998,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Scott Phillip Kelly"
+          ],
           "notes": ""
         },
         {
@@ -10821,7 +11024,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Scott Phillip Kelly"
+          ],
           "notes": ""
         }
       ]
@@ -10849,7 +11054,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Spencer Mukai"
+          ],
           "notes": ""
         }
       ]
@@ -10877,7 +11084,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Spencer Mukai"
+          ],
           "notes": ""
         }
       ]
@@ -10902,17 +11111,19 @@
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Georg R Zoidl"
+          ],
           "notes": ""
         }
       ]
@@ -10937,10 +11148,12 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kohitij Kar"
+          ],
           "notes": ""
         }
       ]
@@ -10982,7 +11195,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amro Zayed"
+          ],
           "notes": ""
         }
       ]
@@ -11017,7 +11232,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sandra Rehan"
+          ],
           "notes": ""
         }
       ]
@@ -11052,7 +11269,9 @@
               "room": "CLH H"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Terrance J Kubiseski"
+          ],
           "notes": ""
         },
         {
@@ -11141,17 +11360,19 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": "BC 215"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": "BC 215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nikolaus Troje"
+          ],
           "notes": ""
         }
       ]
@@ -11186,7 +11407,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Backx"
+          ],
           "notes": ""
         }
       ]
@@ -11214,7 +11437,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -11242,7 +11467,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -11270,7 +11497,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sapna Sharma"
+          ],
           "notes": ""
         }
       ]
@@ -11295,17 +11524,19 @@
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CC 106"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CC 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Raymond W. M. Kwong"
+          ],
           "notes": ""
         }
       ]
@@ -11390,7 +11621,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -11418,7 +11649,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -11572,7 +11803,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00- Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
         }
       ]
     },
@@ -11613,8 +11844,11 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "William J Pietro",
+            "Trevor VandenBoer"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -11629,7 +11863,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William J Pietro"
+          ],
           "notes": ""
         },
         {
@@ -11941,8 +12177,11 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Trevor VandenBoer",
+            "Tihana Mirkovic"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -11954,10 +12193,12 @@
               "time": "16:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tihana Mirkovic"
+          ],
           "notes": ""
         },
         {
@@ -12221,8 +12462,10 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Trevor VandenBoer"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -12234,7 +12477,7 @@
               "time": "18:00",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "ACE 102"
             }
           ],
           "instructors": [],
@@ -12508,8 +12751,11 @@
               "room": "VC 135"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Trevor VandenBoer",
+            "Stephanie Pugliese"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -12524,7 +12770,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tihana Mirkovic"
+          ],
           "notes": ""
         },
         {
@@ -12715,8 +12963,10 @@
               "room": "MK 4050"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -12731,7 +12981,9 @@
               "room": "MK 4050"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
           "notes": ""
         },
         {
@@ -12807,8 +13059,10 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Derek A. Jackson"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -12823,7 +13077,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Derek A. Jackson"
+          ],
           "notes": ""
         },
         {
@@ -13139,8 +13395,10 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -13155,7 +13413,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
           "notes": ""
         },
         {
@@ -13453,8 +13713,11 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Tihana Mirkovic",
+            "Tao Zeng"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -13469,7 +13732,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tao Zeng"
+          ],
           "notes": ""
         },
         {
@@ -13749,8 +14014,11 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Tihana Mirkovic",
+            "Stephanie Jones"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -13762,10 +14030,12 @@
               "time": "16:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tihana Mirkovic"
+          ],
           "notes": ""
         },
         {
@@ -14019,18 +14289,20 @@
               "time": "18:00",
               "duration": "110",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "CLH L"
             },
             {
               "day": "R",
               "time": "18:00",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "CLH L"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Tihana Mirkovic"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -14042,7 +14314,7 @@
               "time": "19:00",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -14316,8 +14588,11 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "William J Pietro",
+            "Tihana Mirkovic"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -14332,7 +14607,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William J Pietro"
+          ],
           "notes": ""
         },
         {
@@ -14555,8 +14832,10 @@
               "room": "MK 5070"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
+          "notes": "$12.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -14571,7 +14850,9 @@
               "room": "MK 5070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
           "notes": ""
         },
         {
@@ -14654,8 +14935,11 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvie Morin",
+            "Gerald F Audette"
+          ],
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -14670,7 +14954,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sylvie Morin"
+          ],
           "notes": ""
         },
         {
@@ -14950,8 +15236,11 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Gerald F Audette",
+            "Jennifer Chen"
+          ],
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -14966,7 +15255,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Chen"
+          ],
           "notes": ""
         },
         {
@@ -15253,8 +15544,10 @@
               "room": "MK 4075"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -15269,7 +15562,9 @@
               "room": "MK 4075"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hovig Kouyoumdjian"
+          ],
           "notes": ""
         },
         {
@@ -15400,8 +15695,10 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Derek A. Jackson"
+          ],
+          "notes": "$7.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -15413,10 +15710,12 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Derek A. Jackson"
+          ],
           "notes": ""
         },
         {
@@ -15611,7 +15910,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tao Zeng"
+          ],
           "notes": ""
         }
       ]
@@ -15646,7 +15947,9 @@
               "room": "CLH E"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William J Pietro"
+          ],
           "notes": ""
         },
         {
@@ -15662,7 +15965,9 @@
               "room": "CLH G"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William J Pietro"
+          ],
           "notes": ""
         }
       ]
@@ -15697,8 +16002,11 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Arturo Orellana",
+            "Derek A. Jackson"
+          ],
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -15713,7 +16021,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Arturo Orellana",
+            "Derek A. Jackson"
+          ],
           "notes": ""
         },
         {
@@ -16009,8 +16320,10 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Arturo Orellana"
+          ],
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -16289,8 +16602,11 @@
               "room": "SLH D"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Arturo Orellana",
+            "Lana Hébert"
+          ],
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -16305,7 +16621,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lana Hébert"
+          ],
           "notes": ""
         },
         {
@@ -16501,7 +16819,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -16647,8 +16965,11 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Christine Le",
+            "Lana Hébert"
+          ],
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -16663,7 +16984,9 @@
               "room": "VC 135"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christine Le"
+          ],
           "notes": ""
         },
         {
@@ -16895,8 +17218,10 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lana Hébert"
+          ],
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -16911,7 +17236,9 @@
               "room": "SLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lana Hébert"
+          ],
           "notes": ""
         },
         {
@@ -17101,18 +17428,21 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             },
             {
               "day": "F",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Muhammad n Yousaf",
+            "Lana Hébert"
+          ],
+          "notes": "$11.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -17127,7 +17457,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Muhammad n Yousaf"
+          ],
           "notes": ""
         },
         {
@@ -17345,7 +17677,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Chen"
+          ],
           "notes": ""
         },
         {
@@ -17361,7 +17695,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Chen"
+          ],
           "notes": ""
         }
       ]
@@ -17396,8 +17732,10 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Derek A. Jackson"
+          ],
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -17495,8 +17833,10 @@
               "room": "DB 0006"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Cora Young"
+          ],
+          "notes": "$15.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -17787,8 +18127,10 @@
               "room": "BC 230"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lana Hébert"
+          ],
+          "notes": "$20.00 - Course Materials"
         },
         {
           "type": "BLEN",
@@ -17877,8 +18219,10 @@
               "room": "SC 214"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Tihana Mirkovic"
+          ],
+          "notes": "$20.00 - Course Materials"
         },
         {
           "type": "BLEN",
@@ -18039,7 +18383,9 @@
               "room": "CB 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tihana Mirkovic"
+          ],
           "notes": ""
         }
       ]
@@ -18181,7 +18527,9 @@
               "room": "HNE 031"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Caputo"
+          ],
           "notes": ""
         },
         {
@@ -18197,7 +18545,9 @@
               "room": "HNE 001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Caputo"
+          ],
           "notes": ""
         }
       ]
@@ -18239,7 +18589,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brian Kim"
+          ],
           "notes": ""
         }
       ]
@@ -18274,7 +18626,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Philip Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -18316,7 +18670,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Jones"
+          ],
           "notes": ""
         }
       ]
@@ -18406,7 +18762,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ryan Hili"
+          ],
           "notes": ""
         }
       ]
@@ -18441,8 +18799,10 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Derek J Wilson"
+          ],
+          "notes": "$15.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -18701,7 +19061,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sylvie Morin"
+          ],
           "notes": ""
         }
       ]
@@ -18768,14 +19130,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             }
           ],
           "instructors": [],
@@ -18806,7 +19168,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sergey N. Krylov"
+          ],
           "notes": ""
         }
       ]
@@ -18831,17 +19195,19 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 035"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 035"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brian Kim"
+          ],
           "notes": ""
         }
       ]
@@ -18869,7 +19235,9 @@
               "room": "CLH 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         }
       ]
@@ -18939,7 +19307,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Thomas Baumgartner"
+          ],
           "notes": ""
         }
       ]
@@ -18967,7 +19337,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Muhammad n Yousaf"
+          ],
           "notes": ""
         }
       ]
@@ -19220,7 +19592,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19248,7 +19620,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19276,7 +19648,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19304,7 +19676,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19332,7 +19704,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19360,7 +19732,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19388,7 +19760,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19416,7 +19788,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19444,7 +19816,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19472,7 +19844,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$500.00 - Course Materials"
         }
       ]
     },
@@ -19499,7 +19871,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -19527,7 +19901,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -19549,17 +19925,17 @@
           "schedule": [
             {
               "day": "M",
-              "time": "10:00",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "W",
-              "time": "10:00",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -19590,7 +19966,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark Vicari"
+          ],
           "notes": ""
         },
         {
@@ -19710,7 +20088,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -19738,7 +20118,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -19763,17 +20145,19 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 101"
             },
             {
               "day": "W",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gordon Fitch"
+          ],
           "notes": ""
         },
         {
@@ -19840,7 +20224,9 @@
               "room": "R S174"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gordon Fitch"
+          ],
           "notes": ""
         },
         {
@@ -19900,7 +20286,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -19928,7 +20316,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -20019,7 +20409,9 @@
               "room": "CLH J"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -20047,7 +20439,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tamara Kelly"
+          ],
           "notes": ""
         }
       ]
@@ -20103,7 +20497,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -20131,7 +20527,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Louise Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -20159,7 +20557,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sapna Sharma"
+          ],
           "notes": ""
         }
       ]
@@ -20250,7 +20650,9 @@
               "room": "CLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joshua Thienpont"
+          ],
           "notes": ""
         },
         {
@@ -20381,7 +20783,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Adeyemi Olusola"
+          ],
           "notes": ""
         },
         {
@@ -20505,7 +20909,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Martin J Bunch"
+          ],
           "notes": ""
         },
         {
@@ -20701,7 +21107,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Adeyemi Olusola"
+          ],
           "notes": ""
         },
         {
@@ -20745,7 +21153,9 @@
               "room": "R N143"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Korosi"
+          ],
           "notes": ""
         }
       ]
@@ -20773,7 +21183,9 @@
               "room": "R N143"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Korosi"
+          ],
           "notes": ""
         },
         {
@@ -20877,7 +21289,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joshua Thienpont"
+          ],
           "notes": ""
         },
         {
@@ -20953,8 +21367,10 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
-          "notes": "This course entails a 4 to 5 days field trip during the fall reading week; additional course fee to partially offset the costs of food and accomodation will be levied. $200.00 - Course Materials"
+          "instructors": [
+            "Richard Bello"
+          ],
+          "notes": "This course entails a 4 to 5 days field trip during the fall reading week; additional course fee to partially offset the costs of food and accomodation will be levied. $200.00 - Course Materials | $200.00 - Course Materials"
         }
       ]
     },
@@ -20981,7 +21397,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Adeyemi Olusola"
+          ],
           "notes": ""
         }
       ]
@@ -21009,7 +21427,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joshua Thienpont"
+          ],
           "notes": "This course will be offered through online delivery and is an asynchronous course with no specified meeting times. Additional information will be provided by your course instructor."
         }
       ]
@@ -21065,7 +21485,9 @@
               "room": "R N143"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joshua Thienpont"
+          ],
           "notes": ""
         },
         {
@@ -21234,10 +21656,12 @@
               "time": "9:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0013"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Adeyemi Olusola"
+          ],
           "notes": ""
         },
         {
@@ -21312,7 +21736,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Chen"
+          ],
           "notes": ""
         },
         {
@@ -21374,14 +21800,14 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH D"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH D"
             }
           ],
           "instructors": [],
@@ -21429,14 +21855,14 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             }
           ],
           "instructors": [],
@@ -21487,7 +21913,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Allysa Lumley"
+          ],
           "notes": ""
         },
         {
@@ -21511,7 +21939,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Allysa Lumley"
+          ],
           "notes": ""
         }
       ]
@@ -21633,24 +22063,26 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Iain Moyles"
+          ],
           "notes": ""
         },
         {
@@ -21664,14 +22096,14 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
           "instructors": [],
@@ -21778,7 +22210,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Chen"
+          ],
           "notes": ""
         },
         {
@@ -21809,7 +22243,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Igor Poliakov"
+          ],
           "notes": ""
         },
         {
@@ -21854,24 +22290,26 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jorg Grigull"
+          ],
           "notes": ""
         },
         {
@@ -21916,21 +22354,21 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             }
           ],
           "instructors": [],
@@ -21964,7 +22402,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Norman Purzitsky"
+          ],
           "notes": ""
         },
         {
@@ -22026,7 +22466,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Allysa Lumley"
+          ],
           "notes": ""
         },
         {
@@ -22057,7 +22499,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Allysa Lumley"
+          ],
           "notes": ""
         }
       ]
@@ -22092,7 +22536,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Neda Salahandish"
+          ],
           "notes": ""
         },
         {
@@ -22116,7 +22562,9 @@
               "room": "DB 0001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Neal Madras"
+          ],
           "notes": ""
         },
         {
@@ -22130,14 +22578,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             },
             {
               "day": "F",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             }
           ],
           "instructors": [],
@@ -22261,7 +22709,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andranik Mirzaian"
+          ],
           "notes": ""
         },
         {
@@ -22403,7 +22853,9 @@
               "room": "CLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mike Zabrocki"
+          ],
           "notes": ""
         }
       ]
@@ -22476,7 +22928,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Norman Purzitsky"
+          ],
           "notes": ""
         },
         {
@@ -22552,14 +23006,14 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH F"
             },
             {
               "day": "W",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH F"
             }
           ],
           "instructors": [],
@@ -22648,7 +23102,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Allysa Lumley"
+          ],
           "notes": ""
         }
       ]
@@ -22673,24 +23129,26 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH C"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH C"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yun Gao"
+          ],
           "notes": ""
         },
         {
@@ -22721,7 +23179,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Norman Purzitsky"
+          ],
           "notes": ""
         },
         {
@@ -22752,7 +23212,9 @@
               "room": "ACW 006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Allysa Lumley"
+          ],
           "notes": ""
         },
         {
@@ -22776,7 +23238,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nantel Bergeron"
+          ],
           "notes": ""
         },
         {
@@ -22894,17 +23358,19 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "W",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "George Tourlakis"
+          ],
           "notes": ""
         },
         {
@@ -22917,7 +23383,7 @@
               "time": "17:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "R S103"
             }
           ],
           "instructors": [],
@@ -22933,7 +23399,7 @@
               "time": "15:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "R S136"
             }
           ],
           "instructors": [],
@@ -22949,7 +23415,7 @@
               "time": "13:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "PSE 321"
             }
           ],
           "instructors": [],
@@ -22987,7 +23453,9 @@
               "room": "MK 2055"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pooja Vashisth"
+          ],
           "notes": ""
         },
         {
@@ -23043,7 +23511,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Neda Salahandish"
+          ],
           "notes": ""
         },
         {
@@ -23131,7 +23601,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amir Chinaei"
+          ],
           "notes": ""
         },
         {
@@ -23220,28 +23692,28 @@
               "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 306"
             },
             {
               "day": "T",
               "time": "15:00",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 306"
             },
             {
               "day": "R",
               "time": "13:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 306"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 306"
             }
           ],
           "instructors": [],
@@ -23353,7 +23825,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "George Tourlakis"
+          ],
           "notes": ""
         },
         {
@@ -23367,14 +23841,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "CLH G"
+              "room": "LAS B"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "CLH G"
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -23484,7 +23958,9 @@
               "room": "CLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ruth Urner"
+          ],
           "notes": ""
         },
         {
@@ -23498,14 +23974,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "W",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             }
           ],
           "instructors": [],
@@ -23550,7 +24026,9 @@
               "room": "CLH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jairo Diaz-Rodriguez"
+          ],
           "notes": ""
         }
       ]
@@ -23575,24 +24053,26 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CLH G"
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Divya Sharma"
+          ],
           "notes": ""
         },
         {
@@ -23609,7 +24089,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tianyu Guan"
+          ],
           "notes": ""
         }
       ]
@@ -23634,17 +24116,19 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hanna Jankowski"
+          ],
           "notes": ""
         },
         {
@@ -23758,21 +24242,21 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             }
           ],
           "instructors": [],
@@ -23817,24 +24301,26 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Igor Poliakov"
+          ],
           "notes": ""
         },
         {
@@ -23929,7 +24415,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH 1016"
             }
           ],
           "instructors": [],
@@ -23985,7 +24471,7 @@
               "time": "19:00",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 120"
             }
           ],
           "instructors": [],
@@ -24057,7 +24543,7 @@
               "time": "15:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 122"
             }
           ],
           "instructors": [],
@@ -24073,7 +24559,7 @@
               "time": "15:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B11"
             }
           ],
           "instructors": [],
@@ -24106,17 +24592,19 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 104"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Skoufranis"
+          ],
           "notes": ""
         },
         {
@@ -24129,7 +24617,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 205"
             }
           ],
           "instructors": [],
@@ -24228,7 +24716,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S130"
+              "room": "VH 1016"
             }
           ],
           "instructors": [],
@@ -24271,7 +24759,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Arash Islami"
+          ],
           "notes": ""
         },
         {
@@ -24530,7 +25020,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Man Wah Wong"
+          ],
           "notes": ""
         },
         {
@@ -24593,21 +25085,21 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             }
           ],
           "instructors": [],
@@ -24640,14 +25132,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0006"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0006"
             }
           ],
           "instructors": [],
@@ -24741,7 +25233,9 @@
               "room": "SLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Gibson"
+          ],
           "notes": ""
         },
         {
@@ -24782,14 +25276,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
           "instructors": [],
@@ -24805,7 +25299,7 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             }
           ],
           "instructors": [],
@@ -24833,21 +25327,21 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             }
           ],
           "instructors": [],
@@ -24923,7 +25417,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Jan Szeptycki"
+          ],
           "notes": ""
         },
         {
@@ -25028,7 +25524,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "W Stephen Watson"
+          ],
           "notes": ""
         },
         {
@@ -25081,14 +25579,14 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CLH D"
+              "room": "CLH G"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CLH D"
+              "room": "CLH G"
             }
           ],
           "instructors": [],
@@ -25216,7 +25714,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R S201"
             }
           ],
           "instructors": [],
@@ -25281,7 +25779,7 @@
               "time": "18:00",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N203"
             }
           ],
           "instructors": [],
@@ -25315,7 +25813,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "W Stephen Watson"
+          ],
           "notes": ""
         },
         {
@@ -25344,7 +25844,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -25361,21 +25861,21 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
           "instructors": [],
@@ -25407,7 +25907,7 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 307"
             }
           ],
           "instructors": [],
@@ -25497,7 +25997,9 @@
               "room": "MK 4050"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jihyeon Jessie Yang"
+          ],
           "notes": ""
         },
         {
@@ -25555,7 +26057,9 @@
               "room": "CLH F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Igor Poliakov"
+          ],
           "notes": ""
         },
         {
@@ -25675,21 +26179,21 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             }
           ],
           "instructors": [],
@@ -25748,24 +26252,26 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jane M Heffernan"
+          ],
           "notes": ""
         },
         {
@@ -25779,21 +26285,21 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             }
           ],
           "instructors": [],
@@ -25820,7 +26326,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Woldegebriel Assefa Woldegerima"
+          ],
           "notes": ""
         },
         {
@@ -25834,21 +26342,21 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 135"
+              "room": "SLH D"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 135"
+              "room": "SLH D"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 135"
+              "room": "SLH D"
             }
           ],
           "instructors": [],
@@ -25930,7 +26438,9 @@
               "room": "MK 5070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jihyeon Jessie Yang"
+          ],
           "notes": ""
         }
       ]
@@ -25972,7 +26482,9 @@
               "room": "CLH E"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Norman Purzitsky"
+          ],
           "notes": ""
         },
         {
@@ -26038,7 +26550,7 @@
               "time": "11:00",
               "duration": "80",
               "campus": "Markham",
-              "room": ""
+              "room": "MK 2065"
             },
             {
               "day": "W",
@@ -26048,8 +26560,10 @@
               "room": "MK 2055"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jihyeon Jessie Yang"
+          ],
+          "notes": "This section is reserved for Computer Science for Software Development majors."
         },
         {
           "type": "TUTR",
@@ -26098,7 +26612,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This section is reserved for Digital Technologies majors."
         },
         {
           "type": "BLEN",
@@ -26120,7 +26634,9 @@
               "room": "MK 5070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jihyeon Jessie Yang"
+          ],
           "notes": ""
         }
       ]
@@ -26145,14 +26661,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             }
           ],
           "instructors": [],
@@ -26239,17 +26755,19 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuejiao Cindy Fu"
+          ],
           "notes": ""
         }
       ]
@@ -26274,17 +26792,19 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yi Liu"
+          ],
           "notes": ""
         },
         {
@@ -26350,21 +26870,21 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "W",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "F",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             }
           ],
           "instructors": [],
@@ -26409,21 +26929,21 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             }
           ],
           "instructors": [],
@@ -26461,7 +26981,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Skoufranis"
+          ],
           "notes": ""
         }
       ]
@@ -26503,7 +27025,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael C Haslam"
+          ],
           "notes": ""
         },
         {
@@ -26517,21 +27041,21 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             }
           ],
           "instructors": [],
@@ -26621,24 +27145,26 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Miles Couchman"
+          ],
           "notes": ""
         },
         {
@@ -26669,7 +27195,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexey Kuznetsov"
+          ],
           "notes": ""
         }
       ]
@@ -26704,7 +27232,9 @@
               "room": "CLH E"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Gibson"
+          ],
           "notes": ""
         },
         {
@@ -26728,7 +27258,9 @@
               "room": "ACW 006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jihyeon Jessie Yang"
+          ],
           "notes": ""
         }
       ]
@@ -26770,24 +27302,26 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Esaias Joh Janse van Rensburg"
+          ],
           "notes": ""
         },
         {
@@ -26801,24 +27335,26 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jorg Grigull"
+          ],
           "notes": ""
         },
         {
@@ -26877,7 +27413,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jorg Grigull"
+          ],
           "notes": ""
         },
         {
@@ -26929,7 +27467,9 @@
               "room": "R S110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carly Rozins"
+          ],
           "notes": ""
         }
       ]
@@ -26964,7 +27504,9 @@
               "room": "ACW 004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jairo Diaz-Rodriguez"
+          ],
           "notes": ""
         }
       ]
@@ -27006,7 +27548,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Augustine Chi Mou Wong"
+          ],
           "notes": ""
         },
         {
@@ -27030,7 +27574,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wei Liu"
+          ],
           "notes": ""
         }
       ]
@@ -27055,24 +27601,26 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             },
             {
               "day": "F",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jianhong Wu"
+          ],
           "notes": ""
         }
       ]
@@ -27097,24 +27645,26 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0001"
             },
             {
               "day": "W",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0001"
             },
             {
               "day": "F",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael C Haslam"
+          ],
           "notes": ""
         },
         {
@@ -27277,7 +27827,9 @@
               "room": "MK 4040"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hyejin Ku"
+          ],
           "notes": ""
         }
       ]
@@ -27319,7 +27871,9 @@
               "room": "SLH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dongchen Li"
+          ],
           "notes": ""
         },
         {
@@ -27336,7 +27890,9 @@
               "room": "MK 4040"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hyejin Ku"
+          ],
           "notes": ""
         }
       ]
@@ -27361,24 +27917,26 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 006"
             },
             {
               "day": "W",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 006"
             },
             {
               "day": "F",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuehua Wu"
+          ],
           "notes": ""
         },
         {
@@ -27392,21 +27950,21 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH J"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH J"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH J"
             }
           ],
           "instructors": [],
@@ -27434,17 +27992,19 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuehua Wu"
+          ],
           "notes": ""
         },
         {
@@ -27517,7 +28077,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kelly Ramsay"
+          ],
           "notes": ""
         },
         {
@@ -27562,7 +28124,7 @@
               "time": "17:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             }
           ],
           "instructors": [],
@@ -27579,14 +28141,14 @@
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 121"
             }
           ],
           "instructors": [],
@@ -27602,7 +28164,7 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R N120"
+              "room": "R S174"
             }
           ],
           "instructors": [],
@@ -27618,7 +28180,7 @@
               "time": "17:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 032"
             }
           ],
           "instructors": [],
@@ -27741,24 +28303,26 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH E"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kaiqiong Zhao"
+          ],
           "notes": ""
         },
         {
@@ -27820,24 +28384,26 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             },
             {
               "day": "F",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH G"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wei Liu"
+          ],
           "notes": ""
         },
         {
@@ -27910,17 +28476,19 @@
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 115"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Jan Szeptycki"
+          ],
           "notes": ""
         }
       ]
@@ -27962,7 +28530,9 @@
               "room": "HNE 032"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pavlos Motakis"
+          ],
           "notes": ""
         }
       ]
@@ -28004,7 +28574,9 @@
               "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yun Gao"
+          ],
           "notes": ""
         }
       ]
@@ -28029,7 +28601,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             }
           ],
           "instructors": [],
@@ -28057,24 +28629,26 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hongmei Zhu"
+          ],
           "notes": ""
         }
       ]
@@ -28109,7 +28683,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuejiao Cindy Fu"
+          ],
           "notes": ""
         }
       ]
@@ -28144,7 +28720,9 @@
               "room": "SLH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuehua Wu"
+          ],
           "notes": ""
         }
       ]
@@ -28214,7 +28792,9 @@
               "room": "ACE 002"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Chen"
+          ],
           "notes": ""
         }
       ]
@@ -28326,7 +28906,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nantel Bergeron"
+          ],
           "notes": ""
         }
       ]
@@ -28351,24 +28933,26 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH 110"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH 110"
             },
             {
               "day": "F",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Woldegebriel Assefa Woldegerima"
+          ],
           "notes": ""
         }
       ]
@@ -28393,24 +28977,26 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Edward Furman"
+          ],
           "notes": ""
         },
         {
@@ -28468,7 +29054,9 @@
               "room": "ACW 204"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Edward Furman"
+          ],
           "notes": ""
         },
         {
@@ -28554,7 +29142,9 @@
               "room": "CLH K"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kelly Ramsay"
+          ],
           "notes": ""
         },
         {
@@ -28605,7 +29195,9 @@
               "room": "CLH E"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Xin Gao"
+          ],
           "notes": ""
         }
       ]
@@ -28640,7 +29232,9 @@
               "room": "HNE 030"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Esaias Joh Janse van Rensburg"
+          ],
           "notes": ""
         }
       ]
@@ -28675,7 +29269,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tianyu Guan"
+          ],
           "notes": ""
         }
       ]
@@ -28704,7 +29300,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28732,7 +29328,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28760,7 +29356,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28788,7 +29384,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28816,7 +29412,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28844,7 +29440,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28872,7 +29468,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -28900,7 +29496,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -29018,7 +29614,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pavlos Motakis"
+          ],
           "notes": ""
         }
       ]
@@ -29053,7 +29651,9 @@
               "room": "VH 2000"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mohamed Omar"
+          ],
           "notes": ""
         }
       ]
@@ -29078,17 +29678,19 @@
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 104"
             },
             {
               "day": "R",
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yi Liu"
+          ],
           "notes": ""
         }
       ]
@@ -29113,17 +29715,19 @@
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0009"
             },
             {
               "day": "R",
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0009"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Spiros D Pagiatakis"
+          ],
           "notes": ""
         },
         {
@@ -29180,17 +29784,19 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 036"
             },
             {
               "day": "W",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 036"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Jan Szeptycki"
+          ],
           "notes": ""
         }
       ]
@@ -29232,7 +29838,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jane M Heffernan"
+          ],
           "notes": ""
         }
       ]
@@ -29260,7 +29868,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carly Rozins"
+          ],
           "notes": ""
         }
       ]
@@ -29285,14 +29895,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 120"
             },
             {
               "day": "W",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 120"
             }
           ],
           "instructors": [],
@@ -29320,17 +29930,19 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 033"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 033"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dong Liang"
+          ],
           "notes": ""
         }
       ]
@@ -29372,7 +29984,9 @@
               "room": "SC 216"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexey Kuznetsov"
+          ],
           "notes": ""
         }
       ]
@@ -29407,7 +30021,9 @@
               "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Esaias Joh Janse van Rensburg"
+          ],
           "notes": ""
         }
       ]
@@ -29442,7 +30058,9 @@
               "room": "CB 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mike Zabrocki"
+          ],
           "notes": ""
         }
       ]
@@ -29477,7 +30095,9 @@
               "room": "CB 120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Huaiping Zhu"
+          ],
           "notes": ""
         }
       ]
@@ -29519,7 +30139,9 @@
               "room": "HNE 030"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jingyi Cao"
+          ],
           "notes": ""
         },
         {
@@ -29570,7 +30192,9 @@
               "room": "R S174"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jingyi Cao"
+          ],
           "notes": ""
         },
         {
@@ -29625,10 +30249,12 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dongchen Li"
+          ],
           "notes": ""
         }
       ]
@@ -29779,7 +30405,7 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R N120"
+              "room": "DB 1016"
             },
             {
               "day": "W",
@@ -29796,7 +30422,9 @@
               "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kaiqiong Zhao"
+          ],
           "notes": ""
         }
       ]
@@ -29821,17 +30449,19 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R N203"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R N203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kaiqiong Zhao"
+          ],
           "notes": ""
         }
       ]
@@ -29859,7 +30489,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Gibson"
+          ],
           "notes": ""
         }
       ]
@@ -29884,17 +30516,19 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "VH 1152A"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "VH 1152A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dongchen Li"
+          ],
           "notes": ""
         }
       ]
@@ -29929,7 +30563,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Augustine Chi Mou Wong"
+          ],
           "notes": ""
         }
       ]
@@ -29964,7 +30600,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ryan Orszulik"
+          ],
           "notes": ""
         },
         {
@@ -30015,7 +30653,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Divya Sharma"
+          ],
           "notes": ""
         }
       ]
@@ -30050,7 +30690,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hanna Jankowski"
+          ],
           "notes": ""
         }
       ]
@@ -30092,7 +30734,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Georges Monette"
+          ],
           "notes": ""
         }
       ]
@@ -30117,17 +30761,19 @@
               "time": "11:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 307"
             },
             {
               "day": "W",
               "time": "11:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 307"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Iain Moyles"
+          ],
           "notes": ""
         }
       ]
@@ -30152,10 +30798,12 @@
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Steven Wang"
+          ],
           "notes": ""
         }
       ]
@@ -30240,10 +30888,10 @@
           "schedule": [
             {
               "day": "T",
-              "time": "11:30",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH D"
             }
           ],
           "instructors": [],
@@ -30274,7 +30922,9 @@
               "room": "SLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Lumb"
+          ],
           "notes": ""
         }
       ]
@@ -30302,7 +30952,9 @@
               "room": "MK 2060"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Lumb"
+          ],
           "notes": ""
         }
       ]
@@ -30327,10 +30979,12 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -30365,7 +31019,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Pugliese"
+          ],
           "notes": ""
         }
       ]
@@ -30393,7 +31049,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Lumb"
+          ],
           "notes": ""
         }
       ]
@@ -30421,7 +31079,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carl Wolfe"
+          ],
           "notes": ""
         }
       ]
@@ -30449,7 +31109,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carl Wolfe"
+          ],
           "notes": ""
         }
       ]
@@ -30513,6 +31175,34 @@
     {
       "faculty": "SC",
       "department": "NATS",
+      "term": "W",
+      "courseTitle": "Extraterrestrial Life: A Modern Discussion to include Historical, Religious and Cultural Aspects",
+      "courseId": "1525",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J75M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "NATS",
       "term": "F",
       "courseTitle": "Science of Space Flight and Exploration",
       "courseId": "1530",
@@ -30523,23 +31213,8 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y99Q01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "16:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -30558,23 +31233,8 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "F46C01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "16:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -30610,7 +31270,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jeremy Webb"
+          ],
           "notes": ""
         }
       ]
@@ -30628,16 +31290,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N15H01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "16:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -30666,7 +31320,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daniela Monaldi"
+          ],
           "notes": ""
         }
       ]
@@ -30694,7 +31350,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -30722,7 +31380,9 @@
               "room": "ACE 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -30757,7 +31417,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Rogerson"
+          ],
           "notes": ""
         }
       ]
@@ -30785,7 +31447,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary-Helen Armour"
+          ],
           "notes": ""
         }
       ]
@@ -30813,7 +31477,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary-Helen Armour"
+          ],
           "notes": ""
         }
       ]
@@ -30848,7 +31514,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jeremy Webb"
+          ],
           "notes": ""
         }
       ]
@@ -30883,7 +31551,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Raji Iyer"
+          ],
           "notes": ""
         }
       ]
@@ -30918,7 +31588,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Conor Douglas"
+          ],
           "notes": ""
         }
       ]
@@ -30943,14 +31615,14 @@
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LSB 103"
             }
           ],
           "instructors": [],
@@ -30974,21 +31646,23 @@
           "catalogNumber": "B47P01",
           "schedule": [
             {
-              "day": "T",
-              "time": "13:00",
+              "day": "M",
+              "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "VH B"
+              "room": "VH C"
             },
             {
-              "day": "R",
-              "time": "13:00",
+              "day": "W",
+              "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "VH B"
+              "room": "VH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rahul Kannan"
+          ],
           "notes": ""
         }
       ]
@@ -31016,7 +31690,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Adam Muzzin"
+          ],
           "notes": ""
         }
       ]
@@ -31051,6 +31727,43 @@
               "room": "LAS B"
             }
           ],
+          "instructors": [
+            "Carly Rozins"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "NATS",
+      "term": "W",
+      "courseTitle": "The Mathematics of Politics",
+      "courseId": "1590",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z02R01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "VH C"
+            },
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "VH C"
+            }
+          ],
           "instructors": [],
           "notes": ""
         }
@@ -31079,7 +31792,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carly Rozins"
+          ],
           "notes": ""
         }
       ]
@@ -31107,7 +31822,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Barbara B. Czaban"
+          ],
           "notes": ""
         },
         {
@@ -31405,7 +32122,9 @@
               "room": "CLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Clark"
+          ],
           "notes": ""
         }
       ]
@@ -31433,7 +32152,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicolette S Richardson"
+          ],
           "notes": ""
         },
         {
@@ -31707,21 +32428,62 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "N44W01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "NATS",
+      "term": "F",
+      "courseTitle": "Humans and Hormones: The Biology and Sociological Impact of the Endocrine System",
+      "courseId": "1662",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J60G01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "LAS C"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "NATS",
+      "term": "W",
+      "courseTitle": "Humans and Hormones: The Biology and Sociological Impact of the Endocrine System",
+      "courseId": "1662",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D07P01",
           "schedule": [
             {
               "day": "M",
-              "time": "8:00",
-              "duration": "80",
+              "time": "11:30",
+              "duration": "170",
               "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "8:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -31759,7 +32521,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -31787,7 +32551,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Barbara B. Czaban"
+          ],
           "notes": ""
         }
       ]
@@ -31812,10 +32578,12 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jill Lazenby"
+          ],
           "notes": ""
         },
         {
@@ -31832,7 +32600,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Barbara B. Czaban"
+          ],
           "notes": ""
         }
       ]
@@ -31857,10 +32627,12 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH C"
+              "room": "R S137"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -31895,7 +32667,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Marushia"
+          ],
           "notes": ""
         },
         {
@@ -32111,7 +32885,9 @@
               "room": "MK 2055"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Kingsburgh"
+          ],
           "notes": ""
         }
       ]
@@ -32136,17 +32912,19 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Deborah Harris"
+          ],
           "notes": ""
         }
       ]
@@ -32209,7 +32987,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Rogerson"
+          ],
           "notes": ""
         },
         {
@@ -32226,7 +33006,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tatiana Ouvarova"
+          ],
           "notes": ""
         }
       ]
@@ -32254,7 +33036,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alireza Rafiee"
+          ],
           "notes": ""
         }
       ]
@@ -32289,7 +33073,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Rogerson"
+          ],
           "notes": ""
         }
       ]
@@ -32317,7 +33103,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary-Helen Armour"
+          ],
           "notes": ""
         }
       ]
@@ -32352,7 +33140,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Pugliese"
+          ],
           "notes": ""
         }
       ]
@@ -32380,7 +33170,9 @@
               "room": "SLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -32408,7 +33200,9 @@
               "room": "MK 2055"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -32436,7 +33230,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Lumb"
+          ],
           "notes": ""
         }
       ]
@@ -32464,7 +33260,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Kingsburgh"
+          ],
           "notes": ""
         }
       ]
@@ -32524,17 +33322,19 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             },
             {
               "day": "F",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephanie Pugliese"
+          ],
           "notes": ""
         },
         {
@@ -32674,7 +33474,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carl Wolfe"
+          ],
           "notes": ""
         }
       ]
@@ -32699,10 +33501,12 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "VH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jill Lazenby"
+          ],
           "notes": ""
         }
       ]
@@ -32727,7 +33531,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "LAS C"
             },
             {
               "day": "",
@@ -32737,7 +33541,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Kingsburgh"
+          ],
           "notes": ""
         }
       ]
@@ -32772,7 +33578,9 @@
               "room": "SLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Kingsburgh"
+          ],
           "notes": ""
         },
         {
@@ -32789,7 +33597,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tatiana Ouvarova"
+          ],
           "notes": ""
         }
       ]
@@ -32812,7 +33622,7 @@
             {
               "day": "M",
               "time": "17:30",
-              "duration": "170",
+              "duration": "80",
               "campus": "Keele",
               "room": "CLH I"
             },
@@ -32824,7 +33634,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jeremy Webb"
+          ],
           "notes": ""
         },
         {
@@ -32841,7 +33653,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jeremy Webb"
+          ],
           "notes": ""
         }
       ]
@@ -32869,7 +33683,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carly Rozins"
+          ],
           "notes": ""
         }
       ]
@@ -32904,7 +33720,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Marushia"
+          ],
           "notes": ""
         }
       ]
@@ -32929,7 +33747,7 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH B"
             },
             {
               "day": "",
@@ -32939,7 +33757,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alireza Rafiee"
+          ],
           "notes": ""
         }
       ]
@@ -32967,7 +33787,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Steven Connor"
+          ],
           "notes": ""
         }
       ]
@@ -33059,17 +33881,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "8:00",
-              "duration": "80",
+              "time": "8:30",
+              "duration": "170",
               "campus": "Keele",
-              "room": "ACW 004"
-            },
-            {
-              "day": "W",
-              "time": "8:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": "ACW 004"
+              "room": "SLH A"
             }
           ],
           "instructors": [],
@@ -33097,7 +33912,7 @@
               "time": "10:00",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R S174"
             }
           ],
           "instructors": [],
@@ -33122,20 +33937,22 @@
           "schedule": [
             {
               "day": "M",
-              "time": "10:00",
+              "time": "10:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 163"
             },
             {
-              "day": "W",
-              "time": "10:00",
-              "duration": "80",
+              "day": "F",
+              "time": "10:30",
+              "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 163"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Denise Henriques"
+          ],
           "notes": ""
         }
       ]
@@ -33177,7 +33994,9 @@
               "room": "CLH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -33193,7 +34012,9 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -33305,7 +34126,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         }
       ]
@@ -33347,7 +34170,9 @@
               "room": "ACW 004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -33363,7 +34188,9 @@
               "room": "VH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -33443,7 +34270,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         }
       ]
@@ -33478,7 +34307,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rahul Kannan"
+          ],
           "notes": ""
         },
         {
@@ -33494,7 +34325,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rahul Kannan"
+          ],
           "notes": ""
         }
       ]
@@ -33529,7 +34362,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elaina Hyde"
+          ],
           "notes": ""
         },
         {
@@ -33545,7 +34380,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elaina Hyde"
+          ],
           "notes": ""
         },
         {
@@ -33817,7 +34654,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elaina Hyde"
+          ],
           "notes": ""
         }
       ]
@@ -33852,7 +34691,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Scholz"
+          ],
           "notes": ""
         },
         {
@@ -33868,7 +34709,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Scholz"
+          ],
           "notes": ""
         },
         {
@@ -34108,7 +34951,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Scholz"
+          ],
           "notes": ""
         }
       ]
@@ -34150,7 +34995,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alireza Rafiee"
+          ],
           "notes": ""
         },
         {
@@ -34163,7 +35010,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -34423,7 +35270,9 @@
               "room": "MK 4095"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -34439,7 +35288,9 @@
               "room": "MK 4040"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -34487,7 +35338,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         }
       ]
@@ -34529,7 +35382,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cody H Storry"
+          ],
           "notes": ""
         },
         {
@@ -34545,7 +35400,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cody H Storry"
+          ],
           "notes": ""
         },
         {
@@ -34785,7 +35642,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cody H Storry"
+          ],
           "notes": ""
         },
         {
@@ -34802,7 +35661,9 @@
               "room": "MK 4050"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -34818,7 +35679,9 @@
               "room": "MK 4100"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -34866,7 +35729,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         }
       ]
@@ -34901,7 +35766,9 @@
               "room": "VH 1152A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Scholz"
+          ],
           "notes": ""
         },
         {
@@ -34917,7 +35784,9 @@
               "room": "CLH M"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Scholz"
+          ],
           "notes": ""
         }
       ]
@@ -35003,7 +35872,9 @@
               "room": "LSB 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ozzy Mermut"
+          ],
           "notes": ""
         },
         {
@@ -35019,7 +35890,9 @@
               "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ozzy Mermut"
+          ],
           "notes": ""
         }
       ]
@@ -35061,7 +35934,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Charles-Edouard Boukare"
+          ],
           "notes": ""
         },
         {
@@ -35077,7 +35952,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Charles-Edouard Boukare"
+          ],
           "notes": ""
         },
         {
@@ -35253,7 +36130,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Charles-Edouard Boukare"
+          ],
           "notes": ""
         },
         {
@@ -35284,7 +36163,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pour Banafsheh Hashemi"
+          ],
           "notes": ""
         },
         {
@@ -35507,7 +36388,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -35523,7 +36406,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -35799,7 +36684,9 @@
               "room": "VH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pour Banafsheh Hashemi"
+          ],
           "notes": ""
         },
         {
@@ -36022,7 +36909,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pour Banafsheh Hashemi"
+          ],
           "notes": ""
         },
         {
@@ -36245,7 +37134,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -36261,7 +37152,9 @@
               "room": "MK 4070"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         },
         {
@@ -36373,7 +37266,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gloria Orchard"
+          ],
           "notes": ""
         }
       ]
@@ -36415,7 +37310,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Bergevin"
+          ],
           "notes": ""
         },
         {
@@ -36431,7 +37328,9 @@
               "room": "LSB 105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Bergevin"
+          ],
           "notes": ""
         }
       ]
@@ -36466,7 +37365,9 @@
               "room": "SLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -36482,7 +37383,9 @@
               "room": "VH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         }
       ]
@@ -36517,7 +37420,9 @@
               "room": "CLH L"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Tulin"
+          ],
           "notes": ""
         },
         {
@@ -36533,7 +37438,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Tulin"
+          ],
           "notes": ""
         }
       ]
@@ -36561,7 +37468,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Tulin"
+          ],
           "notes": ""
         }
       ]
@@ -36603,7 +37512,9 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eric Hessels"
+          ],
           "notes": ""
         },
         {
@@ -36619,7 +37530,9 @@
               "room": "LSB 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eric Hessels"
+          ],
           "notes": ""
         }
       ]
@@ -36654,7 +37567,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wendy J Taylor"
+          ],
           "notes": ""
         },
         {
@@ -36670,7 +37585,9 @@
               "room": "R N203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wendy J Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -36695,17 +37612,19 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 034"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 034"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alireza Rafiee"
+          ],
           "notes": ""
         }
       ]
@@ -36733,7 +37652,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cody H Storry"
+          ],
           "notes": ""
         },
         {
@@ -36953,7 +37874,9 @@
               "room": "CC 108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Howard"
+          ],
           "notes": ""
         },
         {
@@ -37026,17 +37949,19 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William A. van Wijngaarden"
+          ],
           "notes": ""
         }
       ]
@@ -37078,7 +38003,9 @@
               "room": "HNE 031"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wendy J Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -37120,7 +38047,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William A. van Wijngaarden"
+          ],
           "notes": ""
         }
       ]
@@ -37145,24 +38074,26 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Randy Lewis"
+          ],
           "notes": ""
         },
         {
@@ -37178,7 +38109,9 @@
               "room": "HNE B15"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Randy Lewis"
+          ],
           "notes": ""
         }
       ]
@@ -37213,7 +38146,9 @@
               "room": "CB 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Charles-Edouard Boukare"
+          ],
           "notes": ""
         }
       ]
@@ -37248,7 +38183,9 @@
               "room": "BRG 213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James A Whiteway"
+          ],
           "notes": ""
         }
       ]
@@ -37273,24 +38210,26 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nikita Blinov"
+          ],
           "notes": ""
         }
       ]
@@ -37332,7 +38271,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elaina Hyde"
+          ],
           "notes": ""
         }
       ]
@@ -37360,7 +38301,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bruce Howard"
+          ],
           "notes": ""
         },
         {
@@ -37450,7 +38393,9 @@
               "room": "CC 208"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Scholz"
+          ],
           "notes": ""
         }
       ]
@@ -37485,7 +38430,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Daly"
+          ],
           "notes": ""
         }
       ]
@@ -37571,7 +38518,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patrick B Hall",
+            "Sean Tulin"
+          ],
           "notes": ""
         }
       ]
@@ -37600,7 +38550,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -37628,7 +38578,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -37669,7 +38619,9 @@
               "room": "LUM 306"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Kirchner"
+          ],
           "notes": ""
         }
       ]
@@ -37753,7 +38705,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "William A. van Wijngaarden"
+          ],
           "notes": ""
         }
       ]
@@ -37795,7 +38749,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nikita Blinov"
+          ],
           "notes": ""
         }
       ]
@@ -37820,17 +38776,19 @@
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0009"
             },
             {
               "day": "R",
               "time": "8:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0009"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Spiros D Pagiatakis"
+          ],
           "notes": ""
         },
         {
@@ -37890,7 +38848,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C. George"
+          ],
           "notes": ""
         },
         {
@@ -37906,7 +38866,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C. George"
+          ],
           "notes": ""
         },
         {
@@ -37982,7 +38944,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C. George"
+          ],
           "notes": ""
         },
         {
@@ -37998,7 +38962,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C. George"
+          ],
           "notes": ""
         },
         {
@@ -38056,7 +39022,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Bazzocchi"
+          ],
           "notes": ""
         }
       ]
@@ -38081,14 +39049,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 120"
             },
             {
               "day": "W",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 120"
             }
           ],
           "instructors": [],
@@ -38126,7 +39094,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rahul Kannan"
+          ],
           "notes": ""
         }
       ]
@@ -38144,16 +39114,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "M48M01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -38274,7 +39236,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$525.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -38282,7 +39244,7 @@
           "catalogNumber": "F85T02 (LE ESSE) B71D02 (SC PHYS)",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "10:00",
               "duration": "170",
               "campus": "Keele",
@@ -38613,7 +39575,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -38641,7 +39605,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -38722,18 +39688,20 @@
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             },
             {
               "day": "W",
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S205"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Daniel J McArthur"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -38760,7 +39728,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daniela Monaldi"
+          ],
           "notes": ""
         }
       ]
@@ -38788,7 +39758,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daniela Monaldi"
+          ],
           "notes": ""
         }
       ]
@@ -38816,7 +39788,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daniela Monaldi"
+          ],
           "notes": ""
         }
       ]
@@ -38844,7 +39818,9 @@
               "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Elwick"
+          ],
           "notes": ""
         }
       ]
@@ -38872,7 +39848,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kean D. Birch"
+          ],
           "notes": ""
         }
       ]
@@ -38900,7 +39878,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kean D. Birch"
+          ],
           "notes": ""
         }
       ]
@@ -38928,7 +39908,9 @@
               "room": "HNE 037"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roberta Buiani"
+          ],
           "notes": ""
         }
       ]
@@ -38956,7 +39938,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Conor Douglas"
+          ],
           "notes": ""
         }
       ]
@@ -38984,7 +39968,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -39012,7 +39998,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -39037,10 +40025,12 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 032"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -39068,7 +40058,9 @@
               "room": "BC 215"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -39096,7 +40088,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Elwick"
+          ],
           "notes": ""
         }
       ]
@@ -39124,7 +40118,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jill Lazenby"
+          ],
           "notes": ""
         }
       ]
@@ -39152,7 +40148,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jill Lazenby"
+          ],
           "notes": ""
         }
       ]
@@ -39217,7 +40215,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daniela Monaldi"
+          ],
           "notes": ""
         }
       ]
@@ -39245,7 +40245,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Conor Douglas"
+          ],
           "notes": ""
         }
       ]
@@ -39273,7 +40275,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Conor Douglas"
+          ],
           "notes": ""
         }
       ]
@@ -39298,10 +40302,12 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Helene Mialet"
+          ],
           "notes": ""
         }
       ]
@@ -39326,7 +40332,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 006"
             }
           ],
           "instructors": [],
@@ -39357,7 +40363,9 @@
               "room": "VC 107"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daniela Monaldi"
+          ],
           "notes": ""
         }
       ]
