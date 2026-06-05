@@ -1599,7 +1599,39 @@
               "room": "BC 214"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Benard Isojeh"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
+      "term": "SU",
+      "courseTitle": "Structural Fire Resilience",
+      "courseId": "6491",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T95Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "John A. Gales"
+          ],
           "notes": ""
         }
       ]
@@ -1617,7 +1649,27 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Z43T01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "In BRG 345-1 (Department Meeting Room)"
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
+      "term": "S2",
+      "courseTitle": "Directed Reading in Transportation Engineering",
+      "courseId": "6500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K85H01",
           "schedule": [
             {
               "day": "W",
@@ -1628,7 +1680,7 @@
             }
           ],
           "instructors": [],
-          "notes": "In BRG 345-1 (Department Meeting Room)"
+          "notes": ""
         }
       ]
     },
@@ -1645,19 +1697,9 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "J48J01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "12:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "BRG 213"
-            }
-          ],
-          "instructors": [
-            "Shooka Karimpour"
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -1675,16 +1717,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "X19U01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "In BRG 345-1 (Department Meeting Room)"
         }
@@ -1850,14 +1884,14 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S156"
+              "room": "VH 3005"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S156"
+              "room": "VH 3005"
             }
           ],
           "instructors": [
@@ -1872,15 +1906,15 @@
           "catalogNumber": "Y50V01",
           "schedule": [
             {
-              "day": "M",
-              "time": "13:00",
+              "day": "T",
+              "time": "12:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
             },
             {
-              "day": "W",
-              "time": "13:00",
+              "day": "R",
+              "time": "12:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
@@ -1907,14 +1941,14 @@
           "catalogNumber": "H96K01",
           "schedule": [
             {
-              "day": "T",
+              "day": "M",
               "time": "10:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
             },
             {
-              "day": "R",
+              "day": "W",
               "time": "10:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
@@ -1922,7 +1956,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course utilizes a hybrid \"sandwich\" format to accommodate dyeing and foraging work. Online Start: The course begins June 22 with online preparation, asynchronous lessons, Zoom sessions, and readings. Mandatory In-Person Intensive: Dates: July 20  July 30, 2026; Schedule: MonFri, 1:00 PM  4:00 PM; Activities: This two-week block consists of hands-on classroom activities and field trips; Wrap-up: Following the intensive, students will complete final projects remotely by the end of the term (August 18)."
         }
       ]
     },
@@ -1939,23 +1973,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "V44P01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Toronto Metropolitan Univ",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Toronto Metropolitan Univ",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -2034,14 +2053,14 @@
           "schedule": [
             {
               "day": "T",
-              "time": "9:00",
+              "time": "15:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
             },
             {
               "day": "R",
-              "time": "9:00",
+              "time": "15:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
@@ -2095,14 +2114,14 @@
           "schedule": [
             {
               "day": "M",
-              "time": "13:00",
+              "time": "9:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
             },
             {
               "day": "W",
-              "time": "13:00",
+              "time": "9:00",
               "duration": "170",
               "campus": "Toronto Metropolitan Univ",
               "room": ""
@@ -2155,6 +2174,34 @@
           "meetNumber": "01",
           "section": "A",
           "catalogNumber": "V08Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CNLW",
+      "term": "SU",
+      "courseTitle": "Selected Topics in Construction Law",
+      "courseId": "6701",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V96V01",
           "schedule": [
             {
               "day": "",
@@ -2254,10 +2301,12 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S128"
+              "room": "DB 0015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard Pereira"
+          ],
           "notes": ""
         }
       ]
@@ -2366,14 +2415,14 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 050C"
             },
             {
               "day": "W",
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 050C"
             }
           ],
           "instructors": [
@@ -2423,14 +2472,14 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 157AB"
             },
             {
               "day": "W",
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 157AB"
             }
           ],
           "instructors": [
@@ -2510,14 +2559,14 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "WC 030"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "WC 030"
             }
           ],
           "instructors": [
@@ -2582,14 +2631,14 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "YL 234"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "YL 234"
             }
           ],
           "instructors": [
@@ -2619,14 +2668,14 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 3069"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 3069"
             }
           ],
           "instructors": [
@@ -2656,14 +2705,14 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "YL 234"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "YL 234"
             }
           ],
           "instructors": [
@@ -2689,14 +2738,74 @@
           "catalogNumber": "W49Y01",
           "schedule": [
             {
-              "day": "T",
-              "time": "17:30",
-              "duration": "170",
+              "day": "M",
+              "time": "11:30",
+              "duration": "230",
               "campus": "Keele",
-              "room": ""
+              "room": "YL 234"
+            },
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "230",
+              "campus": "Keele",
+              "room": "YL 234"
             },
             {
               "day": "W",
+              "time": "11:30",
+              "duration": "230",
+              "campus": "Keele",
+              "room": "YL 234"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "230",
+              "campus": "Keele",
+              "room": "YL 234"
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "230",
+              "campus": "Keele",
+              "room": "YL 234"
+            }
+          ],
+          "instructors": [
+            "Claudia Ingrisch-Rupp"
+          ],
+          "notes": "The course is being offered by a visiting professor from PH Freiburg in Germany. Class meets 9 times on July 14, 15, 16, 17, 22, 23, 24, 27, 28Â at 11:30 a.m. - 3:30 p.m."
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "EDUC",
+      "term": "C1",
+      "courseTitle": "Disability in Society",
+      "courseId": "5720",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "B84R01",
+          "schedule": [
+            {
+              "day": "T",
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
@@ -2711,9 +2820,9 @@
             }
           ],
           "instructors": [
-            "Claudia Ingrisch-Rupp"
+            "Gillian Parekh"
           ],
-          "notes": "The course is being offered by a visiting professor from PH Freiburg in Germany. Class meets 9 times on July 14, 15, 16, 17, 22, 23, 24, 27, 28Â at 11:30 a.m. - 3:30 p.m."
+          "notes": ""
         }
       ]
     },
@@ -2730,23 +2839,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "X85W01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "17:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "17:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -2891,14 +2985,14 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 050B"
             },
             {
               "day": "W",
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 050B"
             }
           ],
           "instructors": [
@@ -2966,7 +3060,9 @@
               "room": "HNE B15"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Manos Papagelis"
+          ],
           "notes": ""
         }
       ]
@@ -3456,31 +3552,33 @@
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": "HNE 140"
+              "room": "HNE 141"
             },
             {
               "day": "T",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             },
             {
               "day": "W",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             },
             {
               "day": "R",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dayna N Scott"
+          ],
           "notes": ""
         }
       ]
@@ -3791,7 +3889,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Management program. From June 1 to June 12 (with Capstone Day on June 19), students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ ."
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Management program. From June 1 to June 12 (with Capstone Day on June 19), students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00 - Course Materials"
         },
         {
           "type": "FDEX",
@@ -4491,16 +4589,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "K97W01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R S103"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4519,16 +4609,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "H85Y01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "16:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R S201"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4547,16 +4629,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "S66E01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4613,7 +4687,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rodolfo Rivas Molina"
+          ],
           "notes": "This course will run over 3 days from 9 a.m.-5 p.m. online. Course dates are May 22, 23 and 24."
         }
       ]
@@ -4631,16 +4707,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y26Z01",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4659,16 +4727,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "M13N01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "16:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R S507"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4697,8 +4757,11 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "This course has some in - person lectures (blended course). Course dates are as follows: Mon., May 4 - ONLINE 9 a.m.-NOON Mon. & Tues. May 11 & 12 - IN-PERSON lecture from 9 a.m.-4 p.m. (classroom tbd) Mon., May 25 - ONLINE 9:00AM-NOON Mon. & Tues., June 1 & 2 - IN-PERSON lecture from 9 a.m.-4 p.m. (classroom tbd) Mon., June 22 - ONLINE 9 a.m.-NOON Mon., July 13 - ONLINE 9 a.m.-NOON"
+          "instructors": [
+            "Patrice Gélinas",
+            "Bruno Fortin"
+          ],
+          "notes": "This course has some in-person lectures (blended course). Course dates are as follows: | Mon., May 4 - ONLINE 9 a.m.-NOON | Mon. & Tues. May 11 & 12 - IN-PERSON lecture from 9 a.m.-4 p.m. (classroom VH 1020) | Mon., May 25 - ONLINE 9:00AM-NOON | Mon. & Tues., June 1 & 2 - IN-PERSON lecture from 9 a.m.-4 p.m. (classroom VH 1020) | Mon., June 22 - ONLINE 9 a.m.-NOON | Mon., July 13 - ONLINE 9 a.m.-NOON"
         }
       ]
     },
@@ -4718,14 +4781,16 @@
           "catalogNumber": "E28J01",
           "schedule": [
             {
-              "day": "M",
-              "time": "19:00",
+              "day": "F",
+              "time": "13:00",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richard W.J. Leblanc"
+          ],
           "notes": ""
         }
       ]
@@ -4753,7 +4818,11 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tony Stanco",
+            "Roberto Umana",
+            "Taslima Nasreen"
+          ],
           "notes": ""
         }
       ]
@@ -4771,16 +4840,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "J01C01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "DB 1016"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4799,16 +4860,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "T68F01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -5209,31 +5262,33 @@
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": "HNE 140"
+              "room": "HNE 141"
             },
             {
               "day": "T",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             },
             {
               "day": "W",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             },
             {
               "day": "R",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dayna N Scott"
+          ],
           "notes": ""
         }
       ]
@@ -5777,7 +5832,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Parbudyal Singh"
+          ],
           "notes": ""
         }
       ]
@@ -5805,7 +5862,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Len Karakowsky"
+          ],
           "notes": ""
         }
       ]
@@ -5833,7 +5892,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jelena Zikic"
+          ],
           "notes": ""
         }
       ]
@@ -5861,7 +5922,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David J Doorey"
+          ],
           "notes": ""
         }
       ]
@@ -5962,7 +6025,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sanjukta Banerjee"
+          ],
           "notes": ""
         }
       ]
@@ -6402,6 +6467,34 @@
     },
     {
       "faculty": "GS",
+      "department": "LAW",
+      "term": "SU",
+      "courseTitle": "Directed Reading",
+      "courseId": "6040",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J95D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
       "department": "LAWB",
       "term": "S3",
       "courseTitle": "Advanced Corporate Law",
@@ -6586,6 +6679,34 @@
             {
               "day": "",
               "time": "0:00",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "LAWL",
+      "term": "SU",
+      "courseTitle": "Industrial Design Law",
+      "courseId": "6760",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P43H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
               "duration": "0",
               "campus": "Off Campus",
               "room": ""
@@ -6816,14 +6937,14 @@
               "time": "13:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S127"
+              "room": "DB 0013"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S127"
+              "room": "DB 0013"
             }
           ],
           "instructors": [
@@ -7084,6 +7205,25 @@
             {
               "day": "",
               "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Judith Ann MacDonnell"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "E35H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -8007,19 +8147,9 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "W08E01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "10:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "DB 1004"
-            }
-          ],
-          "instructors": [
-            "Romi-Lee Sevel"
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -8031,6 +8161,25 @@
             {
               "day": "W",
               "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "DB 0007"
+            }
+          ],
+          "instructors": [
+            "Romi-Lee Sevel"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "W68Z01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
               "room": "DB 0007"
@@ -8060,13 +8209,15 @@
           "schedule": [
             {
               "day": "T",
-              "time": "18:30",
+              "time": "15:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0005"
+              "room": "DB 0006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bartosz Amerski"
+          ],
           "notes": ""
         },
         {
@@ -8080,11 +8231,13 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0005"
             }
           ],
-          "instructors": [],
-          "notes": "(Backup)"
+          "instructors": [
+            "Bartosz Amerski"
+          ],
+          "notes": ""
         }
       ]
     },
@@ -8105,7 +8258,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "14:00",
+              "time": "15:30",
               "duration": "170",
               "campus": "Keele",
               "room": "DB 1004"
@@ -8157,10 +8310,31 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 1004"
+              "room": "R S117D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Ferraro"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "N90Y01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S117D"
+            }
+          ],
+          "instructors": [
+            "Maria Ferraro"
+          ],
           "notes": ""
         }
       ]
@@ -8185,10 +8359,12 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0001"
+              "room": "R S117D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Irene Plavcic"
+          ],
           "notes": ""
         },
         {
@@ -8198,15 +8374,17 @@
           "catalogNumber": "W37T01",
           "schedule": [
             {
-              "day": "F",
-              "time": "9:00",
+              "day": "R",
+              "time": "10:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S117D"
             }
           ],
-          "instructors": [],
-          "notes": "(Backup)"
+          "instructors": [
+            "Sandra Iacobelli"
+          ],
+          "notes": ""
         }
       ]
     },
@@ -8686,31 +8864,33 @@
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": "HNE 140"
+              "room": "HNE 141"
             },
             {
               "day": "T",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             },
             {
               "day": "W",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             },
             {
               "day": "R",
               "time": "9:00",
               "duration": "350",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dayna N Scott"
+          ],
           "notes": ""
         }
       ]
@@ -8860,7 +9040,9 @@
               "room": "MK 5050"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joseph Silva"
+          ],
           "notes": ""
         }
       ]
@@ -8888,7 +9070,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nisha Haji"
+          ],
           "notes": ""
         },
         {
@@ -8905,7 +9089,9 @@
               "room": "DB 0004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Angelo Brienza"
+          ],
           "notes": ""
         },
         {
@@ -8922,7 +9108,9 @@
               "room": "MK 5050"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Kehinde"
+          ],
           "notes": ""
         }
       ]
@@ -9653,6 +9841,34 @@
     },
     {
       "faculty": "GS",
+      "department": "SLST",
+      "term": "SU",
+      "courseTitle": "Directed Reading",
+      "courseId": "5900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y63T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
       "department": "SOCI",
       "term": "S1",
       "courseTitle": "Interviewing Methods",
@@ -9664,26 +9880,9 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y63K01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "11:30",
-              "duration": "180",
-              "campus": "Keele",
-              "room": "VH 3005"
-            },
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "180",
-              "campus": "Keele",
-              "room": "VH 3005"
-            }
-          ],
-          "instructors": [
-            "Johanne Jean-Pierre"
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -9792,7 +9991,9 @@
               "room": "VH 3017"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Lyttle"
+          ],
           "notes": ""
         }
       ]
@@ -9827,7 +10028,9 @@
               "room": "VH 1154"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Halimo Hashi"
+          ],
           "notes": ""
         }
       ]
@@ -9918,7 +10121,9 @@
               "room": "R N836"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Lyttle"
+          ],
           "notes": ""
         }
       ]
@@ -9943,17 +10148,19 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S801"
             },
             {
               "day": "W",
               "time": "18:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S801"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cristal Hines"
+          ],
           "notes": ""
         }
       ]
@@ -10270,7 +10477,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Elena Basile"
+          ],
           "notes": ""
         }
       ]
@@ -10298,7 +10507,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sanjukta Banerjee"
+          ],
           "notes": ""
         }
       ]

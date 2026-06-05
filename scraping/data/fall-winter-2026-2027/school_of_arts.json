@@ -23,7 +23,9 @@
               "room": "CLH F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Fisher"
+          ],
           "notes": ""
         },
         {
@@ -195,7 +197,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tammer El-Sheikh"
+          ],
           "notes": ""
         },
         {
@@ -272,7 +276,7 @@
               "time": "17:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 010"
             }
           ],
           "instructors": [],
@@ -351,7 +355,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tammer El-Sheikh"
+          ],
           "notes": ""
         },
         {
@@ -619,7 +625,9 @@
               "room": "CFA 312"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hong Kal"
+          ],
           "notes": ""
         },
         {
@@ -679,7 +687,9 @@
               "room": "CFA 312"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tammer El-Sheikh"
+          ],
           "notes": ""
         },
         {
@@ -859,7 +869,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hong Kal"
+          ],
           "notes": ""
         }
       ]
@@ -887,7 +899,9 @@
               "room": "CFA 130"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Leslie Korrick"
+          ],
           "notes": ""
         }
       ]
@@ -943,7 +957,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Fisher"
+          ],
           "notes": ""
         }
       ]
@@ -968,7 +984,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 008"
             }
           ],
           "instructors": [],
@@ -1027,7 +1043,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hong Kal"
+          ],
           "notes": ""
         }
       ]
@@ -1083,7 +1101,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anna Hudson"
+          ],
           "notes": ""
         }
       ]
@@ -1111,7 +1131,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tammer El-Sheikh"
+          ],
           "notes": ""
         }
       ]
@@ -1139,7 +1161,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hong Kal"
+          ],
           "notes": ""
         }
       ]
@@ -1167,7 +1191,9 @@
               "room": "CFA 330"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Blight"
+          ],
           "notes": ""
         }
       ]
@@ -1195,7 +1221,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anna Hudson"
+          ],
           "notes": ""
         }
       ]
@@ -1223,8 +1251,10 @@
               "room": "VC 106"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jennifer L. Bonnell"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -1267,7 +1297,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Caitlin Fisher"
+          ],
           "notes": ""
         },
         {
@@ -1519,7 +1551,9 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Moussa Djigo"
+          ],
           "notes": ""
         },
         {
@@ -1596,7 +1630,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -1613,7 +1647,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -1630,7 +1664,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -1647,7 +1681,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -1664,7 +1698,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -1681,7 +1715,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         }
       ]
     },
@@ -1705,11 +1739,13 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH 110"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Taien Ng-Chan"
+          ],
+          "notes": "$100.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -1800,7 +1836,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Fabio Basso Montanari"
+          ],
           "notes": ""
         },
         {
@@ -2048,7 +2086,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kate J Russell"
+          ],
           "notes": ""
         },
         {
@@ -2077,7 +2117,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 036"
             }
           ],
           "instructors": [],
@@ -2252,7 +2292,9 @@
               "room": "R N102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Zryd"
+          ],
           "notes": ""
         },
         {
@@ -2344,7 +2386,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         },
         {
@@ -2709,7 +2753,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         },
         {
           "type": "ONLN",
@@ -2816,7 +2860,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         },
         {
@@ -3053,7 +3099,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -3086,7 +3132,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -3119,7 +3165,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -3152,7 +3198,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$94.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -3185,7 +3231,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": "$94.00 - Course Materials | (Backup)"
         },
         {
           "type": "STDO",
@@ -3333,7 +3379,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$100.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -3350,7 +3396,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$100.00 - Course Materials"
         }
       ]
     },
@@ -3377,7 +3423,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ingrid Veninger"
+          ],
           "notes": ""
         },
         {
@@ -3439,7 +3487,9 @@
               "room": "CFT 108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alyson Richards"
+          ],
           "notes": ""
         }
       ]
@@ -3495,7 +3545,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kate J Russell"
+          ],
           "notes": ""
         },
         {
@@ -3508,7 +3560,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 102"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -3683,7 +3735,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daphne Idiz"
+          ],
           "notes": ""
         }
       ]
@@ -3727,7 +3781,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         },
         {
@@ -3899,7 +3955,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John McCullough"
+          ],
           "notes": ""
         }
       ]
@@ -4127,7 +4185,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Emilia White"
+          ],
           "notes": ""
         }
       ]
@@ -4155,8 +4215,10 @@
               "room": "CFT 110"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Tereza Barta"
+          ],
+          "notes": "$60.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4169,11 +4231,14 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Off Campus",
-              "room": ""
+              "room": "CIN CIN 1"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "John Greyson",
+            "Ingrid Veninger"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -4200,8 +4265,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Manfred Becker"
+          ],
+          "notes": "$60.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4218,7 +4285,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -4246,7 +4313,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4263,7 +4330,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -4290,8 +4357,10 @@
               "room": "CFA 024"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Patricio Davila"
+          ],
+          "notes": "$100.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4307,8 +4376,10 @@
               "room": "CFA 026"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
+          "notes": "$100.00 - Course Materials"
         }
       ]
     },
@@ -4335,7 +4406,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Greyson"
+          ],
           "notes": ""
         }
       ]
@@ -4363,7 +4436,9 @@
               "room": "CFA 026"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brenda Longfellow"
+          ],
           "notes": ""
         }
       ]
@@ -4391,7 +4466,9 @@
               "room": "CFT 239"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Fabio Basso Montanari"
+          ],
           "notes": ""
         },
         {
@@ -4429,14 +4506,16 @@
           "catalogNumber": "J82R01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "9:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alyson Richards"
+          ],
           "notes": ""
         }
       ]
@@ -4561,7 +4640,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$82.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4578,7 +4657,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$82.00 - Course Materials"
         }
       ]
     },
@@ -4606,7 +4685,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4623,7 +4702,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -4650,8 +4729,10 @@
               "room": "CFT 110"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Susan C Johnson"
+          ],
+          "notes": "$110.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -4667,8 +4748,10 @@
               "room": "CFT 110"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Susan C Johnson"
+          ],
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -4723,7 +4806,9 @@
               "room": "CFT 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tereza Barta"
+          ],
           "notes": ""
         }
       ]
@@ -4748,7 +4833,7 @@
               "time": "9:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 209"
             }
           ],
           "instructors": [],
@@ -4779,7 +4864,9 @@
               "room": "R N102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         },
         {
@@ -4871,7 +4958,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John McCullough"
+          ],
           "notes": ""
         }
       ]
@@ -4899,7 +4988,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John McCullough"
+          ],
           "notes": ""
         }
       ]
@@ -4927,7 +5018,9 @@
               "room": "CFT 108"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Janine Marchessault"
+          ],
           "notes": ""
         }
       ]
@@ -4955,7 +5048,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kate J Russell"
+          ],
           "notes": ""
         }
       ]
@@ -4999,7 +5094,9 @@
               "room": "R N102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brenda Longfellow"
+          ],
           "notes": ""
         },
         {
@@ -5075,7 +5172,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kate J Russell"
+          ],
           "notes": ""
         }
       ]
@@ -5101,6 +5200,36 @@
               "duration": "0",
               "campus": "Keele",
               "room": ""
+            }
+          ],
+          "instructors": [
+            "John McCullough"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "CMA",
+      "term": "F",
+      "courseTitle": "The Experimental Tradition",
+      "courseId": "3320",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B68F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R N102"
             }
           ],
           "instructors": [],
@@ -5147,7 +5276,9 @@
               "room": "CLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brenda Longfellow"
+          ],
           "notes": ""
         },
         {
@@ -5256,7 +5387,7 @@
               "time": "14:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S129"
             }
           ],
           "instructors": [],
@@ -5277,11 +5408,31 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "V79B01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "CMA",
+      "term": "W",
+      "courseTitle": "Comparative World Cinema I",
+      "courseId": "3611",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "S88D01",
           "schedule": [
             {
-              "day": "R",
-              "time": "14:30",
+              "day": "M",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -5312,7 +5463,7 @@
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "MC 214"
             },
             {
               "day": "",
@@ -5322,8 +5473,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Christina Kraenzle"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -5350,8 +5503,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Gabriele U Mueller"
+          ],
+          "notes": "Course Outline"
         }
       ]
     },
@@ -5543,8 +5698,8 @@
           "catalogNumber": "C20F01",
           "schedule": [
             {
-              "day": "T",
-              "time": "17:30",
+              "day": "W",
+              "time": "18:00",
               "duration": "170",
               "campus": "Keele",
               "room": "CFA 026"
@@ -5596,16 +5751,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "M14W01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -5631,10 +5778,12 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 305"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daphne Idiz"
+          ],
           "notes": ""
         }
       ]
@@ -5662,8 +5811,10 @@
               "room": "MK 4040"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -5691,7 +5842,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -5715,10 +5866,12 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "VH 1005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary Bunch"
+          ],
           "notes": ""
         }
       ]
@@ -5774,8 +5927,11 @@
               "room": "CFT 135B"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Moussa Djigo",
+            "Alyson Richards"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -5802,8 +5958,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Manfred Becker"
+          ],
+          "notes": "$60.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -5820,7 +5978,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -5848,7 +6006,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -5865,7 +6023,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -5892,8 +6050,10 @@
               "room": "CFA 024"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Patricio Davila"
+          ],
+          "notes": "$100.00 - Course Materials"
         },
         {
           "type": "BLEN",
@@ -5910,7 +6070,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$100.00 - Course Materials"
         }
       ]
     },
@@ -5931,13 +6091,15 @@
           "schedule": [
             {
               "day": "W",
-              "time": "16:30",
+              "time": "14:30",
               "duration": "170",
               "campus": "Off Campus",
-              "room": ""
+              "room": "CIN CIN A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ingrid Veninger"
+          ],
           "notes": ""
         }
       ]
@@ -6000,16 +6162,8 @@
           "type": "STDO",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "W37X01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "9:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -6035,6 +6189,62 @@
     {
       "faculty": "FA",
       "department": "CMA",
+      "term": "Y",
+      "courseTitle": "Writing for Television and Showrunning II",
+      "courseId": "4124",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "H15M01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "K68H01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Alyson Richards"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "CMA",
       "term": "W",
       "courseTitle": "Editing Techniques II",
       "courseId": "4130",
@@ -6048,15 +6258,15 @@
           "catalogNumber": "J31D01",
           "schedule": [
             {
-              "day": "R",
+              "day": "M",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CFT 108"
+              "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -6069,11 +6279,11 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CFT 110"
+              "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -6101,7 +6311,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -6129,7 +6339,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$121.00 - Course Materials"
         }
       ]
     },
@@ -6157,7 +6367,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -6185,7 +6395,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$120.00 - Course Materials"
         }
       ]
     },
@@ -6212,7 +6422,9 @@
               "room": "CFT 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan C Johnson"
+          ],
           "notes": ""
         },
         {
@@ -6229,7 +6441,9 @@
               "room": "CFT 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan C Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -6258,7 +6472,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -6334,14 +6548,16 @@
           "catalogNumber": "G48H01",
           "schedule": [
             {
-              "day": "M",
-              "time": "8:30",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         }
       ]
@@ -6362,14 +6578,16 @@
           "catalogNumber": "W95P01",
           "schedule": [
             {
-              "day": "M",
-              "time": "8:30",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         }
       ]
@@ -6384,7 +6602,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "BLEN",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "M",
           "catalogNumber": "Q42B01",
@@ -6425,8 +6643,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
+          "instructors": [
+            "Nadia Hasan"
+          ],
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help. Course Outline"
         }
       ]
     },
@@ -6453,7 +6673,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Janine Marchessault"
+          ],
           "notes": ""
         }
       ]
@@ -6593,7 +6815,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Daphne Idiz"
+          ],
           "notes": ""
         }
       ]
@@ -6873,7 +7097,9 @@
               "room": "MK 4100"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rebecca Caines"
+          ],
           "notes": ""
         }
       ]
@@ -6901,7 +7127,9 @@
               "room": "MK 5000"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
           "notes": ""
         }
       ]
@@ -7013,7 +7241,9 @@
               "room": "MK 2060"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Darroch"
+          ],
           "notes": ""
         }
       ]
@@ -7069,7 +7299,9 @@
               "room": "MK 4040"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rebecca Caines"
+          ],
           "notes": ""
         }
       ]
@@ -7097,7 +7329,9 @@
               "room": "MK 6075"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rebecca Caines"
+          ],
           "notes": ""
         }
       ]
@@ -7125,7 +7359,9 @@
               "room": "MK 2060"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Darroch"
+          ],
           "notes": ""
         }
       ]
@@ -7153,7 +7389,9 @@
               "room": "MK 6015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
           "notes": ""
         }
       ]
@@ -7181,7 +7419,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Darroch"
+          ],
           "notes": ""
         }
       ]
@@ -7209,7 +7449,9 @@
               "room": "MK 4100"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rich Shivener"
+          ],
           "notes": ""
         }
       ]
@@ -7237,7 +7479,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rich Shivener"
+          ],
           "notes": ""
         }
       ]
@@ -7265,7 +7509,9 @@
               "room": "MK 4100"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Darroch"
+          ],
           "notes": ""
         }
       ]
@@ -7293,7 +7539,9 @@
               "room": "MK 6075"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
           "notes": ""
         }
       ]
@@ -7329,7 +7577,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -7353,7 +7601,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -7388,7 +7636,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -7412,7 +7660,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -7460,8 +7708,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$165.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -7498,8 +7748,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Syreeta Hector"
+          ],
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -7547,8 +7799,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$165.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -7586,7 +7840,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -7634,8 +7888,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$165.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -7672,8 +7928,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Syreeta Hector"
+          ],
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -7721,8 +7979,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -7760,7 +8020,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -7780,28 +8040,30 @@
           "catalogNumber": "R61C01",
           "schedule": [
             {
-              "day": "M",
-              "time": "10:00",
+              "day": "T",
+              "time": "11:30",
               "duration": "80",
               "campus": "Keele",
               "room": "ACE 251"
             },
             {
-              "day": "M",
-              "time": "15:00",
+              "day": "W",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
             },
             {
-              "day": "W",
-              "time": "10:00",
+              "day": "R",
+              "time": "11:30",
               "duration": "80",
               "campus": "Keele",
               "room": "ACE 251"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Syreeta Hector"
+          ],
           "notes": ""
         },
         {
@@ -7811,28 +8073,30 @@
           "catalogNumber": "Y08Y01",
           "schedule": [
             {
-              "day": "M",
-              "time": "15:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "M",
-              "time": "10:00",
+              "day": "T",
+              "time": "11:30",
               "duration": "80",
               "campus": "Keele",
               "room": "ACE 249"
             },
             {
               "day": "W",
-              "time": "10:00",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
               "duration": "80",
               "campus": "Keele",
               "room": "ACE 249"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Syreeta Hector"
+          ],
           "notes": ""
         }
       ]
@@ -7854,14 +8118,16 @@
           "schedule": [
             {
               "day": "F",
-              "time": "11:30",
-              "duration": "170",
+              "time": "12:30",
+              "duration": "110",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "James McKernan"
+          ],
+          "notes": "$133.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -7901,10 +8167,12 @@
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "ACW 006"
+              "room": "R N102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -7920,7 +8188,9 @@
               "room": "VC 118"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -8388,7 +8658,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -8724,7 +8996,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -8759,7 +9031,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -8808,7 +9080,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -8846,7 +9118,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -8895,7 +9167,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -8933,7 +9205,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -8982,7 +9254,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -9020,7 +9292,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -9069,7 +9341,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -9107,7 +9379,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9141,7 +9413,9 @@
               "room": "ACE 244"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary Fogarty"
+          ],
           "notes": ""
         },
         {
@@ -9152,14 +9426,14 @@
           "schedule": [
             {
               "day": "W",
-              "time": "14:30",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
               "room": "ACE 244"
             },
             {
               "day": "F",
-              "time": "14:30",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
               "room": "ACE 249"
@@ -9200,7 +9474,9 @@
               "room": "ACE 249"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary Fogarty"
+          ],
           "notes": ""
         },
         {
@@ -9211,17 +9487,17 @@
           "schedule": [
             {
               "day": "W",
-              "time": "14:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "ACE 249"
-            },
-            {
-              "day": "F",
-              "time": "14:30",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
               "room": "ACE 244"
+            },
+            {
+              "day": "F",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "ACE 249"
             }
           ],
           "instructors": [],
@@ -9245,7 +9521,7 @@
           "catalogNumber": "D17H01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
@@ -9253,7 +9529,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$59.00 - Course Materials"
         }
       ]
     },
@@ -9273,7 +9549,7 @@
           "catalogNumber": "T64P01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
@@ -9281,7 +9557,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$59.00 - Course Materials"
         }
       ]
     },
@@ -9368,7 +9644,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -9384,7 +9662,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -9454,14 +9734,14 @@
           "schedule": [
             {
               "day": "T",
-              "time": "16:30",
+              "time": "17:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
             },
             {
               "day": "R",
-              "time": "16:30",
+              "time": "17:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
@@ -9552,7 +9832,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9601,7 +9881,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9650,7 +9930,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9699,7 +9979,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9747,8 +10027,10 @@
               "room": "ACE 203"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -9786,7 +10068,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9834,8 +10116,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -9873,7 +10157,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -9921,8 +10205,10 @@
               "room": "ACE 203"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -9960,7 +10246,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10008,8 +10294,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$140.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -10047,7 +10335,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10081,8 +10369,10 @@
               "room": "ACE 249"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$81.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -10105,8 +10395,10 @@
               "room": "ACE 249"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$81.00 - Course Materials"
         }
       ]
     },
@@ -10140,8 +10432,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Bridget Cauthery"
+          ],
+          "notes": "$222.00 - Course Materials"
         }
       ]
     },
@@ -10176,7 +10470,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$222.00 - Course Materials"
         }
       ]
     },
@@ -10197,7 +10491,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -10211,7 +10505,7 @@
             },
             {
               "day": "R",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -10225,7 +10519,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$158.00 - Course Materials"
         }
       ]
     },
@@ -10246,7 +10540,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -10260,7 +10554,7 @@
             },
             {
               "day": "R",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -10274,7 +10568,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$158.00 - Course Materials"
         }
       ]
     },
@@ -10294,7 +10588,7 @@
           "catalogNumber": "P14Z01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
@@ -10302,7 +10596,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$59.00 - Course Materials"
         }
       ]
     },
@@ -10322,7 +10616,7 @@
           "catalogNumber": "X61A01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
@@ -10330,7 +10624,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$59.00 - Course Materials"
         }
       ]
     },
@@ -10357,8 +10651,10 @@
               "room": "ACE 244"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mary Fogarty"
+          ],
+          "notes": "$26.00 - Course Materials"
         }
       ]
     },
@@ -10441,7 +10737,9 @@
               "room": "ACE 244"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary Fogarty"
+          ],
           "notes": ""
         }
       ]
@@ -10498,14 +10796,14 @@
           "schedule": [
             {
               "day": "T",
-              "time": "16:30",
+              "time": "17:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
             },
             {
               "day": "R",
-              "time": "16:30",
+              "time": "17:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
@@ -10561,7 +10859,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10610,7 +10908,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10659,7 +10957,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10708,7 +11006,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10757,7 +11055,45 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "S15N01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 244"
+            },
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 244"
+            },
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 244"
+            }
+          ],
+          "instructors": [],
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10806,7 +11142,45 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "Q48X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 201"
+            },
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 249"
+            }
+          ],
+          "instructors": [],
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10855,7 +11229,45 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "J95R01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 244"
+            },
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 244"
+            },
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 244"
+            }
+          ],
+          "instructors": [],
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10904,7 +11316,45 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$140.00 - Course Materials"
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "D42D01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 201"
+            },
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 249"
+            }
+          ],
+          "instructors": [],
+          "notes": "$140.00 - Course Materials"
         }
       ]
     },
@@ -10924,22 +11374,48 @@
           "catalogNumber": "T06X01",
           "schedule": [
             {
-              "day": "W",
+              "day": "T",
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
               "room": "ACE 244"
             },
             {
-              "day": "F",
+              "day": "R",
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
               "room": "ACE 244"
             }
           ],
+          "instructors": [
+            "Candice J Spykers"
+          ],
+          "notes": "$81.00 - Course Materials"
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "J88B01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "ACE 251"
+            },
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "ACE 244"
+            }
+          ],
           "instructors": [],
-          "notes": ""
+          "notes": "$81.00 - Course Materials"
         }
       ]
     },
@@ -10960,7 +11436,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -10974,7 +11450,7 @@
             },
             {
               "day": "R",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -10987,8 +11463,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Syreeta Hector"
+          ],
+          "notes": "$158.00 - Course Materials"
         }
       ]
     },
@@ -11009,7 +11487,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -11023,7 +11501,7 @@
             },
             {
               "day": "R",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -11036,8 +11514,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Syreeta Hector"
+          ],
+          "notes": "$158.00 - Course Materials"
         }
       ]
     },
@@ -11058,7 +11538,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -11072,7 +11552,7 @@
             },
             {
               "day": "R",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -11085,8 +11565,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Syreeta Hector"
+          ],
+          "notes": "$158.00 - Course Materials"
         }
       ]
     },
@@ -11107,7 +11589,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -11121,7 +11603,7 @@
             },
             {
               "day": "R",
-              "time": "12:30",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": ""
@@ -11134,8 +11616,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Syreeta Hector"
+          ],
+          "notes": "$158.00 - Course Materials"
         }
       ]
     },
@@ -11159,17 +11643,19 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 009"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 009"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gavin McDonald"
+          ],
           "notes": ""
         }
       ]
@@ -11190,7 +11676,7 @@
           "catalogNumber": "Q52E01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
@@ -11198,7 +11684,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$59.00 - Course Materials"
         }
       ]
     },
@@ -11218,7 +11704,7 @@
           "catalogNumber": "J99N01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
@@ -11226,7 +11712,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$59.00 - Course Materials"
         }
       ]
     },
@@ -11253,7 +11739,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         }
       ]
@@ -11281,7 +11769,9 @@
               "room": "ACE 311"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         }
       ]
@@ -11309,7 +11799,9 @@
               "room": "ACE 311"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         }
       ]
@@ -11337,7 +11829,9 @@
               "room": "ACE 311"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         }
       ]
@@ -11674,14 +12168,14 @@
           "schedule": [
             {
               "day": "T",
-              "time": "16:30",
+              "time": "17:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
             },
             {
               "day": "R",
-              "time": "16:30",
+              "time": "17:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
@@ -11712,11 +12206,13 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark-David Hosale"
+          ],
+          "notes": "$96.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -11731,7 +12227,9 @@
               "room": "ACW 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark-David Hosale"
+          ],
           "notes": ""
         },
         {
@@ -11855,7 +12353,9 @@
               "room": "VH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Graham Wakefield"
+          ],
           "notes": ""
         },
         {
@@ -11871,7 +12371,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Graham Wakefield"
+          ],
           "notes": ""
         },
         {
@@ -12163,8 +12665,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark-David Hosale"
+          ],
+          "notes": "$148.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -12179,7 +12683,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark-David Hosale"
+          ],
           "notes": ""
         }
       ]
@@ -12207,8 +12713,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark-David Hosale"
+          ],
+          "notes": "$148.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -12223,7 +12731,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark-David Hosale"
+          ],
           "notes": ""
         }
       ]
@@ -12248,10 +12758,12 @@
               "time": "9:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 307"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sihwa Park"
+          ],
           "notes": ""
         },
         {
@@ -12267,7 +12779,9 @@
               "room": "ACW 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sihwa Park"
+          ],
           "notes": ""
         },
         {
@@ -12327,8 +12841,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark-David Hosale"
+          ],
+          "notes": "$96.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -12343,7 +12859,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark-David Hosale"
+          ],
           "notes": ""
         },
         {
@@ -12419,7 +12937,9 @@
               "room": "ATK 102F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         },
         {
@@ -12435,7 +12955,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         }
       ]
@@ -12660,7 +13182,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$5.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -12903,7 +13425,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sihwa Park"
+          ],
           "notes": ""
         },
         {
@@ -12919,7 +13443,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sihwa Park"
+          ],
           "notes": ""
         },
         {
@@ -13179,8 +13705,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -13207,7 +13735,9 @@
               "room": "ACW 006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yifat Shaik"
+          ],
           "notes": ""
         },
         {
@@ -13223,7 +13753,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yifat Shaik"
+          ],
           "notes": ""
         },
         {
@@ -13306,8 +13838,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": "$69.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -13329,7 +13863,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
           "notes": ""
         },
         {
@@ -13387,8 +13923,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Anne Sullivan"
+          ],
+          "notes": "$58.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -13410,7 +13948,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anne Sullivan"
+          ],
           "notes": ""
         },
         {
@@ -13461,7 +14001,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jane Tingley"
+          ],
           "notes": ""
         }
       ]
@@ -13489,7 +14031,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jane Tingley"
+          ],
           "notes": ""
         }
       ]
@@ -13562,7 +14106,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$84.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -13622,7 +14166,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$186.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -13665,7 +14209,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
           "notes": ""
         }
       ]
@@ -13693,7 +14239,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Graham Wakefield"
+          ],
           "notes": ""
         }
       ]
@@ -13721,8 +14269,10 @@
               "room": "ACW 102"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Anne Sullivan"
+          ],
+          "notes": "$20.00 - Course Materials"
         }
       ]
     },
@@ -13777,7 +14327,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yifat Shaik"
+          ],
           "notes": ""
         }
       ]
@@ -13805,7 +14357,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jane Tingley"
+          ],
           "notes": ""
         }
       ]
@@ -13861,7 +14415,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sihwa Park"
+          ],
           "notes": ""
         }
       ]
@@ -13889,7 +14445,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         },
         {
@@ -13902,10 +14460,12 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 307"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         },
         {
@@ -13965,7 +14525,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wendy S Wong"
+          ],
           "notes": ""
         },
         {
@@ -13981,7 +14543,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wendy S Wong"
+          ],
           "notes": ""
         },
         {
@@ -14041,7 +14605,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         },
         {
@@ -14057,7 +14623,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         },
         {
@@ -14190,7 +14758,7 @@
               "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 008"
             }
           ],
           "instructors": [],
@@ -14206,7 +14774,7 @@
               "time": "8:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH A"
             }
           ],
           "instructors": [],
@@ -14222,7 +14790,7 @@
               "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 302"
             }
           ],
           "instructors": [],
@@ -14238,7 +14806,7 @@
               "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 008"
             }
           ],
           "instructors": [],
@@ -14254,7 +14822,7 @@
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 104"
             }
           ],
           "instructors": [],
@@ -14358,7 +14926,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 004"
             }
           ],
           "instructors": [],
@@ -14389,7 +14957,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         },
         {
@@ -14402,10 +14972,12 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         },
         {
@@ -14478,7 +15050,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "R S203"
             }
           ],
           "instructors": [],
@@ -14554,7 +15126,7 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 307"
             }
           ],
           "instructors": [],
@@ -14617,7 +15189,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shital Desai"
+          ],
           "notes": ""
         },
         {
@@ -14633,7 +15207,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shital Desai"
+          ],
           "notes": ""
         },
         {
@@ -14693,7 +15269,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         },
         {
@@ -14709,7 +15287,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         },
         {
@@ -14797,7 +15377,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         }
       ]
@@ -14832,7 +15414,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Norwood"
+          ],
           "notes": "This course meets M 11:30-13:30 synchronous, remaining hour is asynchronous online."
         }
       ]
@@ -14995,7 +15579,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         }
       ]
@@ -15068,7 +15654,9 @@
               "room": "DB 4023"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         },
         {
@@ -15085,7 +15673,9 @@
               "room": "DB 4034"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Norwood"
+          ],
           "notes": ""
         },
         {
@@ -15102,7 +15692,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         }
       ]
@@ -15130,7 +15722,9 @@
               "room": "DB 4023"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         }
       ]
@@ -15158,7 +15752,9 @@
               "room": "DB 4023"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         }
       ]
@@ -15242,7 +15838,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wendy S Wong"
+          ],
           "notes": ""
         }
       ]
@@ -15260,16 +15858,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "J50A01",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -15277,17 +15867,28 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "N",
-          "catalogNumber": "C97J01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "O",
+          "catalogNumber": "U55X01",
           "schedule": [
             {
-              "day": "T",
-              "time": "8:30",
-              "duration": "170",
+              "day": "",
+              "time": "",
+              "duration": "0",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         }
       ]
@@ -15350,7 +15951,9 @@
               "room": "DB 4027"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Gelb"
+          ],
           "notes": ""
         },
         {
@@ -15367,7 +15970,9 @@
               "room": "DB 4028"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Darren Wilson"
+          ],
           "notes": ""
         },
         {
@@ -15384,7 +15989,9 @@
               "room": "DB 4027"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Norwood"
+          ],
           "notes": ""
         },
         {
@@ -15401,7 +16008,9 @@
               "room": "DB 4034"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         }
       ]
@@ -15530,7 +16139,9 @@
               "room": "DB 4034"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         },
         {
@@ -15547,7 +16158,9 @@
               "room": "DB 4027"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Cabianca"
+          ],
           "notes": ""
         }
       ]
@@ -15575,7 +16188,9 @@
               "room": "DB 4027"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         }
       ]
@@ -15603,7 +16218,9 @@
               "room": "DB 4034"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shital Desai"
+          ],
           "notes": ""
         }
       ]
@@ -15687,7 +16304,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jan Hadlaw"
+          ],
           "notes": ""
         }
       ]
@@ -15705,14 +16324,34 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "E71H01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "DESN",
+      "term": "W",
+      "courseTitle": "Social Media Strategies",
+      "courseId": "4123",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B09B01",
           "schedule": [
             {
-              "day": "W",
-              "time": "14:30",
+              "day": "M",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACW 003"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -15974,7 +16613,10 @@
               "room": "ACE 001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sundar Viswanathan",
+            "Amy Hillis"
+          ],
           "notes": ""
         }
       ]
@@ -16009,8 +16651,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -16045,7 +16689,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -16079,8 +16723,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -16107,7 +16753,9 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Melissa Davis"
+          ],
           "notes": ""
         }
       ]
@@ -16132,14 +16780,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "",
@@ -16149,8 +16797,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -16177,8 +16827,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -16240,7 +16892,9 @@
               "room": "ACE 229"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sundar Viswanathan"
+          ],
           "notes": ""
         }
       ]
@@ -16268,8 +16922,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -16296,8 +16952,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$46.00 - Course Materials"
         }
       ]
     },
@@ -16325,7 +16983,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -16377,11 +17035,13 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sherry Johnson"
+          ],
+          "notes": "BALKAN ENSEMBLE taught by Irene Markoff | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -16394,11 +17054,11 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 223"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "CELTIC ENSEMBLE taught by Sherry Johnson | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -16411,11 +17071,11 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRO-CUBAN ENSEMBLE taught by Rick Lazar | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -16428,11 +17088,11 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRICAN ENSEMBLE taught by Kwasi Dunyo | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -16445,11 +17105,11 @@
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "STEELPAN ENSEMBLE taught by Gareth Burgess | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -16458,7 +17118,7 @@
           "catalogNumber": "P46M01",
           "schedule": [
             {
-              "day": "M",
+              "day": "F",
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
@@ -16466,7 +17126,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "CHINESE ENSEMBLE | $40.00 - Course Materials"
         }
       ]
     },
@@ -16493,7 +17153,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Coghlan"
+          ],
           "notes": ""
         }
       ]
@@ -16541,7 +17203,9 @@
               "room": "ACE 021"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
           "notes": ""
         }
       ]
@@ -16576,7 +17240,9 @@
               "room": "ACE 001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sherry Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -16611,7 +17277,9 @@
               "room": "ACE 001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sherry Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -16696,7 +17364,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$25.00 - Course Materials"
         }
       ]
     },
@@ -16723,8 +17391,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Karen M Burke"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -16752,7 +17422,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -16801,10 +17471,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S507"
+              "room": "ACW 002"
             }
           ],
           "instructors": [],
@@ -16833,10 +17503,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 002"
             }
           ],
           "instructors": [],
@@ -16849,10 +17519,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 102"
+              "room": "ACW 003"
             }
           ],
           "instructors": [],
@@ -16865,10 +17535,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "14:30",
+              "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 009"
+              "room": "ACW 003"
             }
           ],
           "instructors": [],
@@ -16881,10 +17551,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "15:30",
+              "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 002"
             }
           ],
           "instructors": [],
@@ -16897,10 +17567,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "15:30",
+              "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "DB 0015"
+              "room": "ACW 002"
             }
           ],
           "instructors": [],
@@ -16913,10 +17583,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "15:30",
+              "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S128"
+              "room": "ACW 002"
             }
           ],
           "instructors": [],
@@ -16932,7 +17602,7 @@
               "time": "15:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 002"
             }
           ],
           "instructors": [],
@@ -16945,10 +17615,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "17:30",
+              "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 104"
+              "room": "ACW 003"
             }
           ],
           "instructors": [],
@@ -16961,10 +17631,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "17:30",
+              "time": "15:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 002"
+              "room": "ACW 003"
             }
           ],
           "instructors": [],
@@ -16977,7 +17647,7 @@
           "schedule": [
             {
               "day": "R",
-              "time": "18:30",
+              "time": "17:30",
               "duration": "50",
               "campus": "Keele",
               "room": "ACW 002"
@@ -17005,32 +17675,16 @@
         {
           "type": "TUTR",
           "meetNumber": "13",
-          "catalogNumber": "K82M14",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "R S136"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "14",
-          "catalogNumber": "K82M15",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "12:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "ACW 009"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -17067,7 +17721,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Location: ACE 001"
         }
       ]
     },
@@ -17101,8 +17755,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -17137,7 +17793,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -17171,8 +17827,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -17216,14 +17874,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "",
@@ -17233,8 +17891,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -17261,8 +17921,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -17282,14 +17944,16 @@
           "catalogNumber": "X93V01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 229"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Melissa Davis"
+          ],
           "notes": ""
         },
         {
@@ -17303,10 +17967,12 @@
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 227"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
           "notes": ""
         }
       ]
@@ -17362,8 +18028,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -17390,8 +18058,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$46.00 - Course Materials"
         }
       ]
     },
@@ -17419,7 +18089,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -17447,7 +18117,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$10.00 - Course Materials"
         }
       ]
     },
@@ -17499,11 +18169,11 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "BALKAN ENSEMBLE taught by Irene Markoff | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -17516,11 +18186,13 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 223"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sherry Johnson"
+          ],
+          "notes": "CELTIC ENSEMBLE taught by Sherry Johnson | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -17533,11 +18205,11 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRO-CUBAN ENSEMBLE taught by Rick Lazar | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -17550,11 +18222,11 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRICAN ENSEMBLE taught by Kwasi Dunyo | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -17567,11 +18239,11 @@
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "STEELPAN ENSEMBLE taught by Gareth Burgess | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -17580,7 +18252,7 @@
           "catalogNumber": "G10C01",
           "schedule": [
             {
-              "day": "M",
+              "day": "F",
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
@@ -17588,7 +18260,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "CHINESE ENSEMBLE | $40.00 - Course Materials"
         }
       ]
     },
@@ -17615,7 +18287,9 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alan E Henderson"
+          ],
           "notes": ""
         }
       ]
@@ -17687,7 +18361,9 @@
               "room": "ACE 021"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
           "notes": ""
         }
       ]
@@ -17715,8 +18391,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "John Castillo"
+          ],
+          "notes": "$189.00 - Course Materials"
         }
       ]
     },
@@ -17750,7 +18428,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Randolph Peters"
+          ],
           "notes": ""
         }
       ]
@@ -17785,7 +18465,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Melissa Davis"
+          ],
           "notes": ""
         }
       ]
@@ -17841,8 +18523,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Karen M Burke"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -17870,7 +18554,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -17897,7 +18581,9 @@
               "room": "ACE 122"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisette Canton"
+          ],
           "notes": ""
         }
       ]
@@ -17925,7 +18611,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Castillo"
+          ],
           "notes": ""
         }
       ]
@@ -17960,8 +18648,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -17996,7 +18686,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -18030,8 +18720,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -18055,14 +18747,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "",
@@ -18072,8 +18764,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -18100,8 +18794,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -18121,7 +18817,7 @@
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
-          "notes": ""
+          "notes": "Vocal Masterclass"
         },
         {
           "type": "STDO",
@@ -18130,7 +18826,7 @@
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
-          "notes": ""
+          "notes": "Instrumental Masterclass"
         }
       ]
     },
@@ -18150,15 +18846,17 @@
           "catalogNumber": "S87P01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 229"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Melissa Davis"
+          ],
+          "notes": "$60.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -18171,11 +18869,13 @@
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 227"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -18230,8 +18930,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -18258,8 +18960,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$46.00 - Course Materials"
         }
       ]
     },
@@ -18287,7 +18991,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -18314,8 +19018,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sundar Viswanathan"
+          ],
+          "notes": "$10.00 - Course Materials"
         }
       ]
     },
@@ -18342,8 +19048,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -18395,11 +19103,13 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sherry Johnson"
+          ],
+          "notes": "BALKAN ENSEMBLE taught by Irene Markoff | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -18412,11 +19122,11 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 223"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "CELTIC ENSEMBLE taught by Sherry Johnson | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -18429,11 +19139,11 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRO-CUBAN ENSEMBLE taught by Rick Lazar | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -18446,11 +19156,11 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRICAN ENSEMBLE taught by Kwasi Dunyo | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -18463,11 +19173,11 @@
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "STEELPAN ENSEMBLE taught by Gareth Burgess | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -18476,11 +19186,55 @@
           "catalogNumber": "M92X01",
           "schedule": [
             {
-              "day": "M",
+              "day": "F",
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
               "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "CHINESE ENSEMBLE | $40.00 - Course Materials"
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "MUSI",
+      "term": "W",
+      "courseTitle": "Song Writing and Repertoire",
+      "courseId": "3120",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACE 229"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "catalogNumber": "Z83U01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "ACE 229"
             }
           ],
           "instructors": [],
@@ -18539,7 +19293,9 @@
               "room": "ACE 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alan E Henderson"
+          ],
           "notes": ""
         }
       ]
@@ -18567,7 +19323,9 @@
               "room": "ACE 021"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Randolph Peters"
+          ],
           "notes": ""
         }
       ]
@@ -18595,8 +19353,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "John Castillo"
+          ],
+          "notes": "$189.00 - Course Materials"
         }
       ]
     },
@@ -18643,7 +19403,9 @@
               "room": "ACE 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Coghlan"
+          ],
           "notes": ""
         }
       ]
@@ -18661,16 +19423,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "U02T01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "ACE 231"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -18699,7 +19453,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark K Chambers"
+          ],
           "notes": ""
         }
       ]
@@ -18727,7 +19483,9 @@
               "room": "ACE 007"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Coghlan"
+          ],
           "notes": ""
         }
       ]
@@ -18755,7 +19513,9 @@
               "room": "ACE 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alan E Henderson"
+          ],
           "notes": ""
         }
       ]
@@ -18783,7 +19543,9 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karen M Burke"
+          ],
           "notes": ""
         }
       ]
@@ -18811,8 +19573,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Karen M Burke"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -18840,7 +19604,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -18867,7 +19631,9 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karen M Burke"
+          ],
           "notes": ""
         },
         {
@@ -18911,7 +19677,9 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karen M Burke"
+          ],
           "notes": ""
         }
       ]
@@ -18939,7 +19707,9 @@
               "room": "ACE 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karen M Burke"
+          ],
           "notes": ""
         }
       ]
@@ -19002,8 +19772,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -19038,7 +19810,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -19072,8 +19844,10 @@
               "room": "ACE 231"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -19097,14 +19871,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             },
             {
               "day": "",
@@ -19114,8 +19888,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Lisette Canton"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -19142,8 +19918,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -19163,7 +19941,7 @@
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
-          "notes": ""
+          "notes": "Vocal Masterclass"
         },
         {
           "type": "STDO",
@@ -19172,7 +19950,7 @@
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
-          "notes": ""
+          "notes": "Instrumental Masterclass"
         }
       ]
     },
@@ -19192,15 +19970,17 @@
           "catalogNumber": "F81K01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 229"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Melissa Davis"
+          ],
+          "notes": "$60.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -19213,11 +19993,13 @@
               "time": "12:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 227"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Pat Wait-Weisenblum"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -19272,8 +20054,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -19300,8 +20084,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Michael Cado"
+          ],
+          "notes": "$46.00 - Course Materials"
         }
       ]
     },
@@ -19329,7 +20115,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -19356,7 +20142,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
           "notes": ""
         }
       ]
@@ -19409,11 +20197,13 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sherry Johnson"
+          ],
+          "notes": "BALKAN ENSEMBLE taught by Irene Markoff | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -19426,11 +20216,11 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 223"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "CELTIC ENSEMBLE taught by Sherry Johnson | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -19443,11 +20233,11 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRO-CUBAN ENSEMBLE taught by Rick Lazar | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -19460,11 +20250,11 @@
               "time": "15:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 235"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "AFRICAN ENSEMBLE taught by Kwasi Dunyo | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -19477,11 +20267,11 @@
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 122"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "STEELPAN ENSEMBLE taught by Gareth Burgess | $40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -19490,7 +20280,7 @@
           "catalogNumber": "T74Z01",
           "schedule": [
             {
-              "day": "M",
+              "day": "F",
               "time": "18:00",
               "duration": "80",
               "campus": "Keele",
@@ -19498,7 +20288,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "CHINESE ENSEMBLE | $40.00 - Course Materials"
         }
       ]
     },
@@ -19525,7 +20315,9 @@
               "room": "ACE 021"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Randolph Peters"
+          ],
           "notes": ""
         }
       ]
@@ -19553,7 +20345,9 @@
               "room": "ACE 021"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Castillo"
+          ],
           "notes": ""
         }
       ]
@@ -19581,8 +20375,10 @@
               "room": "ACE 235"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Karen M Burke"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -19610,7 +20406,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -19889,8 +20685,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -19918,7 +20716,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -19946,7 +20744,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -19973,8 +20771,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sundar Viswanathan"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20002,7 +20802,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20029,8 +20829,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Amy Hillis"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20058,7 +20860,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20085,8 +20887,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20114,7 +20918,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20142,7 +20946,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20169,8 +20973,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sundar Viswanathan"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20198,7 +21004,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20225,8 +21031,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Amy Hillis"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20254,7 +21062,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20281,8 +21089,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20310,7 +21120,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20338,7 +21148,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20365,8 +21175,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sundar Viswanathan"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20394,7 +21206,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20421,8 +21233,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Amy Hillis"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20450,7 +21264,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20478,7 +21292,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20505,8 +21319,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Mark K Chambers"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20534,7 +21350,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20562,7 +21378,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20589,8 +21405,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sundar Viswanathan"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20618,7 +21436,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20645,8 +21463,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Amy Hillis"
+          ],
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20674,7 +21494,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20702,7 +21522,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$2,352.00 - Course Materials"
         }
       ]
     },
@@ -20730,7 +21550,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -20758,7 +21578,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -20786,7 +21606,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -20966,11 +21786,11 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 004"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$42.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -20982,7 +21802,7 @@
               "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "R S123"
             }
           ],
           "instructors": [],
@@ -20998,7 +21818,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 008"
             }
           ],
           "instructors": [],
@@ -21030,7 +21850,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$105.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -21089,7 +21909,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -21341,7 +22163,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Bridget Cauthery"
+          ],
           "notes": ""
         },
         {
@@ -21594,7 +22418,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -21622,7 +22446,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -21649,7 +22473,9 @@
               "room": "MK 6075"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rebecca Caines"
+          ],
           "notes": ""
         }
       ]
@@ -21737,7 +22563,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Emilia White"
+          ],
           "notes": ""
         }
       ]
@@ -21765,8 +22593,10 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -21794,7 +22624,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$69.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -21838,7 +22668,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$69.00 - Course Materials"
         }
       ]
     },
@@ -21866,7 +22696,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$69.00 - Course Materials"
         }
       ]
     },
@@ -21893,8 +22723,10 @@
               "room": "MK 4040"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -21922,7 +22754,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -21946,11 +22778,69 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
+              "room": "VH 1005"
+            }
+          ],
+          "instructors": [
+            "Mary Bunch"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "PANF",
+      "term": "F",
+      "courseTitle": "C4 Collaborative Project",
+      "courseId": "3999",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "W17Z01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACW 305"
+            }
+          ],
+          "instructors": [],
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Launchpad program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ $40.00- Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "PANF",
+      "term": "W",
+      "courseTitle": "C4 Collaborative Project",
+      "courseId": "3999",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P64A01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Launchpad program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00 - Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
         }
       ]
     },
@@ -21977,7 +22867,9 @@
               "room": "ACW 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
           "notes": ""
         }
       ]
@@ -22006,7 +22898,35 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$100.00 - Course Materials"
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "PANF",
+      "term": "Y",
+      "courseTitle": "C4 Capstone Project",
+      "courseId": "4999",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J11J01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S133"
+            }
+          ],
+          "instructors": [],
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) program. Students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00- Course Materials Associated Course Fee covers expenses relating to off-campus partners coming to class several times to mentor student teams on their projects. | $40.00 - Course Materials"
         }
       ]
     },
@@ -22042,14 +22962,16 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "M",
-              "time": "18:00",
+              "day": "W",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
           "notes": ""
         },
         {
@@ -22150,14 +23072,16 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "M",
-              "time": "18:00",
+              "day": "W",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
           "notes": ""
         },
         {
@@ -22250,7 +23174,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$297.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -22259,13 +23183,15 @@
           "schedule": [
             {
               "day": "F",
-              "time": "11:30",
-              "duration": "170",
+              "time": "12:30",
+              "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "VH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James McKernan"
+          ],
           "notes": ""
         },
         {
@@ -22315,7 +23241,27 @@
           "type": "STDO",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "R03S01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "$107.00 - Course Materials"
+        }
+      ]
+    },
+    {
+      "faculty": "FA",
+      "department": "THEA",
+      "term": "Y",
+      "courseTitle": "Introduction to Production Practicum",
+      "courseId": "1101",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D35K01",
           "schedule": [
             {
               "day": "T",
@@ -22354,7 +23300,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$162.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -22369,7 +23315,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James McKernan"
+          ],
           "notes": ""
         },
         {
@@ -22429,8 +23377,11 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Alberto J. Guevara",
+            "Magdalena Kazubowski Houston"
+          ],
+          "notes": "$100.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -22458,7 +23409,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 102"
+              "room": "ACW 209"
             }
           ],
           "instructors": [],
@@ -22696,7 +23647,9 @@
               "room": "ACE 209"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jamie Robinson"
+          ],
           "notes": ""
         },
         {
@@ -22755,7 +23708,9 @@
               "room": "CFT 138"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jamie Robinson"
+          ],
           "notes": ""
         }
       ]
@@ -22776,7 +23731,7 @@
           "catalogNumber": "P88C01",
           "schedule": [
             {
-              "day": "W",
+              "day": "T",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
@@ -22790,7 +23745,9 @@
               "room": "CFT 138"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
           "notes": ""
         }
       ]
@@ -22896,7 +23853,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "11:30",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
               "room": "ACE 207"
@@ -22909,8 +23866,10 @@
               "room": "ACE 209"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Laura Levin"
+          ],
+          "notes": "$40.00 - Course Materials"
         }
       ]
     },
@@ -22938,7 +23897,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -23014,7 +23973,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CFT 139"
+              "room": "ACE 209"
             }
           ],
           "instructors": [],
@@ -23062,7 +24021,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACE 207"
+              "room": "ACE 209"
             }
           ],
           "instructors": [],
@@ -23110,7 +24069,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -23281,8 +24240,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$125.00 - Course Materials"
         }
       ]
     },
@@ -23309,8 +24274,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$125.00 - Course Materials"
         }
       ]
     },
@@ -23337,8 +24308,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$125.00 - Course Materials"
         }
       ]
     },
@@ -23365,8 +24342,13 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly"
+          ],
+          "notes": "$165.00 - Course Materials"
         }
       ]
     },
@@ -23394,7 +24376,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$301.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -23409,7 +24391,9 @@
               "room": "ACE 003"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aaron Kelly"
+          ],
           "notes": ""
         },
         {
@@ -23485,8 +24469,10 @@
               "room": "CFT 105A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend"
+          ],
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -23514,7 +24500,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -23541,8 +24527,10 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Holly Ward"
+          ],
+          "notes": "$130.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -23557,7 +24545,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -23614,11 +24604,13 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 304"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jackie Chau"
+          ],
+          "notes": "$107.00 - Course Materials"
         }
       ]
     },
@@ -23645,8 +24637,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Marlis Schweitzer"
+          ],
+          "notes": "$100.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -23658,7 +24652,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 306"
             }
           ],
           "instructors": [],
@@ -23674,7 +24668,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 303"
             }
           ],
           "instructors": [],
@@ -23690,7 +24684,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 304"
             }
           ],
           "instructors": [],
@@ -23706,7 +24700,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 303"
             }
           ],
           "instructors": [],
@@ -23737,8 +24731,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Alberto J. Guevara"
+          ],
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "TUTR",
@@ -23750,7 +24746,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 209"
             }
           ],
           "instructors": [],
@@ -23766,7 +24762,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 104"
             }
           ],
           "instructors": [],
@@ -23782,7 +24778,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 010"
             }
           ],
           "instructors": [],
@@ -23813,8 +24809,11 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "Gavin McDonald"
+          ],
+          "notes": "$30.00 - Course Materials"
         }
       ]
     },
@@ -23841,7 +24840,9 @@
               "room": "CFT 142"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         }
       ]
@@ -23869,7 +24870,9 @@
               "room": "ATK 102F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         },
         {
@@ -23885,7 +24888,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         }
       ]
@@ -24088,8 +25093,10 @@
               "room": "CFT 138"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Keira Loughran"
+          ],
+          "notes": "$115.00 - Course Materials"
         }
       ]
     },
@@ -24123,8 +25130,10 @@
               "room": "CFT 139"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jamie Robinson"
+          ],
+          "notes": "$115.00 - Course Materials"
         }
       ]
     },
@@ -24242,8 +25251,10 @@
               "room": "ATK 102F"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Erika Batdorf"
+          ],
+          "notes": "$30.00 - Course Materials"
         }
       ]
     },
@@ -24312,8 +25323,10 @@
               "room": "ACE 207"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Keira Loughran"
+          ],
+          "notes": "$105.00 - Course Materials"
         }
       ]
     },
@@ -24347,8 +25360,10 @@
               "room": "ACE 207"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Archer Pechawis"
+          ],
+          "notes": "$100.00 - Course Materials"
         }
       ]
     },
@@ -24376,7 +25391,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$10.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -24559,8 +25574,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
+          "notes": "$30.00 - Course Materials"
         }
       ]
     },
@@ -24594,8 +25611,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jamie Robinson"
+          ],
+          "notes": "$30.00 - Course Materials"
         }
       ]
     },
@@ -24622,8 +25641,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -24650,8 +25675,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -24678,8 +25709,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -24706,8 +25743,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$150.00 - Course Materials"
         }
       ]
     },
@@ -24734,8 +25777,10 @@
               "room": "ACE 132"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend"
+          ],
+          "notes": "$146.00 - Course Materials"
         }
       ]
     },
@@ -24762,8 +25807,10 @@
               "room": "CFT 105A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend"
+          ],
+          "notes": "$60.00 - Course Materials"
         }
       ]
     },
@@ -24787,18 +25834,20 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 009"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 009"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Gavin McDonald"
+          ],
+          "notes": "$29.00 - Course Materials"
         }
       ]
     },
@@ -24833,7 +25882,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$29.00 - Course Materials"
         }
       ]
     },
@@ -24860,7 +25909,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian P. Garrett"
+          ],
           "notes": ""
         }
       ]
@@ -24888,8 +25939,10 @@
               "room": "CFT 154"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jackie Chau"
+          ],
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -24916,8 +25969,10 @@
               "room": "CFT 154"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jackie Chau"
+          ],
+          "notes": "$110.00 - Course Materials"
         }
       ]
     },
@@ -24944,8 +25999,10 @@
               "room": "CFT 301"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "James McKernan"
+          ],
+          "notes": "$15.00 - Course Materials"
         }
       ]
     },
@@ -24969,11 +26026,13 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CFT 301"
+              "room": "CFT 154"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Aaron Kelly"
+          ],
+          "notes": "$10.00 - Course Materials"
         }
       ]
     },
@@ -25018,23 +26077,8 @@
           "type": "STDO",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "U00A01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "8:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "CFT 139"
-            },
-            {
-              "day": "F",
-              "time": "8:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "CFT 139"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -25162,7 +26206,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$10.00 - Course Materials"
         }
       ]
     },
@@ -25196,8 +26240,10 @@
               "room": "CFT 138"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
+          "notes": "$153.00 - Course Materials"
         }
       ]
     },
@@ -25245,8 +26291,10 @@
               "room": "CFT 139"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
+          "notes": "$108.00 - Course Materials"
         }
       ]
     },
@@ -25287,7 +26335,9 @@
               "room": "ATK 102F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Erika Batdorf"
+          ],
           "notes": ""
         }
       ]
@@ -25323,7 +26373,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$50.00 - Course Materials"
         }
       ]
     },
@@ -25357,8 +26407,10 @@
               "room": "ACE 207"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Ian P. Garrett"
+          ],
+          "notes": "$136.00 - Course Materials"
         }
       ]
     },
@@ -25392,8 +26444,10 @@
               "room": "ACE 207"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Ian P. Garrett"
+          ],
+          "notes": "$55.00 - Course Materials"
         }
       ]
     },
@@ -25448,8 +26502,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jamie Robinson"
+          ],
+          "notes": "$155.00 - Course Materials"
         }
       ]
     },
@@ -25504,8 +26560,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Keira Loughran"
+          ],
+          "notes": "$155.00 - Course Materials"
         }
       ]
     },
@@ -25532,8 +26590,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$235.00 - Course Materials"
         }
       ]
     },
@@ -25560,8 +26624,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$235.00 - Course Materials"
         }
       ]
     },
@@ -25588,8 +26658,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$235.00 - Course Materials"
         }
       ]
     },
@@ -25616,8 +26692,14 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend",
+            "James McKernan",
+            "Gavin McDonald",
+            "Aaron Kelly",
+            "Jackie Chau"
+          ],
+          "notes": "$275.00 - Course Materials"
         }
       ]
     },
@@ -25644,7 +26726,9 @@
               "room": "CFT 301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian P. Garrett"
+          ],
           "notes": ""
         }
       ]
@@ -25672,8 +26756,10 @@
               "room": "CFT 105A"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Sylvia Defend"
+          ],
+          "notes": "$75.00 - Course Materials"
         }
       ]
     },
@@ -25700,8 +26786,11 @@
               "room": "CFT 155"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Gavin McDonald",
+            "Jackie Chau"
+          ],
+          "notes": "$192.00 - Course Materials"
         }
       ]
     },
@@ -25725,10 +26814,12 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aaron Kelly"
+          ],
           "notes": ""
         }
       ]
@@ -25756,7 +26847,9 @@
               "room": "CFT 301"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Keira Loughran"
+          ],
           "notes": ""
         }
       ]
@@ -25785,7 +26878,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$5.00 - Course Materials"
         }
       ]
     },
@@ -25812,8 +26905,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Archer Pechawis"
+          ],
+          "notes": "$5.00 - Course Materials"
         }
       ]
     },
@@ -25841,7 +26936,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$5.00 - Course Materials"
         }
       ]
     },
@@ -25869,7 +26964,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$5.00 - Course Materials"
         }
       ]
     },
@@ -25897,7 +26992,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$5.00 - Course Materials"
         }
       ]
     },
@@ -25925,7 +27020,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$5.00 - Course Materials"
         }
       ]
     },
@@ -25949,10 +27044,12 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACE 008"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Magdalena Kazubowski Houston"
+          ],
           "notes": ""
         }
       ]
@@ -25980,8 +27077,10 @@
               "room": "ACE 209"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jamie Robinson"
+          ],
+          "notes": "$10.00 - Course Materials"
         }
       ]
     },
@@ -26024,7 +27123,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Ironside"
+          ],
           "notes": ""
         },
         {
@@ -26428,7 +27529,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$119.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -26443,7 +27544,11 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yam K Lau",
+            "Joy Wong",
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -26517,8 +27622,10 @@
               "room": "CFA 282"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Joy Wong"
+          ],
+          "notes": "$40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -26533,7 +27640,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -26745,8 +27854,10 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Holly Ward"
+          ],
+          "notes": "$130.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -26761,7 +27872,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -26818,11 +27931,13 @@
               "time": "9:30",
               "duration": "230",
               "campus": "Keele",
-              "room": ""
+              "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Holly Ward"
+          ],
+          "notes": "$152.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -26837,7 +27952,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -26850,7 +27967,7 @@
               "time": "13:30",
               "duration": "230",
               "campus": "Keele",
-              "room": ""
+              "room": "CFA 004"
             }
           ],
           "instructors": [],
@@ -26878,11 +27995,13 @@
               "time": "8:30",
               "duration": "230",
               "campus": "Keele",
-              "room": ""
+              "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Kevin M Yates"
+          ],
+          "notes": "$235.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -26897,7 +28016,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kevin M Yates"
+          ],
           "notes": ""
         },
         {
@@ -26910,7 +28031,7 @@
               "time": "8:30",
               "duration": "230",
               "campus": "Keele",
-              "room": ""
+              "room": "CFA 004"
             }
           ],
           "instructors": [],
@@ -26941,8 +28062,10 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Kevin M Yates"
+          ],
+          "notes": "$120.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -26957,7 +28080,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kevin M Yates"
+          ],
           "notes": ""
         },
         {
@@ -27017,7 +28142,9 @@
               "room": "CFT 142"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         }
       ]
@@ -27045,7 +28172,9 @@
               "room": "ATK 102F"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         },
         {
@@ -27061,7 +28190,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Archer Pechawis"
+          ],
           "notes": ""
         }
       ]
@@ -27133,8 +28264,10 @@
               "room": "CFA 130"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Christopher Ironside"
+          ],
+          "notes": "$160.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -27149,7 +28282,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Ironside"
+          ],
           "notes": ""
         },
         {
@@ -27193,8 +28328,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Christopher Ironside"
+          ],
+          "notes": "$175.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -27209,7 +28346,9 @@
               "room": "CFA 130"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Ironside"
+          ],
           "notes": ""
         },
         {
@@ -27373,8 +28512,10 @@
               "room": "CFA 106"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "David Armstrong"
+          ],
+          "notes": "$131.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -27389,7 +28530,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Armstrong"
+          ],
           "notes": ""
         },
         {
@@ -27434,7 +28577,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$96.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -27493,8 +28636,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Holly Ward"
+          ],
+          "notes": "$40.00 - Course Materials"
         },
         {
           "type": "LAB",
@@ -27509,7 +28654,9 @@
               "room": "CFA 284"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -27601,8 +28748,10 @@
               "room": "CFA 284"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Joy Wong"
+          ],
+          "notes": "$40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -27617,7 +28766,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -27626,7 +28777,7 @@
           "catalogNumber": "H39A03",
           "schedule": [
             {
-              "day": "R",
+              "day": "M",
               "time": "13:30",
               "duration": "230",
               "campus": "Keele",
@@ -27693,7 +28844,9 @@
               "room": "CFA 284"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -27709,7 +28862,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         },
         {
@@ -28061,7 +29216,9 @@
               "room": "CFA 340"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -28077,7 +29234,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -28121,7 +29280,9 @@
               "room": "CFA 340"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -28137,7 +29298,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -28257,8 +29420,10 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Kevin M Yates"
+          ],
+          "notes": "$221.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28273,7 +29438,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kevin M Yates"
+          ],
           "notes": ""
         },
         {
@@ -28317,8 +29484,10 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Kevin M Yates"
+          ],
+          "notes": "$221.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28333,7 +29502,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kevin M Yates"
+          ],
           "notes": ""
         },
         {
@@ -28377,8 +29548,10 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Kevin M Yates"
+          ],
+          "notes": "$221.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28393,7 +29566,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kevin M Yates"
+          ],
           "notes": ""
         },
         {
@@ -28438,7 +29613,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$84.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28498,7 +29673,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$186.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28569,8 +29744,10 @@
               "room": "CFA 130"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Christopher Ironside"
+          ],
+          "notes": "$160.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28585,7 +29762,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Ironside"
+          ],
           "notes": ""
         }
       ]
@@ -28641,8 +29820,10 @@
               "room": "CFA 130"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Susan Blight"
+          ],
+          "notes": "$180.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28657,7 +29838,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Blight"
+          ],
           "notes": ""
         }
       ]
@@ -28706,15 +29889,17 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "F",
-              "time": "9:30",
+              "day": "M",
+              "time": "13:30",
               "duration": "230",
               "campus": "Keele",
               "room": "CFA 106"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "David Armstrong"
+          ],
+          "notes": "$96.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28729,7 +29914,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Armstrong"
+          ],
           "notes": ""
         }
       ]
@@ -28757,8 +29944,10 @@
               "room": "CFA 106"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "David Armstrong"
+          ],
+          "notes": "$131.00 - Course Materials"
         }
       ]
     },
@@ -28786,7 +29975,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$40.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28862,7 +30051,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "$53.00 - Course Materials"
         },
         {
           "type": "STDO",
@@ -28902,8 +30091,8 @@
           "catalogNumber": "Z50V04",
           "schedule": [
             {
-              "day": "T",
-              "time": "9:30",
+              "day": "R",
+              "time": "17:30",
               "duration": "230",
               "campus": "Keele",
               "room": "CFA 284"
@@ -28937,7 +30126,9 @@
               "room": "CFA 284"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Ironside"
+          ],
           "notes": ""
         },
         {
@@ -28953,7 +30144,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christopher Ironside"
+          ],
           "notes": ""
         },
         {
@@ -29041,7 +30234,9 @@
               "room": "CFA 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Armstrong"
+          ],
           "notes": ""
         },
         {
@@ -29058,7 +30253,9 @@
               "room": "CFA 342"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yam K Lau"
+          ],
           "notes": ""
         },
         {
@@ -29111,7 +30308,7 @@
   ],
   "metadata": {
     "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Sat, 2 May 2026 at 03:32:59 AM",
+    "lastUpdated": "Thu, 4 Jun 2026 at 03:30:31 AM",
     "source": "York University"
   }
 }
